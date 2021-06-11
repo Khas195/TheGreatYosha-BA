@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneList:
   - MainMenu
+  - LogScene
+  - LoadScene
   desiredGameState: 0

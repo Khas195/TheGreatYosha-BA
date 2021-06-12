@@ -56,6 +56,7 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 		data.SetValue("Instance", currentInstance);
 		PostOffice.SendData(data, GameMasterEvent.GAME_LOAD_EVENT);
 		DataPool.GetInstance().ReturnInstance(data);
+		this.scenesLoading.Clear();
 	}
 
 	public void InitiateLoadingSequenceFor(GameInstance newInstance, bool loadAndWait)
@@ -95,14 +96,13 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 			{
 				if (currentInstance.sceneList.Contains(requestedInstance.sceneList[i]) == false)
 				{
-					LoadSceneAdditively(requestedInstance.sceneList[i]);
+					LoadSceneAdditively(requestedInstance.sceneList[i], allowAutoActivation: loadAndWait == false);
 				}
 			}
 			else
 			{
-				LoadSceneAdditively(requestedInstance.sceneList[i]);
+				LoadSceneAdditively(requestedInstance.sceneList[i], allowAutoActivation: loadAndWait == false);
 			}
-
 		}
 		currentInstance = requestedInstance;
 
@@ -126,15 +126,12 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 		}
 	}
 
-	public void LoadSceneAdditively(string sceneName)
+	public void LoadSceneAdditively(string sceneName, bool allowAutoActivation = true)
 	{
-		LogHelper.Log(" Loading Additively " + sceneName.Bolden() + "", true);
+		LogHelper.Log("Scene Loading Manager: Loading Additively " + sceneName.Bolden() + "", true);
 		var operation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
-		if (loadAndWait && (sceneName != this.profile.loadScene && sceneName != this.profile.logScene))
-		{
-			LogHelper.Log(" Deactivate scene on loaded: " + sceneName.Bolden() + "", true);
-			operation.allowSceneActivation = false;
-		}
+		LogHelper.Log(" Deactivate scene on loaded: " + sceneName.Bolden() + "", true);
+		operation.allowSceneActivation = allowAutoActivation;
 		this.scenesLoading.Add(operation);
 	}
 	public void UnloadAllScenes(string exception = "")

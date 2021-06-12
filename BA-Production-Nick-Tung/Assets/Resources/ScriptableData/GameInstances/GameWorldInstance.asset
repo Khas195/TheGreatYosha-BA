@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca038cfa04c72a408cf9ff344f3a395, type: 3}
-  m_Name: SceneManagementData
+  m_Script: {fileID: 11500000, guid: e5dd99d74691c4b41a50c8d92cd1d852, type: 3}
+  m_Name: GameWorldInstance
   m_EditorClassIdentifier: 
-  scene: LoadScene
-  instance: {fileID: 11400000, guid: 4aefba86c92dc2243b35c44684b1b2fc, type: 2}
-  chosenInstance: {fileID: 11400000, guid: 4aefba86c92dc2243b35c44684b1b2fc, type: 2}
+  sceneList:
+  - NewGame2D
+  desiredGameState: 1

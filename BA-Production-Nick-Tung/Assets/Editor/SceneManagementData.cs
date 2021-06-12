@@ -17,9 +17,31 @@ public class SceneManagementData : ScriptableObject
 	string scene = "";
 	[HorizontalLine(color: EColor.Red)]
 	[SerializeField]
-	[Expandable]
 	[BoxGroup("Game Instance Control")]
+	[Dropdown("GatherAvailableInstances")]
+	[OnValueChanged("OnInstanceChosen")]
 	GameInstance instance = null;
+
+	[SerializeField]
+	[BoxGroup("Game Instance Control")]
+	[Expandable]
+	GameInstance chosenInstance = null;
+
+
+	private void OnInstanceChosen()
+	{
+		chosenInstance = instance;
+	}
+	private DropdownList<GameInstance> GatherAvailableInstances()
+	{
+		var gameInstances = Resources.LoadAll<GameInstance>("ScriptableData/GameInstances");
+		var dropDownList = new DropdownList<GameInstance>();
+		foreach (var inst in gameInstances)
+		{
+			dropDownList.Add(inst.name, inst);
+		}
+		return dropDownList;
+	}
 	[Button("Scene: Load")]
 	public void LoadSelectedScene()
 	{
@@ -46,11 +68,11 @@ public class SceneManagementData : ScriptableObject
 	[Button("Game Instance: Add")]
 	public void AddInstanceToScene()
 	{
-		for (int i = 0; i < instance.sceneList.Count; i++)
+		for (int i = 0; i < chosenInstance.sceneList.Count; i++)
 		{
 			for (int j = 0; j < EditorBuildSettings.scenes.Length; j++)
 			{
-				if (EditorBuildSettings.scenes[j].path.Contains(instance.sceneList[i]))
+				if (EditorBuildSettings.scenes[j].path.Contains(chosenInstance.sceneList[i]))
 				{
 					EditorSceneManager.OpenScene(EditorBuildSettings.scenes[j].path, OpenSceneMode.Additive);
 				}
@@ -60,11 +82,11 @@ public class SceneManagementData : ScriptableObject
 	[Button("Game Instance: Remove")]
 	public void RemoveInstanceFromScene()
 	{
-		for (int i = 0; i < instance.sceneList.Count; i++)
+		for (int i = 0; i < chosenInstance.sceneList.Count; i++)
 		{
 			for (int j = 0; j < EditorSceneManager.sceneCount; j++)
 			{
-				if (EditorSceneManager.GetSceneAt(j).name == instance.sceneList[i])
+				if (EditorSceneManager.GetSceneAt(j).name == chosenInstance.sceneList[i])
 				{
 					EditorSceneManager.UnloadSceneAsync(EditorSceneManager.GetSceneAt(j));
 					return;

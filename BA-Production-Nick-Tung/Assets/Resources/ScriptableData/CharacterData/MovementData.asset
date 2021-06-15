@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02fdcd6af13a28f4bb4f5b9cf90f80f4, type: 3}
-  m_Name: CameraData
+  m_Script: {fileID: 11500000, guid: 20511c714e051b0429b5b05f14d2967e, type: 3}
+  m_Name: MovementData
   m_EditorClassIdentifier: 
-  useBox: 0
-  deadZoneBox: {x: 5, y: 4, z: 0}
-  deadZoneRadius: 0
-  cameraSpeed: 6
+  walkSpeed: 3
+  runSpeed: 5
+  jumpForce: 5
+  rotateSpeed: 20

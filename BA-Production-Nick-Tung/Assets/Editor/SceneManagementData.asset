@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ca038cfa04c72a408cf9ff344f3a395, type: 3}
   m_Name: SceneManagementData
   m_EditorClassIdentifier: 
-  scene: UI_MainMenu_Sce
+  scene: UI_InGameOverlay_Sce
   instance: {fileID: 11400000, guid: 4aefba86c92dc2243b35c44684b1b2fc, type: 2}
   chosenInstance: {fileID: 11400000, guid: 4aefba86c92dc2243b35c44684b1b2fc, type: 2}

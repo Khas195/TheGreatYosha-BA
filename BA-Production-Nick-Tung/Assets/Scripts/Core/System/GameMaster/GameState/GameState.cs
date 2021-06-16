@@ -5,24 +5,23 @@ using NaughtyAttributes;
 using UnityEngine;
 public abstract class GameState : State
 {
-    public enum GameStateEnum
-    {
-        MainMenu,
-        InGame,
-        GamePaused,
-        Init,
-        Console,
-        LoadState,
-        Review
-    }
+	public enum GameStateEnum
+	{
+		MainMenu,
+		InGame,
+		GamePaused,
+		Init,
+		Console,
+		LoadState
+	}
 
-    [SerializeField]
-    [ReadOnly]
-    protected GameMaster master;
+	[SerializeField]
+	[ReadOnly]
+	protected GameMaster master;
 
-    protected void Awake()
-    {
-        master = GameMaster.GetInstance();
-    }
-    public abstract void UpdateState();
+	protected void Awake()
+	{
+		master = GameMaster.GetInstance();
+	}
+	public abstract void UpdateState();
 }

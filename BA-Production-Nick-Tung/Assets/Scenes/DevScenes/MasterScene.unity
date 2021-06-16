@@ -219,7 +219,7 @@ MonoBehaviour:
   - {fileID: 1418934009}
   - {fileID: 509191705}
   - {fileID: 731189814}
-  - {fileID: 1719065292}
+  - {fileID: 0}
   master: {fileID: 0}
 --- !u!1 &862922355
 GameObject:
@@ -510,9 +510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7445e7ff1471e9b4fa606436463c7bdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allTransitionsPossible: 1
-  possibleTransitions: []
-  master: {fileID: 0}
 --- !u!1 &1809260538
 GameObject:
   m_ObjectHideFlags: 0

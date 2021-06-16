@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requiredScenes: {fileID: 11400000, guid: 7b452d822c618ae428f3fd6a06a0e700, type: 2}
-  startInstance: {fileID: 11400000, guid: fc499fa962645d6479617d5b687ec753, type: 2}
+  startInstance: {fileID: 11400000, guid: 4aefba86c92dc2243b35c44684b1b2fc, type: 2}
   mainMenuInstance: {fileID: 11400000, guid: fc499fa962645d6479617d5b687ec753, type: 2}
   currentInstance: {fileID: 0}
   loadingManager: {fileID: 1980767142}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: StartUpProfile
   m_EditorClassIdentifier: 
   masterScene: MasterScene
-  loadScene: LoadScene
-  logScene: LogScene
+  loadScene: UI_LoadScene_Sce
+  logScene: System_LogScene_Sce

@@ -89,7 +89,6 @@ public class SceneManagementData : ScriptableObject
 				if (EditorSceneManager.GetSceneAt(j).name == chosenInstance.sceneList[i])
 				{
 					EditorSceneManager.UnloadSceneAsync(EditorSceneManager.GetSceneAt(j));
-					return;
 				}
 			}
 
@@ -106,6 +105,22 @@ public class SceneManagementData : ScriptableObject
 	void AddMasterScene()
 	{
 		GameMasterEditor.AddMasterScene();
+	}
+	[Button("REMOVE MASTER SCENE")]
+	void RemoveMasterScene()
+	{
+		for (int i = 0; i < chosenInstance.sceneList.Count; i++)
+		{
+			for (int j = 0; j < EditorSceneManager.sceneCount; j++)
+			{
+				if (EditorSceneManager.GetSceneAt(j).name == "MasterScene")
+				{
+					EditorSceneManager.UnloadSceneAsync(EditorSceneManager.GetSceneAt(j));
+					return;
+				}
+			}
+
+		}
 	}
 	[Button("CLEAR ALL")]
 	void ClearAll()

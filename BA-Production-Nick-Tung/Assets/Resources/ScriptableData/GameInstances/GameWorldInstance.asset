@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: GameWorldInstance
   m_EditorClassIdentifier: 
   sceneList:
-  - MasterScene
+  - Game_NewGame2D_Sce
+  - Game_Player_Sce
+  - UI_InGameOverlay_Sce
   desiredGameState: 1

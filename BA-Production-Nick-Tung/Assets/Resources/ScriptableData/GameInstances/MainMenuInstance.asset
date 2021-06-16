@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: MainMenuInstance
   m_EditorClassIdentifier: 
   sceneList:
-  - MainMenu
-  - LogScene
-  - LoadScene
+  - UI_MainMenu_Sce
   desiredGameState: 0

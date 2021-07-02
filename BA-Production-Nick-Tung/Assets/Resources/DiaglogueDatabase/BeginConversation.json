@@ -1,0 +1,133 @@
+{
+	"passages": [
+		{
+			"text": "Greeting Junra, you have returned from your Journey.\n\n[[You forgot to bow before me. -> WarriorResponse]]\n[[Yes, I have returned. -> MagicianResponse]]\n[[Why are you here alone, old one. -> MatyrResponse]]",
+			"links": [
+				{
+					"name": "You forgot to bow before me. ",
+					"link": " WarriorResponse",
+					"pid": "2"
+				},
+				{
+					"name": "Yes, I have returned. ",
+					"link": " MagicianResponse",
+					"pid": "3"
+				},
+				{
+					"name": "Why are you here alone, old one. ",
+					"link": " MatyrResponse",
+					"pid": "4"
+				}
+			],
+			"name": "Begin",
+			"pid": "1",
+			"position": {
+				"x": "839.5",
+				"y": "404"
+			}
+		},
+		{
+			"text": "You have been gone for too long. Our society has changed. The custom you spoke of no longer exist.\n\n[[How can that be. You must be lying -> MergeConversation]]\n[[Liar!, our tradition has been honored for more millenias. -> MergeConversation]]",
+			"links": [
+				{
+					"name": "How can that be. You must be lying ",
+					"link": " MergeConversation",
+					"pid": "5"
+				},
+				{
+					"name": "Liar!, our tradition has been honored for more millenias. ",
+					"link": " MergeConversation",
+					"pid": "5"
+				}
+			],
+			"name": " WarriorResponse",
+			"pid": "2",
+			"position": {
+				"x": "689.5",
+				"y": "554"
+			}
+		},
+		{
+			"text": "But the world is no longer as it has been in your memories. \n\n[[Changes are that of the world natures. We must always adapt. -> MergeConversation]]\n\n[[To speak of such changes knowing that they are imminent. An unforseen change must had happened here. -> MergeConversation]]",
+			"links": [
+				{
+					"name": "Changes are that of the world natures. We must always adapt. ",
+					"link": " MergeConversation",
+					"pid": "5"
+				},
+				{
+					"name": "To speak of such changes knowing that they are imminent. An unforseen change must had happened here. ",
+					"link": " MergeConversation",
+					"pid": "5"
+				}
+			],
+			"name": " MagicianResponse",
+			"pid": "3",
+			"position": {
+				"x": "839.5",
+				"y": "555"
+			}
+		},
+		{
+			"text": "Worry not for me, Junra. If I were you, I would fear more about myself than this old one.\n\n[[You must have been troubled by my appearance, I wish to hear your story old one!. -> MergeConversation]]\n[[Tell me your story old one, let me share your burden. -> MergeConversation]]",
+			"links": [
+				{
+					"name": "You must have been troubled by my appearance, I wish to hear your story old one!. ",
+					"link": " MergeConversation",
+					"pid": "5"
+				},
+				{
+					"name": "Tell me your story old one, let me share your burden. ",
+					"link": " MergeConversation",
+					"pid": "5"
+				}
+			],
+			"name": " MatyrResponse",
+			"pid": "4",
+			"position": {
+				"x": "989.5",
+				"y": "554"
+			}
+		},
+		{
+			"text": "I am Logar. I am ... no I was a Warrior under The Kasi. Now, I am but a simple scholar from the H'inja'.\n\n[[What nonsense are you spouting. How dare you leave The Kasi. -> END]]\n[[Your words troubled me. How could you decided to leave The Kasi. -> END]]\n[[What happened that made to leave The Kasi. -> END]]",
+			"links": [
+				{
+					"name": "What nonsense are you spouting. How dare you leave The Kasi. ",
+					"link": " END",
+					"pid": "6"
+				},
+				{
+					"name": "Your words troubled me. How could you decided to leave The Kasi. ",
+					"link": " END",
+					"pid": "6"
+				},
+				{
+					"name": "What happened that made to leave The Kasi. ",
+					"link": " END",
+					"pid": "6"
+				}
+			],
+			"name": " MergeConversation",
+			"pid": "5",
+			"position": {
+				"x": "845.5",
+				"y": "768"
+			}
+		},
+		{
+			"text": "I will tell you more when the time come!.",
+			"name": " END",
+			"pid": "6",
+			"position": {
+				"x": "845.5",
+				"y": "918"
+			}
+		}
+	],
+	"name": "BA-Story",
+	"startnode": "1",
+	"creator": "Twine",
+	"creator-version": "2.3.14",
+	"ifid": "A04BFE18-C1E5-4F8F-B012-7F854CD28076"
+}

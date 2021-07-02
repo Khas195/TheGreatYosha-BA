@@ -548,7 +548,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: ENABLE_LOGS
+    1: ENABLE_LOGS;USE_TWINE;TMP_PRESENT
+    7: USE_TWINE;TMP_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

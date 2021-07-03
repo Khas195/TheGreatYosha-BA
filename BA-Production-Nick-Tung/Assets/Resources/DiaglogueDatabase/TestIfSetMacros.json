@@ -1,0 +1,76 @@
+{
+	"passages": [
+		{
+			"text": "I am not allowed to talk to you. Did you talk with [em1]Logar[/em1] yet ?\n\n(if: $TalkedToLogar is true)[[Yes, I had.->  TruthResponseTalked]]\n(if: $TalkedToLogar is false)[[No, I have not.->  GoodLiarResponse]]\n(if: $TalkedToLogar is false)[[Yes, I had.->   BadLiarResponse]]\n(if: $TalkedToLogar is true)[[No, I have not.-> TruthResponseNotTalked]]\n",
+			"links": [
+				{
+					"name": "Yes, I had.",
+					"link": "  TruthResponseTalked",
+					"pid": "3"
+				},
+				{
+					"name": "No, I have not.",
+					"link": "  GoodLiarResponse",
+					"pid": "4"
+				},
+				{
+					"name": "Yes, I had.",
+					"link": "   BadLiarResponse",
+					"pid": "5"
+				},
+				{
+					"name": "No, I have not.",
+					"link": " TruthResponseNotTalked",
+					"pid": "2"
+				}
+			],
+			"name": "Begin",
+			"pid": "1",
+			"position": {
+				"x": "817.5",
+				"y": "204"
+			}
+		},
+		{
+			"text": "Then you should go and talk to him first.\n(set: $truthSpoken = true)\nConditions: \nVariable[\"TalkedToLogar\"] == false",
+			"name": " TruthResponseNotTalked",
+			"pid": "2",
+			"position": {
+				"x": "1082.5",
+				"y": "379"
+			}
+		},
+		{
+			"text": "Good, good!.\n(set: $truthSpoken = true)\nConditions: \nVariable[\"TalkedToLogar\"] == true",
+			"name": "  TruthResponseTalked",
+			"pid": "3",
+			"position": {
+				"x": "629.5",
+				"y": "386"
+			}
+		},
+		{
+			"text": "Why did you lie even though you talked to him ?\n(set: $truthSpoken = false)\nConditions: \nVariable[\"TalkedToLogar\"] == true",
+			"name": "  GoodLiarResponse",
+			"pid": "4",
+			"position": {
+				"x": "738.5",
+				"y": "407"
+			}
+		},
+		{
+			"text": "You dare lie to my face? Begone [em2]UNJA[/em2]\n(set: $truthSpoken = false)\nConditions: \nVariable[\"TalkedToLogar\"] == false",
+			"name": "   BadLiarResponse",
+			"pid": "5",
+			"position": {
+				"x": "912.5",
+				"y": "405"
+			}
+		}
+	],
+	"name": "TestIfSetMacros",
+	"startnode": "1",
+	"creator": "Twine",
+	"creator-version": "2.3.14",
+	"ifid": "C2A91A47-0179-48BC-9426-8E2EA69DD60B"
+}

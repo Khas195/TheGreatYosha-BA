@@ -1,0 +1,141 @@
+{
+	"passages": [
+		{
+			"text": "Huh ?, What warrent your presence here?.\n[[(CheckTalkedToLogarFalse)]]\n\n[[(StrongWarriorResponse)]]\n[[(StrongMagicianResponse)]]\n[[(StrongMatyrResponse)]]\n[[(WarriorAndMatyrResponse)]]\n[[(MagicianAndMatyrResponse)]]\n[[(WarriorAndMagicianResponse)]]\n\n",
+			"links": [
+				{
+					"name": "(CheckTalkedToLogarFalse)",
+					"link": "(CheckTalkedToLogarFalse)",
+					"pid": "9"
+				},
+				{
+					"name": "(StrongWarriorResponse)",
+					"link": "(StrongWarriorResponse)",
+					"pid": "2"
+				},
+				{
+					"name": "(StrongMagicianResponse)",
+					"link": "(StrongMagicianResponse)",
+					"pid": "3"
+				},
+				{
+					"name": "(StrongMatyrResponse)",
+					"link": "(StrongMatyrResponse)",
+					"pid": "4"
+				},
+				{
+					"name": "(WarriorAndMatyrResponse)",
+					"link": "(WarriorAndMatyrResponse)",
+					"pid": "5"
+				},
+				{
+					"name": "(MagicianAndMatyrResponse)",
+					"link": "(MagicianAndMatyrResponse)",
+					"pid": "6"
+				},
+				{
+					"name": "(WarriorAndMagicianResponse)",
+					"link": "(WarriorAndMagicianResponse)",
+					"pid": "7"
+				}
+			],
+			"name": "Begin",
+			"pid": "1",
+			"position": {
+				"x": "814.5",
+				"y": "158"
+			}
+		},
+		{
+			"text": "Savages!. You [em1]Junras[/em1] are only bringing nothing but dread. Be gone! [em2]Unja[/em2]\nConditions: (passthrough)\nVariable[\"Warrior\"] >=2 and Variable[\"TalkedToLogar\"] == true\n\n",
+			"name": "(StrongWarriorResponse)",
+			"pid": "2",
+			"position": {
+				"x": "463.5",
+				"y": "553"
+			}
+		},
+		{
+			"text": "Oh wise [em1]Junra[/em1], I have heard stories about your kind. It seem all of them are wrong.\n\n\n[[(MagicianAndMatyrPraise)]]\nConditions: (passthrough)\nVariable[\"Magician\"] >=2 and Variable[\"TalkedToLogar\"] == true",
+			"links": [
+				{
+					"name": "(MagicianAndMatyrPraise)",
+					"link": "(MagicianAndMatyrPraise)",
+					"pid": "8"
+				}
+			],
+			"name": "(StrongMagicianResponse)",
+			"pid": "3",
+			"position": {
+				"x": "613.5",
+				"y": "553"
+			}
+		},
+		{
+			"text": "Oh kind [em1]Junra[/em1], It seems you have brought back compassion on your journey.\n\n[[(MagicianAndMatyrPraise)]]\nConditions:(passthrough)\nVariable[\"Matyr\"] >=2 and Variable[\"TalkedToLogar\"] == true",
+			"links": [
+				{
+					"name": "(MagicianAndMatyrPraise)",
+					"link": "(MagicianAndMatyrPraise)",
+					"pid": "8"
+				}
+			],
+			"name": "(StrongMatyrResponse)",
+			"pid": "4",
+			"position": {
+				"x": "763.5",
+				"y": "553"
+			}
+		},
+		{
+			"text": "Strength and Compassion, it seems. Reasonable. We may exhange words but tread carefully [em1]Junra[/em1].\n\nConditions:(passthrough)\nVariable[\"Matyr\"] >= 1 and\nVariable[\"Warrior\"] >= 1 and Variable[\"TalkedToLogar\"] == true\n\n\n",
+			"name": "(WarriorAndMatyrResponse)",
+			"pid": "5",
+			"position": {
+				"x": "912.5",
+				"y": "553"
+			}
+		},
+		{
+			"text": "Wisdom and Compassion. Wonderful. Let's us exchange words oh [em1]Great Junra[/em1].\n\nConditions:(passthrough)\nVariable[\"Matyr\"] >= 1 and\nVariable[\"Magician\"] >= 1 and Variable[\"TalkedToLogar\"] == true",
+			"name": "(MagicianAndMatyrResponse)",
+			"pid": "6",
+			"position": {
+				"x": "1063.5",
+				"y": "554"
+			}
+		},
+		{
+			"text": "Wisdom and Strength ?!. What have you gone through to obtain such personality !?. I wish to know more.\n\nConditions:(passthrough)\nVariable[\"Warrior\"] >= 1 and\nVariable[\"Magician\"] >= 1 and Variable[\"TalkedToLogar\"] == true",
+			"name": "(WarriorAndMagicianResponse)",
+			"pid": "7",
+			"position": {
+				"x": "1213.5",
+				"y": "553"
+			}
+		},
+		{
+			"text": "You are not savages as they foretold. Yet, your presence is not a welcome one.",
+			"name": "(MagicianAndMatyrPraise)",
+			"pid": "8",
+			"position": {
+				"x": "705.5",
+				"y": "742"
+			}
+		},
+		{
+			"text": "Don't bother reply! I'm busy right now. Go away!.\n\nConditions:(passthrough)\nVariable[\"TalkedToLogar\"] == false",
+			"name": "(CheckTalkedToLogarFalse)",
+			"pid": "9",
+			"position": {
+				"x": "1102.5",
+				"y": "182"
+			}
+		}
+	],
+	"name": "ReactToInitialStory",
+	"startnode": "1",
+	"creator": "Twine",
+	"creator-version": "2.3.14",
+	"ifid": "DAE13839-02F1-4544-BE2B-9E88532369CA"
+}

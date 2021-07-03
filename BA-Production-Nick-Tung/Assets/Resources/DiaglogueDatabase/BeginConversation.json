@@ -1,7 +1,7 @@
 {
 	"passages": [
 		{
-			"text": "Greeting Junra, you have returned from your Journey.\n\n[[You forgot to bow before me. -> WarriorResponse]]\n[[Yes, I have returned. -> MagicianResponse]]\n[[Why are you here alone, old one. -> MatyrResponse]]",
+			"text": "Greeting ''Junra'', you have returned from your Journey.\n\n[[You forgot to bow before me. -> WarriorResponse]]\n[[Yes, I have returned. -> MagicianResponse]]\n[[Why are you here alone, old one. -> MatyrResponse]]",
 			"links": [
 				{
 					"name": "You forgot to bow before me. ",
@@ -23,11 +23,11 @@
 			"pid": "1",
 			"position": {
 				"x": "839.5",
-				"y": "404"
+				"y": "403"
 			}
 		},
 		{
-			"text": "You have been gone for too long. Our society has changed. The custom you spoke of no longer exist.\n\n[[How can that be. You must be lying -> MergeConversation]]\n[[Liar!, our tradition has been honored for more millenias. -> MergeConversation]]",
+			"text": "You have been gone for too long. Our society has changed. The custom you spoke of no longer exist.\n\n[[How can that be. You must be lying -> MergeConversation]]\n[[Liar!, our tradition has been honored for more millenias. -> MergeConversation]]\n\nScript:\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1",
 			"links": [
 				{
 					"name": "How can that be. You must be lying ",
@@ -44,11 +44,11 @@
 			"pid": "2",
 			"position": {
 				"x": "689.5",
-				"y": "554"
+				"y": "553"
 			}
 		},
 		{
-			"text": "But the world is no longer as it has been in your memories. \n\n[[Changes are that of the world natures. We must always adapt. -> MergeConversation]]\n\n[[To speak of such changes knowing that they are imminent. An unforseen change must had happened here. -> MergeConversation]]",
+			"text": "But the world is no longer as it has been in your memories. \n\n[[Changes are that of the world natures. We must always adapt. -> MergeConversation]]\n\n[[To speak of such changes knowing that they are imminent. An unforseen change must had happened here. -> MergeConversation]]\n\nScript:\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1",
 			"links": [
 				{
 					"name": "Changes are that of the world natures. We must always adapt. ",
@@ -65,11 +65,11 @@
 			"pid": "3",
 			"position": {
 				"x": "839.5",
-				"y": "555"
+				"y": "554"
 			}
 		},
 		{
-			"text": "Worry not for me, Junra. If I were you, I would fear more about myself than this old one.\n\n[[You must have been troubled by my appearance, I wish to hear your story old one!. -> MergeConversation]]\n[[Tell me your story old one, let me share your burden. -> MergeConversation]]",
+			"text": "Worry not for me, ''Junra''. If I were you, I would fear more about myself than this old one.\n\n[[You must have been troubled by my appearance, I wish to hear your story old one!. -> MergeConversation]]\n[[Tell me your story old one, let me share your burden. -> MergeConversation]]\n\nScript:\nVariable[\"Matyr\"] = Variable[\"Matyr\"] + 1",
 			"links": [
 				{
 					"name": "You must have been troubled by my appearance, I wish to hear your story old one!. ",
@@ -86,24 +86,24 @@
 			"pid": "4",
 			"position": {
 				"x": "989.5",
-				"y": "554"
+				"y": "553"
 			}
 		},
 		{
-			"text": "I am Logar. I am ... no I was a Warrior under The Kasi. Now, I am but a simple scholar from the H'inja'.\n\n[[What nonsense are you spouting. How dare you leave The Kasi. -> END]]\n[[Your words troubled me. How could you decided to leave The Kasi. -> END]]\n[[What happened that made to leave The Kasi. -> END]]",
+			"text": "I am ''Logar''. I am ... no I was a Warrior under ''The Kasi''. Now, I am but a simple scholar from the ''H'inja''.\n\n(Variable[\"Warrior\"] = Variable[\"Warrior\"] + 1)[[What nonsense are you spouting. How dare you leave ''The Kasi''. -> END]]\n[[Your words troubled me. How could you decided to leave ''The Kasi''. -> END]]\n[[What happened that made to leave ''The Kasi''. -> END]]",
 			"links": [
 				{
-					"name": "What nonsense are you spouting. How dare you leave The Kasi. ",
+					"name": "What nonsense are you spouting. How dare you leave ''The Kasi''. ",
 					"link": " END",
 					"pid": "6"
 				},
 				{
-					"name": "Your words troubled me. How could you decided to leave The Kasi. ",
+					"name": "Your words troubled me. How could you decided to leave ''The Kasi''. ",
 					"link": " END",
 					"pid": "6"
 				},
 				{
-					"name": "What happened that made to leave The Kasi. ",
+					"name": "What happened that made to leave ''The Kasi''. ",
 					"link": " END",
 					"pid": "6"
 				}
@@ -112,7 +112,7 @@
 			"pid": "5",
 			"position": {
 				"x": "845.5",
-				"y": "768"
+				"y": "767"
 			}
 		},
 		{
@@ -121,7 +121,7 @@
 			"pid": "6",
 			"position": {
 				"x": "845.5",
-				"y": "918"
+				"y": "917"
 			}
 		}
 	],

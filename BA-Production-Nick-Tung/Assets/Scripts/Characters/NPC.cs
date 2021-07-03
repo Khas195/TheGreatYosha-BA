@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using NaughtyAttributes;
+using PixelCrushers.DialogueSystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +10,9 @@ public class NPC : IInteractable
 	[SerializeField]
 	[BoxGroup("UIs")]
 	Image interactIcon = null;
+	[SerializeField]
+	[BoxGroup("Conversation")]
+	DialogueSystemTrigger conversationTrigger = null;
 
 	public override void Defocus()
 	{
@@ -22,7 +26,13 @@ public class NPC : IInteractable
 	}
 	public override bool Interact()
 	{
+		if (this.conversationTrigger != null)
+		{
+			this.conversationTrigger.OnUse();
+			this.Defocus();
+		}
 		return base.Interact();
+
 	}
 
 	// Start is called before the first frame update

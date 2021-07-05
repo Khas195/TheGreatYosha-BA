@@ -1,7 +1,7 @@
 {
 	"passages": [
 		{
-			"text": "I am not allowed to talk to you. Did you talk with [em1]Logar[/em1] yet ?\n\n(if: $TalkedToLogar is true)[[Yes, I had.->  TruthResponseTalked]]\n(if: $TalkedToLogar is false)[[No, I have not.->  GoodLiarResponse]]\n(if: $TalkedToLogar is false)[[Yes, I had.->   BadLiarResponse]]\n(if: $TalkedToLogar is true)[[No, I have not.-> TruthResponseNotTalked]]\n",
+			"text": "I am not allowed to talk to you. Did you talk with [em1]Logar[/em1] yet ?\n\n(if: $TalkedToLogar is true)[[Yes, I had.->  TruthResponseTalked]]\n(if: $TalkedToLogar is false)[[No, I have not.->  GoodLiarResponse]]\n(if: $TalkedToLogar is false)[[Yes, I had.->   BadLiarResponse]]]\n(if: $TalkedToLogar is true)[[No, I have not.-> TruthResponseNotTalked]]\n",
 			"links": [
 				{
 					"name": "Yes, I had.",
@@ -54,8 +54,8 @@
 			"name": "  GoodLiarResponse",
 			"pid": "4",
 			"position": {
-				"x": "738.5",
-				"y": "407"
+				"x": "790.5",
+				"y": "434"
 			}
 		},
 		{

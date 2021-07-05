@@ -23,11 +23,11 @@
 			"pid": "1",
 			"position": {
 				"x": "839.5",
-				"y": "403"
+				"y": "402"
 			}
 		},
 		{
-			"text": "You have been gone for too long. Our society has changed. The custom you spoke of no longer exist.\n\n[[How can that be. You must be lying -> MergeConversation]]\n[[Liar!, our tradition has been honored for more millenias. -> MergeConversation]]\n\nScript:\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1",
+			"text": "(set: $Opinion_Logar to $Opinion_Logar - 1)\nYou have been gone for too long. Our society has changed. The custom you spoke of no longer exist.\n\n[[How can that be. You must be lying -> MergeConversation]]\n[[Liar!, our tradition has been honored for more millenias. -> MergeConversation]]\n\nScript:\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1",
 			"links": [
 				{
 					"name": "How can that be. You must be lying ",
@@ -48,7 +48,7 @@
 			}
 		},
 		{
-			"text": "But the world is no longer as it has been in your memories. \n\n[[Changes are that of the world natures. We must always adapt. -> MergeConversation]]\n\n[[To speak of such changes knowing that they are imminent. An unforseen change must had happened here. -> MergeConversation]]\n\nScript:\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1",
+			"text": "(set: $Opinion_Logar to $Opinion_Logar + 1)\nBut the world is no longer as it has been in your memories. \n\n[[Changes are that of the world natures. We must always adapt. -> MergeConversation]]\n\n[[To speak of such changes knowing that they are imminent. An unforseen change must had happened here. -> MergeConversation]]\n\nScript:\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1",
 			"links": [
 				{
 					"name": "Changes are that of the world natures. We must always adapt. ",
@@ -69,7 +69,7 @@
 			}
 		},
 		{
-			"text": "Worry not for me, ''Junra''. If I were you, I would fear more about myself than this old one.\n\n[[You must have been troubled by my appearance, I wish to hear your story old one!. -> MergeConversation]]\n[[Tell me your story old one, let me share your burden. -> MergeConversation]]\n\nScript:\nVariable[\"Matyr\"] = Variable[\"Matyr\"] + 1",
+			"text": "(set: $Opinion_Logar to $Opinion_Logar - 1)\nWorry not for me, ''Junra''. If I were you, I would fear more about myself than this old one.\n\n[[You must have been troubled by my appearance, I wish to hear your story old one!. -> MergeConversation]]\n[[Tell me your story old one, let me share your burden. -> MergeConversation]]\n\nScript:\nVariable[\"Matyr\"] = Variable[\"Matyr\"] + 1",
 			"links": [
 				{
 					"name": "You must have been troubled by my appearance, I wish to hear your story old one!. ",
@@ -90,38 +90,100 @@
 			}
 		},
 		{
-			"text": "I am ''Logar''. I am ... no I was a Warrior under ''The Kasi''. Now, I am but a simple scholar from the ''H'inja''.\n\n(Variable[\"Warrior\"] = Variable[\"Warrior\"] + 1)[[What nonsense are you spouting. How dare you leave ''The Kasi''. -> END]]\n[[Your words troubled me. How could you decided to leave ''The Kasi''. -> END]]\n[[What happened that made to leave ''The Kasi''. -> END]]",
+			"text": "I am ''Logar''. I am ... no I was a Warrior under ''The Kasi''. Now, I am but a simple scholar from the ''H'inja''.\n\n[[What nonsense are you spouting. How dare you leave ''The Kasi''.-> ThreatenLogarStatsChange]]\n[[Your words troubled me. How could you decided to leave ''The Kasi''. -> QuestionLogarStatsChange]]\n[[What happened that made to leave ''The Kasi''. ->(End: CheckLogarEnd)]]",
 			"links": [
 				{
-					"name": "What nonsense are you spouting. How dare you leave ''The Kasi''. ",
-					"link": " END",
+					"name": "What nonsense are you spouting. How dare you leave ''The Kasi''.",
+					"link": " ThreatenLogarStatsChange",
 					"pid": "6"
 				},
 				{
 					"name": "Your words troubled me. How could you decided to leave ''The Kasi''. ",
-					"link": " END",
-					"pid": "6"
+					"link": " QuestionLogarStatsChange",
+					"pid": "7"
 				},
 				{
 					"name": "What happened that made to leave ''The Kasi''. ",
-					"link": " END",
-					"pid": "6"
+					"link": "(End: CheckLogarEnd)",
+					"pid": "10"
 				}
 			],
 			"name": " MergeConversation",
 			"pid": "5",
 			"position": {
-				"x": "845.5",
+				"x": "846.5",
 				"y": "767"
 			}
 		},
 		{
-			"text": "I will tell you more when the time come!.",
-			"name": " END",
+			"text": "Enough of your insult.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Opinion_Logar\"] = Variable[\"Opinion_Logar\"] - 1\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1\n\n",
+			"links": [
+				{
+					"name": "(End: CheckLogarEnd)",
+					"link": "(End: CheckLogarEnd)",
+					"pid": "10"
+				}
+			],
+			"name": " ThreatenLogarStatsChange",
 			"pid": "6",
 			"position": {
-				"x": "845.5",
-				"y": "917"
+				"x": "651.5",
+				"y": "876"
+			}
+		},
+		{
+			"text": "You seem to understand well.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Opinion_Logar\"] = Variable[\"Opinion_Logar\"] + 1\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1\n",
+			"links": [
+				{
+					"name": "(End: CheckLogarEnd)",
+					"link": "(End: CheckLogarEnd)",
+					"pid": "10"
+				}
+			],
+			"name": " QuestionLogarStatsChange",
+			"pid": "7",
+			"position": {
+				"x": "1040.5",
+				"y": "899"
+			}
+		},
+		{
+			"text": "I hate you afterall.\nConditions:\nVariable[\"Opinion_Logar\"] <= 0\n",
+			"name": "(End: Logar Hate)",
+			"pid": "8",
+			"position": {
+				"x": "617.5",
+				"y": "1146"
+			}
+		},
+		{
+			"text": "I will let you know when the time come.\nConditions:\nVariable[\"Opinion_Logar\"] > 0\n",
+			"name": "(End: Logar Like)",
+			"pid": "9",
+			"position": {
+				"x": "1056.5",
+				"y": "1152"
+			}
+		},
+		{
+			"text": "<<skip>>\n[[(End: Logar Hate)]]\n[[(End: Logar Like)]]",
+			"links": [
+				{
+					"name": "(End: Logar Hate)",
+					"link": "(End: Logar Hate)",
+					"pid": "8"
+				},
+				{
+					"name": "(End: Logar Like)",
+					"link": "(End: Logar Like)",
+					"pid": "9"
+				}
+			],
+			"name": "(End: CheckLogarEnd)",
+			"pid": "10",
+			"position": {
+				"x": "842.5",
+				"y": "1000"
 			}
 		}
 	],

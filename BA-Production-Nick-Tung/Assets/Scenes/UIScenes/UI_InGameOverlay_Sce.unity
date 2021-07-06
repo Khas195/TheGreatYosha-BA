@@ -784,7 +784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -402, y: 252}
+  m_AnchoredPosition: {x: -335.5, y: 223}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &875833961
@@ -896,7 +896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302, y: 252}
+  m_AnchoredPosition: {x: -235.5, y: 223}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409732790
@@ -1212,7 +1212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -502, y: 252}
+  m_AnchoredPosition: {x: -435.5, y: 223}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2114975487
@@ -1274,19 +1274,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1326,11 +1326,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -293
+      value: -396
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 53
+      value: -396
       objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1347,6 +1347,10 @@ PrefabInstance:
     - target: {fileID: 1146792930716670831, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_Name
       value: WorldOverlay_UI_PokemonStar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792931203360707, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -8.299988
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db26d94f876d9544290d871a06248691, type: 3}

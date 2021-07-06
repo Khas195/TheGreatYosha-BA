@@ -11,12 +11,17 @@ public class ArchetypesUIFill
 	public Image image = null;
 	[Expandable]
 	public ArcheTypeData data = null;
+
+	public int curValue = 0;
+	public int maxValue = 0;
 }
 public class ArcheTypesUI : MonoBehaviour
 {
 	[SerializeField]
 	[ReorderableList]
 	List<ArchetypesUIFill> archeTypeUIs = new List<ArchetypesUIFill>();
+	[SerializeField]
+	float duration = 3.0f;
 
 	// Update is called once per frame
 	void Update()
@@ -25,7 +30,9 @@ public class ArcheTypesUI : MonoBehaviour
 		{
 			if (ui.image && ui.data)
 			{
-				ui.image.fillAmount = ui.data.GetValue() / ui.data.GetMaxValue();
+				ui.curValue = ui.data.GetValue();
+				ui.maxValue = ui.data.GetMaxValue();
+				ui.image.fillAmount = (float)ui.curValue / ui.maxValue;
 			}
 		}
 	}

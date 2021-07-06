@@ -151,10 +151,10 @@ MonoBehaviour:
   items: []
   locations: []
   variables:
-  - id: 1
+  - id: 9
     fields:
     - title: Name
-      value: Warrior
+      value: ArcheType_Innocent
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -162,13 +162,27 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
-      value: Confident, courage, respect.
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 5
+    fields:
+    - title: Name
+      value: ArcheType_Magician
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: Wiseman. Uncentered
       type: 0
       typeString: CustomFieldType_Text
   - id: 2
     fields:
     - title: Name
-      value: Matyr
+      value: ArcheType_Matyr
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -182,7 +196,7 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: Orphan
+      value: ArcheType_Orphan
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -196,7 +210,7 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Name
-      value: Wanderer
+      value: ArcheType_Wanderer
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -207,10 +221,10 @@ MonoBehaviour:
       value: Independence. Explore new things.
       type: 0
       typeString: CustomFieldType_Text
-  - id: 5
+  - id: 1
     fields:
     - title: Name
-      value: Magician
+      value: ArcheType_Warrior
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -218,7 +232,21 @@ MonoBehaviour:
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
-      value: Wiseman. Uncentered
+      value: Confident, courage, respect.
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 8
+    fields:
+    - title: Name
+      value: Emotion_Logar
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: Logar's emotion  of the character
       type: 0
       typeString: CustomFieldType_Text
   - id: 6
@@ -249,18 +277,88 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 8
+  - id: 10
     fields:
     - title: Name
-      value: Emotion_Logar
+      value: ArcheType_Max_Innocent
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 0
+      value: 10
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
-      value: Logar's emotion  of the character
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 11
+    fields:
+    - title: Name
+      value: ArcheType_Max_Magician
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 10
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 12
+    fields:
+    - title: Name
+      value: ArcheType_Max_Matyr
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 10
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 13
+    fields:
+    - title: Name
+      value: ArcheType_Max_Orphan
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 10
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 14
+    fields:
+    - title: Name
+      value: ArcheType_Max_Wanderer
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 10
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 15
+    fields:
+    - title: Name
+      value: ArcheType_Max_Warrior
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 10
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Description
+      value: 
       type: 0
       typeString: CustomFieldType_Text
   conversations:
@@ -339,7 +437,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: <b><b><b><b><b><b></b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -410,7 +508,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Greeting <b>Junra</b>, you have returned from your Journey.
+        value: <b><b><b><b><b><b>Greeting <b><b><color=#0DFFF5FF>Junra</color></b></b>,
+          you have returned from your Journey.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -493,8 +592,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You have been gone for too long. Our society has changed. The custom
-          you spoke of no longer exist.
+        value: <b><b><b><b><b><b>You have been gone for too long. Our society has
+          changed. The custom you spoke of no longer exist.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -571,7 +670,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: But the world is no longer as it has been in your memories.
+        value: <b><b><b><b><b><b>But the world is no longer as it has been in your
+          memories.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -648,8 +748,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Worry not for me, <b>Junra</b>. If I were you, I would fear more about
-          myself than this old one.
+        value: <b><b><b><b><b><b>Worry not for me, <b><b><color=#0DFFF5FF>Junra</color></b></b>.
+          If I were you, I would fear more about myself than this old one.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -726,8 +826,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I am <b>Logar</b>. I am ... no I was a Warrior under <b>The Kasi</b>.
-          Now, I am but a simple scholar from the <b>H'inja</b>.
+        value: <b><b><b><b><b><b>I am <b><b><color=#FF3939FF>Logar</color></b></b>.
+          I am ... no I was a Warrior under <b><b><color=#0DFFF5FF>The Kasi</color></b></b>.
+          Now, I am but a simple scholar from the <b><b><color=#0DFFF5FF>H'inja</color></b></b>.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -810,7 +911,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Enough of your insult.
+        value: <b><b><b><b><b><b>Enough of your insult.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -846,8 +947,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["Emotion_Logar"] = Variable["Emotion_Logar"] - 1
 
-        Variable["Warrior"]
-        = Variable["Warrior"] + 1'
+        Variable["ArcheType_Warrior"]
+        = Variable["ArcheType_Warrior"] + 1'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -884,7 +985,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You seem to understand well.
+        value: <b><b><b><b><b><b>You seem to understand well.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -920,8 +1021,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["Emotion_Logar"] = Variable["Emotion_Logar"] + 1
 
-        Variable["Magician"]
-        = Variable["Magician"] + 1'
+        Variable["ArcheType_Magician"]
+        = Variable["ArcheType_Magician"] + 1'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -958,7 +1059,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I hate you afterall.
+        value: <b><b><b><b><b><b>I hate you afterall.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1023,7 +1124,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I will let you know when the time come.
+        value: <b><b><b><b><b><b>I will let you know when the time come.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1088,7 +1189,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <<skip>>
+        value: <b><b><b><b><b><b><<skip>></b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1165,7 +1266,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <<skip>>
+        value: <b><b><b><b><b><b><<skip>></b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1201,8 +1302,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["Emotion_Logar"] = Variable["Emotion_Logar"] - 1;
 
-        Variable["Warrior"]
-        = Variable["Warrior"] + 1'
+        Variable["ArcheType_Warrior"]
+        = Variable["ArcheType_Warrior"] + 1'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1239,7 +1340,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <<skip>>
+        value: <b><b><b><b><b><b><<skip>></b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1275,8 +1376,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["Emotion_Logar"] = Variable["Emotion_Logar"] + 1;
 
-        Variable["Magician"]
-        = Variable["Magician"] + 1'
+        Variable["ArcheType_Magician"]
+        = Variable["ArcheType_Magician"] + 1'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1313,7 +1414,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <<skip>>
+        value: <b><b><b><b><b><b><<skip>></b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1349,8 +1450,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["Emotion_Logar"] = Variable["Emotion_Logar"] + 1;
 
-        Variable["Matyr"]
-        = Variable["Matyr"] + 1'
+        Variable["ArcheType_Matyr"]
+        = Variable["ArcheType_Matyr"] + 1'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1387,7 +1488,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You forgot to bow before me.
+        value: <b><b><b><b><b><b>You forgot to bow before me.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1458,7 +1559,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Yes, I have returned.
+        value: <b><b><b><b><b><b>Yes, I have returned.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1482,7 +1583,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 0
@@ -1529,7 +1630,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Why are you here alone, old one.
+        value: <b><b><b><b><b><b>Why are you here alone, old one.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1553,7 +1654,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 0
@@ -1600,7 +1701,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: How can that be. You must be lying
+        value: <b><b><b><b><b><b>How can that be. You must be lying</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1671,7 +1772,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Liar!, our tradition has been honored for more millenias.
+        value: <b><b><b><b><b><b>Liar!, our tradition has been honored for more millenias.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1743,7 +1844,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Changes are that of the world natures. We must always adapt.
+        value: <b><b><b><b><b><b>Changes are that of the world natures. We must always
+          adapt.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1815,8 +1917,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: To speak of such changes knowing that they are imminent. An unforseen
-          change must had happened here.
+        value: <b><b><b><b><b><b>To speak of such changes knowing that they are imminent.
+          An unforseen change must had happened here.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1888,8 +1990,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You must have been troubled by my appearance, I wish to hear your
-          story old one!.
+        value: <b><b><b><b><b><b>You must have been troubled by my appearance, I
+          wish to hear your story old one!.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1913,7 +2015,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 0
@@ -1960,7 +2062,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Tell me your story old one, let me share your burden.
+        value: <b><b><b><b><b><b>Tell me your story old one, let me share your burden.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1984,7 +2086,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 0
@@ -2032,7 +2134,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: What nonsense are you spouting. How dare you leave <b>The Kasi</b>.
+        value: <b><b><b><b><b><b>What nonsense are you spouting. How dare you leave
+          <b>The Kasi</b>.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2104,7 +2207,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Your words troubled me. How could you decided to leave <b>The Kasi</b>.
+        value: <b><b><b><b><b><b>Your words troubled me. How could you decided to
+          leave <b>The Kasi</b>.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2175,7 +2279,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: What happened that made to leave <b>The Kasi</b>.
+        value: <b><b><b><b><b><b>What happened that made to leave <b>The Kasi</b>.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2199,7 +2303,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 0
@@ -2220,8 +2324,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 74.33811, y: 0}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 30.39031, y: 0}
+    canvasZoom: 0.76000017
   - id: 1
     fields:
     - title: Title
@@ -2285,7 +2389,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -2297,7 +2401,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: <b><b><b><b><b><b></b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2337,8 +2441,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 20
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 1
@@ -2368,7 +2472,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Huh ?, What warrent your presence here?.
+        value: <b><b><b><b><b><b>Huh ?, What warrent your presence here?.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2444,8 +2548,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 70
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 2
@@ -2475,8 +2579,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Savages!. You [em1]Junras[/em1] are only bringing nothing but dread.
-          Be gone! [em2]Unja[/em2]
+        value: <b><b><b><b><b><b>Savages!. You [em1]<b><color=#0DFFF5FF>Junra</color></b>s[/em1]
+          are only bringing nothing but dread. Be gone! [em2]Unja[/em2]</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2505,7 +2609,7 @@ MonoBehaviour:
       outgoingLinks: []
       conditionsString: '
 
-        Variable["Warrior"] >=2 and Variable["TalkedToLogar"]
+        Variable["ArcheType_Warrior"] >=2 and Variable["TalkedToLogar"]
         == true'
       userScript: 
       onExecute:
@@ -2513,8 +2617,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 3
@@ -2544,8 +2648,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Oh wise [em1]Junra[/em1], I have heard stories about your kind. It
-          seem all of them are wrong.
+        value: <b><b><b><b><b><b>Oh wise [em1]<b><color=#0DFFF5FF>Junra</color></b>[/em1],
+          I have heard stories about your kind. It seem all of them are wrong.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2580,7 +2684,7 @@ MonoBehaviour:
         priority: 2
       conditionsString: '
 
-        Variable["Magician"] >=2 and Variable["TalkedToLogar"]
+        Variable["ArcheType_Magician"] >=2 and Variable["TalkedToLogar"]
         == true'
       userScript: 
       onExecute:
@@ -2588,8 +2692,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 4
@@ -2619,8 +2723,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Oh kind [em1]Junra[/em1], It seems you have brought back compassion
-          on your journey.
+        value: <b><b><b><b><b><b>Oh kind [em1]<b><color=#0DFFF5FF>Junra</color></b>[/em1],
+          It seems you have brought back compassion on your journey.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2655,7 +2759,7 @@ MonoBehaviour:
         priority: 2
       conditionsString: '
 
-        Variable["Matyr"] >=2 and Variable["TalkedToLogar"]
+        Variable["ArcheType_Matyr"] >=2 and Variable["TalkedToLogar"]
         == true'
       userScript: 
       onExecute:
@@ -2663,8 +2767,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 5
@@ -2694,8 +2798,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Strength and Compassion, it seems. Reasonable. We may exhange words
-          but tread carefully [em1]Junra[/em1].
+        value: <b><b><b><b><b><b>Strength and Compassion, it seems. Reasonable. We
+          may exhange words but tread carefully [em1]<b><color=#0DFFF5FF>Junra</color></b>[/em1].</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2726,7 +2830,7 @@ MonoBehaviour:
 
         Variable["Matyr"] >= 1 and
 
-        Variable["Warrior"]
+        Variable["ArcheType_Warrior"]
         >= 1 and Variable["TalkedToLogar"] == true'
       userScript: 
       onExecute:
@@ -2734,8 +2838,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 6
@@ -2765,8 +2869,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Wisdom and Compassion. Wonderful. Let's us exchange words oh [em1]Great
-          Junra[/em1].
+        value: <b><b><b><b><b><b>Wisdom and Compassion. Wonderful. Let's us exchange
+          words oh [em1]Great <b><color=#0DFFF5FF>Junra</color></b>[/em1].</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2797,7 +2901,7 @@ MonoBehaviour:
 
         Variable["Matyr"] >= 1 and
 
-        Variable["Magician"]
+        Variable["ArcheType_Magician"]
         >= 1 and Variable["TalkedToLogar"] == true'
       userScript: 
       onExecute:
@@ -2805,8 +2909,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 930
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 7
@@ -2836,8 +2940,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Wisdom and Strength ?!. What have you gone through to obtain such
-          personality !?. I wish to know more.
+        value: <b><b><b><b><b><b>Wisdom and Strength ?!. What have you gone through
+          to obtain such personality !?. I wish to know more.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2868,7 +2972,7 @@ MonoBehaviour:
 
         Variable["Warrior"] >= 1 and
 
-        Variable["Magician"]
+        Variable["ArcheType_Magician"]
         >= 1 and Variable["TalkedToLogar"] == true'
       userScript: 
       onExecute:
@@ -2876,8 +2980,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1110
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 8
@@ -2907,8 +3011,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You are not savages as they foretold. Yet, your presence is not a
-          welcome one.
+        value: <b><b><b><b><b><b>You are not savages as they foretold. Yet, your
+          presence is not a welcome one.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2942,8 +3046,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 170
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 9
@@ -2973,7 +3077,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Don't bother reply! I'm busy right now. Go away!.
+        value: <b><b><b><b><b><b>Don't bother reply! I'm busy right now. Go away!.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3009,13 +3113,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 81.60498, y: 12.988005}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 49.782948, y: 0.9381647}
+    canvasZoom: 0.85000014
   - id: 2
     fields:
     - title: Title
@@ -3091,7 +3195,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 
+        value: <b><b><b><b><b><b></b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3162,8 +3266,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I am not allowed to talk to you. Did you talk with [em1]Logar[/em1]
-          yet ?
+        value: <b><b><b><b><b><b>I am not allowed to talk to you. Did you talk with
+          [em1]<b><color=#FF3939FF>Logar</color></b>[/em1] yet ?</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3252,7 +3356,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Then you should go and talk to him first.
+        value: <b><b><b><b><b><b>Then you should go and talk to him first.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3317,7 +3421,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Good, good!.
+        value: <b><b><b><b><b><b>Good, good!.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3382,7 +3486,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Why did you lie even though you talked to him ?
+        value: <b><b><b><b><b><b>Why did you lie even though you talked to him ?</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3447,7 +3551,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You dare lie to my face? Begone [em2]UNJA[/em2]
+        value: <b><b><b><b><b><b>You dare lie to my face? Begone [em2]UNJA[/em2]</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3512,7 +3616,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Yes, I had.
+        value: <b><b><b><b><b><b>Yes, I had.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3589,7 +3693,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: No, I have not.
+        value: <b><b><b><b><b><b>No, I have not.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3666,7 +3770,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Yes, I had.
+        value: <b><b><b><b><b><b>Yes, I had.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3743,7 +3847,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: No, I have not.
+        value: <b><b><b><b><b><b>No, I have not.</b></b></b></b></b></b>
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical

@@ -1260,6 +1260,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 441535379}
     m_Modifications:
+    - target: {fileID: 1146792929901200032, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792929901200032, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792929901200032, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792930526259744, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792930526259744, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1146792930716670828, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1359,6 +1379,38 @@ PrefabInstance:
     - target: {fileID: 1146792930716670831, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_Name
       value: WorldOverlay_UI_PokemonStar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792930981209021, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792930981209021, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792931203360705, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792931203360705, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792931337836517, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792931337836517, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792931730500803, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_FillOrigin
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146792931730500803, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db26d94f876d9544290d871a06248691, type: 3}

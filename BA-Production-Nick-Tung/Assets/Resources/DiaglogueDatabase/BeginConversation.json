@@ -166,7 +166,7 @@
 			}
 		},
 		{
-			"text": "<<skip>>\n[[(End: Logar Hate)]]\n[[(End: Logar Like)]]",
+			"text": "[[(End: Logar Hate)]]\n[[(End: Logar Like)]]\nSequence:\nNone()",
 			"links": [
 				{
 					"name": "(End: Logar Hate)",
@@ -187,7 +187,7 @@
 			}
 		},
 		{
-			"text": "(set: $Emotion_Logar to $Emotion_Logar - 1, $ArcheType_Warrior to $ArcheType_Warrior + 1)\n<<skip>>\n[[(WarriorResponse)]]",
+			"text": "(set: $Emotion_Logar to $Emotion_Logar - 1, $ArcheType_Warrior to $ArcheType_Warrior + 1)\n[[(WarriorResponse)]]\nSequence:\nNone()",
 			"links": [
 				{
 					"name": "(WarriorResponse)",
@@ -203,7 +203,7 @@
 			}
 		},
 		{
-			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $ArcheType_Magician to $ArcheType_Magician + 1)\n<<skip>>\n[[(MagicianResponse)]]",
+			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $ArcheType_Magician to $ArcheType_Magician + 1)\n[[(MagicianResponse)]]\nSequence:\nNone()",
 			"links": [
 				{
 					"name": "(MagicianResponse)",
@@ -219,7 +219,7 @@
 			}
 		},
 		{
-			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $ArcheType_Matyr to $ArcheType_Matyr + 1)\n<<skip>>\n[[(MatyrResponse)]]",
+			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $ArcheType_Matyr to $ArcheType_Matyr + 1)\n[[(MatyrResponse)]]\nSequence:\nNone()",
 			"links": [
 				{
 					"name": "(MatyrResponse)",

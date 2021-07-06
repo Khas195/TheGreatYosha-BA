@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsSetting:
   - word: Junra
-    color: {r: 0.051886797, g: 1, b: 0.96170026, a: 1}
+    color: {r: 0.05098039, g: 1, b: 0.10811474, a: 1}
     bold: 1
     italic: 0
   - word: Logar
-    color: {r: 1, g: 0.2216981, b: 0.2216981, a: 1}
+    color: {r: 1, g: 0.9753064, b: 0, a: 1}
     bold: 1
     italic: 0
   - word: The Kasi

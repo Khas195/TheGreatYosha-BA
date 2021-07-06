@@ -135,6 +135,10 @@ namespace PixelCrushers.DialogueSystem.Twine
 							ExtractParticipants(link.name, actorID, conversantID, true, out linkDialogueText, out linkActorID, out linkConversantID);
 							ExtractSequenceConditionsScript(ref linkDialogueText, out sequence, out conditions, out script);
 							linkEntry.DialogueText = ReplaceFormatting(linkDialogueText);
+							if (highlightDictionary)
+							{
+								linkDialogueText = highlightDictionary.HighlightIn(linkDialogueText);
+							}
 							linkEntry.ActorID = linkActorID;
 							linkEntry.ConversantID = linkConversantID;
 							linkEntry.Sequence = sequence;

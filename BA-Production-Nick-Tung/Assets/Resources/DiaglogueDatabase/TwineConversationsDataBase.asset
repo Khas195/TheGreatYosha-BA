@@ -228,7 +228,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 0
+      value: 2
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
@@ -284,7 +284,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 10
+      value: 5
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
@@ -298,7 +298,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 10
+      value: 5
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
@@ -312,7 +312,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 10
+      value: 5
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
@@ -326,7 +326,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 10
+      value: 5
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
@@ -340,7 +340,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 10
+      value: 5
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
@@ -354,15 +354,29 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 10
+      value: 5
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
       value: 
       type: 0
       typeString: CustomFieldType_Text
+  - id: 16
+    fields:
+    - title: Name
+      value: Prefix_Ans
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
   conversations:
-  - id: 0
+  - id: 3
     fields:
     - title: Title
       value: BA-Story
@@ -425,11 +439,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Actor
-        value: 1
+        value: 
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -437,7 +451,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b></b></b></b>
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -456,17 +470,17 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: Block
+      falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 0
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
@@ -477,8 +491,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 20
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 1
@@ -508,8 +522,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Greeting <b><b><color=#0DFFF5FF>Junra</color></b></b>, you
-          have returned from your Journey.</b></b></b>
+        value: Greeting <b><b><color=#0DFF1CFF>Junra</color></b></b>, you have returned
+          from your Journey.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -528,7 +542,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -536,21 +550,21 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 1
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 14
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 1
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 15
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 1
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 16
         isConnector: 0
         priority: 2
@@ -561,8 +575,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 70
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 2
@@ -592,8 +606,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>You have been gone for too long. Our society has changed.
-          The custom you spoke of no longer exist.</b></b></b>
+        value: You have been gone for too long. Our society has changed. The custom
+          you spoke of no longer exist.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -612,7 +626,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -620,15 +634,15 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 2
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 17
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 2
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
@@ -639,8 +653,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 220
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 3
@@ -670,7 +684,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>But the world is no longer as it has been in your memories.</b></b></b>
+        value: But the world is no longer as it has been in your memories.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -689,7 +703,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -697,15 +711,15 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 3
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 19
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 3
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 20
         isConnector: 0
         priority: 2
@@ -716,8 +730,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 220
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 4
@@ -747,8 +761,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Worry not for me, <b><b><color=#0DFFF5FF>Junra</color></b></b>.
-          If I were you, I would fear more about myself than this old one.</b></b></b>
+        value: Worry not for me, <b><b><color=#0DFF1CFF>Junra</color></b></b>. If
+          I were you, I would fear more about myself than this old one.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -767,7 +781,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -775,15 +789,15 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 4
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 21
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 4
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 22
         isConnector: 0
         priority: 2
@@ -794,8 +808,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 840
-        y: 220
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 5
@@ -825,9 +839,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>I am <b><b><color=#FF3939FF>Logar</color></b></b>. I am ...
-          no I was a Warrior under <b><b><color=#0DFFF5FF>The Kasi</color></b></b>.
-          Now, I am but a simple scholar from the <b><b><color=#0DFFF5FF>H'inja</color></b></b>.</b></b></b>
+        value: I am <b><b><color=#FFF900FF>Logar</color></b></b>. I am ... no I was
+          a Warrior under <b><b><color=#0DFFF5FF>The Kasi</color></b></b>. Now, I
+          am but a simple scholar from the <b><b><color=#0DFFF5FF>H'inja</color></b></b>.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -846,7 +860,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -854,21 +868,21 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 5
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 23
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 5
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 24
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 5
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 25
         isConnector: 0
         priority: 2
@@ -879,8 +893,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 320
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 6
@@ -910,7 +924,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Enough of your insult.</b></b></b>
+        value: Enough of your insult.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -929,7 +943,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -937,9 +951,9 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 6
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
@@ -953,8 +967,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 420
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 7
@@ -984,7 +998,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>You seem to understand well.</b></b></b>
+        value: You seem to understand well.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1003,7 +1017,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1011,9 +1025,9 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 7
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
@@ -1027,8 +1041,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 420
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 8
@@ -1058,7 +1072,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>I hate you afterall.</b></b></b>
+        value: I hate you afterall.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1077,7 +1091,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1092,8 +1106,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 520
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 9
@@ -1123,7 +1137,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>I will let you know when the time come.</b></b></b>
+        value: I will let you know when the time come.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1142,7 +1156,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1157,8 +1171,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 520
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 10
@@ -1188,7 +1202,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b><<skip>></b></b></b>
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1204,10 +1218,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: None()
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1215,15 +1229,15 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 10
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 10
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
@@ -1234,8 +1248,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 470
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 11
@@ -1265,7 +1279,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b><<skip>></b></b></b>
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1281,10 +1295,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: None()
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1292,9 +1306,9 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 11
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
@@ -1308,8 +1322,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 170
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 12
@@ -1339,7 +1353,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b><<skip>></b></b></b>
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1355,10 +1369,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: None()
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1366,9 +1380,9 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 12
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
@@ -1382,8 +1396,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 170
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 13
@@ -1413,7 +1427,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b><<skip>></b></b></b>
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1429,10 +1443,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: None()
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1440,9 +1454,9 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 13
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
@@ -1456,8 +1470,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 840
-        y: 170
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 14
@@ -1487,7 +1501,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>You forgot to bow before me.</b></b></b>
+        value: You forgot to bow before me.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1506,7 +1520,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1514,9 +1528,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 14
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 11
         isConnector: 0
         priority: 2
@@ -1527,8 +1541,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 15
@@ -1558,7 +1572,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Yes, I have returned.</b></b></b>
+        value: Yes, I have returned.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1577,7 +1591,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1585,9 +1599,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 15
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 12
         isConnector: 0
         priority: 2
@@ -1598,8 +1612,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 16
@@ -1629,7 +1643,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Why are you here alone, old one.</b></b></b>
+        value: Why are you here alone, old one.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1648,7 +1662,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1656,9 +1670,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 16
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 13
         isConnector: 0
         priority: 2
@@ -1669,8 +1683,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 840
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 17
@@ -1700,7 +1714,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>How can that be. You must be lying</b></b></b>
+        value: How can that be. You must be lying
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1719,7 +1733,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1727,9 +1741,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 17
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -1740,8 +1754,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 18
@@ -1771,7 +1785,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Liar!, our tradition has been honored for more millenias.</b></b></b>
+        value: Liar!, our tradition has been honored for more millenias.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1790,7 +1804,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1798,9 +1812,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 18
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -1811,8 +1825,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 19
@@ -1843,7 +1857,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Changes are that of the world natures. We must always adapt.</b></b></b>
+        value: Changes are that of the world natures. We must always adapt.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1862,7 +1876,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1870,9 +1884,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 19
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -1883,8 +1897,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 20
@@ -1915,8 +1929,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>To speak of such changes knowing that they are imminent.
-          An unforseen change must had happened here.</b></b></b>
+        value: To speak of such changes knowing that they are imminent. An unforseen
+          change must had happened here.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1935,7 +1949,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -1943,9 +1957,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 20
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -1956,8 +1970,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 570
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 21
@@ -1988,8 +2002,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>You must have been troubled by my appearance, I wish to hear
-          your story old one!.</b></b></b>
+        value: You must have been troubled by my appearance, I wish to hear your
+          story old one!.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2008,7 +2022,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2016,9 +2030,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 21
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -2029,8 +2043,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 750
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 22
@@ -2060,7 +2074,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Tell me your story old one, let me share your burden.</b></b></b>
+        value: Tell me your story old one, let me share your burden.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2079,7 +2093,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2087,9 +2101,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 22
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -2100,8 +2114,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 930
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 23
@@ -2132,8 +2146,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>What nonsense are you spouting. How dare you leave <b>The
-          Kasi</b>.</b></b></b>
+        value: What nonsense are you spouting. How dare you leave <b>The Kasi</b>.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2152,7 +2165,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2160,9 +2173,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 23
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
@@ -2173,8 +2186,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 120
-        y: 370
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 24
@@ -2205,8 +2218,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Your words troubled me. How could you decided to leave <b>The
-          Kasi</b>.</b></b></b>
+        value: Your words troubled me. How could you decided to leave <b>The Kasi</b>.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2225,7 +2237,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2233,9 +2245,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 24
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
@@ -2246,8 +2258,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480
-        y: 370
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 25
@@ -2277,7 +2289,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>What happened that made to leave <b>The Kasi</b>.</b></b></b>
+        value: What happened that made to leave <b>The Kasi</b>.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2296,7 +2308,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 0
+      conversationID: 3
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2304,9 +2316,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 0
+      - originConversationID: 3
         originDialogueID: 25
-        destinationConversationID: 0
+        destinationConversationID: 3
         destinationDialogueID: 10
         isConnector: 0
         priority: 2
@@ -2317,14 +2329,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 840
-        y: 370
+        x: 0
+        y: 0
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 138.17987, y: 28.064758}
-    canvasZoom: 0.85
-  - id: 1
+    canvasScrollPosition: {x: 31.807743, y: 3.7015676}
+    canvasZoom: 0.85000014
+  - id: 4
     fields:
     - title: Title
       value: ReactToInitialStory
@@ -2399,7 +2411,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b></b></b></b>
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2418,7 +2430,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2426,9 +2438,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 0
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
@@ -2470,7 +2482,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Huh ?, What warrent your presence here?.</b></b></b>
+        value: Huh ?, What warrent your presence here?.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2489,7 +2501,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2497,45 +2509,45 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 1
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 1
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 1
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 1
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 1
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 1
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 1
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
@@ -2577,8 +2589,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Savages!. You [em1]<b><color=#0DFFF5FF>Junra</color></b>s[/em1]
-          are only bringing nothing but dread. Be gone! [em2]Unja[/em2]</b></b></b>
+        value: Savages!. You [em1]<b><color=#0DFF1CFF>Junra</color></b>s[/em1] are
+          only bringing nothing but dread. Be gone! [em2]Unja[/em2]
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2597,7 +2609,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2646,8 +2658,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Oh wise [em1]<b><color=#0DFFF5FF>Junra</color></b>[/em1],
-          I have heard stories about your kind. It seem all of them are wrong.</b></b></b>
+        value: Oh wise [em1]<b><color=#0DFF1CFF>Junra</color></b>[/em1], I have heard
+          stories about your kind. It seem all of them are wrong.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2666,7 +2678,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2674,9 +2686,9 @@ MonoBehaviour:
       falseConditionAction: Passthrough
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 3
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
@@ -2721,8 +2733,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Oh kind [em1]<b><color=#0DFFF5FF>Junra</color></b>[/em1],
-          It seems you have brought back compassion on your journey.</b></b></b>
+        value: Oh kind [em1]<b><color=#0DFF1CFF>Junra</color></b>[/em1], It seems
+          you have brought back compassion on your journey.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2741,7 +2753,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2749,9 +2761,9 @@ MonoBehaviour:
       falseConditionAction: Passthrough
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 1
+      - originConversationID: 4
         originDialogueID: 4
-        destinationConversationID: 1
+        destinationConversationID: 4
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
@@ -2796,8 +2808,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Strength and Compassion, it seems. Reasonable. We may exhange
-          words but tread carefully [em1]<b><color=#0DFFF5FF>Junra</color></b>[/em1].</b></b></b>
+        value: Strength and Compassion, it seems. Reasonable. We may exhange words
+          but tread carefully [em1]<b><color=#0DFF1CFF>Junra</color></b>[/em1].
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2816,7 +2828,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2867,8 +2879,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Wisdom and Compassion. Wonderful. Let's us exchange words
-          oh [em1]Great <b><color=#0DFFF5FF>Junra</color></b>[/em1].</b></b></b>
+        value: Wisdom and Compassion. Wonderful. Let's us exchange words oh [em1]Great
+          <b><color=#0DFF1CFF>Junra</color></b>[/em1].
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2887,7 +2899,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -2938,8 +2950,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Wisdom and Strength ?!. What have you gone through to obtain
-          such personality !?. I wish to know more.</b></b></b>
+        value: Wisdom and Strength ?!. What have you gone through to obtain such
+          personality !?. I wish to know more.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2958,7 +2970,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3009,8 +3021,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>You are not savages as they foretold. Yet, your presence
-          is not a welcome one.</b></b></b>
+        value: You are not savages as they foretold. Yet, your presence is not a
+          welcome one.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3029,7 +3041,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3075,7 +3087,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Don't bother reply! I'm busy right now. Go away!.</b></b></b>
+        value: Don't bother reply! I'm busy right now. Go away!.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3094,7 +3106,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 1
+      conversationID: 4
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3116,9 +3128,9 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 49.782948, y: 0.9381647}
-    canvasZoom: 0.85000014
-  - id: 2
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1
+  - id: 5
     fields:
     - title: Title
       value: TestIfSetMacros
@@ -3193,7 +3205,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b></b></b></b>
+        value: 
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3212,7 +3224,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3220,9 +3232,9 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 0
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
@@ -3264,8 +3276,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>I am not allowed to talk to you. Did you talk with [em1]<b><color=#FF3939FF>Logar</color></b>[/em1]
-          yet ?</b></b></b>
+        value: I am not allowed to talk to you. Did you talk with [em1]<b><color=#FFF900FF>Logar</color></b>[/em1]
+          yet ?
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3284,7 +3296,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3292,27 +3304,27 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 1
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 1
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 1
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 6
         isConnector: 0
         priority: 2
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 1
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 7
         isConnector: 0
         priority: 2
@@ -3354,7 +3366,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Then you should go and talk to him first.</b></b></b>
+        value: Then you should go and talk to him first.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3373,7 +3385,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3419,7 +3431,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Good, good!.</b></b></b>
+        value: Good, good!.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3438,7 +3450,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3484,7 +3496,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Why did you lie even though you talked to him ?</b></b></b>
+        value: Why did you lie even though you talked to him ?
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3503,7 +3515,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3549,7 +3561,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>You dare lie to my face? Begone [em2]UNJA[/em2]</b></b></b>
+        value: You dare lie to my face? Begone [em2]UNJA[/em2]
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3568,7 +3580,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3614,7 +3626,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Yes, I had.</b></b></b>
+        value: Yes, I had.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3633,7 +3645,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3641,15 +3653,15 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 6
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 6
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -3691,7 +3703,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>No, I have not.</b></b></b>
+        value: No, I have not.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3710,7 +3722,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3718,15 +3730,15 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 7
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 7
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
@@ -3768,7 +3780,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>Yes, I had.</b></b></b>
+        value: Yes, I had.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3787,7 +3799,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3795,15 +3807,15 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 6
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 6
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
@@ -3845,7 +3857,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <b><b><b>No, I have not.</b></b></b>
+        value: No, I have not.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3864,7 +3876,7 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
-      conversationID: 2
+      conversationID: 5
       isRoot: 0
       isGroup: 0
       nodeColor: 
@@ -3872,15 +3884,15 @@ MonoBehaviour:
       falseConditionAction: 
       conditionPriority: 2
       outgoingLinks:
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 7
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 4
         isConnector: 0
         priority: 2
-      - originConversationID: 2
+      - originConversationID: 5
         originDialogueID: 7
-        destinationConversationID: 2
+        destinationConversationID: 5
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
@@ -3897,7 +3909,557 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1.1199999
+    canvasZoom: 1
+  - id: 6
+    fields:
+    - title: Title
+      value: TestIfMacro
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Actor
+      value: 1
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: Conversant
+      value: 2
+      type: 5
+      typeString: CustomFieldType_Actor
+    overrideSettings:
+      useOverrides: 0
+      overrideSubtitleSettings: 0
+      showNPCSubtitlesDuringLine: 1
+      showNPCSubtitlesWithResponses: 1
+      showPCSubtitlesDuringLine: 0
+      skipPCSubtitleAfterResponseMenu: 0
+      subtitleCharsPerSecond: 30
+      minSubtitleSeconds: 2
+      continueButton: 0
+      overrideSequenceSettings: 0
+      defaultSequence: 
+      defaultPlayerSequence: 
+      defaultResponseMenuSequence: 
+      overrideInputSettings: 0
+      alwaysForceResponseMenu: 1
+      includeInvalidEntries: 0
+      responseTimeout: 0
+      cancelSubtitle:
+        key: 27
+        buttonName: 
+      cancelConversation:
+        key: 27
+        buttonName: 
+    nodeColor: 
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 0
+        destinationConversationID: 6
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 120
+        y: 20
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: Begin
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: Hello, Young <b><color=#0DFF1CFF>Junra</color></b>
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 1
+        destinationConversationID: 6
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      - originConversationID: 6
+        originDialogueID: 1
+        destinationConversationID: 6
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 120
+        y: 70
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: (AssignWarriorPrefix)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '([var=set]: [var=Prefix[lua(Ans)]] = "Warrior <b><color=#0DFF1CFF>Junra</color></b>
+          I am")'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: None()
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 2
+        destinationConversationID: 6
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 29.130432
+        y: 120.86957
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: (AssignMagicianPrefix)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '([var=set]: [var=Prefix[lua(Ans)]] = "Magic <b><color=#0DFF1CFF>Junra</color></b>
+          I am")'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: None()
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 3
+        destinationConversationID: 6
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 210
+        y: 120
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: (Answ)
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 4
+        destinationConversationID: 6
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 120
+        y: 170
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: ' HelloBack'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: Hello Back
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 120
+        y: 270
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: Greeting,$Prefix_Ans, nice to meet you Link 4
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: Greeting,[var=Prefix[lua(Ans)]], nice to meet you
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 6
+        destinationConversationID: 6
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 120
+        y: 220
+        width: 160
+        height: 30
+    entryGroups: []
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1.1499997
   syncInfo:
     syncActors: 0
     syncItems: 0

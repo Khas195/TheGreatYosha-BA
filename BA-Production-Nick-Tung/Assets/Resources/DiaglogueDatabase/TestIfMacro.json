@@ -1,0 +1,87 @@
+{
+	"passages": [
+		{
+			"text": "Hello, Young Junra\n\n[[(AssignWarriorPrefix)]]\n[[(AssignMagicianPrefix)]]\n",
+			"links": [
+				{
+					"name": "(AssignWarriorPrefix)",
+					"link": "(AssignWarriorPrefix)",
+					"pid": "2"
+				},
+				{
+					"name": "(AssignMagicianPrefix)",
+					"link": "(AssignMagicianPrefix)",
+					"pid": "3"
+				}
+			],
+			"name": "Begin",
+			"pid": "1",
+			"position": {
+				"x": "774.5",
+				"y": "259"
+			}
+		},
+		{
+			"text": "(set: $BeginAns = \"Warrior Junra I am\")\n\n[[(Answ)]]\nConditions:\nVariable[\"ArcheType_Warrior\"] > 0\nSequence:\nNone()",
+			"links": [
+				{
+					"name": "(Answ)",
+					"link": "(Answ)",
+					"pid": "4"
+				}
+			],
+			"name": "(AssignWarriorPrefix)",
+			"pid": "2",
+			"position": {
+				"x": "656.5",
+				"y": "408"
+			}
+		},
+		{
+			"text": "(set: $BeginAns = \"Magic Junra I am\")\n\n[[(Answ)]]\nConditions:\nVariable[\"ArcheType_Magician\"] > 0\nSequence:\nNone()",
+			"links": [
+				{
+					"name": "(Answ)",
+					"link": "(Answ)",
+					"pid": "4"
+				}
+			],
+			"name": "(AssignMagicianPrefix)",
+			"pid": "3",
+			"position": {
+				"x": "894.5",
+				"y": "409"
+			}
+		},
+		{
+			"text": "[[Greeting, [var=BeginAns] , nice to meet you-> HelloBack]]\nSequence:\nNone()",
+			"links": [
+				{
+					"name": "Greeting, [var=BeginAns] , nice to meet you",
+					"link": " HelloBack",
+					"pid": "5"
+				}
+			],
+			"name": "(Answ)",
+			"pid": "4",
+			"position": {
+				"x": "763.5",
+				"y": "564"
+			}
+		},
+		{
+			"text": "Hello Back",
+			"name": " HelloBack",
+			"pid": "5",
+			"position": {
+				"x": "728.5",
+				"y": "727"
+			}
+		}
+	],
+	"name": "TestIfMacro",
+	"startnode": "1",
+	"creator": "Twine",
+	"creator-version": "2.3.14",
+	"ifid": "65CCBC9E-D293-4FCF-9CED-3E4CBDD6B39D"
+}

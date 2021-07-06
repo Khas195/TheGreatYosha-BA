@@ -19,11 +19,6 @@ public class SkipEmptySubtitle : MonoBehaviour
 				LogHelper.Log("DialogueHelper - " + "Found empty text - try to continue.");
 				panel.OnContinue();
 			}
-			else
-			{
-
-				LogHelper.Log("DialogueHelper - " + panel.currentSubtitle.dialogueEntry.DialogueText);
-			}
 		}
 	}
 }

@@ -1,33 +1,33 @@
 {
 	"passages": [
 		{
-			"text": "Greeting ''Junra'', you have returned from your Journey.\n\n[[You forgot to bow before me. -> WarriorResponse]]\n[[Yes, I have returned. -> MagicianResponse]]\n[[Why are you here alone, old one. -> MatyrResponse]]",
+			"text": "Greeting ''Junra'', you have returned from your Journey.\n\n[[You forgot to bow before me. -> WarriorResponseStatsChange]]\n[[Yes, I have returned. -> MagicianResponseStatsChange]]\n[[Why are you here alone, old one. -> MatyrResponseStatsChange]]",
 			"links": [
 				{
 					"name": "You forgot to bow before me. ",
-					"link": " WarriorResponse",
-					"pid": "2"
+					"link": " WarriorResponseStatsChange",
+					"pid": "11"
 				},
 				{
 					"name": "Yes, I have returned. ",
-					"link": " MagicianResponse",
-					"pid": "3"
+					"link": " MagicianResponseStatsChange",
+					"pid": "12"
 				},
 				{
 					"name": "Why are you here alone, old one. ",
-					"link": " MatyrResponse",
-					"pid": "4"
+					"link": " MatyrResponseStatsChange",
+					"pid": "13"
 				}
 			],
 			"name": "Begin",
 			"pid": "1",
 			"position": {
-				"x": "839.5",
-				"y": "402"
+				"x": "835.5",
+				"y": "240"
 			}
 		},
 		{
-			"text": "(set: $Opinion_Logar to $Opinion_Logar - 1)\nYou have been gone for too long. Our society has changed. The custom you spoke of no longer exist.\n\n[[How can that be. You must be lying -> MergeConversation]]\n[[Liar!, our tradition has been honored for more millenias. -> MergeConversation]]\n\nScript:\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1",
+			"text": "You have been gone for too long. Our society has changed. The custom you spoke of no longer exist.\n\n[[How can that be. You must be lying -> MergeConversation]]\n[[Liar!, our tradition has been honored for more millenias. -> MergeConversation]]",
 			"links": [
 				{
 					"name": "How can that be. You must be lying ",
@@ -40,7 +40,7 @@
 					"pid": "5"
 				}
 			],
-			"name": " WarriorResponse",
+			"name": "(WarriorResponse)",
 			"pid": "2",
 			"position": {
 				"x": "689.5",
@@ -48,7 +48,7 @@
 			}
 		},
 		{
-			"text": "(set: $Opinion_Logar to $Opinion_Logar + 1)\nBut the world is no longer as it has been in your memories. \n\n[[Changes are that of the world natures. We must always adapt. -> MergeConversation]]\n\n[[To speak of such changes knowing that they are imminent. An unforseen change must had happened here. -> MergeConversation]]\n\nScript:\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1",
+			"text": "But the world is no longer as it has been in your memories. \n\n[[Changes are that of the world natures. We must always adapt. -> MergeConversation]]\n\n[[To speak of such changes knowing that they are imminent. An unforseen change must had happened here. -> MergeConversation]]\n",
 			"links": [
 				{
 					"name": "Changes are that of the world natures. We must always adapt. ",
@@ -61,7 +61,7 @@
 					"pid": "5"
 				}
 			],
-			"name": " MagicianResponse",
+			"name": "(MagicianResponse)",
 			"pid": "3",
 			"position": {
 				"x": "839.5",
@@ -69,7 +69,7 @@
 			}
 		},
 		{
-			"text": "(set: $Opinion_Logar to $Opinion_Logar - 1)\nWorry not for me, ''Junra''. If I were you, I would fear more about myself than this old one.\n\n[[You must have been troubled by my appearance, I wish to hear your story old one!. -> MergeConversation]]\n[[Tell me your story old one, let me share your burden. -> MergeConversation]]\n\nScript:\nVariable[\"Matyr\"] = Variable[\"Matyr\"] + 1",
+			"text": "Worry not for me, ''Junra''. If I were you, I would fear more about myself than this old one.\n\n[[You must have been troubled by my appearance, I wish to hear your story old one!. -> MergeConversation]]\n[[Tell me your story old one, let me share your burden. -> MergeConversation]]\n",
 			"links": [
 				{
 					"name": "You must have been troubled by my appearance, I wish to hear your story old one!. ",
@@ -82,7 +82,7 @@
 					"pid": "5"
 				}
 			],
-			"name": " MatyrResponse",
+			"name": "(MatyrResponse)",
 			"pid": "4",
 			"position": {
 				"x": "989.5",
@@ -116,7 +116,7 @@
 			}
 		},
 		{
-			"text": "Enough of your insult.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Opinion_Logar\"] = Variable[\"Opinion_Logar\"] - 1\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1\n\n",
+			"text": "Enough of your insult.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Emotion_Logar\"] = Variable[\"Emotion_Logar\"] - 1\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1\n\n",
 			"links": [
 				{
 					"name": "(End: CheckLogarEnd)",
@@ -132,7 +132,7 @@
 			}
 		},
 		{
-			"text": "You seem to understand well.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Opinion_Logar\"] = Variable[\"Opinion_Logar\"] + 1\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1\n",
+			"text": "You seem to understand well.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Emotion_Logar\"] = Variable[\"Emotion_Logar\"] + 1\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1\n",
 			"links": [
 				{
 					"name": "(End: CheckLogarEnd)",
@@ -148,7 +148,7 @@
 			}
 		},
 		{
-			"text": "I hate you afterall.\nConditions:\nVariable[\"Opinion_Logar\"] <= 0\n",
+			"text": "I hate you afterall.\nConditions:\nVariable[\"Emotion_Logar\"] <= 0\n",
 			"name": "(End: Logar Hate)",
 			"pid": "8",
 			"position": {
@@ -157,7 +157,7 @@
 			}
 		},
 		{
-			"text": "I will let you know when the time come.\nConditions:\nVariable[\"Opinion_Logar\"] > 0\n",
+			"text": "I will let you know when the time come.\nConditions:\nVariable[\"Emotion_Logar\"] > 0\n",
 			"name": "(End: Logar Like)",
 			"pid": "9",
 			"position": {
@@ -184,6 +184,54 @@
 			"position": {
 				"x": "842.5",
 				"y": "1000"
+			}
+		},
+		{
+			"text": "(set: $Emotion_Logar to $Emotion_Logar - 1, $Warrior to $Warrior + 1)\n<<skip>>\n[[(WarriorResponse)]]",
+			"links": [
+				{
+					"name": "(WarriorResponse)",
+					"link": "(WarriorResponse)",
+					"pid": "2"
+				}
+			],
+			"name": " WarriorResponseStatsChange",
+			"pid": "11",
+			"position": {
+				"x": "680.5",
+				"y": "417"
+			}
+		},
+		{
+			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $Magician to $Magician + 1)\n<<skip>>\n[[(MagicianResponse)]]",
+			"links": [
+				{
+					"name": "(MagicianResponse)",
+					"link": "(MagicianResponse)",
+					"pid": "3"
+				}
+			],
+			"name": " MagicianResponseStatsChange",
+			"pid": "12",
+			"position": {
+				"x": "855.5",
+				"y": "414"
+			}
+		},
+		{
+			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $Matyr to $Matyr + 1)\n<<skip>>\n[[(MatyrResponse)]]",
+			"links": [
+				{
+					"name": "(MatyrResponse)",
+					"link": "(MatyrResponse)",
+					"pid": "4"
+				}
+			],
+			"name": " MatyrResponseStatsChange",
+			"pid": "13",
+			"position": {
+				"x": "1011.5",
+				"y": "385"
 			}
 		}
 	],

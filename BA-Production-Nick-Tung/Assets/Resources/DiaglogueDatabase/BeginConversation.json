@@ -116,7 +116,7 @@
 			}
 		},
 		{
-			"text": "Enough of your insult.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Emotion_Logar\"] = Variable[\"Emotion_Logar\"] - 1\nVariable[\"Warrior\"] = Variable[\"Warrior\"] + 1\n\n",
+			"text": "Enough of your insult.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Emotion_Logar\"] = Variable[\"Emotion_Logar\"] - 1\nVariable[\"ArcheType_Warrior\"] = Variable[\"ArcheType_Warrior\"] + 1\n\n",
 			"links": [
 				{
 					"name": "(End: CheckLogarEnd)",
@@ -132,7 +132,7 @@
 			}
 		},
 		{
-			"text": "You seem to understand well.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Emotion_Logar\"] = Variable[\"Emotion_Logar\"] + 1\nVariable[\"Magician\"] = Variable[\"Magician\"] + 1\n",
+			"text": "You seem to understand well.\n[[(End: CheckLogarEnd)]]\nScript:\nVariable[\"Emotion_Logar\"] = Variable[\"Emotion_Logar\"] + 1\nVariable[\"ArcheType_Magician\"] = Variable[\"ArcheType_Magician\"] + 1\n",
 			"links": [
 				{
 					"name": "(End: CheckLogarEnd)",
@@ -187,7 +187,7 @@
 			}
 		},
 		{
-			"text": "(set: $Emotion_Logar to $Emotion_Logar - 1, $Warrior to $Warrior + 1)\n<<skip>>\n[[(WarriorResponse)]]",
+			"text": "(set: $Emotion_Logar to $Emotion_Logar - 1, $ArcheType_Warrior to $ArcheType_Warrior + 1)\n<<skip>>\n[[(WarriorResponse)]]",
 			"links": [
 				{
 					"name": "(WarriorResponse)",
@@ -203,7 +203,7 @@
 			}
 		},
 		{
-			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $Magician to $Magician + 1)\n<<skip>>\n[[(MagicianResponse)]]",
+			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $ArcheType_Magician to $ArcheType_Magician + 1)\n<<skip>>\n[[(MagicianResponse)]]",
 			"links": [
 				{
 					"name": "(MagicianResponse)",
@@ -215,11 +215,11 @@
 			"pid": "12",
 			"position": {
 				"x": "855.5",
-				"y": "414"
+				"y": "413"
 			}
 		},
 		{
-			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $Matyr to $Matyr + 1)\n<<skip>>\n[[(MatyrResponse)]]",
+			"text": "(set: $Emotion_Logar to $Emotion_Logar + 1, $ArcheType_Matyr to $ArcheType_Matyr + 1)\n<<skip>>\n[[(MatyrResponse)]]",
 			"links": [
 				{
 					"name": "(MatyrResponse)",

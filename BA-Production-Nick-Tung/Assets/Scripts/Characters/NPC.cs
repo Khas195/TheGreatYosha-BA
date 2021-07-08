@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using NaughtyAttributes;
@@ -13,6 +14,8 @@ public class NPC : IInteractable
 	[SerializeField]
 	[BoxGroup("Conversation")]
 	DialogueSystemTrigger conversationTrigger = null;
+	[SerializeField]
+	string logarCharacter = "CurrentAction_TalkingToLogar";
 
 	public override void Defocus()
 	{
@@ -28,11 +31,17 @@ public class NPC : IInteractable
 	{
 		if (this.conversationTrigger != null)
 		{
+			DialogueLua.SetVariable("CurrentAction_TalkingToLogar", true);
 			this.conversationTrigger.OnUse();
 			this.Defocus();
 		}
 		return base.Interact();
 
+	}
+
+	public void OnConversationEnd(Transform actor)
+	{
+		DialogueLua.SetVariable("CurrentAction_TalkingToLogar", false);
 	}
 
 	// Start is called before the first frame update

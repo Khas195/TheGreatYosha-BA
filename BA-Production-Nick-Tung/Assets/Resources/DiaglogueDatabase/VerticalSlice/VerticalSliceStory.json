@@ -1,0 +1,630 @@
+{
+  "passages": [
+    {
+      "text": "\n\n[[(TalkToLogar)]]\n[[(HookBreaksEvent)]]\nSequence:\nNone",
+      "links": [
+        {
+          "name": "(TalkToLogar)",
+          "link": "(TalkToLogar)",
+          "pid": "2"
+        },
+        {
+          "name": "(HookBreaksEvent)",
+          "link": "(HookBreaksEvent)",
+          "pid": "28"
+        }
+      ],
+      "name": "Begin",
+      "pid": "1",
+      "position": {
+        "x": "1295.5",
+        "y": "388"
+      }
+    },
+    {
+      "text": "[[(IntroLogar)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline_RiceAndFish\"] == 0 and\nVariable[\"CurrentAction_TalkingToLogar\"] == true",
+      "links": [
+        {
+          "name": "(IntroLogar)",
+          "link": "(IntroLogar)",
+          "pid": "3"
+        }
+      ],
+      "name": "(TalkToLogar)",
+      "pid": "2",
+      "position": {
+        "x": "1146.5",
+        "y": "537"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline_RiceAndFish = $Story_Timeline_RiceAndFish + 1, $Story_Variable_RiceAndFish_PissedOffLogar = false, $Emotion_Logar = -3, $Story_Variable_RiceAndFish_TalkedToLogar)\nHuh? Whatever you want, I don't have it.\n\n[[Tight lines, warm breezes, calm sky, it is truly like a dream, is it not?->Intro_Mag]]\n[[Please spare some time, I just want to ask you some questions ->Intro_OrpMar]]\n[[....Fine. I don't need your help anyway.->Intro_WanWor]]",
+      "links": [
+        {
+          "name": "Tight lines, warm breezes, calm sky, it is truly like a dream, is it not?",
+          "link": "Intro_Mag",
+          "pid": "4"
+        },
+        {
+          "name": "Please spare some time, I just want to ask you some questions ",
+          "link": "Intro_OrpMar",
+          "pid": "5"
+        },
+        {
+          "name": "....Fine. I don't need your help anyway.",
+          "link": "Intro_WanWor",
+          "pid": "6"
+        }
+      ],
+      "name": "(IntroLogar)",
+      "pid": "3",
+      "position": {
+        "x": "847.5",
+        "y": "758"
+      }
+    },
+    {
+      "text": "(set: $ArcheType_Magician = $ArcheType_Magician + 1, $Emotion_Logar = $Emotion_Logar + 1)\n[[(Intro_Mag_Res)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(Intro_Mag_Res)",
+          "link": "(Intro_Mag_Res)",
+          "pid": "7"
+        }
+      ],
+      "name": "Intro_Mag",
+      "pid": "4",
+      "position": {
+        "x": "708.5",
+        "y": "896"
+      }
+    },
+    {
+      "text": "(set: $ArcheType_Orphan = $ArcheType_Orphan + 1, $ArcheType_Matyr = $ArcheType_Matyr + 1, $Emotion_Logar = $Emotion_Logar + 1)\n[[(Intro_OrpMar_Res)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(Intro_OrpMar_Res)",
+          "link": "(Intro_OrpMar_Res)",
+          "pid": "8"
+        }
+      ],
+      "name": "Intro_OrpMar",
+      "pid": "5",
+      "position": {
+        "x": "847.5",
+        "y": "886"
+      }
+    },
+    {
+      "text": "(set: $ArcheType_Wanderer = $ArcheType_Wanderer + 1, $ArcheType_Warrior = $ArcheType_Warrior + 1, $Story_Variable_RiceAndFish_PissedOffLogar = true, $Emotion_Logar = $Emotion_Logar - 1)\n[[(Intro_WanWor_Res)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(Intro_WanWor_Res)",
+          "link": "(Intro_WanWor_Res)",
+          "pid": "9"
+        }
+      ],
+      "name": "Intro_WanWor",
+      "pid": "6",
+      "position": {
+        "x": "994.5",
+        "y": "896"
+      }
+    },
+    {
+      "text": "It is; you seem to value serenity. Yet, you disturb it.\n\n[[It is so that I want to know more about you. One who understands this comfort.->Intro_Logar_Interested]]\n[[My Koa breaks but I must endure for I need to know more about you.->Intro_Logar_Interested]]",
+      "links": [
+        {
+          "name": "It is so that I want to know more about you. One who understands this comfort.",
+          "link": "Intro_Logar_Interested",
+          "pid": "10"
+        },
+        {
+          "name": "My Koa breaks but I must endure for I need to know more about you.",
+          "link": "Intro_Logar_Interested",
+          "pid": "10"
+        }
+      ],
+      "name": "(Intro_Mag_Res)",
+      "pid": "7",
+      "position": {
+        "x": "680.5",
+        "y": "1146"
+      }
+    },
+    {
+      "text": "Hmmm, I'll help, but you will leave me be after we're done.\n[[Apologize for disturbing your peace. I promised to restore it after.->Intro_Logar_Agree_Martyr]]\n[[Why you must be so hard, I desire to be friend with you->Intro_Logar_Agree_Orphan]]\n[[Yes, I will leave after.->Intro_Logar_Interested]]",
+      "links": [
+        {
+          "name": "Apologize for disturbing your peace. I promised to restore it after.",
+          "link": "Intro_Logar_Agree_Martyr",
+          "pid": "11"
+        },
+        {
+          "name": "Why you must be so hard, I desire to be friend with you",
+          "link": "Intro_Logar_Agree_Orphan",
+          "pid": "12"
+        },
+        {
+          "name": "Yes, I will leave after.",
+          "link": "Intro_Logar_Interested",
+          "pid": "10"
+        }
+      ],
+      "name": "(Intro_OrpMar_Res)",
+      "pid": "8",
+      "position": {
+        "x": "818.5",
+        "y": "1136"
+      }
+    },
+    {
+      "text": "And don't come back.\n",
+      "name": "(Intro_WanWor_Res)",
+      "pid": "9",
+      "position": {
+        "x": "995.5",
+        "y": "1046"
+      }
+    },
+    {
+      "text": "I am Logar, a simple fisherman that enjoys his peace.\nThat is all.\n[[(QuestionHub)]]",
+      "links": [
+        {
+          "name": "(QuestionHub)",
+          "link": "(QuestionHub)",
+          "pid": "14"
+        }
+      ],
+      "name": "Intro_Logar_Interested",
+      "pid": "10",
+      "position": {
+        "x": "853.5",
+        "y": "1630"
+      }
+    },
+    {
+      "text": "(set: $ArcheType_Matyr = $ArcheType_Matyr + 1)\nKeep your words, stranger.\n[[I will ->Intro_Logar_Interested]]\n[[On My Koa, I promise ->Intro_Logar_Interested]]\n\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "I will ",
+          "link": "Intro_Logar_Interested",
+          "pid": "10"
+        },
+        {
+          "name": "On My Koa, I promise ",
+          "link": "Intro_Logar_Interested",
+          "pid": "10"
+        }
+      ],
+      "name": "Intro_Logar_Agree_Martyr",
+      "pid": "11",
+      "position": {
+        "x": "1018.5",
+        "y": "1374"
+      }
+    },
+    {
+      "text": "(set: $ArcheType_Orphan = $ArcheType_Orphan + 1, $Story_Variable_RiceAndFish_PissedOffLogar = true, $Emotion_Logar = $Emotion_Logar - 3)\nFriend ? I don't need any, I just want to be alone.\n[[(Intro_Logar_Agree_Orphan_2)]]",
+      "links": [
+        {
+          "name": "(Intro_Logar_Agree_Orphan_2)",
+          "link": "(Intro_Logar_Agree_Orphan_2)",
+          "pid": "13"
+        }
+      ],
+      "name": "Intro_Logar_Agree_Orphan",
+      "pid": "12",
+      "position": {
+        "x": "1231.5",
+        "y": "1364"
+      }
+    },
+    {
+      "text": "You know what, if that is your goal than we are done. Goodbye.",
+      "name": "(Intro_Logar_Agree_Orphan_2)",
+      "pid": "13",
+      "position": {
+        "x": "1230.5",
+        "y": "1513"
+      }
+    },
+    {
+      "text": "Anything else you need from me?\n\n[[Who you used to be in The Kasi->PastLogar]]\n\n[[Where are we? It seems that I'm somewhat lost.->WhereLogar]]\n\n[[What happened for you to drown yourself in this tranquil place, alone.->WhatLogar]]\n\n[[That is all I need to know, your help is much appreciated->DoneIntro]]",
+      "links": [
+        {
+          "name": "Who you used to be in The Kasi",
+          "link": "PastLogar",
+          "pid": "15"
+        },
+        {
+          "name": "Where are we? It seems that I'm somewhat lost.",
+          "link": "WhereLogar",
+          "pid": "16"
+        },
+        {
+          "name": "What happened for you to drown yourself in this tranquil place, alone.",
+          "link": "WhatLogar",
+          "pid": "17"
+        },
+        {
+          "name": "That is all I need to know, your help is much appreciated",
+          "link": "DoneIntro",
+          "pid": "18"
+        }
+      ],
+      "name": "(QuestionHub)",
+      "pid": "14",
+      "position": {
+        "x": "1118.5",
+        "y": "1833"
+      }
+    },
+    {
+      "text": "I used to be a Yosha under The Kasi. To inspect and record everything that happened was my role.\n\n[[Respectable Yosha!.->(QuestionHub)]]\n[[I see.->(QuestionHub)]]\n",
+      "links": [
+        {
+          "name": "Respectable Yosha!.",
+          "link": "(QuestionHub)",
+          "pid": "14"
+        },
+        {
+          "name": "I see.",
+          "link": "(QuestionHub)",
+          "pid": "14"
+        }
+      ],
+      "name": "PastLogar",
+      "pid": "15",
+      "position": {
+        "x": "505",
+        "y": "1927"
+      }
+    },
+    {
+      "text": "We are on the western side of The Unka($VocalUnka), on the Ikta Ashim($VolcaIktaAshim). The forest around us is called the Dana Moir($VolcaDanaMoir)\n[[(WhereLogar_Continue)]]",
+      "links": [
+        {
+          "name": "(WhereLogar_Continue)",
+          "link": "(WhereLogar_Continue)",
+          "pid": "19"
+        }
+      ],
+      "name": "WhereLogar",
+      "pid": "16",
+      "position": {
+        "x": "639.5",
+        "y": "2213"
+      }
+    },
+    {
+      "text": "It's a long story which the more I tell you, the longer my peace is broken. However, I can tell you that it was because of all the complaining and nagging. \n\n[[(QuestionHub)]]",
+      "links": [
+        {
+          "name": "(QuestionHub)",
+          "link": "(QuestionHub)",
+          "pid": "14"
+        }
+      ],
+      "name": "WhatLogar",
+      "pid": "17",
+      "position": {
+        "x": "1185.5",
+        "y": "2170"
+      }
+    },
+    {
+      "text": "Now leave me be. Restore my peace.\n\n[[I shall do so, another time Logar.->DoneIntro_Mag]]\n[[Enjoy your peace, Logar.->DoneIntro_Mar]]\n[[Goodbye.->DoneIntro_Neu]]",
+      "links": [
+        {
+          "name": "I shall do so, another time Logar.",
+          "link": "DoneIntro_Mag",
+          "pid": "26"
+        },
+        {
+          "name": "Enjoy your peace, Logar.",
+          "link": "DoneIntro_Mar",
+          "pid": "27"
+        },
+        {
+          "name": "Goodbye.",
+          "link": "DoneIntro_Neu",
+          "pid": "29"
+        }
+      ],
+      "name": "DoneIntro",
+      "pid": "18",
+      "position": {
+        "x": "1528.5",
+        "y": "2092"
+      }
+    },
+    {
+      "text": "Though I am not part of any tribes, I am known as a H'inja($VolcaHinja).\n\n[[These names you spoke up, I do not understand. -> WhereLogar_Names]]\n\n[[I wish to know more about these names. -> WhereLogar_Names]]\n\n[[I've never heard of them before. -> WhereLogar_Names]]",
+      "links": [
+        {
+          "name": "These names you spoke up, I do not understand. ",
+          "link": " WhereLogar_Names",
+          "pid": "20"
+        },
+        {
+          "name": "I wish to know more about these names. ",
+          "link": " WhereLogar_Names",
+          "pid": "20"
+        },
+        {
+          "name": "I've never heard of them before. ",
+          "link": " WhereLogar_Names",
+          "pid": "20"
+        }
+      ],
+      "name": "(WhereLogar_Continue)",
+      "pid": "19",
+      "position": {
+        "x": "648.5",
+        "y": "2402"
+      }
+    },
+    {
+      "text": "Hmm, you must be a Junra then. These events were so big in the past that it is the only explanation.\n[[(WhereLogar_Names_QuestionHub)]]",
+      "links": [
+        {
+          "name": "(WhereLogar_Names_QuestionHub)",
+          "link": "(WhereLogar_Names_QuestionHub)",
+          "pid": "21"
+        }
+      ],
+      "name": " WhereLogar_Names",
+      "pid": "20",
+      "position": {
+        "x": "648.5",
+        "y": "2543"
+      }
+    },
+    {
+      "text": "(set: $VolcaUnka = \"The Great Divide\")\nI'll expand your knowledge furthermore, Junra. The Unka means The Great Divide.\n\n[[((WhereLogar_Names_QuestionHub_Before))]]",
+      "links": [
+        {
+          "name": "((WhereLogar_Names_QuestionHub_Before))",
+          "link": "((WhereLogar_Names_QuestionHub_Before))",
+          "pid": "34"
+        }
+      ],
+      "name": "(WhereLogar_Names_QuestionHub)",
+      "pid": "21",
+      "position": {
+        "x": "638.5",
+        "y": "2677"
+      }
+    },
+    {
+      "text": "What other names don't you know ?.\n\n[[Dana Moir ?->Explain_DanaMoir]]\n[[Ikta ashim ?->Explain_IktaAshim]]\n[[H'inja ?->Explain_Hinja]]\n[[That is all, Logar->(QuestionHub)]]",
+      "links": [
+        {
+          "name": "Dana Moir ?",
+          "link": "Explain_DanaMoir",
+          "pid": "23"
+        },
+        {
+          "name": "Ikta ashim ?",
+          "link": "Explain_IktaAshim",
+          "pid": "24"
+        },
+        {
+          "name": "H'inja ?",
+          "link": "Explain_Hinja",
+          "pid": "25"
+        },
+        {
+          "name": "That is all, Logar",
+          "link": "(QuestionHub)",
+          "pid": "14"
+        }
+      ],
+      "name": "((WhereLogar_Names_QuestionHub_Actual))",
+      "pid": "22",
+      "position": {
+        "x": "763.5",
+        "y": "3011"
+      }
+    },
+    {
+      "text": "(set: $VolcaDanaMoir  = \"The Calm Forest\", $Emotion_Logar = $Emotion_Logar - 1)\nDana Moir means the Calm Forest since we H'inja($VolcaHinja) wants to live alone and do our own thing. Thus, peace is maintained... until you show up.\n\n[[((WhereLogar_Names_QuestionHub_Actual))]]",
+      "links": [
+        {
+          "name": "((WhereLogar_Names_QuestionHub_Actual))",
+          "link": "((WhereLogar_Names_QuestionHub_Actual))",
+          "pid": "22"
+        }
+      ],
+      "name": "Explain_DanaMoir",
+      "pid": "23",
+      "position": {
+        "x": "744.5",
+        "y": "3206"
+      }
+    },
+    {
+      "text": "(set: $VolcaIktaAshim  = \"The Northen Part\")\nIkta Ashim means The Northern Part. After the Unka($VocalUnka) happened, it split the whole land and the western side of it into two.\n\n[[((WhereLogar_Names_QuestionHub_Actual))]]",
+      "links": [
+        {
+          "name": "((WhereLogar_Names_QuestionHub_Actual))",
+          "link": "((WhereLogar_Names_QuestionHub_Actual))",
+          "pid": "22"
+        }
+      ],
+      "name": "Explain_IktaAshim",
+      "pid": "24",
+      "position": {
+        "x": "923.5",
+        "y": "3217"
+      }
+    },
+    {
+      "text": "(set: $VolcaHinja = \"The Different One\")\nThe people called us H'inja, the different one. We do not belong in any group or tribe. We only desire to be independent of all.\n\n[[((WhereLogar_Names_QuestionHub_Actual))]]",
+      "links": [
+        {
+          "name": "((WhereLogar_Names_QuestionHub_Actual))",
+          "link": "((WhereLogar_Names_QuestionHub_Actual))",
+          "pid": "22"
+        }
+      ],
+      "name": "Explain_Hinja",
+      "pid": "25",
+      "position": {
+        "x": "462.5",
+        "y": "3264"
+      }
+    },
+    {
+      "text": "(set: $ArcheType_Magician = $ArcheType_Magician + 1, $Emotion_Logar = $Emotion_Logar + 1)\n\n[[(HookBreaksEvent)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(HookBreaksEvent)",
+          "link": "(HookBreaksEvent)",
+          "pid": "28"
+        }
+      ],
+      "name": "DoneIntro_Mag",
+      "pid": "26",
+      "position": {
+        "x": "1341.5",
+        "y": "2230"
+      }
+    },
+    {
+      "text": "(set: $ArcheType_Matyr = $ArcheType_Matyr + 1, $Emotion_Logar = $Emotion_Logar + 1)\n[[(HookBreaksEvent)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(HookBreaksEvent)",
+          "link": "(HookBreaksEvent)",
+          "pid": "28"
+        }
+      ],
+      "name": "DoneIntro_Mar",
+      "pid": "27",
+      "position": {
+        "x": "1603.5",
+        "y": "2242"
+      }
+    },
+    {
+      "text": "Ahhhhhhh UNRA\n\n[[What happened ?->AskForWhatHappenedReplyCheck]]\n[[Are you alright, Logar ?->AskForWhatHappenedReplyCheck]]\n[[Something is wrong ?->AskForWhatHappenedReplyCheck]]\n\nConditions:\nVariable[\"Story_Timeline_RiceAndFish\"] == 1 and\nVariable[\"CurrentAction_TalkingToLogar\"] == true",
+      "links": [
+        {
+          "name": "What happened ?",
+          "link": "AskForWhatHappenedReplyCheck",
+          "pid": "30"
+        },
+        {
+          "name": "Are you alright, Logar ?",
+          "link": "AskForWhatHappenedReplyCheck",
+          "pid": "30"
+        },
+        {
+          "name": "Something is wrong ?",
+          "link": "AskForWhatHappenedReplyCheck",
+          "pid": "30"
+        }
+      ],
+      "name": "(HookBreaksEvent)",
+      "pid": "28",
+      "position": {
+        "x": "1916.5",
+        "y": "2313"
+      }
+    },
+    {
+      "text": "[[(HookBreaksEvent)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(HookBreaksEvent)",
+          "link": "(HookBreaksEvent)",
+          "pid": "28"
+        }
+      ],
+      "name": "DoneIntro_Neu",
+      "pid": "29",
+      "position": {
+        "x": "1483.5",
+        "y": "2242"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline_RiceAndFish = $Story_Timeline_RiceAndFish + 1)\n[[(GoodMagRep)]]\n[[(BadMagRep)]]",
+      "links": [
+        {
+          "name": "(GoodMagRep)",
+          "link": "(GoodMagRep)",
+          "pid": "31"
+        },
+        {
+          "name": "(BadMagRep)",
+          "link": "(BadMagRep)",
+          "pid": "32"
+        }
+      ],
+      "name": "AskForWhatHappenedReplyCheck",
+      "pid": "30",
+      "position": {
+        "x": "1897.5",
+        "y": "2446"
+      }
+    },
+    {
+      "text": "My hook broke. grrrr. UNRA.\n[[(Convo_HookBreak)]]\nConditions:\nVariable[\"Story_Variable_RiceAndFish_PissedOffLogar\"]==false and\nVariable[\"ArcheType_Magician\"]>= 2\n",
+      "links": [
+        {
+          "name": "(Convo_HookBreak)",
+          "link": "(Convo_HookBreak)",
+          "pid": "33"
+        }
+      ],
+      "name": "(GoodMagRep)",
+      "pid": "31",
+      "position": {
+        "x": "1820.5",
+        "y": "2597"
+      }
+    },
+    {
+      "text": "It is none of your concern. Leave Me Alone!!.\n\nConditions:\nVariable[\"Story_Variable_RiceAndFish_PissedOffLogar\"]==true or\nVariable[\"ArcheType_Magician\"] < 2",
+      "name": "(BadMagRep)",
+      "pid": "32",
+      "position": {
+        "x": "1971.5",
+        "y": "2603"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "(Convo_HookBreak)",
+      "pid": "33",
+      "position": {
+        "x": "1820.5",
+        "y": "2748"
+      }
+    },
+    {
+      "text": " It happens long ago, and I have no intention to be your history teacher.\n[[((WhereLogar_Names_QuestionHub_Actual))]]",
+      "links": [
+        {
+          "name": "((WhereLogar_Names_QuestionHub_Actual))",
+          "link": "((WhereLogar_Names_QuestionHub_Actual))",
+          "pid": "22"
+        }
+      ],
+      "name": "((WhereLogar_Names_QuestionHub_Before))",
+      "pid": "34",
+      "position": {
+        "x": "645.5",
+        "y": "2828"
+      }
+    }
+  ],
+  "name": "VerticalSlide-Story-BA",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.14",
+  "ifid": "9D317A7F-31AA-4530-B4E5-E17072EBBA67"
+}

@@ -1,10 +1,11 @@
-﻿#if USE_TWINE
+#if USE_TWINE
 // Copyright (c) Pixel Crushers. All rights reserved.
 
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using UnityEditor;
 
 namespace PixelCrushers.DialogueSystem.Twine
 {

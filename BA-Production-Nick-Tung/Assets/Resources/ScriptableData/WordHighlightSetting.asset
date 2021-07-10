@@ -18,7 +18,15 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: Logar
-    color: {r: 1, g: 0.9753064, b: 0, a: 1}
+    color: {r: 1, g: 0.05098039, b: 0.92104113, a: 1}
+    bold: 1
+    italic: 0
+  - word: Mutt
+    color: {r: 1, g: 0.050980393, b: 0.92156863, a: 1}
+    bold: 1
+    italic: 0
+  - word: Khan
+    color: {r: 1, g: 0.050980393, b: 0.92156863, a: 1}
     bold: 1
     italic: 0
   - word: The Kasi
@@ -26,6 +34,6 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: H'inja
-    color: {r: 0.050980393, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.050980393, g: 1, b: 0.10980392, a: 1}
     bold: 1
     italic: 0

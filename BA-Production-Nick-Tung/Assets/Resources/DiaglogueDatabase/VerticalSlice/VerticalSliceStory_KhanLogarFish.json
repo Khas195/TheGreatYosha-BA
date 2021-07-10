@@ -1,0 +1,513 @@
+{
+  "passages": [
+    {
+      "text": "Khan: Hey, Logar.\n[[(Logar_Reply_FriendlyKhan)]]\n[[(Logar_Reply_HostileKhan)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply_FriendlyKhan)",
+          "link": "(Logar_Reply_FriendlyKhan)",
+          "pid": "2"
+        },
+        {
+          "name": "(Logar_Reply_HostileKhan)",
+          "link": "(Logar_Reply_HostileKhan)",
+          "pid": "3"
+        }
+      ],
+      "name": "(Begin)",
+      "pid": "1",
+      "position": {
+        "x": "762.5",
+        "y": "115"
+      }
+    },
+    {
+      "text": "Logar: Oh Khan, you're here at a good time. I have a request.\n[[(Khan_LogarFriendlyReply)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 2 and\nVariable[\"Story_RiceAndFish_Logar_ConvincedHelp\"] == true and \nVariable[\"Story_RiceAndFish_Mutt_SpyForMutt\"] == false",
+      "links": [
+        {
+          "name": "(Khan_LogarFriendlyReply)",
+          "link": "(Khan_LogarFriendlyReply)",
+          "pid": "4"
+        }
+      ],
+      "name": "(Logar_Reply_FriendlyKhan)",
+      "pid": "2",
+      "position": {
+        "x": "198.5",
+        "y": "412"
+      }
+    },
+    {
+      "text": "Logar: Why are you here as well, Logar ? What with you people ? Don't you have things to do ?\n\n[[(Khan_LogarHostile)]]\n\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 2 and\nVariable[\"Story_RiceAndFish_Logar_ConvincedHelp\"] == false and \nVariable[\"Story_RiceAndFish_Mutt_SpyForMutt\"] == false",
+      "links": [
+        {
+          "name": "(Khan_LogarHostile)",
+          "link": "(Khan_LogarHostile)",
+          "pid": "19"
+        }
+      ],
+      "name": "(Logar_Reply_HostileKhan)",
+      "pid": "3",
+      "position": {
+        "x": "797.5",
+        "y": "417"
+      }
+    },
+    {
+      "text": "Khan: Huh? What did you just say ?.\n[[(Logar_Reply2)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply2)",
+          "link": "(Logar_Reply2)",
+          "pid": "5"
+        }
+      ],
+      "name": "(Khan_LogarFriendlyReply)",
+      "pid": "4",
+      "position": {
+        "x": "198.5",
+        "y": "562"
+      }
+    },
+    {
+      "text": "Logar: I said that I have a request. Are you dull ?\n[[(Khan_Reply2)]]",
+      "links": [
+        {
+          "name": "(Khan_Reply2)",
+          "link": "(Khan_Reply2)",
+          "pid": "6"
+        }
+      ],
+      "name": "(Logar_Reply2)",
+      "pid": "5",
+      "position": {
+        "x": "198.5",
+        "y": "712"
+      }
+    },
+    {
+      "text": "Khan: Of.. Of course, since you're behavior are some what inconsistent...\n[[(Logar_Reyply3)]]",
+      "links": [
+        {
+          "name": "(Logar_Reyply3)",
+          "link": "(Logar_Reyply3)",
+          "pid": "7"
+        }
+      ],
+      "name": "(Khan_Reply2)",
+      "pid": "6",
+      "position": {
+        "x": "198.5",
+        "y": "862"
+      }
+    },
+    {
+      "text": "Logar: I wouldn't have done it but since our friend here convinced me otherwise.\n[[(Logar_Reply3_1)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply3_1)",
+          "link": "(Logar_Reply3_1)",
+          "pid": "8"
+        }
+      ],
+      "name": "(Logar_Reyply3)",
+      "pid": "7",
+      "position": {
+        "x": "198.5",
+        "y": "1011"
+      }
+    },
+    {
+      "text": "Logar: Then Khan, I will need a new hook. If you can make that for me I'll do you a favor.\n[[(Khan_Reply_3)]]",
+      "links": [
+        {
+          "name": "(Khan_Reply_3)",
+          "link": "(Khan_Reply_3)",
+          "pid": "9"
+        }
+      ],
+      "name": "(Logar_Reply3_1)",
+      "pid": "8",
+      "position": {
+        "x": "198.5",
+        "y": "1162"
+      }
+    },
+    {
+      "text": "Khan: Ah I knew our mind are compatible my friend.\n[[(Logar_Reply_4)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply_4)",
+          "link": "(Logar_Reply_4)",
+          "pid": "10"
+        }
+      ],
+      "name": "(Khan_Reply_3)",
+      "pid": "9",
+      "position": {
+        "x": "198.5",
+        "y": "1312"
+      }
+    },
+    {
+      "text": "Logar: No we're not, don't push it. So what do you want ?\n[[(Khan_Reply_4)]]",
+      "links": [
+        {
+          "name": "(Khan_Reply_4)",
+          "link": "(Khan_Reply_4)",
+          "pid": "11"
+        }
+      ],
+      "name": "(Logar_Reply_4)",
+      "pid": "10",
+      "position": {
+        "x": "198.5",
+        "y": "1462"
+      }
+    },
+    {
+      "text": "Khan: .... , so do you have a soft spot afterall.\n[[(Logar_Reply_5)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply_5)",
+          "link": "(Logar_Reply_5)",
+          "pid": "12"
+        }
+      ],
+      "name": "(Khan_Reply_4)",
+      "pid": "11",
+      "position": {
+        "x": "198.5",
+        "y": "1612"
+      }
+    },
+    {
+      "text": "Logar: I said... DON'T PUSH IT.\n[[(Khan_Reply_5)]]",
+      "links": [
+        {
+          "name": "(Khan_Reply_5)",
+          "link": "(Khan_Reply_5)",
+          "pid": "13"
+        }
+      ],
+      "name": "(Logar_Reply_5)",
+      "pid": "12",
+      "position": {
+        "x": "198.5",
+        "y": "1762"
+      }
+    },
+    {
+      "text": "Khan:... Okay then, I will need your fish. A lot of them.\n[[(Logar_Reply_6)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply_6)",
+          "link": "(Logar_Reply_6)",
+          "pid": "14"
+        }
+      ],
+      "name": "(Khan_Reply_5)",
+      "pid": "13",
+      "position": {
+        "x": "198.5",
+        "y": "1912"
+      }
+    },
+    {
+      "text": "Logar: Fine, do my things and you can have them. \n[[(Khan_Reply_6)]]",
+      "links": [
+        {
+          "name": "(Khan_Reply_6)",
+          "link": "(Khan_Reply_6)",
+          "pid": "15"
+        }
+      ],
+      "name": "(Logar_Reply_6)",
+      "pid": "14",
+      "position": {
+        "x": "198.5",
+        "y": "2062"
+      }
+    },
+    {
+      "text": "Khan: Your not going to ask why ?\n[[(Logar_Reply_7)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply_7)",
+          "link": "(Logar_Reply_7)",
+          "pid": "16"
+        }
+      ],
+      "name": "(Khan_Reply_6)",
+      "pid": "15",
+      "position": {
+        "x": "198.5",
+        "y": "2212"
+      }
+    },
+    {
+      "text": "Khan: Do I look like I care ?.\n[[(Logar_Reply_8)]]",
+      "links": [
+        {
+          "name": "(Logar_Reply_8)",
+          "link": "(Logar_Reply_8)",
+          "pid": "17"
+        }
+      ],
+      "name": "(Logar_Reply_7)",
+      "pid": "16",
+      "position": {
+        "x": "198.5",
+        "y": "2362"
+      }
+    },
+    {
+      "text": "Logar: I see.... well It is settled then. \n[[(END)]]",
+      "links": [
+        {
+          "name": "(END)",
+          "link": "(END)",
+          "pid": "18"
+        }
+      ],
+      "name": "(Logar_Reply_8)",
+      "pid": "17",
+      "position": {
+        "x": "198.5",
+        "y": "2512"
+      }
+    },
+    {
+      "text": "Sequence:\nNone()",
+      "name": "(END)",
+      "pid": "18",
+      "position": {
+        "x": "198.5",
+        "y": "2662"
+      }
+    },
+    {
+      "text": "Khan: Oh I'm here to ask for your aid.\n\n[[(Logar_Hostile_1)]]",
+      "links": [
+        {
+          "name": "(Logar_Hostile_1)",
+          "link": "(Logar_Hostile_1)",
+          "pid": "20"
+        }
+      ],
+      "name": "(Khan_LogarHostile)",
+      "pid": "19",
+      "position": {
+        "x": "797.5",
+        "y": "567"
+      }
+    },
+    {
+      "text": "Logar: .... I'm going back inside, don't follow me.\n[[(Khan_Hostile_1)]]",
+      "links": [
+        {
+          "name": "(Khan_Hostile_1)",
+          "link": "(Khan_Hostile_1)",
+          "pid": "21"
+        }
+      ],
+      "name": "(Logar_Hostile_1)",
+      "pid": "20",
+      "position": {
+        "x": "797.5",
+        "y": "717"
+      }
+    },
+    {
+      "text": "Khan: Wait wait, listen to me.\n\n[[Player:ConvincedLogarToHelp]]\n[[Player:FailedLogarToHelp]]\n(if: $Story_RiceAndFish_Mutt_SpyForMutt == true)[[Player:TellLogarAboutMutt]]",
+      "links": [
+        {
+          "name": "Player:ConvincedLogarToHelp",
+          "link": "Player:ConvincedLogarToHelp",
+          "pid": "22"
+        },
+        {
+          "name": "Player:FailedLogarToHelp",
+          "link": "Player:FailedLogarToHelp",
+          "pid": "23"
+        },
+        {
+          "name": "Player:TellLogarAboutMutt",
+          "link": "Player:TellLogarAboutMutt",
+          "pid": "25"
+        }
+      ],
+      "name": "(Khan_Hostile_1)",
+      "pid": "21",
+      "position": {
+        "x": "797.5",
+        "y": "867"
+      }
+    },
+    {
+      "text": "(set: $Story_RiceAndFish_Logar_ConvincedHelp = true)\n[[(Logar_Reyply3)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(Logar_Reyply3)",
+          "link": "(Logar_Reyply3)",
+          "pid": "7"
+        }
+      ],
+      "name": "Player:ConvincedLogarToHelp",
+      "pid": "22",
+      "position": {
+        "x": "592.5",
+        "y": "1010"
+      }
+    },
+    {
+      "text": "[[(FailedConvinceLine)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(FailedConvinceLine)",
+          "link": "(FailedConvinceLine)",
+          "pid": "24"
+        }
+      ],
+      "name": "Player:FailedLogarToHelp",
+      "pid": "23",
+      "position": {
+        "x": "775.5",
+        "y": "1046"
+      }
+    },
+    {
+      "text": "Logar: No is no. LEAVE ME BE.\n[[(END)]]",
+      "links": [
+        {
+          "name": "(END)",
+          "link": "(END)",
+          "pid": "18"
+        }
+      ],
+      "name": "(FailedConvinceLine)",
+      "pid": "24",
+      "position": {
+        "x": "1068.5",
+        "y": "1130"
+      }
+    },
+    {
+      "text": "(set: $Story_RiceAndFish_Logar_KnowsAboutMutt = true)\nLogar: He said WHAT ?\n[[(Logar_Knows_1)]]\nConditions:\nVariable[\"Story_RiceAndFish_Mutt_SpyForMutt\"] == true",
+      "links": [
+        {
+          "name": "(Logar_Knows_1)",
+          "link": "(Logar_Knows_1)",
+          "pid": "26"
+        }
+      ],
+      "name": "Player:TellLogarAboutMutt",
+      "pid": "25",
+      "position": {
+        "x": "1284.5",
+        "y": "1014"
+      }
+    },
+    {
+      "text": "Logar: That scheming UNRA, you know what Khan, if you kick Mutt out and make me a new hook. I give you all the fish you want.\n\n[[(Khan_Knows_1)]]",
+      "links": [
+        {
+          "name": "(Khan_Knows_1)",
+          "link": "(Khan_Knows_1)",
+          "pid": "27"
+        }
+      ],
+      "name": "(Logar_Knows_1)",
+      "pid": "26",
+      "position": {
+        "x": "1284.5",
+        "y": "1164"
+      }
+    },
+    {
+      "text": "Khan: Really ?, but Mutt is a friend too. \n[[(Logar_Knows_2)]]",
+      "links": [
+        {
+          "name": "(Logar_Knows_2)",
+          "link": "(Logar_Knows_2)",
+          "pid": "28"
+        }
+      ],
+      "name": "(Khan_Knows_1)",
+      "pid": "27",
+      "position": {
+        "x": "1284.5",
+        "y": "1314"
+      }
+    },
+    {
+      "text": "Logar: What kind of friend does that ?... Do you want my help or not ? You came here for a reason right ?\n[[(Khan_Knows_2)]]",
+      "links": [
+        {
+          "name": "(Khan_Knows_2)",
+          "link": "(Khan_Knows_2)",
+          "pid": "29"
+        }
+      ],
+      "name": "(Logar_Knows_2)",
+      "pid": "28",
+      "position": {
+        "x": "1284.5",
+        "y": "1464"
+      }
+    },
+    {
+      "text": "Khan: Yes, .....\n[[(Khan_Knows_2_1)]]",
+      "links": [
+        {
+          "name": "(Khan_Knows_2_1)",
+          "link": "(Khan_Knows_2_1)",
+          "pid": "30"
+        }
+      ],
+      "name": "(Khan_Knows_2)",
+      "pid": "29",
+      "position": {
+        "x": "1284.5",
+        "y": "1614"
+      }
+    },
+    {
+      "text": "Khan: After  making you the hook and kick Mutt out. I will need another thing.\n[[(Logar_Knows_3)]]",
+      "links": [
+        {
+          "name": "(Logar_Knows_3)",
+          "link": "(Logar_Knows_3)",
+          "pid": "31"
+        }
+      ],
+      "name": "(Khan_Knows_2_1)",
+      "pid": "30",
+      "position": {
+        "x": "1102.5",
+        "y": "1773"
+      }
+    },
+    {
+      "text": "Logar: What ? Spill it out!\n\n[[(Khan_Reply_5)]]",
+      "links": [
+        {
+          "name": "(Khan_Reply_5)",
+          "link": "(Khan_Reply_5)",
+          "pid": "13"
+        }
+      ],
+      "name": "(Logar_Knows_3)",
+      "pid": "31",
+      "position": {
+        "x": "1102.5",
+        "y": "1923"
+      }
+    }
+  ],
+  "name": "VerticalSlice_KhanLogarFish",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.14",
+  "ifid": "2CBAD526-0DEB-4617-AEE0-FE3AC2569483"
+}

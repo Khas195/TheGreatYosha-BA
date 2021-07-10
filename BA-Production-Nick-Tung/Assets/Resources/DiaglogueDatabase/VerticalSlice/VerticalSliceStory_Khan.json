@@ -1,0 +1,302 @@
+{
+  "passages": [
+    {
+      "text": "[[(Intro_Check)]]\n[[(DefaultReply_AfterIntro)]]\n[[(ContemplateKickMutt_Check)]]\n[[(ContemplateKickLogar_Check)]]\n[[(KhanLeavesStays_Check)]]",
+      "links": [
+        {
+          "name": "(Intro_Check)",
+          "link": "(Intro_Check)",
+          "pid": "2"
+        },
+        {
+          "name": "(DefaultReply_AfterIntro)",
+          "link": "(DefaultReply_AfterIntro)",
+          "pid": "7"
+        },
+        {
+          "name": "(ContemplateKickMutt_Check)",
+          "link": "(ContemplateKickMutt_Check)",
+          "pid": "3"
+        },
+        {
+          "name": "(ContemplateKickLogar_Check)",
+          "link": "(ContemplateKickLogar_Check)",
+          "pid": "4"
+        },
+        {
+          "name": "(KhanLeavesStays_Check)",
+          "link": "(KhanLeavesStays_Check)",
+          "pid": "5"
+        }
+      ],
+      "name": "(Begin)",
+      "pid": "1",
+      "position": {
+        "x": "835.5",
+        "y": "406"
+      }
+    },
+    {
+      "text": "[[(Intro)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 0",
+      "links": [
+        {
+          "name": "(Intro)",
+          "link": "(Intro)",
+          "pid": "6"
+        }
+      ],
+      "name": "(Intro_Check)",
+      "pid": "2",
+      "position": {
+        "x": "340.5",
+        "y": "317"
+      }
+    },
+    {
+      "text": "[[(ContemplateKickMutt)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 5 and\nVariable[\"Story_RiceAndFish_Khan_KickMutt\"] == true\n",
+      "links": [
+        {
+          "name": "(ContemplateKickMutt)",
+          "link": "(ContemplateKickMutt)",
+          "pid": "9"
+        }
+      ],
+      "name": "(ContemplateKickMutt_Check)",
+      "pid": "3",
+      "position": {
+        "x": "826.5",
+        "y": "772"
+      }
+    },
+    {
+      "text": "[[(ContemplateKickLogar)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 5 and\nVariable[\"Story_RiceAndFish_Khan_KickLogar\"] == true\n",
+      "links": [
+        {
+          "name": "(ContemplateKickLogar)",
+          "link": "(ContemplateKickLogar)",
+          "pid": "10"
+        }
+      ],
+      "name": "(ContemplateKickLogar_Check)",
+      "pid": "4",
+      "position": {
+        "x": "1074.5",
+        "y": "767"
+      }
+    },
+    {
+      "text": "[[(LogarLeaves)]]\n[[(LogarStays)]]\nSequence:\nNone()",
+      "links": [
+        {
+          "name": "(LogarLeaves)",
+          "link": "(LogarLeaves)",
+          "pid": "18"
+        },
+        {
+          "name": "(LogarStays)",
+          "link": "(LogarStays)",
+          "pid": "19"
+        }
+      ],
+      "name": "(KhanLeavesStays_Check)",
+      "pid": "5",
+      "position": {
+        "x": "1624.5",
+        "y": "742"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline = $Story_Timeline +  1)\nHi, I'm Khan.\n[[(Begin)]]",
+      "links": [
+        {
+          "name": "(Begin)",
+          "link": "(Begin)",
+          "pid": "1"
+        }
+      ],
+      "name": "(Intro)",
+      "pid": "6",
+      "position": {
+        "x": "307.5",
+        "y": "526"
+      }
+    },
+    {
+      "text": "[[(DefaultReplyAfterIntro)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 1",
+      "links": [
+        {
+          "name": "(DefaultReplyAfterIntro)",
+          "link": "(DefaultReplyAfterIntro)",
+          "pid": "8"
+        }
+      ],
+      "name": "(DefaultReply_AfterIntro)",
+      "pid": "7",
+      "position": {
+        "x": "527.5",
+        "y": "615"
+      }
+    },
+    {
+      "text": "Hey there! Sorry, can't talk right now. ",
+      "name": "(DefaultReplyAfterIntro)",
+      "pid": "8",
+      "position": {
+        "x": "406.5",
+        "y": "817"
+      }
+    },
+    {
+      "text": "I don't know, I don't know. I don't want to kick Mutt but... my dream.\n[[ConvinceNotToKickMutt]]\n[[Leave]]",
+      "links": [
+        {
+          "name": "ConvinceNotToKickMutt",
+          "link": "ConvinceNotToKickMutt",
+          "pid": "11"
+        },
+        {
+          "name": "Leave",
+          "link": "Leave",
+          "pid": "12"
+        }
+      ],
+      "name": "(ContemplateKickMutt)",
+      "pid": "9",
+      "position": {
+        "x": "826.5",
+        "y": "922"
+      }
+    },
+    {
+      "text": "Logar has always wanted to be alone. Maybe this is for the best.\n[[ConvinceNotToKickLogar]]\n[[Leave]]",
+      "links": [
+        {
+          "name": "ConvinceNotToKickLogar",
+          "link": "ConvinceNotToKickLogar",
+          "pid": "15"
+        },
+        {
+          "name": "Leave",
+          "link": "Leave",
+          "pid": "12"
+        }
+      ],
+      "name": "(ContemplateKickLogar)",
+      "pid": "10",
+      "position": {
+        "x": "1096.5",
+        "y": "936"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline = $Story_Timeline +  1)\n[[ConvinceSucess_Mutt]]\n[[ConvinceFailed_Mutt]]",
+      "links": [
+        {
+          "name": "ConvinceSucess_Mutt",
+          "link": "ConvinceSucess_Mutt",
+          "pid": "13"
+        },
+        {
+          "name": "ConvinceFailed_Mutt",
+          "link": "ConvinceFailed_Mutt",
+          "pid": "14"
+        }
+      ],
+      "name": "ConvinceNotToKickMutt",
+      "pid": "11",
+      "position": {
+        "x": "751.5",
+        "y": "1072"
+      }
+    },
+    {
+      "text": "Sequence:\nNone()",
+      "name": "Leave",
+      "pid": "12",
+      "position": {
+        "x": "975.5",
+        "y": "1091"
+      }
+    },
+    {
+      "text": "(set: $Story_RiceAndFish_Khan_ConvincedNoKick = true)\nYou're right, Mutt has always wanted to help me. Maybe I'll stay as well.",
+      "name": "ConvinceSucess_Mutt",
+      "pid": "13",
+      "position": {
+        "x": "676.5",
+        "y": "1222"
+      }
+    },
+    {
+      "text": "(set: $Story_RiceAndFish_Khan_ConvincedNoKick = false)\nYou're right, my dream is more important. Mutt... Mutt has to go.",
+      "name": "ConvinceFailed_Mutt",
+      "pid": "14",
+      "position": {
+        "x": "870.5",
+        "y": "1233"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline = $Story_Timeline +  1)\n[[ConvinceSucess_Logar]]\n[[ConvinceFailed_Logar]]",
+      "links": [
+        {
+          "name": "ConvinceSucess_Logar",
+          "link": "ConvinceSucess_Logar",
+          "pid": "16"
+        },
+        {
+          "name": "ConvinceFailed_Logar",
+          "link": "ConvinceFailed_Logar",
+          "pid": "17"
+        }
+      ],
+      "name": "ConvinceNotToKickLogar",
+      "pid": "15",
+      "position": {
+        "x": "1311.5",
+        "y": "1046"
+      }
+    },
+    {
+      "text": "(set: $Story_RiceAndFish_Khan_ConvincedNoKick = true)\nYou're right, though Logar wanted to be alone. He is my friend. I cannot do that to him.",
+      "name": "ConvinceSucess_Logar",
+      "pid": "16",
+      "position": {
+        "x": "1227.5",
+        "y": "1243"
+      }
+    },
+    {
+      "text": "(set: $Story_RiceAndFish_Khan_ConvincedNoKick = false)\nLogar has been my friend for a long time but now he just want to be alone. So this is for the best.",
+      "name": "ConvinceFailed_Logar",
+      "pid": "17",
+      "position": {
+        "x": "1377.5",
+        "y": "1243"
+      }
+    },
+    {
+      "text": "I'm so exciting, I will have a lot of customers in Hoaring.\nConditions:\nVariable[\"Story_Timeline\"] == 6 and\nVariable[\"Story_RiceAndFish_Khan_ConvincedNoKick\"] == false",
+      "name": "(LogarLeaves)",
+      "pid": "18",
+      "position": {
+        "x": "1820.5",
+        "y": "896"
+      }
+    },
+    {
+      "text": "No customer again today.  Haizzzz.\nConditions:\nVariable[\"Story_Timeline\"] == 6 and\nVariable[\"Story_RiceAndFish_Khan_ConvincedNoKick\"] == true",
+      "name": "(LogarStays)",
+      "pid": "19",
+      "position": {
+        "x": "1613.5",
+        "y": "908"
+      }
+    }
+  ],
+  "name": "VerticalSlide_Khan",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.14",
+  "ifid": "140667A3-88B4-4BEF-829B-B35844AE2CE3"
+}

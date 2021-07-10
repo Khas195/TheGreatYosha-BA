@@ -24,7 +24,7 @@ public class ArcheTypeData : ScriptableObject
 		{
 			foreach (var variable in database.variables)
 			{
-				if (variable.Name.ToLower().Contains(GameKeyWord.ARCHETYPE_MAX_LOOKUP))
+				if (variable.Name.ToLower().Contains(GameKeyWord.ARCHETYPE_LOOKUP))
 				{
 					result.Add(variable.Name, variable.Name);
 				}

@@ -1260,6 +1260,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 441535379}
     m_Modifications:
+    - target: {fileID: 797731739, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: archeTypeUIs.Array.data[0].maxValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 797731739, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: archeTypeUIs.Array.data[1].maxValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1146792929901200032, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_FillAmount
       value: 0

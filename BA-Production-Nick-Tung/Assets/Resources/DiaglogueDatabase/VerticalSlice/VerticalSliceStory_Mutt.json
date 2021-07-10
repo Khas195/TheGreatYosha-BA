@@ -1,0 +1,261 @@
+{
+  "passages": [
+    {
+      "text": "[[(Intro_Check)]]\n[[(MuttGoesToLogar_Check)]]\n[[(MuttSpiesOnLogar_Check)]]\n[[(MuttCheckOnLogar_Check)]]\n[[(MuttKicked_Check)]]\n[[(MuttNewHouse_Check)]]\n[[(MuttGiveUp)]]",
+      "links": [
+        {
+          "name": "(Intro_Check)",
+          "link": "(Intro_Check)",
+          "pid": "2"
+        },
+        {
+          "name": "(MuttGoesToLogar_Check)",
+          "link": "(MuttGoesToLogar_Check)",
+          "pid": "3"
+        },
+        {
+          "name": "(MuttSpiesOnLogar_Check)",
+          "link": "(MuttSpiesOnLogar_Check)",
+          "pid": "4"
+        },
+        {
+          "name": "(MuttCheckOnLogar_Check)",
+          "link": "(MuttCheckOnLogar_Check)",
+          "pid": "5"
+        },
+        {
+          "name": "(MuttKicked_Check)",
+          "link": "(MuttKicked_Check)",
+          "pid": "6"
+        },
+        {
+          "name": "(MuttNewHouse_Check)",
+          "link": "(MuttNewHouse_Check)",
+          "pid": "7"
+        },
+        {
+          "name": "(MuttGiveUp)",
+          "link": "(MuttGiveUp)",
+          "pid": "17"
+        }
+      ],
+      "name": "(Begin)",
+      "pid": "1",
+      "position": {
+        "x": "1152.5",
+        "y": "573"
+      }
+    },
+    {
+      "text": "[[(Intro)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 0",
+      "links": [
+        {
+          "name": "(Intro)",
+          "link": "(Intro)",
+          "pid": "8"
+        }
+      ],
+      "name": "(Intro_Check)",
+      "pid": "2",
+      "position": {
+        "x": "627.5",
+        "y": "566"
+      }
+    },
+    {
+      "text": "[[(MuttGoesToLogar)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 1",
+      "links": [
+        {
+          "name": "(MuttGoesToLogar)",
+          "link": "(MuttGoesToLogar)",
+          "pid": "9"
+        }
+      ],
+      "name": "(MuttGoesToLogar_Check)",
+      "pid": "3",
+      "position": {
+        "x": "776.5",
+        "y": "885"
+      }
+    },
+    {
+      "text": "[[(MuttSpiesOnLogar)]]\n[[(MuttSpiesOnLogar_SpiedForMutt)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 2\n",
+      "links": [
+        {
+          "name": "(MuttSpiesOnLogar)",
+          "link": "(MuttSpiesOnLogar)",
+          "pid": "14"
+        },
+        {
+          "name": "(MuttSpiesOnLogar_SpiedForMutt)",
+          "link": "(MuttSpiesOnLogar_SpiedForMutt)",
+          "pid": "15"
+        }
+      ],
+      "name": "(MuttSpiesOnLogar_Check)",
+      "pid": "4",
+      "position": {
+        "x": "1079.5",
+        "y": "938"
+      }
+    },
+    {
+      "text": "[[(MuttCheckOnLogar)]]\nSequence:\nNone()\nConditions:\nVariable[\"Story_Timeline\"] == 5 and Variable[\"Story_RiceAndFish_Mutt_GiveUp\"] == false\n",
+      "links": [
+        {
+          "name": "(MuttCheckOnLogar)",
+          "link": "(MuttCheckOnLogar)",
+          "pid": "16"
+        }
+      ],
+      "name": "(MuttCheckOnLogar_Check)",
+      "pid": "5",
+      "position": {
+        "x": "1479.5",
+        "y": "1001"
+      }
+    },
+    {
+      "text": "I have no where to go, my farm was all I have\nConditions:\nVariable[\"Story_RiceAndFish_Mutt_Kicked\"] == true",
+      "name": "(MuttKicked_Check)",
+      "pid": "6",
+      "position": {
+        "x": "1690.5",
+        "y": "955"
+      }
+    },
+    {
+      "text": "Check out my new house.\nConditions:\nVariable[\"Story_RiceAndFish_Mutt_Kicked\"] == false",
+      "name": "(MuttNewHouse_Check)",
+      "pid": "7",
+      "position": {
+        "x": "1851.5",
+        "y": "972"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline = $Story_Timeline + 1)\nHi, I'm Mutt.\n\n[[(Begin)]]",
+      "links": [
+        {
+          "name": "(Begin)",
+          "link": "(Begin)",
+          "pid": "1"
+        }
+      ],
+      "name": "(Intro)",
+      "pid": "8",
+      "position": {
+        "x": "627.5",
+        "y": "716"
+      }
+    },
+    {
+      "text": "I'm going to Logar to check something. Don't follow me.\n\n[[LetMeSpyForYou]]\n[[ConvincedMuttToDropTheIdea]]\n[[FailedConvinceMuttToDropTheIdea]]\n[[Okay]]",
+      "links": [
+        {
+          "name": "LetMeSpyForYou",
+          "link": "LetMeSpyForYou",
+          "pid": "10"
+        },
+        {
+          "name": "ConvincedMuttToDropTheIdea",
+          "link": "ConvincedMuttToDropTheIdea",
+          "pid": "11"
+        },
+        {
+          "name": "FailedConvinceMuttToDropTheIdea",
+          "link": "FailedConvinceMuttToDropTheIdea",
+          "pid": "12"
+        },
+        {
+          "name": "Okay",
+          "link": "Okay",
+          "pid": "13"
+        }
+      ],
+      "name": "(MuttGoesToLogar)",
+      "pid": "9",
+      "position": {
+        "x": "526.5",
+        "y": "1047"
+      }
+    },
+    {
+      "text": "(set: $Story_RiceAndFish_Mutt_SpyForMutt = true, $Story_Timeline = $Story_Timeline + 1)\nCool, I know that you are a friend. Do that for me.",
+      "name": "LetMeSpyForYou",
+      "pid": "10",
+      "position": {
+        "x": "377.5",
+        "y": "1197"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline = $Story_Timeline + 1, $Story_RiceAndFish_Mutt_GiveUp = true)\nYeahhh, you're right. I shouldn't have try it.",
+      "name": "ConvincedMuttToDropTheIdea",
+      "pid": "11",
+      "position": {
+        "x": "527.5",
+        "y": "1197"
+      }
+    },
+    {
+      "text": "(set: $Story_Timeline = $Story_Timeline + 1, $Story_RiceAndFish_Mutt_GiveUp = false)\nWhat do you know !?. This is my Business!.",
+      "name": "FailedConvinceMuttToDropTheIdea",
+      "pid": "12",
+      "position": {
+        "x": "677.5",
+        "y": "1197"
+      }
+    },
+    {
+      "text": "Sequence:\nNone()",
+      "name": "Okay",
+      "pid": "13",
+      "position": {
+        "x": "829.5",
+        "y": "1211"
+      }
+    },
+    {
+      "text": "Hmmm, huh? What do you want ?! Stop bodering me.\n\nConditions:\nVariable[\"Story_RiceAndFish_Mutt_GiveUp\"] == false and \nVariable[\"Story_RiceAndFish_Mutt_SpyForMutt\"] == false",
+      "name": "(MuttSpiesOnLogar)",
+      "pid": "14",
+      "position": {
+        "x": "1018.5",
+        "y": "1207"
+      }
+    },
+    {
+      "text": "What are you doing here ?, Go check them out!\n\nConditions:\nVariable[\"Story_RiceAndFish_Mutt_GiveUp\"] == false and \nVariable[\"Story_RiceAndFish_Mutt_SpyForMutt\"] == true",
+      "name": "(MuttSpiesOnLogar_SpiedForMutt)",
+      "pid": "15",
+      "position": {
+        "x": "1204.5",
+        "y": "1210"
+      }
+    },
+    {
+      "text": "I hope that idiot Khan doesn't change his mind.",
+      "name": "(MuttCheckOnLogar)",
+      "pid": "16",
+      "position": {
+        "x": "1479.5",
+        "y": "1150"
+      }
+    },
+    {
+      "text": "I'm focusing on my farm right now, talk later.\n\nConditions:\nVariable[\"Story_RiceAndFish_Mutt_GiveUp\"] == true and\nVariable[\"Story_Timeline\"] >= 2",
+      "name": "(MuttGiveUp)",
+      "pid": "17",
+      "position": {
+        "x": "2102.5",
+        "y": "769"
+      }
+    }
+  ],
+  "name": "VerticalSlice_Mutt",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.14",
+  "ifid": "D1F61C92-6364-47BB-BDFD-CAE4D44C65FB"
+}

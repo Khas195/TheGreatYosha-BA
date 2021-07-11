@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3071076685844011709, guid: 4d175a5dc915a094aa11c5c091869c00, type: 3}
+  m_Sprite: {fileID: -1314852045536788657, guid: 138d398d9c300ca4ab4254780e8fe6a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   - {x: -0.09738463, y: 0.20158759, z: 0}
   m_ShapePathHash: 1397338509
   m_Mesh: {fileID: 0}
-  m_InstanceId: 22564
+  m_InstanceId: 28492
 --- !u!1 &8529124075565330461
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 300290928537040823}
   m_Layer: 0
-  m_Name: Char_TempWithSprite_Pre
+  m_Name: Char_TempWithSprite_Side_Pref
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

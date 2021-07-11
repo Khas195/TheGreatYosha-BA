@@ -47,3 +47,9 @@ TagManager:
   - name: UI
     uniqueID: 3491818217
     locked: 0
+  - name: Characters
+    uniqueID: 3798159005
+    locked: 0
+  - name: Buildings
+    uniqueID: 3191695889
+    locked: 0

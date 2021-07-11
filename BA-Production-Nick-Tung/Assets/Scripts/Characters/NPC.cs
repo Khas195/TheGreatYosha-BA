@@ -15,8 +15,6 @@ public class NPC : IInteractable
 	[BoxGroup("Conversation")]
 	DialogueSystemTrigger conversationTrigger = null;
 
-	[ConversationPopup]
-	public string test;
 
 	public override void Defocus()
 	{

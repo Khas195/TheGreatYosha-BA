@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1937950170935331774}
   - component: {fileID: 7496373960768538913}
   - component: {fileID: 7496373960768538912}
+  - component: {fileID: 1896909776973494641}
   m_Layer: 0
   m_Name: Char_NPC_Ent_Template_Pref
   m_TagString: Untagged
@@ -184,7 +185,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 35a88f5ee5142ad4ea73dd9939bf7bbc, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: 0f0f5376bcdd2f3479333bbd52003156, type: 2}
 --- !u!114 &7496373960768538912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,6 +218,19 @@ MonoBehaviour:
     applyColorToPrependedName: 0
     prependActorNameSeparator: ': '
     subtitleColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1896909776973494641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911237386519781923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1eedc90cc11e104fbc2cc56d3e03934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dictionary: {fileID: 11400000, guid: fddc7639c617a0f4ea4af592e1a7a1af, type: 2}
 --- !u!1 &2911237386600769779
 GameObject:
   m_ObjectHideFlags: 0

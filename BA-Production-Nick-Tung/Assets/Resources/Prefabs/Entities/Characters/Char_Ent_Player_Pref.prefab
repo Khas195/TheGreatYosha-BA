@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 4642844652201344553}
   - component: {fileID: 1620352812}
   - component: {fileID: 602165149}
+  - component: {fileID: 164938288}
   m_Layer: 0
   m_Name: Char_Ent_Player_Pref
   m_TagString: Player
@@ -234,6 +235,19 @@ MonoBehaviour:
     applyColorToPrependedName: 0
     prependActorNameSeparator: ': '
     subtitleColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &164938288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4642844652201344556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1eedc90cc11e104fbc2cc56d3e03934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dictionary: {fileID: 11400000, guid: fddc7639c617a0f4ea4af592e1a7a1af, type: 2}
 --- !u!1 &4642844652250969340
 GameObject:
   m_ObjectHideFlags: 0

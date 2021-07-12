@@ -1,27 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using NaughtyAttributes;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
 
 public class HighlightingWords : MonoBehaviour
 {
 	[SerializeField]
-	StandardUISubtitlePanel panel;
-	[SerializeField]
-	DialogueDatabase database;
+	[Required]
+	WordHighlightingDict dictionary = null;
+	public void OnConversationLine(Subtitle subtitle)
+	{
+		var text = subtitle.formattedText.text;
+		text = dictionary.HighlightIn(text);
+		subtitle.formattedText.text = text;
 
-	private void Start()
-	{
-		foreach (var conversation in database.conversations)
-		{
-			foreach (var entry in conversation.dialogueEntries)
-			{
-				entry.DialogueText = entry.DialogueText.Bolden();
-			}
-		}
-	}
-	void Update()
-	{
 	}
 
 }

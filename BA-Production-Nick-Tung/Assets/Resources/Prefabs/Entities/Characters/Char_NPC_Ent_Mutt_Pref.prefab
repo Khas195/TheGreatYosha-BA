@@ -127,6 +127,26 @@ PrefabInstance:
       propertyPath: baseRenderer
       value: 
       objectReference: {fileID: 525333447158708237}
+    - target: {fileID: 7496373960768538912, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: actor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265171624907458521, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0010004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265171624907458521, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Size.y
+      value: 0.45883083
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265171624907458521, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.118630886
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265171624907458521, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.4892468
+      objectReference: {fileID: 0}
     - target: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Sprite
       value: 

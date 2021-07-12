@@ -714,6 +714,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6684041098552801992, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: conversation
+      value: Story_RiceAndFish/LogarIntro
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
 --- !u!1001 &7585231604024750584

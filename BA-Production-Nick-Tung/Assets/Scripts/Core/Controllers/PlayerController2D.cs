@@ -17,8 +17,6 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	[SerializeField]
 	[BoxGroup("Setting")]
 	Rigidbody2D body = null;
-
-
 	[SerializeField]
 	[BoxGroup("Setting")]
 	Transform cameraFollowPivot = null;
@@ -27,11 +25,17 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	Character2D character = null;
 	[SerializeField]
 	[BoxGroup("Setting")]
+	Transform characterBasePos = null;
+	[SerializeField]
+	[BoxGroup("Setting")]
 	float currentLeadOffset = 0;
 	[SerializeField]
 	[BoxGroup("Interactable")]
 	[ReadOnly]
 	NPC inRangeNPC = null;
+	private void Start()
+	{
+	}
 
 	// Update is called once per frame
 	void Update()

@@ -99,9 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aafb3afc898f924fbcd9f8fb7f95da4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  host: {fileID: 2911237386519781922}
-  useSelfAsHost: 1
-  pivot: {fileID: 2911237388366763372}
+  basePoint: {fileID: 0}
+  baseRenderer: {fileID: 0}
+  renderers: []
 --- !u!114 &1937950170935331774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,8 +523,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -496808291
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1314852045536788657, guid: 138d398d9c300ca4ab4254780e8fe6a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

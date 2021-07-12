@@ -13,15 +13,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.654
+      value: 18.7
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.127
+      value: 22.05
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.537
+      value: 19.64
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalRotation.w
@@ -54,6 +54,14 @@ PrefabInstance:
     - target: {fileID: 2911237386519781923, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Name
       value: Char_NPC_Ent_Logar_Pref
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.82
       objectReference: {fileID: 0}
     - target: {fileID: 3717344775290457658, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Controller
@@ -111,9 +119,27 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7496373959757518901, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: basePoint
+      value: 
+      objectReference: {fileID: 2066247792639010437}
+    - target: {fileID: 7496373959757518901, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: baseRenderer
+      value: 
+      objectReference: {fileID: 4665098707211396944}
     - target: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 2552091701517393012, guid: 138d398d9c300ca4ab4254780e8fe6a6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+--- !u!212 &4665098707211396944 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+  m_PrefabInstance: {fileID: 3803856758523376617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2066247792639010437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+  m_PrefabInstance: {fileID: 3803856758523376617}
+  m_PrefabAsset: {fileID: 0}

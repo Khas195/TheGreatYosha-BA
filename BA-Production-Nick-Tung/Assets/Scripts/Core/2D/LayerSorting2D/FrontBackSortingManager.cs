@@ -1,37 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
+using NaughtyAttributes;
 using UnityEngine;
 /**
  * This class manages all the game object that runs the different sorting methods.
  * This class also sorts the host object of these scripts appropriately.
  */
-public class FrontBackSortingManager : MonoBehaviour
+public class FrontBackSortingManager : SingletonMonobehavior<FrontBackSortingManager>
 {
 	[SerializeField]
-	List<IFrontBackSorting> sortingObjects = new List<IFrontBackSorting>();
-	[SerializeField]
-	Transform characterPivot = null;
-	[SerializeField]
-	Transform characterEntity = null;
-	// Start is called before the first frame update
-	void Start()
+	List<IFrontBackSorting> sortingList = new List<IFrontBackSorting>();
+	protected override void Awake()
 	{
-		var sortingList = GameObject.FindObjectsOfType<IFrontBackSorting>();
-		foreach (var sortingTarget in sortingList)
-		{
-			sortingObjects.Add(sortingTarget);
-		}
+		base.Awake();
+		this.sortingList.Clear();
 	}
 
-	// Update is called once per frame
-	void Update()
+	public void RegisterSorting(IFrontBackSorting sortingTarget)
 	{
-		var lowestPos = sortingObjects[0].HostPosition();
-		foreach (var target in sortingObjects)
+		this.sortingList.Add(sortingTarget);
+	}
+	private void Update()
+	{
+		if (sortingList.Count >= 1)
 		{
-			var pos = target.HostPosition();
-			target.SetHostPosition(pos);
+			this.Sort();
+			this.AssignOrderToList();
 		}
 	}
+	[Button]
+	public void Sort()
+	{
+		sortingList.Sort();
+	}
+	[Button]
+	public void AssignOrderToList()
+	{
+		sortingList[0].SetSortingLayer(0);
+		int currentLayer = sortingList[0].GetTopLayer();
+		for (int i = 1; i < sortingList.Count; i++)
+		{
+			currentLayer = sortingList[i - 1].GetTopLayer() + 1;
+			sortingList[i].SetSortingLayer(currentLayer);
+		}
+	}
+	[Button]
+	public void Clear()
+	{
+		this.sortingList.Clear();
+	}
+
 
 }

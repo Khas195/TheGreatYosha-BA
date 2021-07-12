@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using NaughtyAttributes;
 using UnityEngine;
 
@@ -8,42 +9,70 @@ using UnityEngine;
  * The host object is not necessary be the parent gameobject of the script.!-- 
 
  */
-public abstract class IFrontBackSorting : MonoBehaviour
+public abstract class IFrontBackSorting : MonoBehaviour, IComparable<IFrontBackSorting>
 {
-    [SerializeField]
-    [HideIf("useSelfAsHost")]
-    /** The host game object of which this script will act upon */
-    protected Transform host;
-    [SerializeField]
-    /** This option allowed this script to use the parent game object as host instead. */
-    protected bool useSelfAsHost = true;
-    /** Get the host position */
-    public virtual Vector3 HostPosition()
-    {
-        if (host == null)
-        {
-            LogHelper.LogError(this.gameObject + " is missing its host for frontback sorting.");
-        }
-        return host.position;
-    }
-    /** Set the host position
-     * \param pos is the new host's position.
-     */
-    public virtual void SetHostPosition(Vector3 pos)
-    {
-        host.position = pos;
-    }
-    /**
-     * Check whether the host's sprite should be above the character's sprite.
-     * \param characterPos is the position (vector3) of the character
-     * \param hostPos is the position of the host 
-     */
-    public abstract bool IsAboveCharacter(Vector3 characterPos);
+	[SerializeField]
+	protected Transform basePoint = null;
 
-    /**
-    * Check whether the host's sprite should be below the character's sprite.
-    * \param characterPos is the position (vector3) of the character
-    * \param hostPos is the position of the host 
-    */
-    public abstract bool IsBelowCharacter(Vector3 characterPos);
+	[SerializeField]
+	protected SpriteRenderer baseRenderer = null;
+	[SerializeField]
+	protected List<SpriteRenderer> renderers = new List<SpriteRenderer>();
+
+	public virtual Vector3 GetBasePoint()
+	{
+		return basePoint.position;
+	}
+
+	public virtual void SetSortingLayer(float newLayer)
+	{
+		if (baseRenderer == null) return;
+
+		List<int> differences = new List<int>();
+		foreach (var render in renderers)
+		{
+			differences.Add(render.sortingOrder - baseRenderer.sortingOrder);
+		}
+		baseRenderer.sortingOrder = Mathf.RoundToInt(newLayer);
+		for (int i = 0; i < renderers.Count; i++)
+		{
+			renderers[i].sortingOrder = baseRenderer.sortingOrder + differences[i];
+		}
+
+	}
+
+	public virtual int GetTopLayer()
+	{
+		return baseRenderer.sortingOrder;
+	}
+
+	/**
+* Check whether the host's sprite should be above the character's sprite.
+* \param characterPos is the position (vector3) of the character
+* \param hostPos is the position of the host 
+*/
+	public abstract bool IsInFront(IFrontBackSorting other);
+
+	/**
+	* Check whether the host's sprite should be below the character's sprite.
+	* \param characterPos is the position (vector3) of the character
+	* \param hostPos is the position of the host 
+	*/
+	public abstract bool IsBehind(IFrontBackSorting other);
+
+	public int CompareTo(IFrontBackSorting other)
+	{
+		if (this.IsInFront(other))
+		{
+			return 1;
+		}
+		else if (this.IsBehind(other))
+		{
+			return -1;
+		}
+		else
+		{
+			return 0;
+		}
+	}
 }

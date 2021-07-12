@@ -10,54 +10,31 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class FrontBackSorting : IFrontBackSorting
 {
-    [SerializeField]
-    Transform pivot;
-    void Start()
-    {
-        if (useSelfAsHost)
-        {
-            host = this.transform;
-        }
-    }
-    [Button]
-    public void AddPivot()
-    {
-        var pivot = new GameObject("Pivot");
-        pivot.transform.parent = this.host.transform;
-        pivot.transform.localPosition = Vector3.zero;
-        this.pivot = pivot.transform;
-    }
+	private void Start()
+	{
+		FrontBackSortingManager.GetInstance().RegisterSorting(this);
+	}
+	public override bool IsInFront(IFrontBackSorting other)
+	{
+		if (basePoint.transform.position.y < other.GetBasePoint().y)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 
-    private void Update()
-    {
-        if (host && pivot)
-        {
-            var newPos = host.transform.position;
-            newPos.z = pivot.position.y;
-            host.transform.position = newPos;
-        }
-    }
-
-    /**
-     * This function return whether the host's sprite should be above the character's sprite
-     */
-    public override bool IsAboveCharacter(Vector3 characterPos)
-    {
-        if (pivot == null)
-        {
-            LogHelper.LogError(this.gameObject + " is missing its pivot for sorting.");
-        }
-        return characterPos.y > pivot.position.y;
-    }
-    /**
-    * This function return whether the host's sprite should be below the character's sprite
-    */
-    public override bool IsBelowCharacter(Vector3 characterPos)
-    {
-        if (pivot == null)
-        {
-            LogHelper.LogError(this.gameObject + " is missing its pivot for sorting.");
-        }
-        return characterPos.y < pivot.position.y;
-    }
+	public override bool IsBehind(IFrontBackSorting other)
+	{
+		if (basePoint.transform.position.y > other.GetBasePoint().y)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }

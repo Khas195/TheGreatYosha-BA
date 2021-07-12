@@ -4,47 +4,57 @@ using UnityEngine;
  */
 public class FrontBackTwoPointSort : IFrontBackSorting
 {
-    [SerializeField]
-    /** The left pivot of the host object. */
-    Transform leftPoint = null;
-    [SerializeField]
-    /** The right pivot of the host object. */
-    Transform rightPoint = null;
-    private void Start() {
-        if (useSelfAsHost) {
-            host = this.transform;
-        }
-    }
-    
-    public override bool IsAboveCharacter(Vector3 characterPos)
-    {
-        if (IsLeftOfPivot(characterPos))
-        {
-            return characterPos.y > leftPoint.position.y;
-        }
-        else
-        {
-            return characterPos.y > rightPoint.position.y;
-        }
-    }
-    /**  
-     * Return whether the character's position is left of the host's pivot.
-     * This function determined which pivot is used in the comparision to check whether the character's sprite should be above or below the host's sprite.
-    */
-    private bool IsLeftOfPivot(Vector3 characterPos)
-    {
-        return characterPos.x < host.position.x;
-    }
+	[SerializeField]
+	/** The left pivot of the host object. */
+	Transform leftPoint = null;
+	[SerializeField]
+	/** The right pivot of the host object. */
+	Transform rightPoint = null;
+	private void Start()
+	{
+		FrontBackSortingManager.GetInstance().RegisterSorting(this);
+	}
+	private bool IsLeftOfPivot(Vector3 otherPos)
+	{
+		return otherPos.x < (leftPoint.position.x + (rightPoint.position.x - leftPoint.position.x) / 2);
+	}
+	public override bool IsInFront(IFrontBackSorting other)
+	{
+		if (IsLeftOfPivot(other.GetBasePoint()))
+		{
+			return leftPoint.position.y < other.GetBasePoint().y;
+		}
+		else
+		{
+			return rightPoint.position.y < other.GetBasePoint().y;
+		}
+	}
 
-    public override bool IsBelowCharacter(Vector3 characterPos)
-    {
-        if (IsLeftOfPivot(characterPos))
-        {
-            return characterPos.y < leftPoint.position.y;
-        }
-        else
-        {
-            return characterPos.y < rightPoint.position.y;
-        }
-    }
+	public override bool IsBehind(IFrontBackSorting other)
+	{
+		if (IsLeftOfPivot(other.GetBasePoint()))
+		{
+			return leftPoint.position.y > other.GetBasePoint().y;
+		}
+		else
+		{
+			return rightPoint.position.y > other.GetBasePoint().y;
+		}
+	}
+	public override int GetTopLayer()
+	{
+		int highestLayer = baseRenderer.sortingOrder;
+		foreach (var render in renderers)
+		{
+			if (render.sortingOrder > highestLayer)
+			{
+				highestLayer = render.sortingOrder;
+			}
+		}
+		return highestLayer;
+	}
+	public override Vector3 GetBasePoint()
+	{
+		return (leftPoint.position + (rightPoint.position - leftPoint.position) / 2);
+	}
 }

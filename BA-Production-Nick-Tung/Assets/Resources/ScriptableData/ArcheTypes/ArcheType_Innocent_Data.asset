@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d04f424ef4c4fb94fa2a50e8d7e7b614, type: 3}
   m_Name: ArcheType_Innocent_Data
   m_EditorClassIdentifier: 
-  luaVariable: ArcheType_Innocent
-  luaValue: 0
-  database: {fileID: 11400000, guid: 35a88f5ee5142ad4ea73dd9939bf7bbc, type: 2}
+  archetypeLuaVariable: Archetype.Innocent
+  archetypeMaxLuaVariable: Archetype.Threshhold_Level5

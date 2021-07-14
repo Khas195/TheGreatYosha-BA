@@ -14,26 +14,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsSetting:
   - word: Junra
-    color: {r: 0.05098039, g: 1, b: 0.10811474, a: 1}
+    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
     bold: 1
     italic: 0
   - word: Logar
-    color: {r: 1, g: 0.05098039, b: 0.92104113, a: 1}
+    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
     bold: 1
     italic: 0
   - word: Mutt
-    color: {r: 1, g: 0.050980393, b: 0.92156863, a: 1}
+    color: {r: 0.015574936, g: 0.6603774, b: 0.055542104, a: 1}
     bold: 1
     italic: 0
   - word: Khan
-    color: {r: 1, g: 0.050980393, b: 0.92156863, a: 1}
+    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
     bold: 1
     italic: 0
   - word: The Kasi
-    color: {r: 0.050980393, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0, g: 0.6698113, b: 0.64213324, a: 1}
     bold: 1
     italic: 0
   - word: H'inja
-    color: {r: 0.050980393, g: 1, b: 0.10980392, a: 1}
+    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    bold: 1
+    italic: 0
+  - word: Yosha
+    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    bold: 1
+    italic: 0
+  - word: Tagar
+    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
+    bold: 1
+    italic: 0
+  - word: Serban
+    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
+    bold: 1
+    italic: 0
+  - word: The Unifier
+    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    bold: 1
+    italic: 0
+  - word: Yosha an Tagar
+    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    bold: 1
+    italic: 0
+  - word: Seer Of Tagar
+    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    bold: 1
+    italic: 0
+  - word: Kasi
+    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
     bold: 1
     italic: 0

@@ -9,6 +9,10 @@ using UnityEngine.UI;
 public class EmotionBarGuide : MonoBehaviour
 {
 	[SerializeField]
+	string kasiPieceVarName = "";
+	[SerializeField]
+	GameObject emotionBar = null;
+	[SerializeField]
 	[BoxGroup("UI")]
 	[Required]
 	Image loveSlide = null;
@@ -109,6 +113,7 @@ public class EmotionBarGuide : MonoBehaviour
 		MapValueToControl();
 		UpdateSlidersToControl();
 		HandleTransition();
+		CheckKasiPieceCount();
 	}
 
 	private void HandleTransition()
@@ -155,6 +160,18 @@ public class EmotionBarGuide : MonoBehaviour
 		{
 			var rotateDegree = Mathf.Lerp(-90, 90, hateLoveControl);
 			indicateBar.rotation = Quaternion.Euler(0, 0, rotateDegree * -1);
+		}
+	}
+	private void CheckKasiPieceCount()
+	{
+		int kasiPieceCount = DialogueLua.GetVariable(this.kasiPieceVarName).asInt;
+		if (kasiPieceCount <= 0)
+		{
+			this.emotionBar.SetActive(false);
+		}
+		else
+		{
+			this.emotionBar.SetActive(true);
 		}
 	}
 }

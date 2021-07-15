@@ -22,7 +22,7 @@ namespace PixelCrushers.DialogueSystem.Twine
 		protected DialogueDatabase database { get; set; }
 		protected Template template { get; set; }
 
-		public virtual void ConvertStoryToConversation(DialogueDatabase database, Template template, TwineStory story, int actorID, int conversantID, bool splitPipesIntoEntries, bool useTwineNodePositions = false, Twine.WordHighlightingDict highlightDictionary = null)
+		public virtual void ConvertStoryToConversation(DialogueDatabase database, Template template, TwineStory story, int actorID, int conversantID, bool splitPipesIntoEntries, bool useTwineNodePositions = false)
 		{
 			this.database = database;
 			this.template = template;

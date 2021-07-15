@@ -739,7 +739,7 @@ PrefabInstance:
     - target: {fileID: 4230930181120819498, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
       propertyPath: characterBody
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2108323901}
     - target: {fileID: 4230930181120819498, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
       propertyPath: characterFollowPoint
       value: 
@@ -802,6 +802,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
+--- !u!4 &2108323901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+  m_PrefabInstance: {fileID: 623493390}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7519129436566539241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -827,7 +832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalRotation.w
@@ -988,7 +993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.1000001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalRotation.w

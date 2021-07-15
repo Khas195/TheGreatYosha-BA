@@ -291,20 +291,6 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 1
-    fields:
-    - title: Name
-      value: ArcheType_Warrior
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: Initial Value
-      value: 0
-      type: 1
-      typeString: CustomFieldType_Number
-    - title: Description
-      value: Confident, courage, respect.
-      type: 0
-      typeString: CustomFieldType_Text
   - id: 15
     fields:
     - title: Name
@@ -607,6 +593,20 @@ MonoBehaviour:
       typeString: CustomFieldType_Text
     - title: Initial Value
       value: ????
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 1
+    fields:
+    - title: Name
+      value: Alert
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: 
       type: 0
       typeString: CustomFieldType_Text
     - title: Description
@@ -8427,7 +8427,7 @@ MonoBehaviour:
     syncActors: 0
     syncItems: 0
     syncLocations: 0
-    syncVariables: 0
+    syncVariables: 1
     syncActorsDatabase: {fileID: 0}
     syncItemsDatabase: {fileID: 0}
     syncLocationsDatabase: {fileID: 0}

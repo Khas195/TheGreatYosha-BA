@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.av.smart-inspector": {
+      "version": "file:D:/Project/SmartInspector",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.2d.animation": {
       "version": "5.0.4",
       "depth": 0,

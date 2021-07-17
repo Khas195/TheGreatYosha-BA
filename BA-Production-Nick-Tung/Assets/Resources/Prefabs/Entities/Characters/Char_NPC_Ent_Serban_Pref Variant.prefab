@@ -117,11 +117,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781923, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Name
-      value: Char_NPC_Ent_Serban_Pref
+      value: Char_NPC_Ent_Serban_Pref Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3913516114749938162, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: luaVariable
       value: Emotion.Serban
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: trustText
+      value: 
+      objectReference: {fileID: 5484462846109910497}
+    - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: trustVarName
+      value: Emotion.Serban_Trust
       objectReference: {fileID: 0}
     - target: {fileID: 6939188162857660205, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SizeDelta.y
@@ -233,6 +241,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
   m_PrefabInstance: {fileID: 5901117285655652730}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5484462846109910497 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2159549694699220123, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+  m_PrefabInstance: {fileID: 5901117285655652730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8978442085289852548
 PrefabInstance:
   m_ObjectHideFlags: 0

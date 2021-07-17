@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1172530351397756188}
   - component: {fileID: 5794162863652876840}
-  - component: {fileID: 5202615785541753350}
   m_Layer: 5
   m_Name: EmotionBar
   m_TagString: Untagged
@@ -49,34 +48,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172530351397756191}
   m_CullTransparentMesh: 1
---- !u!114 &5202615785541753350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172530351397756191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5007c7e6d08eb914b81c87871ba181e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loveSlide: {fileID: 3011902165797973269}
-  hateSlide: {fileID: 3936118870261168890}
-  indicateBar: {fileID: 2255958815359834319}
-  database: {fileID: 11400000, guid: 35a88f5ee5142ad4ea73dd9939bf7bbc, type: 2}
-  luaVariable: Emotion_Logar
-  hateLoveControl: 0.5
-  maxHateValue: -5
-  maxLoveValue: 5
-  useTestValue: 0
-  testValue: 0
-  luaValue: 0
-  transitionDuration: 2
-  timeElapsed: 2.0694616
-  targetHateLove: 0.5
-  startHateLove: 0.5
-  isTransition: 0
 --- !u!1 &2315703498138530487
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -107.5}
+  m_AnchoredPosition: {x: 0, y: -110}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7476391353556137990
@@ -381,7 +352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 157}
+  m_AnchoredPosition: {x: 0, y: 160}
   m_SizeDelta: {x: 12, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &827746182097837153

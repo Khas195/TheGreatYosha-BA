@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using NaughtyAttributes;
 using PixelCrushers.DialogueSystem;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,12 @@ public class EmotionBarGuide : MonoBehaviour
 {
 	[SerializeField]
 	string kasiPieceVarName = "";
+	[SerializeField]
+	string trustVarName = "";
+	[SerializeField]
+	TextMeshProUGUI trustText = null;
+	[SerializeField]
+	float trustValue = 0;
 	[SerializeField]
 	GameObject emotionBar = null;
 	[SerializeField]
@@ -150,6 +157,8 @@ public class EmotionBarGuide : MonoBehaviour
 		{
 			luaValue = DialogueLua.GetVariable(luaVariable).asInt;
 		}
+		trustValue = DialogueLua.GetVariable(trustVarName).asFloat;
+		this.trustText.text = trustValue + "%";
 	}
 	private void UpdateSlidersToControl()
 	{

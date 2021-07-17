@@ -388,7 +388,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 0
+      value: 1
       type: 1
       typeString: CustomFieldType_Number
     - title: Description
@@ -544,7 +544,7 @@ MonoBehaviour:
     - title: Initial Value
       value: A Seer Of Tagar
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
@@ -558,7 +558,7 @@ MonoBehaviour:
     - title: Initial Value
       value: The Difference One
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
     - title: Initial Value
       value: Record Keeper
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0

@@ -13,15 +13,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.7
+      value: 32.4
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.05
+      value: 20.3
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalRotation.w
@@ -67,6 +67,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c0c169d8f5db79043b9a227a507ad82e, type: 2}
+    - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: trustText
+      value: 
+      objectReference: {fileID: 2968506092131753842}
+    - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: luaVariable
+      value: Emotion.Logar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: trustVarName
+      value: Emotion.Logar_Trust
+      objectReference: {fileID: 0}
     - target: {fileID: 6939188162857660205, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -131,6 +143,10 @@ PrefabInstance:
       propertyPath: actor
       value: Logar
       objectReference: {fileID: 0}
+    - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: conversation
+      value: Story_RiceAndFish/LogarIntro
+      objectReference: {fileID: 0}
     - target: {fileID: 8265171624907458521, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Size.x
       value: 1.1023731
@@ -163,3 +179,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
   m_PrefabInstance: {fileID: 3803856758523376617}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2968506092131753842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2159549694699220123, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+  m_PrefabInstance: {fileID: 3803856758523376617}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

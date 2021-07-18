@@ -158,7 +158,7 @@ PrefabInstance:
     - target: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3214852061386763541, guid: 138d398d9c300ca4ab4254780e8fe6a6, type: 3}
+      objectReference: {fileID: 4027639950736420001, guid: a5a761ad4aa81ef43a37167fde99a9e8, type: 3}
     - target: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SortingOrder
       value: 5

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5155012615418851515}
   - component: {fileID: 30153927032580664}
   m_Layer: 0
-  m_Name: Char_Env_VerChar_Env_VerticalSlice_khan_Prefab
+  m_Name: Char_Env_VerChar_Env_VerticalSlice_khanunconv_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8373410932026360838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4164229, y: 1.6774639, z: -25.091053}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1314852045536788657, guid: 138d398d9c300ca4ab4254780e8fe6a6, type: 3}
+  m_Sprite: {fileID: -8474409335210942982, guid: a5a761ad4aa81ef43a37167fde99a9e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

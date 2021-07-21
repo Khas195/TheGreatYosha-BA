@@ -77,15 +77,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.56
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.18
+      value: -30.3
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.537
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalRotation.w
@@ -117,7 +117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781923, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Name
-      value: Char_NPC_Ent_Serban_Pref Variant
+      value: Char_NPC_Ent_Serban_Pref
       objectReference: {fileID: 0}
     - target: {fileID: 3913516114749938162, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: luaVariable
@@ -127,6 +127,10 @@ PrefabInstance:
       propertyPath: trustText
       value: 
       objectReference: {fileID: 5484462846109910497}
+    - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: luaVariable
+      value: Emotion.Serban
+      objectReference: {fileID: 0}
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustVarName
       value: Emotion.Serban_Trust
@@ -209,7 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: conversation
-      value: Story_RiceAndFish/SerbanObjectiveBriefing
+      value: Story_RiceAndFish/SerbanIntro
       objectReference: {fileID: 0}
     - target: {fileID: 8376481393302648720, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalScale.x

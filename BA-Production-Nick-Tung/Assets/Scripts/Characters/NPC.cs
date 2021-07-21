@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using NaughtyAttributes;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class NPC : IInteractable
@@ -14,6 +15,8 @@ public class NPC : IInteractable
 	[SerializeField]
 	[BoxGroup("Conversation")]
 	DialogueSystemTrigger conversationTrigger = null;
+	[SerializeField]
+	UnityEvent OnConversationEndEvent = null;
 
 
 	public override void Defocus()
@@ -39,6 +42,8 @@ public class NPC : IInteractable
 
 	public void OnConversationEnd(Transform actor)
 	{
+		LogHelper.Log("Dialogue System - Conversation Ended");
+		this.OnConversationEndEvent.Invoke();
 	}
 
 	// Start is called before the first frame update

@@ -13,11 +13,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.73
+      value: -12.1
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.7
+      value: -27.6
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.z
@@ -72,8 +72,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7982025479419199535}
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: luaVariable
+      value: Emotion.Mutt
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustVarName
-      value: Emotion.Serban
+      value: Emotion.Mutt_Trust
       objectReference: {fileID: 0}
     - target: {fileID: 6939188162857660205, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SizeDelta.y
@@ -137,7 +141,11 @@ PrefabInstance:
       objectReference: {fileID: 525333447158708237}
     - target: {fileID: 7496373960768538912, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: actor
-      value: 
+      value: Mutt
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: conversation
+      value: Story_RiceAndFish/MuttIntro
       objectReference: {fileID: 0}
     - target: {fileID: 8265171624907458521, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Size.x

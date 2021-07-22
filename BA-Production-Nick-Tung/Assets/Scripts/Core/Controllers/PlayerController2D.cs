@@ -10,12 +10,6 @@ public class PlayerController2D : MonoBehaviour, IObserver
 {
 	[SerializeField]
 	[BoxGroup("Setting")]
-	float cameraLeadOffset = 2.5f;
-	[SerializeField]
-	[BoxGroup("Setting")]
-	float cameraLeadOffsetRuning = 2.5f;
-	[SerializeField]
-	[BoxGroup("Setting")]
 	Rigidbody2D body = null;
 	[SerializeField]
 	[BoxGroup("Setting")]
@@ -24,44 +18,71 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	[BoxGroup("Setting")]
 	Character2D character = null;
 	[SerializeField]
-	[BoxGroup("Setting")]
-	Transform characterBasePos = null;
-	[SerializeField]
-	[BoxGroup("Setting")]
-	float currentLeadOffset = 0;
-	[SerializeField]
 	[BoxGroup("Interactable")]
 	[ReadOnly]
 	NPC inRangeNPC = null;
-	private void Start()
-	{
-	}
-
-	// Update is called once per frame
+	[SerializeField]
+	Camera playerCamera = null;
+	[SerializeField]
+	[ReadOnly]
+	Vector3[] currentPath = null;
+	[SerializeField]
+	[ReadOnly]
+	int currentTravelIndex = 0;
+	[SerializeField]
+	float travelTolerance = 0.5f;
+	[SerializeField]
+	Animator animator = null;
 	void Update()
 	{
-		var side = Input.GetAxisRaw("Horizontal");
-		var forward = Input.GetAxisRaw("Vertical");
-		if (body.velocity.magnitude != 0)
+		HandleKeyboardInput();
+		if (Input.GetMouseButtonDown(0))
 		{
-			var velDir = body.velocity.normalized;
-			cameraFollowPivot.localPosition = velDir * currentLeadOffset;
+			var mousPos = Input.mousePosition;
+			mousPos = playerCamera.ScreenToWorldPoint(mousPos);
+			var worldPos = TileGrid.GetInstance().GetNodeFromWorldPoint(mousPos).worldPosition;
+			worldPos.z = 0;
+			PathRequestManager.GetInstance().RequestPath(this.transform.position, worldPos, OnPathFound);
 		}
-		else
+		if (currentPath != null)
 		{
-			cameraFollowPivot.localPosition = Vector3.zero;
+			if (currentTravelIndex < currentPath.Length)
+			{
+				var targetPos = currentPath[currentTravelIndex];
+				targetPos.z = 0;
+				var travelDir = targetPos - this.transform.position;
+				travelDir.Normalize();
+				if (Vector2.Distance(this.transform.position, targetPos) <= travelTolerance)
+				{
+					currentTravelIndex += 1;
+				}
+				else
+				{
+					this.character.Move(travelDir.x, travelDir.y);
+					animator.SetFloat("moveHorizontal", travelDir.x);
+					animator.SetFloat("moveVertical", travelDir.y);
+					animator.SetBool("IsMoving", true);
+				}
+			}
+			else
+			{
+				this.character.Move(0, 0);
+				animator.SetFloat("moveHorizontal", 0);
+				animator.SetFloat("moveVertical", 0);
+				animator.SetBool("IsMoving", false);
+			}
 		}
-		if (Input.GetKeyDown(KeyCode.LeftShift))
-		{
-			character.SwitchToRun();
-			currentLeadOffset = cameraLeadOffsetRuning;
-		}
-		if (Input.GetKeyUp(KeyCode.LeftShift))
-		{
-			character.SwitchToWalk();
-			currentLeadOffset = cameraLeadOffset;
-		}
-		character.Move(side, forward);
+
+	}
+
+	private void OnPathFound(Vector3[] path, bool pathFoundSuccessful)
+	{
+		this.currentPath = path;
+		currentTravelIndex = 0;
+	}
+
+	private void HandleKeyboardInput()
+	{
 		if (Input.GetKeyDown(KeyCode.E))
 		{
 			if (this.inRangeNPC != null)
@@ -109,5 +130,4 @@ public class PlayerController2D : MonoBehaviour, IObserver
 
 		}
 	}
-
 }

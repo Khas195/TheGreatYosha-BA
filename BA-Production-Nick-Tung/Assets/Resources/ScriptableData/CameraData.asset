@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CameraData
   m_EditorClassIdentifier: 
   useBox: 0
-  deadZoneBox: {x: 5, y: 4, z: 0}
-  deadZoneRadius: 0
+  deadZoneBox: {x: 0, y: 0, z: 0}
+  deadZoneRadius: 2
   cameraSpeed: 6

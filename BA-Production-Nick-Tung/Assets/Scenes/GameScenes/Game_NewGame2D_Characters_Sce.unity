@@ -134,6 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a44b96aa95563e4dbd81da44328a697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &336509276 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4230930181383314522, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
+  m_PrefabInstance: {fileID: 1821664593}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &623493390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -169,6 +174,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 787651894}
+    - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 336509276}
+    - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+      propertyPath: testGameObject
+      value: 
+      objectReference: {fileID: 882604536}
     - target: {fileID: 4642844652201344555, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: OnConversationEndEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -483,6 +500,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+--- !u!1 &787651891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6480995167086270571, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+  m_PrefabInstance: {fileID: 623493390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &787651894
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787651891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f7ffdd3600b8a248ba0d33c62b03142, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &882604536 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6582943352594271894, guid: a9ff9736f3f85e64fb0820c77ab6b13f, type: 3}
+  m_PrefabInstance: {fileID: 9187957620196276502}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &943233032
 GameObject:
   m_ObjectHideFlags: 0

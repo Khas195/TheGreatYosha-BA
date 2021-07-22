@@ -12,9 +12,10 @@ public class Node : IHeapItem<Node>
 	public int gridY = 0;
 	public int gCost;
 	public int hCost;
-	public Vector2[] vertices;
 	public Node parent;
 	int heapIndex;
+	public int movementPenalty = 0;
+
 	public int fCost
 	{
 		get
@@ -42,19 +43,6 @@ public class Node : IHeapItem<Node>
 		this.gridX = gridX;
 		this.gridY = gridY;
 	}
-	public Node(bool walkable, Vector2 worldPosition, int gridX, int gridY, Vector2[] vertices)
-	{
-		this.walkable = walkable;
-		this.worldPosition = worldPosition;
-		this.gridX = gridX;
-		this.gridY = gridY;
-		this.vertices = vertices;
-	}
-
-	public override bool Equals(object obj)
-	{
-		return base.Equals(obj);
-	}
 	public int CompareTo(Node other)
 	{
 		int compare = fCost.CompareTo(other.fCost);
@@ -67,18 +55,22 @@ public class Node : IHeapItem<Node>
 
 	public static bool operator ==(Node lhs, Node rhs)
 	{
+		if (lhs is null || rhs is null)
+		{
+			if (lhs is null && rhs is null)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
 		return lhs.worldPosition == rhs.worldPosition && lhs.walkable == rhs.walkable;
 	}
 	public static bool operator !=(Node lhs, Node rhs)
 	{
 		return !(lhs == rhs);
 	}
-	public void DrawGizmos(float centerSize)
-	{
-		Gizmos.DrawWireSphere(worldPosition, centerSize);
-		Gizmos.DrawLine(vertices[0], vertices[1]);
-		Gizmos.DrawLine(vertices[1], vertices[2]);
-		Gizmos.DrawLine(vertices[2], vertices[3]);
-		Gizmos.DrawLine(vertices[3], vertices[0]);
-	}
+
 }

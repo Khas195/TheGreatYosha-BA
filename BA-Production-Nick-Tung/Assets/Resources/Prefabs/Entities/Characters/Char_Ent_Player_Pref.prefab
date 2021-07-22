@@ -168,6 +168,22 @@ MonoBehaviour:
   body: {fileID: 4642844652201344554}
   moveData: {fileID: 11400000, guid: 18c41ba7e9fb3884ea555b2693daa8ba, type: 2}
   characterMovement: {fileID: 4642844652201344552}
+  OnConversationEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4642844653178127838}
+        m_TargetAssemblyTypeName: PixelCrushers.DialogueSystem.StandardUIMenuPanel,
+          Assembly-CSharp-firstpass
+        m_MethodName: HideImmediate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4642844652201344553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,14 +196,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef6e392c4a105140879d34b12c65066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraLeadOffset: 0
-  cameraLeadOffsetRuning: 3
   body: {fileID: 4642844652201344554}
   cameraFollowPivot: {fileID: 4642844652171331939}
   character: {fileID: 4642844652201344555}
-  characterBasePos: {fileID: 0}
-  currentLeadOffset: 0
   inRangeNPC: {fileID: 0}
+  playerCamera: {fileID: 0}
+  currentPath: []
+  currentTravelIndex: 0
+  travelTolerance: 0.5
+  animator: {fileID: 787651894}
 --- !u!114 &1620352812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +298,25 @@ Transform:
   m_Father: {fileID: 4642844652201344557}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &787651894
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480995167086270571}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f7ffdd3600b8a248ba0d33c62b03142, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7419729826607972073
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +670,10 @@ PrefabInstance:
       propertyPath: m_ChildAlignment
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5312859584525854262, guid: 6dcf4364e07fafa48a1701142312f49a, type: 3}
+      propertyPath: m_deactivateOnHidden
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5312859584525870194, guid: 6dcf4364e07fafa48a1701142312f49a, type: 3}
       propertyPath: m_ChildAlignment
       value: 5
@@ -923,6 +963,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
+--- !u!1 &6480995167086270571 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8373410932026360838, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
+  m_PrefabInstance: {fileID: 3298123823366184045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8080968860304008169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6764429153247133572, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}

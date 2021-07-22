@@ -7,17 +7,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1347825481885208041, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831839605522541446, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687357191073917977, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.6
+      value: -15.16
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.9
+      value: -24.03
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55,6 +67,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Char_NPC_Ent_Khan_Pref
       objectReference: {fileID: 0}
+    - target: {fileID: 2911237386519781923, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911237386600769779, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.18
@@ -62,6 +82,22 @@ PrefabInstance:
     - target: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911237388366763373, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211661725109424138, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3706150152326898277, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011202366735984851, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustText
@@ -74,6 +110,22 @@ PrefabInstance:
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustVarName
       value: Emotion.Khan_Trust
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955895476236721866, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847025022927005436, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800423729278792003, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6939188162857660205, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SizeDelta.y
@@ -127,6 +179,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877818119, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877820913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877848693, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877910805, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7496373959757518901, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: basePoint
       value: 
@@ -138,6 +206,10 @@ PrefabInstance:
     - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: conversation
       value: Story_RiceAndFish/KhanIntro
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942475563121041131, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8265171624907458521, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Size.x
@@ -155,6 +227,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -1.8296604
       objectReference: {fileID: 0}
+    - target: {fileID: 8364731773996237988, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -162,6 +238,10 @@ PrefabInstance:
     - target: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141998294861431542, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e34990221a93a184b9ad40b07657d639, type: 3}

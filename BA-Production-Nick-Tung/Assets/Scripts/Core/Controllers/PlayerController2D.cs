@@ -66,6 +66,12 @@ public class PlayerController2D : MonoBehaviour, IObserver
 			}
 			else
 			{
+				if (currentPath.Length > 0)
+				{
+					var targetPos = currentPath[currentTravelIndex - 1];
+					targetPos.z = 0;
+					this.transform.position = targetPos;
+				}
 				this.character.Move(0, 0);
 				animator.SetFloat("moveHorizontal", 0);
 				animator.SetFloat("moveVertical", 0);
@@ -100,6 +106,12 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		if (cameraFollowPivot)
 		{
 			Gizmos.DrawWireSphere(cameraFollowPivot.position, 1);
+		}
+
+		Gizmos.color = Color.yellow;
+		for (int i = 0; i < this.currentPath.Length; i++)
+		{
+			Gizmos.DrawWireCube(this.currentPath[i], Vector3.one);
 		}
 	}
 	private void OnTriggerEnter2D(Collider2D other)

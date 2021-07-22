@@ -71,17 +71,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1347825481885208041, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831839605522541446, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2687357191073917977, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27
+      value: -36.52
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -30.3
+      value: -28.16
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.z
@@ -119,9 +131,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Char_NPC_Ent_Serban_Pref
       objectReference: {fileID: 0}
+    - target: {fileID: 2911237386519781923, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911237386600769779, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911237388366763373, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211661725109424138, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3706150152326898277, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3913516114749938162, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: luaVariable
       value: Emotion.Serban
+      objectReference: {fileID: 0}
+    - target: {fileID: 4011202366735984851, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustText
@@ -134,6 +170,22 @@ PrefabInstance:
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustVarName
       value: Emotion.Serban_Trust
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955895476236721866, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847025022927005436, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800423729278792003, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6939188162857660205, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SizeDelta.y
@@ -199,6 +251,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.49
       objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877818119, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877820913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877848693, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6939188162877910805, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7496373959757518901, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: basePoint
       value: 
@@ -214,6 +282,14 @@ PrefabInstance:
     - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: conversation
       value: Story_RiceAndFish/SerbanIntro
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942475563121041131, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364731773996237988, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8376481393302648720, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalScale.x
@@ -231,6 +307,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1292148443689337580, guid: a5a761ad4aa81ef43a37167fde99a9e8, type: 3}
+    - target: {fileID: 9141998294861431542, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2585607998499445006, guid: e34990221a93a184b9ad40b07657d639, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e34990221a93a184b9ad40b07657d639, type: 3}
@@ -267,9 +347,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8755613528506043224}
     m_Modifications:
+    - target: {fileID: 120746, guid: d5a18ab9ec93e0d4284d6fbae4f557e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 135794, guid: d5a18ab9ec93e0d4284d6fbae4f557e0, type: 3}
       propertyPath: m_Name
       value: Bubble Template Standard Bark UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 135794, guid: d5a18ab9ec93e0d4284d6fbae4f557e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 135938, guid: d5a18ab9ec93e0d4284d6fbae4f557e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 144376, guid: d5a18ab9ec93e0d4284d6fbae4f557e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11445092, guid: d5a18ab9ec93e0d4284d6fbae4f557e0, type: 3}
       propertyPath: m_FontData.m_MaxSize

@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: e79dc29c142d31f4facaaedcb6c10ea1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -979105435198958442
+    second: Cha_MainChardownRight_Frame1_Anim_sprite
+  - first:
+      213: 8444818586066105250
+    second: Cha_MainChardownRight_Frame2_Anim_sprite
+  - first:
+      213: -8145632584129321915
+    second: Cha_MainChardownRight_Frame3_Anim_sprite
+  - first:
+      213: -6973403400175061353
+    second: Cha_MainChardownRight_Frame4_Anim_sprite
+  - first:
+      213: -4888007478299483351
+    second: Cha_MainChardownRight_Frame5_Anim_sprite
+  - first:
+      213: -1828915375709187197
+    second: Cha_MainChardownRight_Frame6_Anim_sprite
+  - first:
+      213: -4314536741584654931
+    second: Cha_MainChardownRight_Frame7_Anim_sprite
+  - first:
+      213: -3071206708648741232
+    second: Cha_MainChardownRight_Frame8_Anim_sprite
+  - first:
+      213: 7085021975687169962
+    second: Cha_MainChardownLeft_Frame1_Anim_sprite
+  - first:
+      213: 6593754848801962081
+    second: Cha_MainChardownLeft_Frame2_Anim_sprite
+  - first:
+      213: 7478791865969295788
+    second: Cha_MainChardownLeft_Frame3_Anim_sprite
+  - first:
+      213: -8444503454864732635
+    second: Cha_MainChardownLeft_Frame4_Anim_sprite
+  - first:
+      213: -4741617887528356641
+    second: Cha_MainChardownLeft_Frame5_Anim_sprite
+  - first:
+      213: -6411729990110525353
+    second: Cha_MainChardownLeft_Frame6_Anim_sprite
+  - first:
+      213: -71729125561928711
+    second: Cha_MainChardownLeft_Frame7_Anim_sprite
+  - first:
+      213: -1520579303655572905
+    second: Cha_MainChardownLeft_Frame8_Anim_sprite
+  - first:
+      213: -6626837834230489684
+    second: Cha_MainCharupRight_Frame1_Anim_sprite
+  - first:
+      213: 1455284590360767885
+    second: Cha_MainCharupRight_Frame2_Anim_sprite
+  - first:
+      213: -2695174145432475187
+    second: Cha_MainCharupRight_Frame3_Anim_sprite
+  - first:
+      213: -3908378296805318047
+    second: Cha_MainCharupRight_Frame4_Anim_sprite
+  - first:
+      213: -479567262462298968
+    second: Cha_MainCharupRight_Frame5_Anim_sprite
+  - first:
+      213: -5325014357194547617
+    second: Cha_MainCharupRight_Frame6_Anim_sprite
+  - first:
+      213: -8082992862572997166
+    second: Cha_MainCharupRight_Frame7_Anim_sprite
+  - first:
+      213: 8008927620650883613
+    second: Cha_MainCharupRight_Frame8_Anim_sprite
+  - first:
+      213: 6874737506782029246
+    second: Cha_MainCharupleft_Frame1_Anim_sprite
+  - first:
+      213: 4774307912925224185
+    second: Cha_MainCharupleft_Frame2_Anim_sprite
+  - first:
+      213: 3017090317121786415
+    second: Cha_MainCharupleft_Frame3_Anim_sprite
+  - first:
+      213: 9146379915940766316
+    second: Cha_MainCharupleft_Frame4_Anim_sprite
+  - first:
+      213: -5264641217444272674
+    second: Cha_MainCharupleft_Frame5_Anim_sprite
+  - first:
+      213: 6299123936635724635
+    second: Cha_MainCharupleft_Frame6_Anim_sprite
+  - first:
+      213: -6120062504215108954
+    second: Cha_MainCharupleft_Frame7_Anim_sprite
+  - first:
+      213: -1420502719663324794
+    second: Cha_MainCharupleft_Frame8_Anim_sprite
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame1_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1549
+        width: 299
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694df415bc48962f0800000000000000
+      internalID: -979105435198958442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame2_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1569
+        width: 275
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3361fe2c5023570800000000000000
+      internalID: 8444818586066105250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame3_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1569
+        width: 256
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544ef187256e4fe80800000000000000
+      internalID: -8145632584129321915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame4_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1576
+        width: 249
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7967011ed8e793f90800000000000000
+      internalID: -6973403400175061353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame5_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1576
+        width: 244
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a184a81f4a2cb0800000000000000
+      internalID: -4888007478299483351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame6_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1581
+        width: 231
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3839a92e7236e96e0800000000000000
+      internalID: -1828915375709187197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame7_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1585
+        width: 250
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dada97361bfaf14c0800000000000000
+      internalID: -4314536741584654931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownRight_Frame8_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 1571
+        width: 249
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096f13b35c1e065d0800000000000000
+      internalID: -3071206708648741232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame1_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1073
+        width: 250
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa78ba6e2fd035260800000000000000
+      internalID: 7085021975687169962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame2_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1107
+        width: 250
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168b9da8919b18b50800000000000000
+      internalID: 6593754848801962081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame3_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1104
+        width: 225
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca14e28e3910ac760800000000000000
+      internalID: 7478791865969295788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame4_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1107
+        width: 232
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e8a3449d81fca80800000000000000
+      internalID: -8444503454864732635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame5_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 1096
+        width: 249
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4fb3947a3623eb0800000000000000
+      internalID: -4741617887528356641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame6_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1095
+        width: 256
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7584eb77b85f407a0800000000000000
+      internalID: -6411729990110525353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame7_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1089
+        width: 275
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3f4d68dba210ff0800000000000000
+      internalID: -71729125561928711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainChardownLeft_Frame8_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1089
+        width: 299
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7cc00e21d5eae0800000000000000
+      internalID: -1520579303655572905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame1_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 629
+        width: 236
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad929aa91eb804a0800000000000000
+      internalID: -6626837834230489684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame2_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 629
+        width: 235
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dad8fdf95323410800000000000000
+      internalID: 1455284590360767885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame3_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 630
+        width: 251
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc92ea5f461d89ad0800000000000000
+      internalID: -2695174145432475187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame4_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 629
+        width: 218
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162a21385a6a2c9c0800000000000000
+      internalID: -3908378296805318047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame5_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 631
+        width: 239
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4370b9d1c3859f0800000000000000
+      internalID: -479567262462298968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame6_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 635
+        width: 248
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e509fb7afb916b0800000000000000
+      internalID: -5325014357194547617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame7_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 635
+        width: 264
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5915821d073df80800000000000000
+      internalID: -8082992862572997166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupRight_Frame8_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 630
+        width: 255
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ad5b4ec3d652f60800000000000000
+      internalID: 8008927620650883613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame1_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 146
+        width: 236
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb52cc7a659f76f50800000000000000
+      internalID: 6874737506782029246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame2_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 142
+        width: 236
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc9e3e50cfb14240800000000000000
+      internalID: 4774307912925224185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame3_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 142
+        width: 251
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22905f78abded920800000000000000
+      internalID: 3017090317121786415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame4_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 146
+        width: 230
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62aa6ee2187eee70800000000000000
+      internalID: 9146379915940766316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame5_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 146
+        width: 239
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5aa5cb4bc30f6b0800000000000000
+      internalID: -5264641217444272674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame6_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 142
+        width: 248
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53255f98dbfa6750800000000000000
+      internalID: 6299123936635724635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame7_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 142
+        width: 250
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a22211f39b211ba0800000000000000
+      internalID: -6120062504215108954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cha_MainCharupleft_Frame8_Anim_sprite
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 147
+        width: 280
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681cdf77d4c594ce0800000000000000
+      internalID: -1420502719663324794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

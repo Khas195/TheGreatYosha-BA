@@ -11,7 +11,13 @@ public class TileGrid : Grid
 	UnityEngine.Grid unityGrid = null;
 	[SerializeField]
 	Vector2 gridSize = new Vector2();
+	[SerializeField]
+	LayerMask unwalkable;
 	List<Node> nodes = new List<Node>();
+	private void Start()
+	{
+		nodes.Clear();
+	}
 	public override int GetMaxSize()
 	{
 		return (int)(gridSize.x * gridSize.y);
@@ -63,8 +69,31 @@ public class TileGrid : Grid
 	{
 		Node result;
 		var cellPos = unityGrid.GetCellCenterWorld(cellIndex);
-		result = new Node(true, cellPos, cellIndex.x, cellIndex.y);
+		var hitObject = Physics2D.OverlapCircle(cellPos, 1.0f, unwalkable);
+		bool walkable = true;
+		if (hitObject != null)
+		{
+			walkable = false;
+			LogHelper.Log("Scan grid hit: " + hitObject.gameObject);
+		}
+
+		result = new Node(walkable, cellPos, cellIndex.x, cellIndex.y);
 		this.nodes.Add(result);
 		return result;
+	}
+	private void OnDrawGizmos()
+	{
+		for (int i = 0; i < nodes.Count; i++)
+		{
+			if (nodes[i].walkable == false)
+			{
+				Gizmos.color = Color.red;
+			}
+			else
+			{
+				Gizmos.color = Color.white;
+			}
+			Gizmos.DrawWireSphere(nodes[i].worldPosition, 1.0f);
+		}
 	}
 }

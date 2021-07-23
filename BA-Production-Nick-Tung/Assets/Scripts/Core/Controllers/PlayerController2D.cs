@@ -18,35 +18,125 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	[BoxGroup("Setting")]
 	Character2D character = null;
 	[SerializeField]
+	[BoxGroup("Setting")]
+	Animator animator = null;
+	[SerializeField]
+	[BoxGroup("Setting")]
+	[ReadOnly]
+	bool controlLocked = false;
+	[SerializeField]
+	[BoxGroup("Interactable")]
+	UnityEvent<Transform> OnConversationStartEvent = new UnityEvent<Transform>();
+	[SerializeField]
+	[BoxGroup("Interactable")]
+	UnityEvent<Transform> OnConversationEndEvent = new UnityEvent<Transform>();
+	[SerializeField]
+	[BoxGroup("Interactable")]
+	LayerMask npcMask;
+	[SerializeField]
 	[BoxGroup("Interactable")]
 	[ReadOnly]
-	NPC inRangeNPC = null;
+	NPC hoverNPC = null;
 	[SerializeField]
+	[BoxGroup("Interactable")]
+	[ReadOnly]
+	NPC interactNPC = null;
+	[SerializeField]
+	[BoxGroup("Mouse Click Settings")]
 	Camera playerCamera = null;
 	[SerializeField]
 	[ReadOnly]
-	Vector3[] currentPath = null;
+	[BoxGroup("Pathfinding Settings")]
+	List<Vector3> currentPath = new List<Vector3>();
 	[SerializeField]
 	[ReadOnly]
+	[BoxGroup("Pathfinding Settings")]
 	int currentTravelIndex = 0;
 	[SerializeField]
+	[BoxGroup("Pathfinding Settings")]
 	float travelTolerance = 0.5f;
-	[SerializeField]
-	Animator animator = null;
 	void Update()
 	{
-		HandleKeyboardInput();
+		if (controlLocked == true) return;
+		HandlePathfinding();
+
+		var mousPos = Input.mousePosition;
+		mousPos = playerCamera.ScreenToWorldPoint(mousPos);
+		DetectMouseOverNPC(mousPos);
 		if (Input.GetMouseButtonDown(0))
 		{
-			var mousPos = Input.mousePosition;
-			mousPos = playerCamera.ScreenToWorldPoint(mousPos);
-			var worldPos = TileGrid.GetInstance().GetNodeFromWorldPoint(mousPos).worldPosition;
-			worldPos.z = 0;
-			PathRequestManager.GetInstance().RequestPath(this.transform.position, worldPos, OnPathFound);
+			HandleMouseClick(mousPos);
 		}
-		if (currentPath != null)
+
+	}
+
+	private void HandleMouseClick(Vector3 mousPos)
+	{
+		var movePos = mousPos;
+		if (this.hoverNPC != null)
 		{
-			if (currentTravelIndex < currentPath.Length)
+			if (this.interactNPC != null)
+			{
+				this.interactNPC.Defocus();
+			}
+			movePos = this.hoverNPC.GetInteractPoint();
+			this.interactNPC = hoverNPC;
+			this.interactNPC.Focus();
+		}
+		else
+		{
+			if (this.interactNPC != null)
+			{
+				this.interactNPC.Defocus();
+			}
+		}
+		MoveToPosition(movePos);
+	}
+
+	private void DetectMouseOverNPC(Vector3 mousPos)
+	{
+		RaycastHit2D hit = Physics2D.Raycast(mousPos, Vector2.zero, Mathf.Infinity, npcMask);
+		if (hit.collider != null)
+		{
+			var npc = hit.collider.GetComponentInParent<NPC>();
+			if (npc != null)
+			{
+				if (this.hoverNPC != npc)
+				{
+					if (this.hoverNPC != null)
+					{
+						this.hoverNPC.Defocus();
+					}
+					this.hoverNPC = npc;
+					this.hoverNPC.Focus();
+				}
+			}
+		}
+		else
+		{
+			if (this.hoverNPC != null)
+			{
+				if (interactNPC != hoverNPC)
+				{
+					this.hoverNPC.Defocus();
+				}
+				this.hoverNPC = null;
+			}
+		}
+	}
+
+	private void MoveToPosition(Vector3 mousPos)
+	{
+		var worldPos = TileGrid.GetInstance().GetNodeFromWorldPoint(mousPos).worldPosition;
+		worldPos.z = 0;
+		PathRequestManager.GetInstance().RequestPath(this.transform.position, worldPos, OnPathFound);
+	}
+
+	private void HandlePathfinding()
+	{
+		if (currentPath.Count > 0)
+		{
+			if (currentTravelIndex < currentPath.Count)
 			{
 				var targetPos = currentPath[currentTravelIndex];
 				targetPos.z = 0;
@@ -59,37 +149,41 @@ public class PlayerController2D : MonoBehaviour, IObserver
 				else
 				{
 					this.character.Move(travelDir.x, travelDir.y);
-					animator.SetFloat("moveHorizontal", travelDir.x);
-					animator.SetFloat("moveVertical", travelDir.y);
-					animator.SetBool("IsMoving", true);
+					UpdateAnimator(travelDir, isMoving: true);
 				}
 			}
 			else
 			{
+				if (currentPath.Count > 0)
+				{
+					var targetPos = currentPath[currentTravelIndex - 1];
+					targetPos.z = 0;
+					this.transform.position = targetPos;
+				}
 				this.character.Move(0, 0);
-				animator.SetFloat("moveHorizontal", 0);
-				animator.SetFloat("moveVertical", 0);
-				animator.SetBool("IsMoving", false);
+				UpdateAnimator(Vector3.zero, isMoving: false);
+				if (interactNPC != null)
+				{
+					interactNPC.Interact();
+				}
+				currentPath.Clear();
+				LogHelper.Log("AI - Reached Destination.");
 			}
 		}
+	}
 
+	private void UpdateAnimator(Vector3 travelDir, bool isMoving)
+	{
+		animator.SetFloat("moveHorizontal", travelDir.x);
+		animator.SetFloat("moveVertical", travelDir.y);
+		animator.SetBool("IsMoving", isMoving);
 	}
 
 	private void OnPathFound(Vector3[] path, bool pathFoundSuccessful)
 	{
-		this.currentPath = path;
+		this.currentPath.Clear();
+		this.currentPath.AddRange(path);
 		currentTravelIndex = 0;
-	}
-
-	private void HandleKeyboardInput()
-	{
-		if (Input.GetKeyDown(KeyCode.E))
-		{
-			if (this.inRangeNPC != null)
-			{
-				this.inRangeNPC.Interact();
-			}
-		}
 	}
 
 	public void ReceiveData(DataPack pack, string eventName)
@@ -101,33 +195,29 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		{
 			Gizmos.DrawWireSphere(cameraFollowPivot.position, 1);
 		}
-	}
-	private void OnTriggerEnter2D(Collider2D other)
-	{
-		if (inRangeNPC != null)
-		{
-			return;
-		}
 
-		var npc = other.gameObject.GetComponent<NPC>();
-		if (npc != null && npc.IsFocus() == false)
+		Gizmos.color = Color.yellow;
+		for (int i = 0; i < this.currentPath.Count; i++)
 		{
-			npc.Focus();
-			this.inRangeNPC = npc;
+			Gizmos.DrawWireCube(this.currentPath[i], Vector3.one);
 		}
 	}
-	private void OnTriggerExit2D(Collider2D other)
+	public void OnConversationStart(Transform actor)
 	{
-		var npc = other.gameObject.GetComponent<NPC>();
-		if (npc == this.inRangeNPC)
+		LogHelper.Log("Player - Conversation Start - Control Locked with " + actor);
+		controlLocked = true;
+		LogHelper.Log("Player - " + actor);
+		this.OnConversationStartEvent.Invoke(actor);
+	}
+	public void OnConversationEnd(Transform actor)
+	{
+		LogHelper.Log("Player - Conversation End - Control Released with " + actor);
+		controlLocked = false;
+		this.OnConversationEndEvent.Invoke(actor);
+		if (this.interactNPC != null)
 		{
-			this.inRangeNPC = null;
-		}
-
-		if (npc != null && npc.IsFocus() == true)
-		{
-			npc.Defocus();
-
+			this.interactNPC.Defocus();
+			this.interactNPC = null;
 		}
 	}
 }

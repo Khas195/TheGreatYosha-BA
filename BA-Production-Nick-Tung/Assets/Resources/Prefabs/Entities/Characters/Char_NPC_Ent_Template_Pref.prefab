@@ -1,5 +1,62 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &744828499278235495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6472325067380607218}
+  - component: {fileID: 2975867750166502943}
+  m_Layer: 7
+  m_Name: MouseSelectionArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6472325067380607218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744828499278235495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2911237386600769778}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2975867750166502943
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744828499278235495}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.006175041, y: -0.043230057}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0498743, y: 5.063637}
+  m_EdgeRadius: 0
 --- !u!1 &2911237386519781923
 GameObject:
   m_ObjectHideFlags: 0
@@ -17,7 +74,7 @@ GameObject:
   - component: {fileID: 7496373960768538912}
   - component: {fileID: 1896909776973494641}
   - component: {fileID: 2585607998499445006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Char_NPC_Ent_Template_Pref
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,6 +176,7 @@ MonoBehaviour:
   isFocus: 0
   interactIcon: {fileID: 2471112946268713484}
   conversationTrigger: {fileID: 7496373960768538913}
+  interactingPoint: {fileID: 962259174129151867}
   OnConversationEndEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -276,7 +334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2911237386600769778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,6 +354,8 @@ Transform:
   m_Children:
   - {fileID: 7934671631821888390}
   - {fileID: 2911237388366763372}
+  - {fileID: 962259174129151867}
+  - {fileID: 6472325067380607218}
   m_Father: {fileID: 2911237386519781922}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -308,7 +368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2911237388366763372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SortingPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +401,7 @@ GameObject:
   - component: {fileID: 8393702077590770839}
   - component: {fileID: 5803709515071766428}
   - component: {fileID: 7216540898458985674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +500,7 @@ GameObject:
   - component: {fileID: 8376481393302648720}
   - component: {fileID: 1528243012011555622}
   - component: {fileID: 2471112946268713484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +575,7 @@ GameObject:
   - component: {fileID: 7934671631821888390}
   - component: {fileID: 8392388772758099129}
   - component: {fileID: 3717344775290457658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CharacterSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,6 +666,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &6966684368579344797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962259174129151867}
+  m_Layer: 6
+  m_Name: InteractingPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962259174129151867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966684368579344797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.68, y: -2.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2911237386600769778}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &475462990329603017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -616,6 +706,10 @@ PrefabInstance:
     - target: {fileID: 1453922916227624480, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
       propertyPath: m_Name
       value: EmotionCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453922916227624480, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1453922916249555790, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
       propertyPath: m_Pivot.x
@@ -701,6 +795,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2302798979040626767, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581202719498670032, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545327272434191130, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782769750943923459, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322457209738528053, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397040323829977738, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7539158145021263138, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8254060354020632429, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667115984647201087, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48a4dcc09c6031a4db7d80cb95c2c80b, type: 3}
 --- !u!224 &1347825481896571015 stripped
@@ -719,9 +849,25 @@ PrefabInstance:
       propertyPath: m_text
       value: Dialouge Box
       objectReference: {fileID: 0}
+    - target: {fileID: 595753573976938450, guid: b058f3ca4ad86a446ad9429e5ae52af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 595753573976939812, guid: b058f3ca4ad86a446ad9429e5ae52af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 595753573976960672, guid: b058f3ca4ad86a446ad9429e5ae52af4, type: 3}
       propertyPath: m_Name
       value: CustomBubbleTextUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 595753573976960672, guid: b058f3ca4ad86a446ad9429e5ae52af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 595753573977161152, guid: b058f3ca4ad86a446ad9429e5ae52af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 595753573997149688, guid: b058f3ca4ad86a446ad9429e5ae52af4, type: 3}
       propertyPath: m_SizeDelta.y

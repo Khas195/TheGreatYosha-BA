@@ -89,8 +89,6 @@ public class CameraFollow : MonoBehaviour
 	public void Follow()
 	{
 		var targetPos = GetCenterPosition(encapsolatedTarget);
-		this.AddEncapsolateObject(characterBody.transform);
-		this.RemoveEncapsolate(characterBody.transform);
 		var hostPos = host.position;
 
 		if (settings.useBox)
@@ -141,13 +139,6 @@ public class CameraFollow : MonoBehaviour
 		}
 	}
 
-	public void RemoveEncapsolate(Transform transform)
-	{
-		if (encapsolatedTarget.Contains(transform))
-		{
-			encapsolatedTarget.Remove(transform);
-		}
-	}
 
 	public void SetFollowPercentage(float value)
 	{
@@ -176,6 +167,14 @@ public class CameraFollow : MonoBehaviour
 		}
 
 		this.encapsolatedTarget.Add(obj);
+	}
+	public void RemoveEncapsolateObject(Transform obj)
+	{
+		if (encapsolatedTarget.Contains(obj) == false)
+		{
+			return;
+		}
+		this.encapsolatedTarget.Remove(obj);
 	}
 
 	private Vector3 GetCenterPosition(List<Transform> listOfTargets)

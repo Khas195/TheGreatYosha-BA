@@ -6,6 +6,8 @@ public class CameraUpdator : MonoBehaviour
 {
 	[SerializeField]
 	CameraFollow follow = null;
+	[SerializeField]
+	CameraZoom zoom = null;
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -22,6 +24,10 @@ public class CameraUpdator : MonoBehaviour
 		if (follow)
 		{
 			follow.Follow();
+		}
+		if (zoom)
+		{
+			zoom.Zoom();
 		}
 	}
 	void LateUpdate()

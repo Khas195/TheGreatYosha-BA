@@ -14,6 +14,10 @@ public class TileGrid : Grid
 	[SerializeField]
 	LayerMask unwalkable;
 	List<Node> nodes = new List<Node>();
+	private void Start()
+	{
+		nodes.Clear();
+	}
 	public override int GetMaxSize()
 	{
 		return (int)(gridSize.x * gridSize.y);

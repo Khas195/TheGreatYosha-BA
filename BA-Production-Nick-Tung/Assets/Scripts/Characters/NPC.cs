@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+[ExecuteInEditMode]
 public class NPC : IInteractable
 {
 	[SerializeField]
@@ -16,8 +17,12 @@ public class NPC : IInteractable
 	[BoxGroup("Conversation")]
 	DialogueSystemTrigger conversationTrigger = null;
 	[SerializeField]
-	UnityEvent OnConversationEndEvent = null;
+	[BoxGroup("Conversation")]
+	Transform interactingPoint = null;
 
+
+	[SerializeField]
+	UnityEvent OnConversationEndEvent = null;
 
 	public override void Defocus()
 	{
@@ -45,7 +50,15 @@ public class NPC : IInteractable
 		LogHelper.Log("Dialogue System - Conversation Ended");
 		this.OnConversationEndEvent.Invoke();
 	}
-
+	private void OnDrawGizmos()
+	{
+		Gizmos.color = Color.blue;
+		if (this.interactingPoint != null)
+		{
+			var gridPos = TileGrid.GetInstance().GetNodeFromWorldPoint(this.interactingPoint.position);
+			Gizmos.DrawWireCube(gridPos.worldPosition, Vector3.one);
+		}
+	}
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -56,5 +69,10 @@ public class NPC : IInteractable
 	void Update()
 	{
 
+	}
+
+	public Vector3 GetInteractPoint()
+	{
+		return TileGrid.GetInstance().GetNodeFromWorldPoint(this.interactingPoint.position).worldPosition;
 	}
 }

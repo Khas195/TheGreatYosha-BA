@@ -5,81 +5,49 @@ using UnityEngine;
 
 public class CameraZoom : MonoBehaviour
 {
-    [SerializeField]
-    Camera host = null;
-    [SerializeField]
-    List<Transform> encapsulatedTargets = new List<Transform>();
-    [SerializeField]
-    private Transform character = null;
+	[SerializeField]
+	Camera host = null;
+	[SerializeField]
+	private Transform character = null;
+	[SerializeField]
+	float conversationZoomValue = 12;
+	[SerializeField]
+	float normalZoomValue = 12;
 
-    [SerializeField]
-    float minZoom = 0;
-    [SerializeField]
-    float maxZoom = 1;
-    [SerializeField]
-    [Tooltip("Each frame the camera move x percentage closer to the target")]
-    float followPercentage;
+	[SerializeField]
+	float targetSize;
+	[SerializeField]
+	[Tooltip("Each frame the camera move x percentage closer to the target")]
+	float followPercentage;
+	private void Start()
+	{
+		targetSize = normalZoomValue;
+	}
 
-    // Start is called before the first frame update
-    void Start()
-    {
+	public void Zoom()
+	{
+		host.orthographicSize = Mathf.Lerp(host.orthographicSize, targetSize, followPercentage);
+	}
+	public void ZoomToConversation()
+	{
+		targetSize = conversationZoomValue;
+	}
+	public void ZoomToNormalSize()
+	{
+		targetSize = normalZoomValue;
 
-    }
+	}
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        var greatestDistance = GetGreatestDistance(encapsulatedTargets);
-        var clampedZoomValue = Mathf.Clamp(greatestDistance, minZoom, maxZoom);
-        host.orthographicSize = Mathf.Lerp(host.orthographicSize, clampedZoomValue, followPercentage);
-    }
 
-    public void Clear(bool clearPlayer)
-    {
-        encapsulatedTargets.Clear();
-        if (clearPlayer == false)
-        {
-            encapsulatedTargets.Add(character);
-        }
-    }
+	public float GetFollowPercentage()
+	{
+		return followPercentage;
+	}
 
-    public float GetMaxZoom()
-    {
-        return maxZoom;
-    }
 
-    public void SetMaxZoom(float newMaxZoom)
-    {
-        this.maxZoom = newMaxZoom;
-    }
 
-    public void AddEncapsolateObject(Transform obj)
-    {
-        encapsulatedTargets.Add(obj);
-    }
-
-    public float GetFollowPercentage()
-    {
-        return followPercentage;
-    }
-
-    float GetGreatestDistance(List<Transform> encapsulatedTargets)
-    {
-        if (encapsulatedTargets.Count <= 1)
-        {
-            return 0;
-        }
-        var bounds = new Bounds();
-        foreach (var target in encapsulatedTargets)
-        {
-            bounds.Encapsulate(target.position);
-        }
-        var result = bounds.size.x < bounds.size.y ? bounds.size.y : bounds.size.x;
-        return result;
-    }
-
-    public void SetFollowPercentage(float zoomFollowPercentage)
-    {
-        followPercentage = zoomFollowPercentage;
-    }
+	public void SetFollowPercentage(float zoomFollowPercentage)
+	{
+		followPercentage = zoomFollowPercentage;
+	}
 }

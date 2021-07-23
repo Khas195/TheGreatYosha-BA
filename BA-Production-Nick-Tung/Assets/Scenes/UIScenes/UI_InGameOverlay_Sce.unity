@@ -1388,6 +1388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WorldOverlay_UI_PokemonStar
       objectReference: {fileID: 0}
+    - target: {fileID: 1146792930716670831, guid: db26d94f876d9544290d871a06248691, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1146792930981209021, guid: db26d94f876d9544290d871a06248691, type: 3}
       propertyPath: m_FillOrigin
       value: 1

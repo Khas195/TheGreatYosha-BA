@@ -19,6 +19,9 @@ public class NPC : IInteractable
 	[SerializeField]
 	[BoxGroup("Conversation")]
 	Transform interactingPoint = null;
+	[SerializeField]
+	[BoxGroup("Conversation")]
+	Transform interactOffsetFocus = null;
 
 
 	[SerializeField]
@@ -74,5 +77,10 @@ public class NPC : IInteractable
 	public Vector3 GetInteractPoint()
 	{
 		return TileGrid.GetInstance().GetNodeFromWorldPoint(this.interactingPoint.position).worldPosition;
+	}
+
+	public Transform GetInteractOffSetPoint()
+	{
+		return interactOffsetFocus;
 	}
 }

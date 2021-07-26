@@ -23,13 +23,7 @@ public class Character2D : MonoBehaviour
 	[BoxGroup("Requirements")]
 	[Required]
 	IMovement characterMovement = null;
-	[SerializeField]
-	UnityEvent OnConversationEndEvent = null;
-	public void OnConversationEnd(Transform actor)
-	{
-		LogHelper.Log("Dialogue System - Conversation Ended");
-		this.OnConversationEndEvent.Invoke();
-	}
+
 
 
 

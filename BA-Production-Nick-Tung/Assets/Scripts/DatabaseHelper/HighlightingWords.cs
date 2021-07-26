@@ -12,6 +12,7 @@ public class HighlightingWords : MonoBehaviour
 	public void OnConversationLine(Subtitle subtitle)
 	{
 		var text = subtitle.formattedText.text;
+		text = subtitle.speakerInfo.Name + ": " + text;
 		text = dictionary.HighlightIn(text);
 		subtitle.formattedText.text = text;
 

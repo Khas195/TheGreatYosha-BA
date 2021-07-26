@@ -207,17 +207,30 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		LogHelper.Log("Player - Conversation Start - Control Locked with " + actor);
 		controlLocked = true;
 		LogHelper.Log("Player - " + actor);
-		this.OnConversationStartEvent.Invoke(actor);
+		var interactingOffSetPoint = actor.GetComponent<NPC>().GetInteractOffSetPoint();
+		if (interactingOffSetPoint != null)
+		{
+			this.OnConversationStartEvent.Invoke(interactingOffSetPoint);
+		}
+		else
+		{
+			this.OnConversationStartEvent.Invoke(this.transform);
+		}
 	}
 	public void OnConversationEnd(Transform actor)
 	{
 		LogHelper.Log("Player - Conversation End - Control Released with " + actor);
 		controlLocked = false;
-		this.OnConversationEndEvent.Invoke(actor);
-		if (this.interactNPC != null)
+		var interactingOffSetPoint = this.interactNPC.GetInteractOffSetPoint();
+		if (interactingOffSetPoint != null)
 		{
-			this.interactNPC.Defocus();
-			this.interactNPC = null;
+			this.OnConversationEndEvent.Invoke(interactingOffSetPoint);
 		}
+		else
+		{
+			this.OnConversationEndEvent.Invoke(this.transform);
+		}
+		this.interactNPC.Defocus();
+		this.interactNPC = null;
 	}
 }

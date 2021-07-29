@@ -14,54 +14,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsSetting:
   - word: Junra
-    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
     bold: 1
     italic: 0
   - word: Logar
-    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
-    bold: 1
-    italic: 0
-  - word: Mutt
-    color: {r: 0.015574936, g: 0.6603774, b: 0.055542104, a: 1}
-    bold: 1
-    italic: 0
-  - word: Khan
-    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
-    bold: 1
-    italic: 0
-  - word: The Kasi
-    color: {r: 0, g: 0.6698113, b: 0.64213324, a: 1}
-    bold: 1
-    italic: 0
-  - word: H'inja
-    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
-    bold: 1
-    italic: 0
-  - word: Yosha
-    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    color: {r: 0.09444451, g: 1, b: 0, a: 1}
     bold: 1
     italic: 0
   - word: Tagar
-    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
+    color: {r: 1, g: 0.048780486, b: 0, a: 1}
+    bold: 1
+    italic: 0
+  - word: Mutt
+    color: {r: 0, g: 1, b: 0.06097555, a: 1}
+    bold: 1
+    italic: 0
+  - word: Khan
+    color: {r: 0.9166665, g: 0, b: 1, a: 1}
+    bold: 1
+    italic: 0
+  - word: The Kasi
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    bold: 1
+    italic: 0
+  - word: H'inja
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    bold: 1
+    italic: 0
+  - word: Yosha
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
     bold: 1
     italic: 0
   - word: Serban
-    color: {r: 0.015686275, g: 0.65882355, b: 0.05490196, a: 1}
+    color: {r: 1, g: 0.50555557, b: 0, a: 1}
     bold: 1
     italic: 0
   - word: The Unifier
-    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
     bold: 1
     italic: 0
   - word: Yosha an Tagar
-    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    bold: 1
+    italic: 0
+  - word: Yoshas
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
     bold: 1
     italic: 0
   - word: Seer Of Tagar
-    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
     bold: 1
     italic: 0
   - word: Kasi
-    color: {r: 0, g: 0.67058825, b: 0.6431373, a: 1}
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    bold: 1
+    italic: 0
+  - word: Asain
+    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    bold: 1
+    italic: 0
+  - word: Narrator
+    color: {r: 1, g: 1, b: 1, a: 1}
+    bold: 0
+    italic: 1
+  - word: Player
+    color: {r: 0, g: 0.4384992, b: 1, a: 1}
+    bold: 1
+    italic: 0
+  - word: My Kasi
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
     bold: 1
     italic: 0

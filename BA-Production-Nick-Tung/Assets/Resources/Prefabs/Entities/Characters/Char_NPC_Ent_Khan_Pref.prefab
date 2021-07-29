@@ -9,11 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 962259174129151867, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.74
+      value: -5.26
       objectReference: {fileID: 0}
     - target: {fileID: 962259174129151867, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.47
+      value: 1.89
       objectReference: {fileID: 0}
     - target: {fileID: 1347825481885208041, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
@@ -213,7 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 2104279349727027023}
     - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: conversation
-      value: Story_RiceAndFish/KhanIntro
+      value: Story_OneYoshaTooMany/Khan_Talking
       objectReference: {fileID: 0}
     - target: {fileID: 7942475563121041131, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
@@ -251,7 +251,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2585607998499445006, guid: e34990221a93a184b9ad40b07657d639, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e34990221a93a184b9ad40b07657d639, type: 3}
 --- !u!212 &2104279349727027023 stripped
 SpriteRenderer:

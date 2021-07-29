@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: conversation
-      value: Story_RiceAndFish/LogarIntro
+      value: Story_OneYoshaTooMany/Logar_Talking
       objectReference: {fileID: 0}
     - target: {fileID: 7942475563121041131, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer

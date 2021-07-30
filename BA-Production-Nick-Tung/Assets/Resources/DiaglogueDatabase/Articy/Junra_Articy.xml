@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-07-30T08:45:54Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-07-30T09:17:11Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -20979,15 +20979,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x0100000000004B9F" PinRef="0x0100000000004BA0"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000004BA6">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_C28B5737</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037947302</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000004B9F" PinRef="0x0100000000004BA1"/>
-      <Target IdRef="0x01000000000047D7" PinRef="0x01000000000047DB"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000004BAC">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_E1F25A04</TechnicalName>
@@ -21418,6 +21409,42 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x010000000000675D" PinRef="0x010000000000675F"/>
       <Target IdRef="0x0100000000004B16" PinRef="0x0100000000004B17"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000684F">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_6EDF3760</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954639</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006759" PinRef="0x010000000000675B"/>
+      <Target IdRef="0x0100000000004B1D" PinRef="0x0100000000004B1E"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006850">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_9D9FAFA6</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954640</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006755" PinRef="0x0100000000006757"/>
+      <Target IdRef="0x0100000000004B0F" PinRef="0x0100000000004B10"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006851">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_C808C126</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954641</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000004B9F" PinRef="0x0100000000004BA1"/>
+      <Target IdRef="0x010000000000563B" PinRef="0x010000000000563D"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006852">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_513A1C8B</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954642</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000563B" PinRef="0x010000000000563E"/>
+      <Target IdRef="0x01000000000047D7" PinRef="0x01000000000047DB"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000004D1A">
@@ -24172,15 +24199,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x0100000000006836" PinRef="0x0100000000006839"/>
       <Target IdRef="0x0100000000005666" PinRef="0x010000000000566A"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x010000000000563F">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_AC6629BA</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950015</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000047D7" PinRef="0x01000000000047DB"/>
-      <Target IdRef="0x010000000000563B" PinRef="0x010000000000563D"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x010000000000010F">
@@ -67772,6 +67790,28 @@ Emotion.Serban_Trust += 10;]]></Expression>
       <Size Width="225" Height="100"/>
       <ZIndex>319</ZIndex>
     </Instruction>
+    <Instruction Id="0x010000000000563B">
+      <DisplayName>Conversations.OneYoshaTooMany_Dinner ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_492C088D</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x492C088D</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950011</Url>
+      <Features Count="0"/>
+      <Expression><![CDATA[Conversations.OneYoshaTooMany_DinnerTogether = true;
+WorldVariables.Story_Timeline += 1;]]></Expression>
+      <Pins Count="2">
+        <Pin Id="0x010000000000563D" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000563E" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="32161.0255609407" Y="21.2368023687626"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>5</ZIndex>
+    </Instruction>
     <Instruction Id="0x0100000000004C1C">
       <DisplayName>// merge</DisplayName>
       <Color>#C8E2E7</Color>
@@ -68452,28 +68492,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
       <Position X="4200" Y="2125"/>
       <Size Width="225" Height="100"/>
       <ZIndex>67</ZIndex>
-    </Instruction>
-    <Instruction Id="0x010000000000563B">
-      <DisplayName>Conversations.OneYoshaTooMany_Dinner ...</DisplayName>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Ins_492C088D</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x492C088D</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950011</Url>
-      <Features Count="0"/>
-      <Expression><![CDATA[Conversations.OneYoshaTooMany_DinnerTogether = true;
-WorldVariables.Story_Timeline += 1;]]></Expression>
-      <Pins Count="2">
-        <Pin Id="0x010000000000563D" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x010000000000563E" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="700" Y="700"/>
-      <Size Width="225" Height="100"/>
-      <ZIndex>5</ZIndex>
     </Instruction>
     <Jump Id="0x01000000000012A1">
       <DisplayName>Jump to: [MindSlaveHub]</DisplayName>
@@ -73891,7 +73909,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x0100000000004B9E" Type="Connection"/>
             <Node IdRef="0x0100000000004B9F" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000004BA5" Type="Connection"/>
-            <Node IdRef="0x0100000000004BA6" Type="Connection"/>
             <Node IdRef="0x0100000000004BA7" Type="Instruction"/>
             <Node IdRef="0x0100000000004BAC" Type="Connection"/>
             <Node IdRef="0x0100000000004BAD" Type="Connection"/>
@@ -73976,6 +73993,11 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x0100000000006762" Type="Connection"/>
             <Node IdRef="0x0100000000006763" Type="Connection"/>
             <Node IdRef="0x0100000000006764" Type="Connection"/>
+            <Node IdRef="0x010000000000684F" Type="Connection"/>
+            <Node IdRef="0x0100000000006850" Type="Connection"/>
+            <Node IdRef="0x010000000000563B" Type="Instruction"/>
+            <Node IdRef="0x0100000000006851" Type="Connection"/>
+            <Node IdRef="0x0100000000006852" Type="Connection"/>
           </Node>
           <Node IdRef="0x0100000000005666" Type="Dialogue">
             <Node IdRef="0x0100000000004BB3" Type="Dialogue">
@@ -74556,8 +74578,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x010000000000683A" Type="Connection"/>
             <Node IdRef="0x010000000000683B" Type="Connection"/>
           </Node>
-          <Node IdRef="0x010000000000563B" Type="Instruction"/>
-          <Node IdRef="0x010000000000563F" Type="Connection"/>
         </Node>
       </Node>
       <Node IdRef="0x030000003140D3AC" Type="Locations"/>

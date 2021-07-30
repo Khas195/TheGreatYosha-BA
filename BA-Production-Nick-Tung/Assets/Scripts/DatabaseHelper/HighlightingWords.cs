@@ -20,6 +20,7 @@ public class HighlightingWords : MonoBehaviour
 			text = text.Colorize(narratorColor);
 		}
 		text = dictionary.HighlightIn(text);
+		text += "\n";
 		subtitle.formattedText.text = text;
 	}
 

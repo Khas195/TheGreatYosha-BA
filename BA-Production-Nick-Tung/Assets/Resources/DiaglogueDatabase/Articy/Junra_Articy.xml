@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-07-29T14:46:51Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-07-30T08:45:54Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -341,7 +341,7 @@
       </Text>
       <Color>#000000</Color>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953354</Url>
-      <CreatedOn>2021-07-29T12:02:28Z</CreatedOn>
+      <CreatedOn>2021-07-29T10:02:28Z</CreatedOn>
       <CreatedBy/>
     </Comment>
     <Condition Id="0x0100000000001029">
@@ -4208,6 +4208,54 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Position X="2350" Y="450"/>
       <Size Width="225" Height="100"/>
       <ZIndex>6</ZIndex>
+    </Condition>
+    <Condition Id="0x0100000000006817">
+      <DisplayName>WorldVariables.Story_Timeline == 3</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Cnd_70E22C2D</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x70E22C2D</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954583</Url>
+      <Features Count="0"/>
+      <Expression>WorldVariables.Story_Timeline == 3</Expression>
+      <Pins Count="3">
+        <Pin Id="0x0100000000006819" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000681A" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000681B" Index="1" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="-225" Y="1225"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>63</ZIndex>
+    </Condition>
+    <Condition Id="0x010000000000683C">
+      <DisplayName>QuestVariables.OneYoshasTooMany_Loga ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Cnd_774807A8</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x774807A8</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954620</Url>
+      <Features Count="0"/>
+      <Expression>QuestVariables.OneYoshasTooMany_LogarAgreedToFavor == true || QuestVariables.OneYoshasTooMany_LogarAgreedToConvince  == true</Expression>
+      <Pins Count="3">
+        <Pin Id="0x010000000000683E" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000683F" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006840" Index="1" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="-575" Y="75"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>3</ZIndex>
     </Condition>
     <Connection Id="0x010000000000102E">
       <Color>#C8E2E7</Color>
@@ -19680,12 +19728,21 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x010000000000673B" PinRef="0x010000000000673C"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000006742">
+    <Connection Id="0x010000000000684C">
       <Color>#C8E2E7</Color>
-      <TechnicalName>Con_A76DC028</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954370</Url>
+      <TechnicalName>Con_D2647B98</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954636</Url>
       <Label Count="0"/>
       <Source IdRef="0x010000000000673B" PinRef="0x010000000000673D"/>
+      <Target IdRef="0x0100000000006848" PinRef="0x010000000000684A"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000684D">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_5902A230</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954637</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006848" PinRef="0x010000000000684B"/>
       <Target IdRef="0x010000000000636A" PinRef="0x010000000000636E"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
@@ -23667,33 +23724,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x0100000000005BCB" PinRef="0x0100000000005BCC"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000005BD6">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_F93759A2</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037951446</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000005BBE" PinRef="0x0100000000005BC0"/>
-      <Target IdRef="0x0100000000005BD2" PinRef="0x0100000000005BD4"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000005BD7">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_2B013A58</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037951447</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000005BCB" PinRef="0x0100000000005BCD"/>
-      <Target IdRef="0x0100000000005BD2" PinRef="0x0100000000005BD4"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000005BD8">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_F6BD9027</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037951448</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000005B92" PinRef="0x0100000000005B94"/>
-      <Target IdRef="0x0100000000005BD2" PinRef="0x0100000000005BD4"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000005BD9">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_56CBBB0B</TechnicalName>
@@ -23838,12 +23868,66 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x0100000000005C2D" PinRef="0x0100000000005C2E"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000005C34">
+    <Connection Id="0x0100000000006808">
       <Color>#C8E2E7</Color>
-      <TechnicalName>Con_49D82CBE</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037951540</Url>
+      <TechnicalName>Con_2D8839D6</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954568</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000005BBE" PinRef="0x0100000000005BC0"/>
+      <Target IdRef="0x0100000000006804" PinRef="0x0100000000006806"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006809">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_D17938AA</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954569</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006804" PinRef="0x0100000000006807"/>
+      <Target IdRef="0x0100000000005BD2" PinRef="0x0100000000005BD4"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000680A">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0E792445</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954570</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000005B92" PinRef="0x0100000000005B94"/>
+      <Target IdRef="0x0100000000006804" PinRef="0x0100000000006806"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000680F">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_CBF998B3</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954575</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000005BCB" PinRef="0x0100000000005BCD"/>
+      <Target IdRef="0x010000000000680B" PinRef="0x010000000000680C"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006810">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_5E50503B</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954576</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000680B" PinRef="0x010000000000680D"/>
+      <Target IdRef="0x0100000000005BD2" PinRef="0x0100000000005BD4"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006846">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_BA2B8ADA</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954630</Url>
       <Label Count="0"/>
       <Source IdRef="0x0100000000005C2D" PinRef="0x0100000000005C2F"/>
+      <Target IdRef="0x0100000000006842" PinRef="0x0100000000006844"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006847">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_38C62DF4</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954631</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006842" PinRef="0x0100000000006845"/>
       <Target IdRef="0x010000000000590B" PinRef="0x010000000000590D"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
@@ -24043,6 +24127,51 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x0100000000005717" PinRef="0x0100000000005719"/>
       <Target IdRef="0x0100000000005631" PinRef="0x0100000000005634"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000681C">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_7669B620</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954588</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000005677" PinRef="0x010000000000567A"/>
+      <Target IdRef="0x0100000000006817" PinRef="0x0100000000006819"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006841">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0749A4CB</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954625</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000681D" PinRef="0x0100000000006820"/>
+      <Target IdRef="0x010000000000683C" PinRef="0x010000000000683E"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006823">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_D62F4A4F</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954595</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006817" PinRef="0x010000000000681A"/>
+      <Target IdRef="0x010000000000681D" PinRef="0x0100000000006820"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000683A">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_67A1A9E2</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954618</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000681D" PinRef="0x0100000000006821"/>
+      <Target IdRef="0x0100000000006836" PinRef="0x0100000000006838"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000683B">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_770921F1</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954619</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006836" PinRef="0x0100000000006839"/>
+      <Target IdRef="0x0100000000005666" PinRef="0x010000000000566A"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x010000000000563F">
@@ -24874,6 +25003,32 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Position X="4892" Y="775"/>
       <Size Width="391" Height="200"/>
       <ZIndex>4</ZIndex>
+    </Dialogue>
+    <Dialogue Id="0x010000000000681D">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">GatheringPrep_LogarCookingFish</LocalizedString>
+      </DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Dlg_98550A63</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x98550A63</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954589</Url>
+      <Features Count="0"/>
+      <References Count="2">
+        <Reference IdRef="0x0100000000000116"/>
+        <Reference IdRef="0x010000000000011E"/>
+      </References>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006820" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006821" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="3292" Y="2050"/>
+      <Size Width="541" Height="250"/>
+      <ZIndex>65</ZIndex>
     </Dialogue>
     <DialogueFragment Id="0x010000000000101B">
       <DisplayName><![CDATA[Player: "I'm just a traveller passing by."]]></DisplayName>
@@ -62632,6 +62787,75 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
+    <DialogueFragment Id="0x0100000000006826">
+      <DisplayName><![CDATA[Narrator: "..."]]></DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_419DF1DF</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x419DF1DF</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954598</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006829" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000682A" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="-25" Y="-200"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x010000000000682B">
+      <DisplayName><![CDATA[Player: "..."]]></DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_037FE313</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x037FE313</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954603</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000682C" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000682D" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="0" Y="50"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x0100000000000116"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000006830">
+      <DisplayName><![CDATA[Logar: "..."]]></DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_91E370FE</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x91E370FE</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954608</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006831" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006832" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="0" Y="275"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x010000000000011E"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
     <Entity Id="0x01000000000006A6" ObjectTemplateReference="0x0100000000000303" ObjectTemplateReferenceName="JunraTemplate">
       <DisplayName Count="1">
         <LocalizedString Lang="">Serban</LocalizedString>
@@ -67152,6 +67376,27 @@ ConversationSupport.OneYoshaTooMany_SerbanInfo_TheCouncil = true]]></Expression>
       <Size Width="225" Height="100"/>
       <ZIndex>194</ZIndex>
     </Instruction>
+    <Instruction Id="0x0100000000006848">
+      <DisplayName>QuestVariables.OneYoshasTooMany_Khan ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_49141DB7</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x49141DB7</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954632</Url>
+      <Features Count="0"/>
+      <Expression>QuestVariables.OneYoshasTooMany_KhanItem = false;</Expression>
+      <Pins Count="2">
+        <Pin Id="0x010000000000684A" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000684B" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="18450" Y="-1050"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>247</ZIndex>
+    </Instruction>
     <Instruction Id="0x0100000000006372">
       <DisplayName>Conversations.OneYoshaTooMany_Serban ...</DisplayName>
       <Color>#C8E2E7</Color>
@@ -67160,7 +67405,8 @@ ConversationSupport.OneYoshaTooMany_SerbanInfo_TheCouncil = true]]></Expression>
       <ShortId>0x86322452</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953394</Url>
       <Features Count="0"/>
-      <Expression>Conversations.OneYoshaTooMany_SerbanAssassin = true;</Expression>
+      <Expression><![CDATA[Conversations.OneYoshaTooMany_SerbanAssassin = true;
+WorldVariables.Story_Timeline += 1;]]></Expression>
       <Pins Count="2">
         <Pin Id="0x0100000000006374" Index="0" Semantic="Input">
           <Expression/>
@@ -68054,9 +68300,73 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="19525" Y="125"/>
+      <Position X="19825" Y="125"/>
       <Size Width="225" Height="100"/>
       <ZIndex>301</ZIndex>
+    </Instruction>
+    <Instruction Id="0x0100000000006804">
+      <DisplayName>QuestVariables.OneYoshasTooMany_Loga ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_0C9F1636</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x0C9F1636</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954564</Url>
+      <Features Count="0"/>
+      <Expression>QuestVariables.OneYoshasTooMany_LogarAgreedToConvince = true;</Expression>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006806" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006807" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="19500" Y="-50"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>332</ZIndex>
+    </Instruction>
+    <Instruction Id="0x010000000000680B">
+      <DisplayName>QuestVariables.OneYoshasTooMany_Loga ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_07102CA6</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x07102CA6</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954571</Url>
+      <Features Count="0"/>
+      <Expression>QuestVariables.OneYoshasTooMany_LogarAgreedToFavor = true;</Expression>
+      <Pins Count="2">
+        <Pin Id="0x010000000000680C" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000680D" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="19500" Y="325"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>332</ZIndex>
+    </Instruction>
+    <Instruction Id="0x0100000000006842">
+      <DisplayName>QuestVariables.OneYoshasTooMany_Gave ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_21A86314</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x21A86314</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954626</Url>
+      <Features Count="0"/>
+      <Expression><![CDATA[QuestVariables.OneYoshasTooMany_GaveLogarTheItem = true;
+QuestVariables.OneYoshasTooMany_KhanItem = false;]]></Expression>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006844" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006845" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="23750" Y="-50"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>335</ZIndex>
     </Instruction>
     <Instruction Id="0x0100000000005652">
       <DisplayName>Conversations.OneYoshaTooMany_LogarA ...</DisplayName>
@@ -68066,7 +68376,8 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
       <ShortId>0x01FD1FC3</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950034</Url>
       <Features Count="0"/>
-      <Expression>Conversations.OneYoshaTooMany_LogarAssassin = true</Expression>
+      <Expression><![CDATA[Conversations.OneYoshaTooMany_LogarAssassin = true;
+WorldVariables.Story_Timeline += 1;]]></Expression>
       <Pins Count="2">
         <Pin Id="0x0100000000005653" Index="0" Semantic="Input">
           <Expression/>
@@ -68075,7 +68386,7 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="5450" Y="825"/>
+      <Position X="5375" Y="975"/>
       <Size Width="225" Height="100"/>
       <ZIndex>9</ZIndex>
     </Instruction>
@@ -68121,6 +68432,27 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
       <Size Width="225" Height="100"/>
       <ZIndex>57</ZIndex>
     </Instruction>
+    <Instruction Id="0x0100000000006836">
+      <DisplayName>Conversations.OneYoshaTooMany_Gather ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_B07559AA</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xB07559AA</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954614</Url>
+      <Features Count="0"/>
+      <Expression>Conversations.OneYoshaTooMany_GatheringPrep_LogarCookingFish = true;</Expression>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006838" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006839" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="4200" Y="2125"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>67</ZIndex>
+    </Instruction>
     <Instruction Id="0x010000000000563B">
       <DisplayName>Conversations.OneYoshaTooMany_Dinner ...</DisplayName>
       <Color>#C8E2E7</Color>
@@ -68129,7 +68461,8 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
       <ShortId>0x492C088D</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950011</Url>
       <Features Count="0"/>
-      <Expression>Conversations.OneYoshaTooMany_DinnerTogether = true;</Expression>
+      <Expression><![CDATA[Conversations.OneYoshaTooMany_DinnerTogether = true;
+WorldVariables.Story_Timeline += 1;]]></Expression>
       <Pins Count="2">
         <Pin Id="0x010000000000563D" Index="0" Semantic="Input">
           <Expression/>
@@ -68138,7 +68471,7 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="766" Y="695"/>
+      <Position X="700" Y="700"/>
       <Size Width="225" Height="100"/>
       <ZIndex>5</ZIndex>
     </Instruction>
@@ -69804,7 +70137,7 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037932102</Url>
       <TechnicalName>QuestVariables</TechnicalName>
       <Description Count="0"/>
-      <Variables Count="32">
+      <Variables Count="34">
         <Variable>
           <TechnicalName>RiceAndFish_Serban_AdvisedKnowledge</TechnicalName>
           <Description Count="0"/>
@@ -69999,13 +70332,25 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
           <DataType>Boolean</DataType>
           <DefaultValue>False</DefaultValue>
         </Variable>
+        <Variable>
+          <TechnicalName>OneYoshasTooMany_LogarAgreedToFavor</TechnicalName>
+          <Description Count="0"/>
+          <DataType>Boolean</DataType>
+          <DefaultValue>False</DefaultValue>
+        </Variable>
+        <Variable>
+          <TechnicalName>OneYoshasTooMany_LogarAgreedToConvince</TechnicalName>
+          <Description Count="0"/>
+          <DataType>Boolean</DataType>
+          <DefaultValue>False</DefaultValue>
+        </Variable>
       </Variables>
     </VariableSet>
     <VariableSet Id="0x0100000000005639">
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950009</Url>
       <TechnicalName>Conversations</TechnicalName>
       <Description Count="0"/>
-      <Variables Count="6">
+      <Variables Count="7">
         <Variable>
           <TechnicalName>OneYoshaTooMany_DinnerTogether</TechnicalName>
           <Description Count="0"/>
@@ -70038,6 +70383,12 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
         </Variable>
         <Variable>
           <TechnicalName>OneYoshaTooMany_SerbanAssassin</TechnicalName>
+          <Description Count="0"/>
+          <DataType>Boolean</DataType>
+          <DefaultValue>False</DefaultValue>
+        </Variable>
+        <Variable>
+          <TechnicalName>OneYoshaTooMany_GatheringPrep_LogarCookingFish</TechnicalName>
           <Description Count="0"/>
           <DataType>Boolean</DataType>
           <DefaultValue>False</DefaultValue>
@@ -73274,7 +73625,9 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
               <Node IdRef="0x010000000000673A" Type="Connection"/>
               <Node IdRef="0x010000000000673B" Type="DialogueFragment"/>
               <Node IdRef="0x0100000000006741" Type="Connection"/>
-              <Node IdRef="0x0100000000006742" Type="Connection"/>
+              <Node IdRef="0x0100000000006848" Type="Instruction"/>
+              <Node IdRef="0x010000000000684C" Type="Connection"/>
+              <Node IdRef="0x010000000000684D" Type="Connection"/>
             </Node>
             <Node IdRef="0x0100000000006370" Type="Connection"/>
             <Node IdRef="0x0100000000006371" Type="Connection"/>
@@ -74117,9 +74470,6 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
               <Node IdRef="0x0100000000005BCB" Type="DialogueFragment"/>
               <Node IdRef="0x0100000000005BD1" Type="Connection"/>
               <Node IdRef="0x0100000000005BD2" Type="Instruction"/>
-              <Node IdRef="0x0100000000005BD6" Type="Connection"/>
-              <Node IdRef="0x0100000000005BD7" Type="Connection"/>
-              <Node IdRef="0x0100000000005BD8" Type="Connection"/>
               <Node IdRef="0x0100000000005BD9" Type="Connection"/>
               <Node IdRef="0x0100000000005BDB" Type="Connection"/>
               <Node IdRef="0x0100000000005BDC" Type="DialogueFragment"/>
@@ -74147,7 +74497,16 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
               <Node IdRef="0x0100000000005C2C" Type="Connection"/>
               <Node IdRef="0x0100000000005C2D" Type="DialogueFragment"/>
               <Node IdRef="0x0100000000005C33" Type="Connection"/>
-              <Node IdRef="0x0100000000005C34" Type="Connection"/>
+              <Node IdRef="0x0100000000006804" Type="Instruction"/>
+              <Node IdRef="0x0100000000006808" Type="Connection"/>
+              <Node IdRef="0x0100000000006809" Type="Connection"/>
+              <Node IdRef="0x010000000000680A" Type="Connection"/>
+              <Node IdRef="0x010000000000680B" Type="Instruction"/>
+              <Node IdRef="0x010000000000680F" Type="Connection"/>
+              <Node IdRef="0x0100000000006810" Type="Connection"/>
+              <Node IdRef="0x0100000000006842" Type="Instruction"/>
+              <Node IdRef="0x0100000000006846" Type="Connection"/>
+              <Node IdRef="0x0100000000006847" Type="Connection"/>
             </Node>
             <Node IdRef="0x0100000000005652" Type="Instruction"/>
             <Node IdRef="0x0100000000005656" Type="Connection"/>
@@ -74183,6 +74542,19 @@ ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan = true;]]></Expressio
             <Node IdRef="0x0100000000005717" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000571D" Type="Connection"/>
             <Node IdRef="0x010000000000571E" Type="Connection"/>
+            <Node IdRef="0x0100000000006817" Type="Condition"/>
+            <Node IdRef="0x010000000000681C" Type="Connection"/>
+            <Node IdRef="0x010000000000681D" Type="Dialogue">
+              <Node IdRef="0x0100000000006826" Type="DialogueFragment"/>
+              <Node IdRef="0x010000000000682B" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000006830" Type="DialogueFragment"/>
+              <Node IdRef="0x010000000000683C" Type="Condition"/>
+              <Node IdRef="0x0100000000006841" Type="Connection"/>
+            </Node>
+            <Node IdRef="0x0100000000006823" Type="Connection"/>
+            <Node IdRef="0x0100000000006836" Type="Instruction"/>
+            <Node IdRef="0x010000000000683A" Type="Connection"/>
+            <Node IdRef="0x010000000000683B" Type="Connection"/>
           </Node>
           <Node IdRef="0x010000000000563B" Type="Instruction"/>
           <Node IdRef="0x010000000000563F" Type="Connection"/>

@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 1620352812}
   - component: {fileID: 602165149}
   - component: {fileID: 164938288}
+  - component: {fileID: 2106554175}
   m_Layer: 0
   m_Name: Char_Ent_Player_Pref
   m_TagString: Player
@@ -167,22 +168,6 @@ MonoBehaviour:
   body: {fileID: 4642844652201344554}
   moveData: {fileID: 11400000, guid: 18c41ba7e9fb3884ea555b2693daa8ba, type: 2}
   characterMovement: {fileID: 4642844652201344552}
-  OnConversationEndEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PixelCrushers.DialogueSystem.StandardUIMenuPanel,
-          Assembly-CSharp-firstpass
-        m_MethodName: HideImmediate
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &4642844652201344553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,13 +187,61 @@ MonoBehaviour:
   controlLocked: 0
   OnConversationStartEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CameraZoom, Assembly-CSharp
+        m_MethodName: ZoomToConversation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CameraFollow, Assembly-CSharp
+        m_MethodName: AddEncapsolateObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnConversationEndEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CameraZoom, Assembly-CSharp
+        m_MethodName: ZoomToNormalSize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CameraFollow, Assembly-CSharp
+        m_MethodName: RemoveEncapsolateObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   npcMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   hoverNPC: {fileID: 0}
   interactNPC: {fileID: 0}
   playerCamera: {fileID: 0}
@@ -275,6 +308,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dictionary: {fileID: 11400000, guid: fddc7639c617a0f4ea4af592e1a7a1af, type: 2}
+  narratorColor: {r: 0.64705884, g: 0.81960785, b: 0.7647059, a: 1}
+--- !u!114 &2106554175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4642844652201344556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891cbbf640378df45ab970f7fc274b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.44705883, g: 1, b: 0.972549, a: 1}
+  applyTo: 1
+  prependActorNameSeparator: ': '
 --- !u!1 &4642844652250969340
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,10 +19,6 @@ public class HighlightingWords : MonoBehaviour
 		{
 			text = text.Colorize(narratorColor);
 		}
-		else
-		{
-			text = subtitle.speakerInfo.Name + ": " + text;
-		}
 		text = dictionary.HighlightIn(text);
 		subtitle.formattedText.text = text;
 	}

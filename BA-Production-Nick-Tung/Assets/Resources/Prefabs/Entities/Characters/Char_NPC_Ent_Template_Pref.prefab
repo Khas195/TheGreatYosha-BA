@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 7496373960768538913}
   - component: {fileID: 7496373960768538912}
   - component: {fileID: 2585607998499445006}
+  - component: {fileID: 7572391994521490802}
   m_Layer: 6
   m_Name: Char_NPC_Ent_Template_Pref
   m_TagString: Untagged
@@ -310,6 +311,21 @@ MonoBehaviour:
   minSeconds: 5
   maxSeconds: 10
   target: {fileID: 0}
+--- !u!114 &7572391994521490802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911237386519781923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891cbbf640378df45ab970f7fc274b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 1, b: 1, a: 1}
+  applyTo: 1
+  prependActorNameSeparator: ': '
 --- !u!1 &2911237386600769779
 GameObject:
   m_ObjectHideFlags: 0

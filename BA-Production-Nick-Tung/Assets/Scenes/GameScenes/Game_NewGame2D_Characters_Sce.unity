@@ -1120,6 +1120,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2106554174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4642844652201344556, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+  m_PrefabInstance: {fileID: 623493390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2106554175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106554174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891cbbf640378df45ab970f7fc274b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.44705883, g: 1, b: 0.972549, a: 1}
+  applyTo: 1
+  prependActorNameSeparator: ': '
 --- !u!4 &2108323901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
@@ -1192,6 +1212,14 @@ PrefabInstance:
       propertyPath: conversationActor
       value: 
       objectReference: {fileID: 2108323901}
+    - target: {fileID: 6763432435984508571, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763432435984508571, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: color.r
+      value: 0.09411765
+      objectReference: {fileID: 0}
     - target: {fileID: 8762015913107451364, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.29
@@ -1210,21 +1238,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 93554777074074327, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
-      propertyPath: conversation
-      value: Story_OneYoshaTooMany/Khan_Talking
-      objectReference: {fileID: 0}
-    - target: {fileID: 93554777074074327, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: conversationActor
       value: 
       objectReference: {fileID: 2108323901}
-    - target: {fileID: 2600489487100646907, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 2600489487100646907, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.03
-      objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1282,30 +1298,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2068865793411250039, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2068865793411250039, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4173854448423329883, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: conversation
-      value: Story_OneYoshaTooMany/Serban_Talking
-      objectReference: {fileID: 0}
     - target: {fileID: 4173854448423329883, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: conversationActor
       value: 
       objectReference: {fileID: 2108323901}
-    - target: {fileID: 6682879473298703873, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 6682879473298703873, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.18
-      objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1353,58 +1349,6 @@ PrefabInstance:
     - target: {fileID: 8755613528506043225, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_Name
       value: Char_NPC_Ent_Serban_Pref
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309364518, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309410018, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309410018, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309410018, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309410018, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309410018, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309410018, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309591830, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309591830, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309591830, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309591830, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309591830, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978442085309591830, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d30e69177ca1cb148ad158172cda694c, type: 3}

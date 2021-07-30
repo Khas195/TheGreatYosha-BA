@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-07-30T09:17:11Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-07-30T11:17:59Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -16434,42 +16434,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x0100000000003DDD" PinRef="0x0100000000003FFA"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000005272">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_10640448</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949042</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000525B" PinRef="0x010000000000525E"/>
-      <Target IdRef="0x0100000000005263" PinRef="0x0100000000005266"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x010000000000527A">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_C9FF564A</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949050</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000005263" PinRef="0x0100000000005267"/>
-      <Target IdRef="0x0100000000005274" PinRef="0x0100000000005275"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000005281">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_44A40972</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949057</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000005274" PinRef="0x0100000000005276"/>
-      <Target IdRef="0x010000000000527B" PinRef="0x010000000000527C"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000005282">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_0B45C939</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949058</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000527B" PinRef="0x010000000000527D"/>
-      <Target IdRef="0x0100000000005268" PinRef="0x0100000000005269"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x010000000000528A">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_7F26E881</TechnicalName>
@@ -16756,15 +16720,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x0100000000005370" PinRef="0x0100000000005372"/>
       <Target IdRef="0x01000000000053B5" PinRef="0x01000000000053B6"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x01000000000053D2">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_EF62E2FB</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949394</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000005310" PinRef="0x0100000000005312"/>
-      <Target IdRef="0x010000000000532F" PinRef="0x0100000000005330"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x01000000000053D9">
@@ -17350,6 +17305,33 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x01000000000065A5" PinRef="0x01000000000065A7"/>
       <Target IdRef="0x010000000000525B" PinRef="0x010000000000525F"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000687D">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_2B690DDC</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954685</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000525B" PinRef="0x010000000000525E"/>
+      <Target IdRef="0x0100000000005268" PinRef="0x0100000000005269"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006899">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_C5698609</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954713</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000005310" PinRef="0x0100000000005312"/>
+      <Target IdRef="0x0100000000006894" PinRef="0x0100000000006897"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000689A">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_2C34E6BC</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954714</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006894" PinRef="0x0100000000006898"/>
+      <Target IdRef="0x010000000000532F" PinRef="0x0100000000005330"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x010000000000677C">
@@ -18414,42 +18396,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x010000000000524B" PinRef="0x010000000000524C"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000006344">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_BDB11420</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953348</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000004F60" PinRef="0x0100000000004F63"/>
-      <Target IdRef="0x0100000000006340" PinRef="0x0100000000006342"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000006345">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_6157E6EA</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953349</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000006340" PinRef="0x0100000000006343"/>
-      <Target IdRef="0x0100000000004F73" PinRef="0x0100000000004F74"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000006346">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_378035DE</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953350</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000006340" PinRef="0x0100000000006343"/>
-      <Target IdRef="0x0100000000004F96" PinRef="0x0100000000004F97"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000006347">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_E757834F</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953351</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000006340" PinRef="0x0100000000006343"/>
-      <Target IdRef="0x0100000000004FA1" PinRef="0x0100000000004FA2"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000006765">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_16149479</TechnicalName>
@@ -18457,6 +18403,69 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x010000000000501A" PinRef="0x010000000000501C"/>
       <Target IdRef="0x010000000000502F" PinRef="0x0100000000005030"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006875">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_2E096ED3</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954677</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006863" PinRef="0x0100000000006865"/>
+      <Target IdRef="0x010000000000686F" PinRef="0x0100000000006870"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006876">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_DB534DDE</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954678</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000686F" PinRef="0x0100000000006871"/>
+      <Target IdRef="0x0100000000006869" PinRef="0x010000000000686A"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006877">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_F6A9D7CE</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954679</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000685D" PinRef="0x010000000000685F"/>
+      <Target IdRef="0x0100000000006863" PinRef="0x0100000000006864"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006878">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_62379FC8</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954680</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000004F60" PinRef="0x0100000000004F63"/>
+      <Target IdRef="0x010000000000685D" PinRef="0x010000000000685E"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006879">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_30967E41</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954681</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006869" PinRef="0x010000000000686B"/>
+      <Target IdRef="0x0100000000004F73" PinRef="0x0100000000004F74"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000687A">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_3B9DA2CF</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954682</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006869" PinRef="0x010000000000686B"/>
+      <Target IdRef="0x0100000000004F96" PinRef="0x0100000000004F97"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000687B">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_742BA300</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954683</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006869" PinRef="0x010000000000686B"/>
+      <Target IdRef="0x0100000000004FA1" PinRef="0x0100000000004FA2"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000004F93">
@@ -20124,15 +20133,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x01000000000048F7" PinRef="0x01000000000048F8"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000004904">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_170E04A1</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037946628</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000048F7" PinRef="0x01000000000048F9"/>
-      <Target IdRef="0x01000000000048FE" PinRef="0x01000000000048FF"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x010000000000490B">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_75D5F649</TechnicalName>
@@ -20556,15 +20556,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x01000000000049D2" PinRef="0x01000000000049D5"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000004A30">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_BD02D075</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037946928</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000049D2" PinRef="0x01000000000049D6"/>
-      <Target IdRef="0x0100000000004A2A" PinRef="0x0100000000004A2B"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000004A37">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_C43AB0B9</TechnicalName>
@@ -20725,15 +20716,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x0100000000004ABE" PinRef="0x0100000000004AC0"/>
       <Target IdRef="0x0100000000004AC4" PinRef="0x0100000000004AC5"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000004AD2">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_6DD7F6C2</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037947090</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000004AA7" PinRef="0x0100000000004AA9"/>
-      <Target IdRef="0x0100000000004ABE" PinRef="0x0100000000004ABF"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000004AD9">
@@ -21294,15 +21276,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Target IdRef="0x0100000000004D06" PinRef="0x0100000000004D07"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000004D0D">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_2C17365E</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037947661</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000004D06" PinRef="0x0100000000004D08"/>
-      <Target IdRef="0x0100000000004B25" PinRef="0x0100000000004B26"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000004D0E">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_89D213F1</TechnicalName>
@@ -21445,6 +21418,78 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x010000000000563B" PinRef="0x010000000000563E"/>
       <Target IdRef="0x01000000000047D7" PinRef="0x01000000000047DB"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006884">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_1EC41274</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954692</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000049D2" PinRef="0x01000000000049D6"/>
+      <Target IdRef="0x010000000000687E" PinRef="0x010000000000687F"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006885">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_529DBA52</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954693</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000687E" PinRef="0x0100000000006880"/>
+      <Target IdRef="0x0100000000004A2A" PinRef="0x0100000000004A2B"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006886">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_EC9E7A92</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954694</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000004D06" PinRef="0x0100000000004D08"/>
+      <Target IdRef="0x0100000000004B40" PinRef="0x0100000000004B41"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006887">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_61B082CF</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954695</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000004D06" PinRef="0x0100000000004D08"/>
+      <Target IdRef="0x0100000000004B30" PinRef="0x0100000000004B31"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000006888">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_2A87918C</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954696</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000004D06" PinRef="0x0100000000004D08"/>
+      <Target IdRef="0x0100000000004B38" PinRef="0x0100000000004B39"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000688D">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_E676FB9A</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954701</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000004AA7" PinRef="0x0100000000004AA9"/>
+      <Target IdRef="0x0100000000006889" PinRef="0x010000000000688B"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000688E">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_B0E1023D</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954702</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000006889" PinRef="0x010000000000688C"/>
+      <Target IdRef="0x0100000000004ABE" PinRef="0x0100000000004ABF"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000068A2">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_B70795B9</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954722</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000048F7" PinRef="0x01000000000048F9"/>
+      <Target IdRef="0x01000000000048FE" PinRef="0x01000000000048FF"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000004D1A">
@@ -46941,32 +46986,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
-    <DialogueFragment Id="0x0100000000005263">
-      <DisplayName><![CDATA[Narrator: "*Kling* *Kling* *Kling*."]]></DisplayName>
-      <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">*Kling* *Kling* *Kling*.</span></p></body></html>]]></LocalizedString>
-      </Text>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>DFr_C2FC7171</TechnicalName>
-      <ExternalId/>
-      <ShortId>0xC2FC7171</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949027</Url>
-      <Features Count="0"/>
-      <Pins Count="2">
-        <Pin Id="0x0100000000005266" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000005267" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="-650" Y="175"/>
-      <Size Width="225" Height="200"/>
-      <ZIndex>0</ZIndex>
-      <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
-      <MenuText Count="0"/>
-    </DialogueFragment>
     <DialogueFragment Id="0x0100000000005268">
       <DisplayName><![CDATA[Khan: "Oh Junra, you finally came."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
@@ -47020,58 +47039,6 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="1">
         <LocalizedString Lang="">Hmm... You were expecting me ?</LocalizedString>
       </MenuText>
-    </DialogueFragment>
-    <DialogueFragment Id="0x0100000000005274">
-      <DisplayName><![CDATA[Narrator: "Again and again, Khan's hammer fell..."]]></DisplayName>
-      <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Again and again, Khan&#39;s hammer fell onto the burning piece of metal in front of him.</span></p></body></html>]]></LocalizedString>
-      </Text>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>DFr_676DD701</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x676DD701</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949044</Url>
-      <Features Count="0"/>
-      <Pins Count="2">
-        <Pin Id="0x0100000000005275" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000005276" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="-300" Y="175"/>
-      <Size Width="225" Height="200"/>
-      <ZIndex>0</ZIndex>
-      <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
-      <MenuText Count="0"/>
-    </DialogueFragment>
-    <DialogueFragment Id="0x010000000000527B">
-      <DisplayName><![CDATA[Narrator: "As you enter his vicinity, he dips..."]]></DisplayName>
-      <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As you enter his vicinity, he dips the piece into the water then place the hammer on the nearby table.</span></p></body></html>]]></LocalizedString>
-      </Text>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>DFr_04EDF9EC</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x04EDF9EC</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037949051</Url>
-      <Features Count="0"/>
-      <Pins Count="2">
-        <Pin Id="0x010000000000527C" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x010000000000527D" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="0" Y="175"/>
-      <Size Width="225" Height="200"/>
-      <ZIndex>0</ZIndex>
-      <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
-      <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005284">
       <DisplayName><![CDATA[Khan: "I was wonder how long are you going..."]]></DisplayName>
@@ -47526,9 +47493,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000532F">
-      <DisplayName><![CDATA[Khan: "Okay but I will need to stop by Hoa..."]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "Okay.... but I will need to stop by..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Okay but I will need to stop by Hoaring first.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Okay.... but I will need to stop by Hoaring first.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_1943522F</TechnicalName>
@@ -47738,9 +47705,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005370">
-      <DisplayName><![CDATA[Player: "Just like that ?"]]></DisplayName>
+      <DisplayName><![CDATA[Player: "Wait, just like that ?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Just like that ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Wait, just like that ?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_D4B266CB</TechnicalName>
@@ -47762,7 +47729,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">Just like that ?</LocalizedString>
+        <LocalizedString Lang="">Wait, just like that ?</LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000538F">
@@ -48214,9 +48181,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000545E">
-      <DisplayName><![CDATA[Khan: "Let's say, we help the Yoshas solve..."]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "Let's say, we help the Council solv..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Let&#39;s say, we help the Yoshas solved problems.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Let&#39;s say, we help the Council solved problems.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_9EF73218</TechnicalName>
@@ -48400,9 +48367,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000054B2">
-      <DisplayName><![CDATA[Khan: "I would had returned a while ago bu..."]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "I would have returned a while ago b..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I would had returned a while ago but he wanted me to stay to collect some information on the old council.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I would have returned a while ago but he wanted me to stay to collect some information on the old council.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_F8B55CF3</TechnicalName>
@@ -48800,9 +48767,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000553C">
-      <DisplayName><![CDATA[Khan: "It is something I use back in the d..."]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "It is something I used back in the..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">It is something I use back in the days for my old job.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">It is something I used back in the days for my old job.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4A255147</TechnicalName>
@@ -48983,6 +48950,32 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
+    <DialogueFragment Id="0x0100000000006894">
+      <DisplayName><![CDATA[Narrator: "There was a long silent as Khan jus..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">There was a long silent as Khan just stood there silently. His voice suddenly broke out breaking the silent.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_7FD073FF</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x7FD073FF</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954708</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006897" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006898" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="5875" Y="-125"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>180</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
     <DialogueFragment Id="0x0100000000006798">
       <DisplayName><![CDATA[Narrator: "*Kling* *Kling* *Kling*."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
@@ -49012,7 +49005,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x010000000000679E">
       <DisplayName><![CDATA[Narrator: "Again and again, Khan's hammer fell..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Again and again, Khan&#39;s hammer fell onto the burning piece of metal in front of him.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Again and again, Khan&#39;s hammer fell onto the burning shell in front of him.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_D4BBC7E2</TechnicalName>
@@ -49036,9 +49029,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000067A4">
-      <DisplayName><![CDATA[Narrator: "As you enter his vicinity, he dips..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "As you entered his vicinity, he dip..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As you enter his vicinity, he dips the piece into the water then place the hammer on the nearby table.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As you entered his vicinity, he dipped the piece into a water bucket then placed his hammer on a nearby table.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_26E3DB70</TechnicalName>
@@ -51177,10 +51170,114 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
-    <DialogueFragment Id="0x0100000000004F79">
-      <DisplayName><![CDATA[Narrator: "Serban seems to be deep in thought..."]]></DisplayName>
+    <DialogueFragment Id="0x010000000000685D">
+      <DisplayName><![CDATA[Narrator: "Serban seemed to be deep in thought..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Serban seems to be deep in thought as you approached him.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Serban seemed to be deep in thought as you approached him.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_8D05FB6F</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x8D05FB6F</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954653</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000685E" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000685F" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="-875" Y="-75"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000006863">
+      <DisplayName><![CDATA[Narrator: "His eyes stared at a distant point..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">His eyes stared at a distant point on the horizon.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_907EC085</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x907EC085</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954659</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006864" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006865" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="-575" Y="-75"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000006869">
+      <DisplayName><![CDATA[Serban: "Oh Junra, you scared me for a momen..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Oh Junra, you scared me for a moment there.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_0D0B5B8C</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x0D0B5B8C</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954665</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000686A" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000686B" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="175" Y="-75"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x01000000000006A6"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x010000000000686F">
+      <DisplayName><![CDATA[Narrator: "As he detected your presence, you c..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As he detected your presence, you could see a sudden jolt in his posture.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_6D05894C</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x6D05894C</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954671</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x0100000000006870" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006871" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="-225" Y="-75"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000004F79">
+      <DisplayName><![CDATA[Narrator: "Serban seemed to be deep in thought..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Serban seemed to be deep in thought as you approached him.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_983D8B9E</TechnicalName>
@@ -51204,9 +51301,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004F86">
-      <DisplayName><![CDATA[Narrator: "His eyes staring to a distant point..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "His eyes stared at a distant point..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">His eyes staring to a distant point on the horizon.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">His eyes stared at a distant point on the horizon.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_CBDD69FC</TechnicalName>
@@ -51232,7 +51329,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000004F8D">
       <DisplayName><![CDATA[Narrator: "As he detected your presence, you c..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As he detected your presence, you can see a sudden jolt in his posture.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As he detected your presence, you could see a sudden jolt in his posture.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_FE91D29B</TechnicalName>
@@ -51448,9 +51545,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000063BD">
-      <DisplayName><![CDATA[Narrator: "As soon as Serban spot the item, yo..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "As soon as Serban spotted the item,..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As soon as Serban spot the item, you noticed that one of his foot stepped backward.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As soon as Serban spotted the item, you noticed that one of his feet stepped backward.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_948FE4DB</TechnicalName>
@@ -51670,9 +51767,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006413">
-      <DisplayName><![CDATA[Narrator: "Before you could finished your sent..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Before you could finish your senten..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could finished your sentence, You saw a quick flash of metal from one of Serban&#39;s hand speeding toward your side.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could finish your sentence, You saw a quick flash of metal from one of Serban&#39;s hands speeding toward your side.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4A4B1ADB</TechnicalName>
@@ -51688,8 +51785,8 @@ Emotion.Khan_Trust > 0;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="2025" Y="1125"/>
-      <Size Width="225" Height="200"/>
+      <Position X="2000" Y="1125"/>
+      <Size Width="250" Height="225"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
       <StageDirections Count="0"/>
@@ -51698,7 +51795,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x010000000000641D">
       <DisplayName><![CDATA[Narrator: "As you stared into his eyes, you fe..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As you stared into his eyes, you felt liquid puring out of your side.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As you stared into his eyes, you felt liquid puring out from your side.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_25A39304</TechnicalName>
@@ -51778,7 +51875,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000006433">
       <DisplayName><![CDATA[Narrator: "You tried to move your body but to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your body but to no avail. Lying in your pool of blood as life fled from your body.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your body but to no avail. Lied in your pool of blood as life fled from your body.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_2F863DCD</TechnicalName>
@@ -51832,7 +51929,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000006450">
       <DisplayName><![CDATA[Narrator: "You saw a quick flash of metal from..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You saw a quick flash of metal from one of Serban&#39;s hand speeding toward your side.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You saw a quick flash of metal from one of Serban&#39;s hands speeding toward your side.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_1D6225FB</TechnicalName>
@@ -51938,7 +52035,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x010000000000646C">
       <DisplayName><![CDATA[Narrator: "You tried to move your body but to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your body but to no avail. Lying in your pool of blood as life fled from your body.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your body but to no avail. Lied in your pool of blood as life fled from your body.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E9C8F67F</TechnicalName>
@@ -51964,7 +52061,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000006475">
       <DisplayName><![CDATA[Narrator: "You saw a quick flash of metal from..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You saw a quick flash of metal from one of Serban&#39;s hand speeding toward your side.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You saw a quick flash of metal from one of Serban&#39;s hands speeding toward your side.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_8739F82A</TechnicalName>
@@ -52016,9 +52113,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000648F">
-      <DisplayName><![CDATA[Player: "I dared not lie."]]></DisplayName>
+      <DisplayName><![CDATA[Player: "I dare not lie."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I dared not lie.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I dare not lie.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_113F48DA</TechnicalName>
@@ -52158,7 +52255,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x01000000000064CC">
       <DisplayName><![CDATA[Narrator: "You noticed his back foot slowly mo..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You noticed his back foot slowly moving foward.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You noticed his back foot slowly moving forward.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E32BB0BB</TechnicalName>
@@ -52378,9 +52475,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006512">
-      <DisplayName><![CDATA[Narrator: "One of his hand fell down and you s..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "One of his hands lowered from behin..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">One of his hand fell down and you spotted a sharp metal object in his hand.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">One of his hands lowered from behind his back and you spotted a sharp metal object in his hand.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_F36BAB32</TechnicalName>
@@ -53186,7 +53283,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000006627">
       <DisplayName><![CDATA[Narrator: "You saw a quick flash of metal from..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You saw a quick flash of metal from one of Serban&#39;s hand speeding toward your side.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You saw a quick flash of metal from one of Serban&#39;s hands speeding toward your side.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_9A9B1913</TechnicalName>
@@ -53212,7 +53309,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x010000000000662D">
       <DisplayName><![CDATA[Narrator: "As you stared into his eyes, you fe..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As you stared into his eyes, you felt liquid puring out of your side.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As you stared into his eyes, you felt liquid puring out from your side.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_7CAF5223</TechnicalName>
@@ -53264,7 +53361,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000006639">
       <DisplayName><![CDATA[Narrator: "You tried to move your body but to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your body but to no avail. Lying in your pool of blood as life fled from your body.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your body but to no avail. Lied in your pool of blood as life fled from your body.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_D36091C1</TechnicalName>
@@ -53372,9 +53469,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006674">
-      <DisplayName><![CDATA[Serban: "Murderers for all I know."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "Murderers for all I care."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Murderers for all I know.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Murderers for all I care.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_DFACF912</TechnicalName>
@@ -53708,9 +53805,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000066E2">
-      <DisplayName><![CDATA[Serban: "Living in the wild gave you a lot o..."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "How do you think I managed to keep..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Living in the wild gave you a lot of knowledge about what you can or cannot eat.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How do you think I managed to keep vermin away from my farm !?.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_FD2EB84E</TechnicalName>
@@ -53766,7 +53863,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x01000000000066F2">
       <DisplayName><![CDATA[Serban: "We will do this in the next gatheri..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">We will do this in the next gathering and you will inject it into their food.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">We will do this in the next gathering and you will inject it into his food.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_B1172859</TechnicalName>
@@ -53876,9 +53973,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000671B">
-      <DisplayName><![CDATA[Serban: "I can't risk you telling them that..."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "I can't risk you exposing that I'm..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I can&#39;t risk you telling them that I&#39;m on to them.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I can&#39;t risk you exposing that I&#39;m on to him.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_53B7328A</TechnicalName>
@@ -53904,9 +54001,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006723">
-      <DisplayName><![CDATA[Serban: "I don't trust you yet."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "I don't fully trust you yet."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I don&#39;t trust you yet.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I don&#39;t fully trust you yet.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_FC2DF6DE</TechnicalName>
@@ -54602,9 +54699,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000048BD">
-      <DisplayName><![CDATA[Logar: ""A lot" cannot even describe the it..."]]></DisplayName>
+      <DisplayName><![CDATA[Logar: ""A lot" cannot even describe it."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;A lot&quot; cannot even describe the it. </span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;A lot&quot; cannot even describe it. </span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_599D1DAD</TechnicalName>
@@ -54680,9 +54777,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000048D1">
-      <DisplayName><![CDATA[Serban: "Common now, brighten the mood up a..."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "Common now, brighten up the mood a..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Common now, brighten the mood up a bit.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Common now, brighten up the mood a bit.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_74FA7B35</TechnicalName>
@@ -54812,7 +54909,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x01000000000048FE">
       <DisplayName><![CDATA[Logar: "And I am Logar. As you can see from..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">And I am Logar. As you can see from our appearances, we are yoshas.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">And I am Logar. As you can see from our appearances, we were Yoshas.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_066A3909</TechnicalName>
@@ -55472,9 +55569,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000049D2">
-      <DisplayName><![CDATA[Narrator: "You take a bite from Khan's plate."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "You took a bite from Khan's plate."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You take a bite from Khan&#39;s plate.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You took a bite from Khan&#39;s plate.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4794C792</TechnicalName>
@@ -55490,7 +55587,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="12475" Y="225"/>
+      <Position X="12400" Y="225"/>
       <Size Width="225" Height="200"/>
       <ZIndex>126</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
@@ -55498,9 +55595,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000049D9">
-      <DisplayName><![CDATA[Narrator: "A tall, one-eyed creature turns aro..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "A tall, one-eyed creature turned ar..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">A tall, one-eyed creature turns around as he spot you.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">A tall, one-eyed creature turned around as he spot you.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_86EF5EDB</TechnicalName>
@@ -55524,9 +55621,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000049E7">
-      <DisplayName><![CDATA[Narrator: "He waves his hand, inviting you in."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "He waved his hand, inviting you in."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He waves his hand, inviting you in.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He waved his hand, inviting you in.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_DFD8AB9C</TechnicalName>
@@ -55550,9 +55647,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000049EF">
-      <DisplayName><![CDATA[Narrator: "Both the horned creatures stare at..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Both the horned creatures stared at..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Both the horned creatures stare at you.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Both the horned creatures stared at you.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_AC878E05</TechnicalName>
@@ -55576,9 +55673,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000049F6">
-      <DisplayName><![CDATA[Narrator: "Before long, their many eyes start..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Before long, their many eyes starte..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before long, their many eyes start dripping down liquid as they laugh uncontrollably.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before long, their many eyes started dripping down liquid as they laughed uncontrollably.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_39EDA663</TechnicalName>
@@ -55628,9 +55725,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A07">
-      <DisplayName><![CDATA[Narrator: "Both the horned gave the tall one a..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Both the horned creatures gave the..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Both the horned gave the tall one a slight nod.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Both the horned creatures gave the tall one a slight nod.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_92579665</TechnicalName>
@@ -55654,9 +55751,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A0F">
-      <DisplayName><![CDATA[Narrator: "They all look at each other before..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "They all looked at each other befor..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">They all look at each other before turning back to you.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">They all looked at each other before turning back to you.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_A91A1111</TechnicalName>
@@ -55680,9 +55777,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A17">
-      <DisplayName><![CDATA[Narrator: "He stares at the dancing flame as i..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "He stared at the dancing flame as i..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He stares at the dancing flame as if seeing the events unfold before his eyes.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He stared at the dancing flame as if seeing the events unfold before his eyes.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4B49D521</TechnicalName>
@@ -55706,9 +55803,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A1F">
-      <DisplayName><![CDATA[Narrator: "Khan looks up in the sky as he reca..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Khan looked up in the sky as he rec..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Khan looks up in the sky as he recalls the event.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Khan looked up in the sky as he recalled the event.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_EC5514D0</TechnicalName>
@@ -55732,9 +55829,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A2A">
-      <DisplayName><![CDATA[Narrator: "The vegetable's juice filled up you..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "The juice from it filled up your ta..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">The vegetable&#39;s juice filled up your taste bud with sweetness.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">The juice from it filled up your taste bud with sweetness.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_56305776</TechnicalName>
@@ -55758,9 +55855,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A31">
-      <DisplayName><![CDATA[Narrator: "Overwhelmingly then it disappears...."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Overwhelmingly then it disappeared...."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Overwhelmingly then it disappears. A sudden sharp, acrid flavor hit you.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Overwhelmingly then it disappeared. A sudden sharp, acrid flavor hit you.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_2C071F1F</TechnicalName>
@@ -55920,9 +56017,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A5E">
-      <DisplayName><![CDATA[Serban: "I grew these vegetables myself."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "I grew these nemons myself."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I grew these vegetables myself.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I grew these nemons myself.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_D0A56434</TechnicalName>
@@ -56052,7 +56149,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000004A81">
       <DisplayName><![CDATA[Serban: "Haha, You don't have to pull back a..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Haha, You don&#39;t have to pull back any punches, I know my vegetables are not for everyone. </span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Haha, You don&#39;t have to pull back any punches, I know my nemons are not for everyone. </span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_06212174</TechnicalName>
@@ -56128,9 +56225,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004A99">
-      <DisplayName><![CDATA[Logar: "Take some of my fish, I catched the..."]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "Take some of my fish, I caught them..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Take some of my fish, I catched them myself.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Take some of my fish, I caught them myself.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_3D64CB67</TechnicalName>
@@ -56200,7 +56297,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="16850" Y="325"/>
+      <Position X="16725" Y="350"/>
       <Size Width="350" Height="200"/>
       <ZIndex>84</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
@@ -56262,9 +56359,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004ABE">
-      <DisplayName><![CDATA[Narrator: "You take a bite from one of the win..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "You took a bite from one of the win..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You take a bite from one of the winged piece on Logar&#39;s plate.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You took a bite from one of the winged piece on Logar&#39;s plate.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_583C05BE</TechnicalName>
@@ -56280,7 +56377,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="17325" Y="325"/>
+      <Position X="17375" Y="325"/>
       <Size Width="225" Height="200"/>
       <ZIndex>126</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
@@ -56288,9 +56385,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004AC4">
-      <DisplayName><![CDATA[Narrator: "As your taste bud touch the piece,..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "As your taste bud touched the piece..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As your taste bud touch the piece, nothing happened. It is bland no mater how you try to examine it.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As your taste bud touched the piece, nothing happened. It was bland no mater how you tried to examine it.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_50A6E964</TechnicalName>
@@ -56314,9 +56411,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004ACA">
-      <DisplayName><![CDATA[Narrator: "A mix of salty and spice flavor sud..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "A mix of salty and spicy flavor sud..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">A mix of salty and spice flavor suddenly bursts out of the piece.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">A mix of salty and spicy flavor suddenly bursted out.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_7E80F6D9</TechnicalName>
@@ -56366,9 +56463,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004ADB">
-      <DisplayName><![CDATA[Narrator: "The more you squeezes, the more jui..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "The more you squeezed, the more jui..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">The more you squeezes, the more juice came out.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">The more you squeezed, the more juice came out.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_C0FA2843</TechnicalName>
@@ -56394,7 +56491,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000004AE2">
       <DisplayName><![CDATA[Narrator: "You thought that flow could not be..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You thought that flow could not be stop as if an ocean is contained within.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You thought that flow could not be stopped as if an ocean is contained within.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_B0F9A035</TechnicalName>
@@ -56418,9 +56515,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004AE9">
-      <DisplayName><![CDATA[Narrator: "Then it becomes less and less until..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Then it became less and less until..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Then it becomes less and less until nothing but a piece of chewy food in your mouth.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Then it became less and less until nothing but a piece of chewy food in your mouth.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_AAD01244</TechnicalName>
@@ -56846,9 +56943,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004B64">
-      <DisplayName><![CDATA[Serban: "It does remind me of the old times..."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "It does remind me of the old times."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">It does remind me of the old times before.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">It does remind me of the old times.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_D0C293CD</TechnicalName>
@@ -56924,9 +57021,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004B7B">
-      <DisplayName><![CDATA[Narrator: "Logar seem to be avoiding eyes cont..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Logar seemed to be avoiding eye con..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Logar seem to be avoiding eyes contact with Serban as he said that.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Logar seemed to be avoiding eye contact with Serban as he said that.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_24792AAB</TechnicalName>
@@ -57002,9 +57099,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004B90">
-      <DisplayName><![CDATA[Narrator: "Serban and Logar turn to Khan to fi..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Serban and Logar turned to Khan to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Serban and Logar turn to Khan to find that he has already gone to sleep.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Serban and Logar turned to Khan to find that he had already gone to sleep.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_C5672E8D</TechnicalName>
@@ -57028,9 +57125,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004B98">
-      <DisplayName><![CDATA[Narrator: "You lie down as your eye's lid star..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "You lied down as your eye's lid sta..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You lie down as your eye&#39;s lid starting to close.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You lied down as your eye&#39;s lid started to close.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_C2B86C06</TechnicalName>
@@ -57054,9 +57151,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004B9F">
-      <DisplayName><![CDATA[Narrator: "You drift away as the heat from the..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Drifted away as the heat from the f..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You drift away as the heat from the fire warm your body.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Drifted away as the heat from the fire warm your body.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_28577640</TechnicalName>
@@ -57216,9 +57313,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004C5F">
-      <DisplayName><![CDATA[Narrator: "Logar and Serban stares at you whil..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Logar and Serban stared at you whil..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Logar and Serban stares at you while you spot Khan rolls his one eye.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Logar and Serban stared at you while you spotted Khan rolling his one eye.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_5F0E10FB</TechnicalName>
@@ -57714,9 +57811,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004D06">
-      <DisplayName><![CDATA[Serban: "Well, it is late now."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "Now, we should rest for the night."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Well, it is late now.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Now, we should rest for the night.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_1729BEDF</TechnicalName>
@@ -57732,10 +57829,36 @@ Emotion.Khan_Trust > 0;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="26895.2309692018" Y="-492.219075620662"/>
+      <Position X="27475" Y="-250"/>
       <Size Width="250" Height="200"/>
       <ZIndex>92</ZIndex>
       <Speaker IdRef="0x01000000000006A6"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x010000000000687E">
+      <DisplayName><![CDATA[Narrator: "It was a purple piece of plant that..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">It was a purple piece of plant that you haven&#39;t seen before.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_E9581DF4</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xE9581DF4</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954686</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000687F" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000006880" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="12625" Y="-50"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>126</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
@@ -58566,7 +58689,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000004E48">
       <DisplayName><![CDATA[Logar: "We didn't know what else to do for..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">We didn&#39;t know what else to do for us to survive. But so is for everyone else.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">We didn&#39;t know what else to do for us to survive. But it was the same for everyone else.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_657AB30C</TechnicalName>
@@ -58850,9 +58973,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004E96">
-      <DisplayName><![CDATA[Narrator: "A long silent follows as you notice..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "A long silent followed as you notic..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">A long silent follows as you notice two of his eyes were aimed at the direction of Serban&#39;s farm.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">A long silent followed as you notice two of his eyes were aimed at the direction of Serban&#39;s farm.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_713B2FB6</TechnicalName>
@@ -59058,9 +59181,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004EF6">
-      <DisplayName><![CDATA[Narrator: "He let out a smile but you notice s..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "He let out a smile but you noticed..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He let out a smile but you notice something abnormal between his laugh and his eyes.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He let out a smile but you noticed something abnormal between his laugh and his eyes.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_B4D452A3</TechnicalName>
@@ -59242,9 +59365,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000567F">
-      <DisplayName><![CDATA[Narrator: "As his four eyes rotating and twitc..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "As his four eyes rotated and twitch..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As his four eyes rotating and twitching as rapid as a fly zipping back and forth, scanning every single centimeter of the lake in front of him, .....</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As his four eyes rotated and twitched as rapid as a fly zipping back and forth, scanning every single centimeter of the lake in front of him, .....</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_2D5F3A33</TechnicalName>
@@ -59268,9 +59391,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000568B">
-      <DisplayName><![CDATA[Narrator: "One of them catches you approaching..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "One of them caught you approaching."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">One of them catches you approaching.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">One of them caught you approaching.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_606659DD</TechnicalName>
@@ -59320,9 +59443,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005691">
-      <DisplayName><![CDATA[Narrator: "Then the reticle on them dragged th..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Then the iris on them dragged thems..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Then the reticle on them dragged themselves to put you in their field of view.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Then the iris on them dragged themselves to put you in their field of view.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_2A8E3E78</TechnicalName>
@@ -59482,9 +59605,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005710">
-      <DisplayName><![CDATA[Narrator: "His four eyes widen and widen."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "His four eyes widened and widened."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">His four eyes widen and widen.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">His four eyes widened and widened.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_BE8F5B89</TechnicalName>
@@ -59508,9 +59631,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005721">
-      <DisplayName><![CDATA[Narrator: "Bulging out until the point where y..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Bulged out until the point where yo..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Bulging out until the point where you thought that they going to fall off his face.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Bulged out until the point where you thought that they were going to fall off his face.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E3A462A3</TechnicalName>
@@ -60340,9 +60463,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000058E5">
-      <DisplayName><![CDATA[Narrator: "Before you know it, all the needles..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Before you knew it, all the needles..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you know it, all the needles had already punctured your body.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you knew it, all the needles had already punctured your body.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_48B9BA1F</TechnicalName>
@@ -60368,7 +60491,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x01000000000058EC">
       <DisplayName><![CDATA[Narrator: "You tried to move your limbs but to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your limbs but to no  avail. Your legs started to crumble, making you fall to the ground face first.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your limbs but to no  avail. Your legs started to crumble, making you fall to the ground, face first.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_04AC74C8</TechnicalName>
@@ -60420,7 +60543,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x01000000000058FA">
       <DisplayName><![CDATA[Narrator: "As life escaped you, the last feeli..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As life escaped you, the last feeling you had was your body being falling and the icy cold of water surround your body.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As life escaped you, the last feeling you had was your body falling and the icy cold of water surrounded your body.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_047E6F23</TechnicalName>
@@ -60524,7 +60647,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000005931">
       <DisplayName><![CDATA[Narrator: "Salty and spicy. However, this time..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Salty and spicy. However, this time there is a weird taste that you could not comprehend.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Salty and spicy. However, this time there was a weird taste that you could not comprehend.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_59396397</TechnicalName>
@@ -61268,7 +61391,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000005A5E">
       <DisplayName><![CDATA[Narrator: "He stopped for a brief moment. His..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He stopped for a brief moment. His four eyes stared at your face as if they are disecting your emotion.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He stopped for a brief moment. His four eyes stared at your face as if they were dissecting your every movement.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_72BDF9E2</TechnicalName>
@@ -62518,9 +62641,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005C1F">
-      <DisplayName><![CDATA[Narrator: "As he turned around and head into h..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "As he turned around and headed into..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As he turned around and head into his house.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As he turned around and headed into his house.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_2E2926A4</TechnicalName>
@@ -62546,7 +62669,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
     <DialogueFragment Id="0x0100000000005C26">
       <DisplayName><![CDATA[Narrator: "You could still feel that you were..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You could still feel that you were being watch by him.... somehow.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You could still feel that you were being watched by him.... somehow.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_D9B79025</TechnicalName>
@@ -62570,9 +62693,9 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005C2D">
-      <DisplayName><![CDATA[Narrator: "You noticed on the door's glasses t..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "You noticed on the door's glass tha..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You noticed on the door&#39;s glasses that his four eyes were still staring at you.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You noticed on the door&#39;s glass that his four eyes were still staring at you.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4436E7C6</TechnicalName>
@@ -62885,7 +63008,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037929638</Url>
       <Features Count="1">
         <Feature Name="DefaultBasicCharacterFeature" IdRef="0x0100000000000008">
-          <Properties Count="9">
+          <Properties Count="11">
             <Number Name="Age"/>
             <String Name="Species"/>
             <String Name="BornIn"/>
@@ -62895,6 +63018,8 @@ Emotion.Khan_Trust > 0;]]></Expression>
             <String Name="Personality"/>
             <String Name="Appearance"/>
             <Boolean Name="BooleanValue_02"/>
+            <Boolean Name="UseDisplayName"/>
+            <String Name="DisplayName"/>
           </Properties>
         </Feature>
       </Features>
@@ -62914,7 +63039,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037928230</Url>
       <Features Count="1">
         <Feature Name="DefaultBasicCharacterFeature" IdRef="0x0100000000000008">
-          <Properties Count="9">
+          <Properties Count="11">
             <Number Name="Age"/>
             <String Name="Species"/>
             <String Name="BornIn"/>
@@ -62924,6 +63049,8 @@ Emotion.Khan_Trust > 0;]]></Expression>
             <String Name="Personality"/>
             <String Name="Appearance"/>
             <Boolean Name="BooleanValue_02">1</Boolean>
+            <Boolean Name="UseDisplayName"/>
+            <String Name="DisplayName"/>
           </Properties>
         </Feature>
       </Features>
@@ -62943,7 +63070,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037928222</Url>
       <Features Count="1">
         <Feature Name="DefaultBasicCharacterFeature" IdRef="0x0100000000000008">
-          <Properties Count="9">
+          <Properties Count="11">
             <Number Name="Age"/>
             <String Name="Species"/>
             <String Name="BornIn"/>
@@ -62953,6 +63080,8 @@ Emotion.Khan_Trust > 0;]]></Expression>
             <String Name="Personality"/>
             <String Name="Appearance"/>
             <Boolean Name="BooleanValue_02">1</Boolean>
+            <Boolean Name="UseDisplayName">1</Boolean>
+            <String Name="DisplayName">test</String>
           </Properties>
         </Feature>
       </Features>
@@ -62972,7 +63101,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037928226</Url>
       <Features Count="1">
         <Feature Name="DefaultBasicCharacterFeature" IdRef="0x0100000000000008">
-          <Properties Count="9">
+          <Properties Count="11">
             <Number Name="Age"/>
             <String Name="Species"/>
             <String Name="BornIn"/>
@@ -62982,6 +63111,8 @@ Emotion.Khan_Trust > 0;]]></Expression>
             <String Name="Personality"/>
             <String Name="Appearance"/>
             <Boolean Name="BooleanValue_02">1</Boolean>
+            <Boolean Name="UseDisplayName"/>
+            <String Name="DisplayName"/>
           </Properties>
         </Feature>
       </Features>
@@ -62998,7 +63129,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037946830</Url>
       <Features Count="1">
         <Feature Name="DefaultBasicCharacterFeature" IdRef="0x0100000000000008">
-          <Properties Count="9">
+          <Properties Count="11">
             <Number Name="Age"/>
             <String Name="Species"/>
             <String Name="BornIn"/>
@@ -63008,6 +63139,8 @@ Emotion.Khan_Trust > 0;]]></Expression>
             <String Name="Personality"/>
             <String Name="Appearance"/>
             <Boolean Name="BooleanValue_02">1</Boolean>
+            <Boolean Name="UseDisplayName"/>
+            <String Name="DisplayName"/>
           </Properties>
         </Feature>
       </Features>
@@ -63069,7 +63202,7 @@ Emotion.Khan_Trust > 0;]]></Expression>
       <Color>#C8E2E7</Color>
       <TechnicalName>DefaultBasicCharacterFeature</TechnicalName>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037927944</Url>
-      <PropertyDefinitions Count="9">
+      <PropertyDefinitions Count="11">
         <PropertyDefinitionRef IdRef="0x010000000000000A"/>
         <PropertyDefinitionRef IdRef="0x0100000000000011"/>
         <PropertyDefinitionRef IdRef="0x0100000000000017"/>
@@ -63079,6 +63212,8 @@ Emotion.Khan_Trust > 0;]]></Expression>
         <PropertyDefinitionRef IdRef="0x0100000000000037"/>
         <PropertyDefinitionRef IdRef="0x010000000000003D"/>
         <PropertyDefinitionRef IdRef="0x010000000000036C"/>
+        <PropertyDefinitionRef IdRef="0x0100000000006911"/>
+        <PropertyDefinitionRef IdRef="0x0100000000006917"/>
       </PropertyDefinitions>
     </FeatureDefinition>
     <FeatureDefinition Id="0x0100000000000043">
@@ -67184,27 +67319,6 @@ ConversationSupport.OneYoshaTooMany_SerbanInfo_TheCouncil = true]]></Expression>
       <Size Width="225" Height="100"/>
       <ZIndex>126</ZIndex>
     </Instruction>
-    <Instruction Id="0x0100000000006340">
-      <DisplayName>// merge</DisplayName>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Ins_431F87A0</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x431F87A0</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953344</Url>
-      <Features Count="0"/>
-      <Expression>// merge</Expression>
-      <Pins Count="2">
-        <Pin Id="0x0100000000006342" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000006343" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="150" Y="75"/>
-      <Size Width="225" Height="100"/>
-      <ZIndex>191</ZIndex>
-    </Instruction>
     <Instruction Id="0x0100000000006364">
       <DisplayName>Conversations.OneYoshaTooMany_Serban ...</DisplayName>
       <Color>#C8E2E7</Color>
@@ -67733,7 +67847,8 @@ Emotion.Serban_Trust -= 10;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954389</Url>
       <Features Count="0"/>
       <Expression><![CDATA[Emotion.Logar_Trust -= 10;
-Emotion.Serban_Trust -= 10;]]></Expression>
+Emotion.Serban_Trust -= 10;
+]]></Expression>
       <Pins Count="2">
         <Pin Id="0x0100000000006756" Index="0" Semantic="Input">
           <Expression/>
@@ -67811,6 +67926,27 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
       <Position X="32161.0255609407" Y="21.2368023687626"/>
       <Size Width="225" Height="100"/>
       <ZIndex>5</ZIndex>
+    </Instruction>
+    <Instruction Id="0x0100000000006889">
+      <DisplayName>QuestVariables.OneYoshasTooMany_Trie ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_4A845698</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x4A845698</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954697</Url>
+      <Features Count="0"/>
+      <Expression>QuestVariables.OneYoshasTooMany_TriedLogarFish = true;</Expression>
+      <Pins Count="2">
+        <Pin Id="0x010000000000688B" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000688C" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="17100" Y="475"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>339</ZIndex>
     </Instruction>
     <Instruction Id="0x0100000000004C1C">
       <DisplayName>// merge</DisplayName>
@@ -69600,6 +69736,18 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
       </DisplayName>
       <TechnicalName>BooleanValue_02</TechnicalName>
     </BooleanPropertyDefinition>
+    <BooleanPropertyDefinition Id="0x0100000000006911" BasedOn="0x030000000759BA31">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">UseDisplayName</LocalizedString>
+      </DisplayName>
+      <TechnicalName>UseDisplayName</TechnicalName>
+    </BooleanPropertyDefinition>
+    <TextPropertyDefinition Id="0x0100000000006917" BasedOn="0x0300000069DB68B1">
+      <DisplayName Count="1">
+        <LocalizedString Lang="">Display Name</LocalizedString>
+      </DisplayName>
+      <TechnicalName>DisplayName</TechnicalName>
+    </TextPropertyDefinition>
     <TextPropertyDefinition Id="0x0100000000000045" BasedOn="0x03000000BC9B4687">
       <DisplayName Count="1">
         <LocalizedString Lang="">Goals</LocalizedString>
@@ -72957,15 +73105,8 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
           <Node IdRef="0x010000000000676B" Type="Dialogue">
             <Node IdRef="0x010000000000564C" Type="Instruction"/>
             <Node IdRef="0x010000000000525B" Type="Dialogue">
-              <Node IdRef="0x0100000000005263" Type="DialogueFragment"/>
               <Node IdRef="0x0100000000005268" Type="DialogueFragment"/>
               <Node IdRef="0x010000000000526D" Type="DialogueFragment"/>
-              <Node IdRef="0x0100000000005272" Type="Connection"/>
-              <Node IdRef="0x0100000000005274" Type="DialogueFragment"/>
-              <Node IdRef="0x010000000000527A" Type="Connection"/>
-              <Node IdRef="0x010000000000527B" Type="DialogueFragment"/>
-              <Node IdRef="0x0100000000005281" Type="Connection"/>
-              <Node IdRef="0x0100000000005282" Type="Connection"/>
               <Node IdRef="0x0100000000005284" Type="DialogueFragment"/>
               <Node IdRef="0x010000000000528A" Type="Connection"/>
               <Node IdRef="0x010000000000528B" Type="Connection"/>
@@ -73030,7 +73171,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
               <Node IdRef="0x010000000000538F" Type="DialogueFragment"/>
               <Node IdRef="0x01000000000053B5" Type="DialogueFragment"/>
               <Node IdRef="0x01000000000053CA" Type="Connection"/>
-              <Node IdRef="0x01000000000053D2" Type="Connection"/>
               <Node IdRef="0x01000000000053D3" Type="DialogueFragment"/>
               <Node IdRef="0x01000000000053D9" Type="Connection"/>
               <Node IdRef="0x01000000000053DA" Type="Connection"/>
@@ -73144,6 +73284,10 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
               <Node IdRef="0x01000000000065A5" Type="DialogueFragment"/>
               <Node IdRef="0x01000000000065AB" Type="Connection"/>
               <Node IdRef="0x01000000000065AC" Type="Connection"/>
+              <Node IdRef="0x010000000000687D" Type="Connection"/>
+              <Node IdRef="0x0100000000006894" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000006899" Type="Connection"/>
+              <Node IdRef="0x010000000000689A" Type="Connection"/>
             </Node>
             <Node IdRef="0x0100000000006777" Type="Condition"/>
             <Node IdRef="0x010000000000677C" Type="Connection"/>
@@ -73375,12 +73519,18 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
               <Node IdRef="0x0100000000005245" Type="Connection"/>
               <Node IdRef="0x010000000000524B" Type="Jump"/>
               <Node IdRef="0x010000000000524F" Type="Connection"/>
-              <Node IdRef="0x0100000000006340" Type="Instruction"/>
-              <Node IdRef="0x0100000000006344" Type="Connection"/>
-              <Node IdRef="0x0100000000006345" Type="Connection"/>
-              <Node IdRef="0x0100000000006346" Type="Connection"/>
-              <Node IdRef="0x0100000000006347" Type="Connection"/>
               <Node IdRef="0x0100000000006765" Type="Connection"/>
+              <Node IdRef="0x010000000000685D" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000006863" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000006869" Type="DialogueFragment"/>
+              <Node IdRef="0x010000000000686F" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000006875" Type="Connection"/>
+              <Node IdRef="0x0100000000006876" Type="Connection"/>
+              <Node IdRef="0x0100000000006877" Type="Connection"/>
+              <Node IdRef="0x0100000000006878" Type="Connection"/>
+              <Node IdRef="0x0100000000006879" Type="Connection"/>
+              <Node IdRef="0x010000000000687A" Type="Connection"/>
+              <Node IdRef="0x010000000000687B" Type="Connection"/>
             </Node>
             <Node IdRef="0x0100000000004F79" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000004F86" Type="DialogueFragment"/>
@@ -73729,7 +73879,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x01000000000048F7" Type="DialogueFragment"/>
             <Node IdRef="0x01000000000048FD" Type="Connection"/>
             <Node IdRef="0x01000000000048FE" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000004904" Type="Connection"/>
             <Node IdRef="0x0100000000004905" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000490B" Type="Connection"/>
             <Node IdRef="0x010000000000490C" Type="DialogueFragment"/>
@@ -73812,7 +73961,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x0100000000004A26" Type="Connection"/>
             <Node IdRef="0x0100000000004A28" Type="Connection"/>
             <Node IdRef="0x0100000000004A2A" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000004A30" Type="Connection"/>
             <Node IdRef="0x0100000000004A31" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000004A37" Type="Connection"/>
             <Node IdRef="0x0100000000004A38" Type="DialogueFragment"/>
@@ -73853,7 +74001,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x0100000000004AC4" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000004ACA" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000004AD0" Type="Connection"/>
-            <Node IdRef="0x0100000000004AD2" Type="Connection"/>
             <Node IdRef="0x0100000000004AD3" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000004AD9" Type="Connection"/>
             <Node IdRef="0x0100000000004ADA" Type="Connection"/>
@@ -73974,7 +74121,6 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x0100000000004D05" Type="Connection"/>
             <Node IdRef="0x0100000000004D06" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000004D0C" Type="Connection"/>
-            <Node IdRef="0x0100000000004D0D" Type="Connection"/>
             <Node IdRef="0x0100000000004D0E" Type="Connection"/>
             <Node IdRef="0x0100000000004D0F" Type="Connection"/>
             <Node IdRef="0x0100000000006743" Type="Instruction"/>
@@ -73998,6 +74144,16 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
             <Node IdRef="0x010000000000563B" Type="Instruction"/>
             <Node IdRef="0x0100000000006851" Type="Connection"/>
             <Node IdRef="0x0100000000006852" Type="Connection"/>
+            <Node IdRef="0x010000000000687E" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000006884" Type="Connection"/>
+            <Node IdRef="0x0100000000006885" Type="Connection"/>
+            <Node IdRef="0x0100000000006886" Type="Connection"/>
+            <Node IdRef="0x0100000000006887" Type="Connection"/>
+            <Node IdRef="0x0100000000006888" Type="Connection"/>
+            <Node IdRef="0x0100000000006889" Type="Instruction"/>
+            <Node IdRef="0x010000000000688D" Type="Connection"/>
+            <Node IdRef="0x010000000000688E" Type="Connection"/>
+            <Node IdRef="0x01000000000068A2" Type="Connection"/>
           </Node>
           <Node IdRef="0x0100000000005666" Type="Dialogue">
             <Node IdRef="0x0100000000004BB3" Type="Dialogue">

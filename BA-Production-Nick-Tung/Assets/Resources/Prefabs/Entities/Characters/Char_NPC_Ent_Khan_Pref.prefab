@@ -110,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustText
       value: 
-      objectReference: {fileID: 8411709210786260845}
+      objectReference: {fileID: 0}
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: luaVariable
       value: Emotion.Khan
@@ -126,6 +126,14 @@ PrefabInstance:
     - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571775851107180045, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571775851107180045, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.03
       objectReference: {fileID: 0}
     - target: {fileID: 5847025022927005436, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
@@ -215,6 +223,14 @@ PrefabInstance:
       propertyPath: conversation
       value: Story_OneYoshaTooMany/Khan_Talking
       objectReference: {fileID: 0}
+    - target: {fileID: 7572391994521490802, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572391994521490802, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: color.r
+      value: 0.91764706
+      objectReference: {fileID: 0}
     - target: {fileID: 7942475563121041131, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -264,14 +280,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
   m_PrefabInstance: {fileID: 7585231604236307446}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8411709210786260845 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2159549694699220123, guid: e34990221a93a184b9ad40b07657d639, type: 3}
-  m_PrefabInstance: {fileID: 7585231604236307446}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

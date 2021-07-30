@@ -21,6 +21,10 @@ MonoBehaviour:
     color: {r: 0.09444451, g: 1, b: 0, a: 1}
     bold: 1
     italic: 0
+  - word: The Four Eyes One
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    bold: 1
+    italic: 0
   - word: Tagar
     color: {r: 1, g: 0.048780486, b: 0, a: 1}
     bold: 1
@@ -31,6 +35,10 @@ MonoBehaviour:
     italic: 0
   - word: Khan
     color: {r: 0.9166665, g: 0, b: 1, a: 1}
+    bold: 1
+    italic: 0
+  - word: The Tall One
+    color: {r: 0.91764706, g: 0, b: 1, a: 1}
     bold: 1
     italic: 0
   - word: The Kasi
@@ -47,6 +55,10 @@ MonoBehaviour:
     italic: 0
   - word: Serban
     color: {r: 1, g: 0.50555557, b: 0, a: 1}
+    bold: 1
+    italic: 0
+  - word: Two Eyes One
+    color: {r: 1, g: 0.5058824, b: 0, a: 1}
     bold: 1
     italic: 0
   - word: The Unifier
@@ -82,6 +94,18 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: My Kasi
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    bold: 1
+    italic: 0
+  - word: Yoshas
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    bold: 1
+    italic: 0
+  - word: nemon
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    bold: 1
+    italic: 0
+  - word: nemon
     color: {r: 0, g: 1, b: 0.9607843, a: 1}
     bold: 1
     italic: 0

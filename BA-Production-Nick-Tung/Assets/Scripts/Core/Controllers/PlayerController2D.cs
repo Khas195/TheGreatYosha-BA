@@ -160,16 +160,25 @@ public class PlayerController2D : MonoBehaviour, IObserver
 					targetPos.z = 0;
 					this.transform.position = targetPos;
 				}
-				this.character.Move(0, 0);
-				UpdateAnimator(Vector3.zero, isMoving: false);
-				if (interactNPC != null)
-				{
-					interactNPC.Interact();
-				}
-				currentPath.Clear();
-				LogHelper.Log("AI - Reached Destination.");
+				OnDestinationReached();
 			}
 		}
+		else
+		{
+			OnDestinationReached();
+		}
+	}
+
+	private void OnDestinationReached()
+	{
+		this.character.Move(0, 0);
+		UpdateAnimator(Vector3.zero, isMoving: false);
+		if (interactNPC != null)
+		{
+			interactNPC.Interact();
+		}
+		currentPath.Clear();
+		LogHelper.Log("AI - Reached Destination.");
 	}
 
 	private void UpdateAnimator(Vector3 travelDir, bool isMoving)

@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/DevScenes/System_LogScene_Sce.unity
     guid: e489254b765f6cb479c2b1f745145314
   - enabled: 1
-    path: Assets/Scenes/GameScenes/Game_NewGame2D_Environment_Sce.unity
+    path: Assets/Scenes/GameScenes/HinjaScenes/Game_Hinja_Begin_Environment_Sce.unity
     guid: 4bfdc3e5a4b35ac43b5e4a69c3bb7004
   - enabled: 1
-    path: Assets/Scenes/GameScenes/Game_NewGame2D_Characters_Sce.unity
+    path: Assets/Scenes/GameScenes/HinjaScenes/Game_Hinja_Begin_Characters_Sce.unity
     guid: b4202c45f3ace4049b088bba2820afa5
   - enabled: 1
     path: Assets/Scenes/GameScenes/Game_Player_Sce.unity

@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-10T12:22:31Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-10T14:24:47Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -498,14 +498,14 @@
       <ZIndex>39</ZIndex>
     </Condition>
     <Condition Id="0x0100000000006777">
-      <DisplayName>WorldVariables.Story_Timeline == 1</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_34D3997A</TechnicalName>
       <ExternalId/>
       <ShortId>0x34D3997A</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954423</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 1</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 1</Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000006779" Index="0" Semantic="Input">
           <Expression/>
@@ -522,14 +522,14 @@
       <ZIndex>2</ZIndex>
     </Condition>
     <Condition Id="0x010000000000678C">
-      <DisplayName>WorldVariables.Story_Timeline == 2</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_0FC96E79</TechnicalName>
       <ExternalId/>
       <ShortId>0x0FC96E79</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954444</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 2</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 2</Expression>
       <Pins Count="3">
         <Pin Id="0x010000000000678E" Index="0" Semantic="Input">
           <Expression/>
@@ -570,14 +570,14 @@
       <ZIndex>10</ZIndex>
     </Condition>
     <Condition Id="0x01000000000075BA">
-      <DisplayName>WorldVariables.Story_Timeline == 3</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_3594F15C</TechnicalName>
       <ExternalId/>
       <ShortId>0x3594F15C</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037958074</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 3</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 3</Expression>
       <Pins Count="3">
         <Pin Id="0x01000000000075BC" Index="0" Semantic="Input">
           <Expression/>
@@ -860,14 +860,14 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <ZIndex>0</ZIndex>
     </Condition>
     <Condition Id="0x0100000000005E54">
-      <DisplayName>WorldVariables.Story_Timeline == 1</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_E6A8D075</TechnicalName>
       <ExternalId/>
       <ShortId>0xE6A8D075</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037952084</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 1</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 1</Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000005E55" Index="0" Semantic="Input">
           <Expression/>
@@ -884,14 +884,14 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <ZIndex>3</ZIndex>
     </Condition>
     <Condition Id="0x0100000000005E5F">
-      <DisplayName>WorldVariables.Story_Timeline == 2</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_8126F087</TechnicalName>
       <ExternalId/>
       <ShortId>0x8126F087</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037952095</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 2</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 2</Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000005E60" Index="0" Semantic="Input">
           <Expression/>
@@ -1244,14 +1244,14 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <ZIndex>36</ZIndex>
     </Condition>
     <Condition Id="0x0100000000006ED1">
-      <DisplayName>WorldVariables.Story_Timeline == 3</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_71BCB948</TechnicalName>
       <ExternalId/>
       <ShortId>0x71BCB948</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037956305</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 3</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 3</Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000006ED3" Index="0" Semantic="Input">
           <Expression/>
@@ -1702,14 +1702,14 @@ QuestVariables.OneYoshasTooMany_SerbanAgreedToGoBack == true]]></Expression>
       <ZIndex>169</ZIndex>
     </Condition>
     <Condition Id="0x010000000000566C">
-      <DisplayName>WorldVariables.Story_Timeline == 1</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_ADB87E68</TechnicalName>
       <ExternalId/>
       <ShortId>0xADB87E68</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950060</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 1</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 1</Expression>
       <Pins Count="3">
         <Pin Id="0x010000000000566E" Index="0" Semantic="Input">
           <Expression/>
@@ -1726,14 +1726,14 @@ QuestVariables.OneYoshasTooMany_SerbanAgreedToGoBack == true]]></Expression>
       <ZIndex>3</ZIndex>
     </Condition>
     <Condition Id="0x0100000000005677">
-      <DisplayName>WorldVariables.Story_Timeline == 2</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_17C14E9C</TechnicalName>
       <ExternalId/>
       <ShortId>0x17C14E9C</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950071</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 2</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 2</Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000005678" Index="0" Semantic="Input">
           <Expression/>
@@ -2086,14 +2086,14 @@ QuestVariables.OneYoshasTooMany_SerbanAgreedToGoBack == true]]></Expression>
       <ZIndex>6</ZIndex>
     </Condition>
     <Condition Id="0x0100000000006817">
-      <DisplayName>WorldVariables.Story_Timeline == 3</DisplayName>
+      <DisplayName>WorldVariables.OneYoshasTooMany_Time ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_70E22C2D</TechnicalName>
       <ExternalId/>
       <ShortId>0x70E22C2D</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037954583</Url>
       <Features Count="0"/>
-      <Expression>WorldVariables.Story_Timeline == 3</Expression>
+      <Expression>WorldVariables.OneYoshasTooMany_Timeline == 3</Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000006819" Index="0" Semantic="Input">
           <Expression/>
@@ -23194,24 +23194,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x01000000000090E8" PinRef="0x01000000000090E9"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x01000000000090F6">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_BBB39B7A</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037965046</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000090E8" PinRef="0x01000000000090EA"/>
-      <Target IdRef="0x0100000000007BBE" PinRef="0x0100000000007BC2"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x01000000000090F7">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_06DDF6BC</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037965047</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000090CA" PinRef="0x01000000000090CC"/>
-      <Target IdRef="0x0100000000007BBE" PinRef="0x0100000000007BC2"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000009423">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_BED8D22B</TechnicalName>
@@ -23579,6 +23561,24 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x01000000000094B3" PinRef="0x01000000000094B7"/>
       <Target IdRef="0x0100000000009074" PinRef="0x0100000000009077"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000094D0">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_55B183E1</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966032</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000090CA" PinRef="0x01000000000090CC"/>
+      <Target IdRef="0x0100000000007BBE" PinRef="0x0100000000007BC2"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000094D1">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_AE346D15</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966033</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000090E8" PinRef="0x01000000000090EA"/>
+      <Target IdRef="0x0100000000007BBE" PinRef="0x0100000000007BC2"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x010000000000676B">
@@ -37611,9 +37611,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000073FF">
-      <DisplayName><![CDATA[Player: "[Show Him The Poisoned Mark]"]]></DisplayName>
+      <DisplayName><![CDATA[Player: "..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">[Show Him The Poisoned Mark]</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} </style></head><body><p id="s0"></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_AAA0314B</TechnicalName>
@@ -37633,7 +37633,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">None()</LocalizedString>
+      </StageDirections>
       <MenuText Count="1">
         <LocalizedString Lang="">[Show Him The Poisoned Mark]</LocalizedString>
       </MenuText>
@@ -40673,9 +40675,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000004AF0">
-      <DisplayName><![CDATA[Logar: "Awesome right ?"]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "Awesome right?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Awesome right ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Awesome right?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_181B051E</TechnicalName>
@@ -64818,7 +64820,8 @@ ConversationSupport.OneYoshaTooMany_SerbanInfo_TheCouncil = true]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037953394</Url>
       <Features Count="0"/>
       <Expression><![CDATA[Conversations.OneYoshaTooMany_SerbanAssassin = true;
-WorldVariables.Story_Timeline += 1;]]></Expression>
+WorldVariables.OneYoshasTooMany_Timeline += 1;
+]]></Expression>
       <Pins Count="2">
         <Pin Id="0x0100000000006374" Index="0" Semantic="Input">
           <Expression/>
@@ -64828,7 +64831,7 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
         </Pin>
       </Pins>
       <Position X="3250" Y="775"/>
-      <Size Width="225" Height="100"/>
+      <Size Width="300" Height="150"/>
       <ZIndex>39</ZIndex>
     </Instruction>
     <Instruction Id="0x0100000000006FD8">
@@ -65362,7 +65365,8 @@ Emotion.Serban_Trust += 10;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950011</Url>
       <Features Count="0"/>
       <Expression><![CDATA[Conversations.OneYoshaTooMany_DinnerTogether = true;
-WorldVariables.Story_Timeline += 1;]]></Expression>
+WorldVariables.OneYoshasTooMany_Timeline += 1;
+]]></Expression>
       <Pins Count="2">
         <Pin Id="0x010000000000563D" Index="0" Semantic="Input">
           <Expression/>
@@ -65372,7 +65376,7 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
         </Pin>
       </Pins>
       <Position X="32161.0255609407" Y="21.2368023687626"/>
-      <Size Width="225" Height="100"/>
+      <Size Width="313.974439059326" Height="153.763197631237"/>
       <ZIndex>5</ZIndex>
     </Instruction>
     <Instruction Id="0x0100000000006889">
@@ -65916,7 +65920,7 @@ QuestVariables.OneYoshasTooMany_KhanItem = false;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037950034</Url>
       <Features Count="0"/>
       <Expression><![CDATA[Conversations.OneYoshaTooMany_LogarAssassin = true;
-WorldVariables.Story_Timeline += 1;]]></Expression>
+WorldVariables.OneYoshasTooMany_Timeline += 1;]]></Expression>
       <Pins Count="2">
         <Pin Id="0x0100000000005653" Index="0" Semantic="Input">
           <Expression/>
@@ -65926,7 +65930,7 @@ WorldVariables.Story_Timeline += 1;]]></Expression>
         </Pin>
       </Pins>
       <Position X="5375" Y="875"/>
-      <Size Width="225" Height="100"/>
+      <Size Width="250" Height="125"/>
       <ZIndex>9</ZIndex>
     </Instruction>
     <Instruction Id="0x0100000000006A2E">
@@ -67696,7 +67700,7 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
       <Description Count="0"/>
       <Variables Count="3">
         <Variable>
-          <TechnicalName>Story_Timeline</TechnicalName>
+          <TechnicalName>OneYoshasTooMany_Timeline</TechnicalName>
           <Description Count="0"/>
           <DataType>Integer</DataType>
           <DefaultValue>1</DefaultValue>
@@ -72388,8 +72392,6 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x01000000000090E7" Type="Connection"/>
             <Node IdRef="0x01000000000090E8" Type="DialogueFragment"/>
             <Node IdRef="0x01000000000090EE" Type="Connection"/>
-            <Node IdRef="0x01000000000090F6" Type="Connection"/>
-            <Node IdRef="0x01000000000090F7" Type="Connection"/>
             <Node IdRef="0x0100000000009423" Type="Connection"/>
             <Node IdRef="0x0100000000009424" Type="Connection"/>
             <Node IdRef="0x010000000000942B" Type="Condition"/>
@@ -72444,6 +72446,8 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x01000000000094B3" Type="DialogueFragment"/>
             <Node IdRef="0x01000000000094C3" Type="Connection"/>
             <Node IdRef="0x01000000000094C4" Type="Connection"/>
+            <Node IdRef="0x01000000000094D0" Type="Connection"/>
+            <Node IdRef="0x01000000000094D1" Type="Connection"/>
           </Node>
         </Node>
       </Node>

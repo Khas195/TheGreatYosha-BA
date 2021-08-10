@@ -11,11 +11,17 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	[Expandable]
 	[BoxGroup("Settings")]
 	BuildProfile requiredScenes = null;
+
+
+
 	[SerializeField]
 	[Required]
 	[Expandable]
 	[BoxGroup("Settings")]
-	GameInstance startInstance = null;
+	GameScenario startScenario = null;
+
+
+
 	[SerializeField]
 	[Required]
 	[Expandable]
@@ -26,6 +32,11 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	[Expandable]
 	[BoxGroup("Settings")]
 	GameInstance currentInstance = null;
+	[SerializeField]
+	[BoxGroup("Settings")]
+	GameScenario currentScenario = null;
+
+
 
 
 	[SerializeField]
@@ -41,7 +52,8 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 
 	public void StartGame()
 	{
-		this.RequestInstance(startInstance);
+		currentScenario = startScenario;
+		this.RequestInstance(startScenario.GetInstanceBasedOnCurrentTimeline());
 	}
 
 	/// <summary>
@@ -74,6 +86,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	{
 		if (this.gameStates.RequestState(newInstance.desiredGameState))
 		{
+			PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE);
 			loadingManager.InitiateLoadingSequenceFor(newInstance, loadAndWait);
 			currentInstance = newInstance;
 		}
@@ -133,7 +146,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 		// UnityEditor.EditorApplication.isPlaying need to be set to false to end the game
 		UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Application.Quit();
+		Application.Quit();
 #endif
 	}
 	public void SetGameTimeScale(float newTimeScale)
@@ -155,6 +168,33 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	public GameState GetCurrentState()
 	{
 		return gameStates.GetCurrentState<GameState>();
+	}
+	public void UpdateSceario()
+	{
+		if (this.currentScenario == null)
+		{
+			LogHelper.LogError("Trying to Update a null scenario");
+			return;
+		}
+		var targetInstance = this.currentScenario.GetInstanceBasedOnCurrentTimeline();
+		if (targetInstance != currentInstance)
+		{
+			this.RequestInstance(targetInstance);
+		}
+
+	}
+	public GameScenario GetCurrentScenario()
+	{
+		return currentScenario;
+	}
+	public bool IsScenarioUpdateToDate()
+	{
+		var targetInstance = this.currentScenario.GetInstanceBasedOnCurrentTimeline();
+		if (targetInstance != currentInstance)
+		{
+			return false;
+		}
+		return true;
 	}
 }
 

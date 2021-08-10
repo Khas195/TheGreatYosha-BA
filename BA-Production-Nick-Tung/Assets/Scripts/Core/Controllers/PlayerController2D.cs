@@ -17,9 +17,15 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	[SerializeField]
 	[BoxGroup("Setting")]
 	Character2D character = null;
+
+
+
 	[SerializeField]
 	[BoxGroup("Setting")]
 	Animator animator = null;
+
+
+
 	[SerializeField]
 	[BoxGroup("Setting")]
 	[ReadOnly]
@@ -57,9 +63,9 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	float travelTolerance = 0.5f;
 	void Update()
 	{
-		if (controlLocked == true) return;
 		HandlePathfinding();
 
+		if (controlLocked == true) return;
 		var mousPos = Input.mousePosition;
 		mousPos = playerCamera.ScreenToWorldPoint(mousPos);
 		DetectMouseOverNPC(mousPos);
@@ -92,7 +98,14 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		}
 		MoveToPosition(movePos);
 	}
-
+	public void ForceTalk(NPC targetNPC)
+	{
+		this.controlLocked = true;
+		var movePos = targetNPC.GetInteractPoint();
+		this.interactNPC = targetNPC;
+		this.interactNPC.Focus();
+		MoveToPosition(movePos);
+	}
 	private void DetectMouseOverNPC(Vector3 mousPos)
 	{
 		RaycastHit2D hit = Physics2D.Raycast(mousPos, Vector2.zero, Mathf.Infinity, npcMask);
@@ -163,10 +176,6 @@ public class PlayerController2D : MonoBehaviour, IObserver
 				OnDestinationReached();
 			}
 		}
-		else
-		{
-			OnDestinationReached();
-		}
 	}
 
 	private void OnDestinationReached()
@@ -190,6 +199,10 @@ public class PlayerController2D : MonoBehaviour, IObserver
 
 	private void OnPathFound(Vector3[] path, bool pathFoundSuccessful)
 	{
+		if (path.Length <= 0)
+		{
+			OnDestinationReached();
+		}
 		this.currentPath.Clear();
 		this.currentPath.AddRange(path);
 		currentTravelIndex = 0;
@@ -241,5 +254,9 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		}
 		this.interactNPC.Defocus();
 		this.interactNPC = null;
+	}
+	public void LockControl()
+	{
+		controlLocked = true;
 	}
 }

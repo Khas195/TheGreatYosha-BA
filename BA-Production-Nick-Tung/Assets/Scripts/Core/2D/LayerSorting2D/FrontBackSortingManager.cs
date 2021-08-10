@@ -6,13 +6,15 @@ using UnityEngine;
  * This class manages all the game object that runs the different sorting methods.
  * This class also sorts the host object of these scripts appropriately.
  */
-public class FrontBackSortingManager : SingletonMonobehavior<FrontBackSortingManager>
+[ExecuteInEditMode]
+public class FrontBackSortingManager : SingletonMonobehavior<FrontBackSortingManager>, IObserver
 {
 	[SerializeField]
 	List<IFrontBackSorting> sortingList = new List<IFrontBackSorting>();
 	protected override void Awake()
 	{
 		base.Awake();
+		PostOffice.Subscribes(this, GameMasterEvent.ON_LOAD_NEW_STANCE);
 		this.sortingList.Clear();
 	}
 
@@ -49,6 +51,17 @@ public class FrontBackSortingManager : SingletonMonobehavior<FrontBackSortingMan
 	{
 		this.sortingList.Clear();
 	}
+	private void OnDestroy()
+	{
+		this.sortingList.Clear();
+		PostOffice.Unsubscribes(this, GameMasterEvent.ON_LOAD_NEW_STANCE);
+	}
 
-
+	public void ReceiveData(DataPack pack, string eventName)
+	{
+		if (eventName.Equals(GameMasterEvent.ON_LOAD_NEW_STANCE))
+		{
+			this.Clear();
+		}
+	}
 }

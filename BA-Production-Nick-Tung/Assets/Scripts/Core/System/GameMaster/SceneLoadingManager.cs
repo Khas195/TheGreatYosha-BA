@@ -20,7 +20,7 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 	bool loadAndWait = true;
 	void Start()
 	{
-		PostOffice.Subscribes(this, GameMasterEvent.GAME_LOAD_EVENT);
+		PostOffice.Subscribes(this, GameMasterEvent.INSTANCE_LOADED_EVENT);
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 	public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -54,7 +54,7 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 		SceneManager.UnloadSceneAsync(profile.loadScene);
 		var data = DataPool.GetInstance().RequestInstance();
 		data.SetValue("Instance", currentInstance);
-		PostOffice.SendData(data, GameMasterEvent.GAME_LOAD_EVENT);
+		PostOffice.SendData(data, GameMasterEvent.INSTANCE_LOADED_EVENT);
 		DataPool.GetInstance().ReturnInstance(data);
 		this.scenesLoading.Clear();
 	}

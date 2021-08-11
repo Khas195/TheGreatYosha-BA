@@ -14,7 +14,7 @@ public class ZoneTrigger : MonoBehaviour
 	{
 		if (other.tag == "Player")
 		{
-			controller2D.ForceTalk(targetNPC);
+			controller2D.ForceInteract(targetNPC);
 		}
 	}
 }

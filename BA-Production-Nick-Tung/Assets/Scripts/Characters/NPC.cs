@@ -74,12 +74,12 @@ public class NPC : IInteractable
 
 	}
 
-	public Vector3 GetInteractPoint()
+	public override Vector3 GetInteractPoint()
 	{
 		return TileGrid.GetInstance().GetNodeFromWorldPoint(this.interactingPoint.position).worldPosition;
 	}
 
-	public Transform GetInteractOffSetPoint()
+	public override Transform GetInteractOffSetPoint()
 	{
 		return interactOffsetFocus;
 	}

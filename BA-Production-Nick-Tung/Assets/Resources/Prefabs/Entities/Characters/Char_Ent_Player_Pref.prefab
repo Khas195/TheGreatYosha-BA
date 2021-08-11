@@ -337,6 +337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29562ab0c55566546a021db2f5b1ad81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  updateScenarioAfter: 2
+  controller: {fileID: 0}
 --- !u!1 &4642844652250969340
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,7 +482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778052043368894422, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8778052043368894422, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_SortingLayerID

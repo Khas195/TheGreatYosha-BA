@@ -169,7 +169,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	{
 		return gameStates.GetCurrentState<GameState>();
 	}
-	public void UpdateSceario()
+	public void UpdateScenario()
 	{
 		if (this.currentScenario == null)
 		{

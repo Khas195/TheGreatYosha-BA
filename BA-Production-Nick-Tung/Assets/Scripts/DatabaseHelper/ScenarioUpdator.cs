@@ -21,6 +21,6 @@ public class ScenarioUpdator : MonoBehaviour
 	}
 	public void TriggerScenarioUpdate()
 	{
-		GameMaster.GetInstance().UpdateSceario();
+		GameMaster.GetInstance().UpdateScenario();
 	}
 }

@@ -38,15 +38,15 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	UnityEvent<Transform> OnConversationEndEvent = new UnityEvent<Transform>();
 	[SerializeField]
 	[BoxGroup("Interactable")]
-	LayerMask npcMask;
+	LayerMask interactMask;
 	[SerializeField]
 	[BoxGroup("Interactable")]
 	[ReadOnly]
-	NPC hoverNPC = null;
+	IInteractable hoverInteractable = null;
 	[SerializeField]
 	[BoxGroup("Interactable")]
 	[ReadOnly]
-	NPC interactNPC = null;
+	IInteractable targetInteract = null;
 	[SerializeField]
 	[BoxGroup("Mouse Click Settings")]
 	Camera playerCamera = null;
@@ -68,7 +68,7 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		if (controlLocked == true) return;
 		var mousPos = Input.mousePosition;
 		mousPos = playerCamera.ScreenToWorldPoint(mousPos);
-		DetectMouseOverNPC(mousPos);
+		DetectMouseOverInteratable(mousPos);
 		if (Input.GetMouseButtonDown(0))
 		{
 			HandleMouseClick(mousPos);
@@ -79,61 +79,61 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	private void HandleMouseClick(Vector3 mousPos)
 	{
 		var movePos = mousPos;
-		if (this.hoverNPC != null)
+		if (this.hoverInteractable != null)
 		{
-			if (this.interactNPC != null)
+			if (this.targetInteract != null)
 			{
-				this.interactNPC.Defocus();
+				this.targetInteract.Defocus();
 			}
-			movePos = this.hoverNPC.GetInteractPoint();
-			this.interactNPC = hoverNPC;
-			this.interactNPC.Focus();
+			movePos = this.hoverInteractable.GetInteractPoint();
+			this.targetInteract = hoverInteractable;
+			this.targetInteract.Focus();
 		}
 		else
 		{
-			if (this.interactNPC != null)
+			if (this.targetInteract != null)
 			{
-				this.interactNPC.Defocus();
+				this.targetInteract.Defocus();
 			}
 		}
 		MoveToPosition(movePos);
 	}
-	public void ForceTalk(NPC targetNPC)
+	public void ForceInteract(IInteractable target)
 	{
 		this.controlLocked = true;
-		var movePos = targetNPC.GetInteractPoint();
-		this.interactNPC = targetNPC;
-		this.interactNPC.Focus();
+		var movePos = target.GetInteractPoint();
+		this.targetInteract = target;
+		this.targetInteract.Focus();
 		MoveToPosition(movePos);
 	}
-	private void DetectMouseOverNPC(Vector3 mousPos)
+	private void DetectMouseOverInteratable(Vector3 mousPos)
 	{
-		RaycastHit2D hit = Physics2D.Raycast(mousPos, Vector2.zero, Mathf.Infinity, npcMask);
+		RaycastHit2D hit = Physics2D.Raycast(mousPos, Vector2.zero, Mathf.Infinity, interactMask);
 		if (hit.collider != null)
 		{
-			var npc = hit.collider.GetComponentInParent<NPC>();
-			if (npc != null)
+			var interactable = hit.collider.GetComponentInParent<IInteractable>();
+			if (interactable != null)
 			{
-				if (this.hoverNPC != npc)
+				if (this.hoverInteractable != interactable)
 				{
-					if (this.hoverNPC != null)
+					if (this.hoverInteractable != null)
 					{
-						this.hoverNPC.Defocus();
+						this.hoverInteractable.Defocus();
 					}
-					this.hoverNPC = npc;
-					this.hoverNPC.Focus();
+					this.hoverInteractable = interactable;
+					this.hoverInteractable.Focus();
 				}
 			}
 		}
 		else
 		{
-			if (this.hoverNPC != null)
+			if (this.hoverInteractable != null)
 			{
-				if (interactNPC != hoverNPC)
+				if (targetInteract != hoverInteractable)
 				{
-					this.hoverNPC.Defocus();
+					this.hoverInteractable.Defocus();
 				}
-				this.hoverNPC = null;
+				this.hoverInteractable = null;
 			}
 		}
 	}
@@ -182,9 +182,9 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	{
 		this.character.Move(0, 0);
 		UpdateAnimator(Vector3.zero, isMoving: false);
-		if (interactNPC != null)
+		if (targetInteract != null)
 		{
-			interactNPC.Interact();
+			targetInteract.Interact();
 		}
 		currentPath.Clear();
 		LogHelper.Log("AI - Reached Destination.");
@@ -243,7 +243,7 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	{
 		LogHelper.Log("Player - Conversation End - Control Released with " + actor);
 		controlLocked = false;
-		var interactingOffSetPoint = this.interactNPC.GetInteractOffSetPoint();
+		var interactingOffSetPoint = this.targetInteract.GetInteractOffSetPoint();
 		if (interactingOffSetPoint != null)
 		{
 			this.OnConversationEndEvent.Invoke(interactingOffSetPoint);
@@ -252,8 +252,8 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		{
 			this.OnConversationEndEvent.Invoke(this.transform);
 		}
-		this.interactNPC.Defocus();
-		this.interactNPC = null;
+		this.targetInteract.Defocus();
+		this.targetInteract = null;
 	}
 	public void LockControl()
 	{

@@ -162,6 +162,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 336509276}
     - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
+      propertyPath: interactMask.m_Bits
+      value: 384
+      objectReference: {fileID: 0}
+    - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: OnConversationEndEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 69130195}
@@ -225,13 +229,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6058658679049917371, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 7522303042163447110, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_Text
-      value: 
+      value: Input Field
       objectReference: {fileID: 0}
     - target: {fileID: 7522303042163955876, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_AnchorMax.y

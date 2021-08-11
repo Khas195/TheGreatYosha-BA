@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-11T08:53:30Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-11T10:14:03Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -26041,11 +26041,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="275" Y="1425"/>
-      <Size Width="225" Height="200"/>
+      <Position X="225" Y="1200"/>
+      <Size Width="550" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(Smithing,true,Khan_CharacterSprite); AudioWait(Audio/KhanSmithingSound);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000679E">
@@ -26071,7 +26073,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AudioWait(Audio/KhanSmithingSound);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000067A4">
@@ -26093,11 +26097,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="925" Y="1425"/>
-      <Size Width="225" Height="200"/>
+      <Position X="925" Y="1200"/>
+      <Size Width="300" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(Smithing,false,Khan_CharacterSprite)</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000067AF">

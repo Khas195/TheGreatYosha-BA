@@ -240,11 +240,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  npcMask:
+  interactMask:
     serializedVersion: 2
-    m_Bits: 128
-  hoverNPC: {fileID: 0}
-  interactNPC: {fileID: 0}
+    m_Bits: 384
+  hoverInteractable: {fileID: 0}
+  targetInteract: {fileID: 0}
   playerCamera: {fileID: 0}
   currentPath: []
   currentTravelIndex: 0
@@ -482,7 +482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778052043368894422, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8778052043368894422, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_SortingLayerID

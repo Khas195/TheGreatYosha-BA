@@ -14,7 +14,6 @@ public class GameScenario : ScriptableObject
 	public GameInstance GetInstanceBasedOnCurrentTimeline()
 	{
 		var luaValue = DialogueLua.GetVariable(timeLineVariableName).asInt;
-		luaValue -= 1;
 		if (luaValue >= instanceInOrderOfTimeline.Count)
 		{
 			return instanceInOrderOfTimeline[instanceInOrderOfTimeline.Count - 1];

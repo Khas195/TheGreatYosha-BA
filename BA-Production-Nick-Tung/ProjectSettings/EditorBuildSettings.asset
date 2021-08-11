@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScenes/HinjaScenes/Game_Hinja_FinalGathering_Environment_Sce.unity
     guid: d58c0db0dd4021f4ca768d26ae60aa4b
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/HinjaScenes/Game_Hinja_GatheringPrep_Environment_Sce.unity
+    guid: 787b3fb184423c247b68fc89d63812d2
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/HinjaScenes/Game_Hinja_GatheringPrep_Characters_Sce.unity
+    guid: 6b6e05584c981174e8411e5c51043fcf
   m_configObjects: {}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c4aa2802fe35b41bdfe30c9142cbe0, type: 3}
+  m_Name: UpdateScenario
+  m_EditorClassIdentifier: 
+  commandKey: /updatescenario
+  description: This command will update the right game instance for the current scenario
+    based on the scenario's timeline.

@@ -16,5 +16,6 @@ MonoBehaviour:
   instanceInOrderOfTimeline:
   - {fileID: 11400000, guid: 4aefba86c92dc2243b35c44684b1b2fc, type: 2}
   - {fileID: 11400000, guid: 6f1158403e25d4d4b9fcff0c1bcacd92, type: 2}
+  - {fileID: 11400000, guid: 0529a1a71b03288438b335d8e135529b, type: 2}
   - {fileID: 11400000, guid: 27dd681cf697d624fb33e9735f146808, type: 2}
   - {fileID: 11400000, guid: 7588d354439704c4685880ee5c2437f8, type: 2}

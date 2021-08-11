@@ -735,6 +735,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
+  m_ShouldActivateOnSelect: 1
 --- !u!114 &1470454088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -992,3 +993,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e162f2779a628ab47a45719ed3c4f851, type: 2}
   - {fileID: 11400000, guid: 0bf71dffabb1a40459093234ab361ae3, type: 2}
   - {fileID: 11400000, guid: 61abc956d47761c4abd99bd8992d860f, type: 2}
+  - {fileID: 11400000, guid: c4bd2328bb0543341a08beb87c812331, type: 2}

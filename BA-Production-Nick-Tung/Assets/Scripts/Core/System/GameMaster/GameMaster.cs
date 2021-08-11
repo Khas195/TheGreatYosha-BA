@@ -53,7 +53,9 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	public void StartGame()
 	{
 		currentScenario = startScenario;
+		PixelCrushers.DialogueSystem.DialogueManager.ResetDatabase();
 		this.RequestInstance(startScenario.GetInstanceBasedOnCurrentTimeline());
+		this.SaveGame();
 	}
 
 	/// <summary>
@@ -63,6 +65,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	{
 		base.Awake();
 		PostOffice.Subscribes(this, GameMasterEvent.ON_GAMESTATE_CHANGED);
+		PostOffice.Subscribes(this, GameMasterEvent.INSTANCE_LOADED_EVENT);
 	}
 
 	public bool RequestGameState(GameState.GameStateEnum requestState)
@@ -74,11 +77,13 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	{
 		loadingManager.UnloadAllScenes(exception: requiredScenes.masterScene);
 		loadingManager.LoadSceneAdditively(requiredScenes.logScene);
+		loadingManager.LoadSceneAdditively(requiredScenes.system);
 		RequestInstance(mainMenuInstance);
 	}
 	void OnDestroy()
 	{
 		PostOffice.Unsubscribes(this, GameMasterEvent.ON_GAMESTATE_CHANGED);
+		PostOffice.Unsubscribes(this, GameMasterEvent.INSTANCE_LOADED_EVENT);
 	}
 
 
@@ -121,7 +126,36 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 				ProcessConsoleTrigger();
 			}
 		}
+		// test save
+		if (Input.GetKeyDown(KeyCode.F4))
+		{
+			SaveGame();
+		}
+		if (Input.GetKeyDown(KeyCode.F5))
+		{
+			LoadSave();
+		}
 	}
+
+	public void LoadSave()
+	{
+		var junraSaveData = new JunraSaveData();
+		SaveLoadManager.Load<JunraSaveData>(junraSaveData, "JunraGameSave");
+		PixelCrushers.DialogueSystem.PersistentDataManager.ApplySaveData(junraSaveData.databaseData);
+		this.currentScenario = junraSaveData.currentScenario;
+		UpdateScenario();
+	}
+
+	public void SaveGame()
+	{
+		var junraSaveData = new JunraSaveData();
+		junraSaveData.currentScenario = this.currentScenario;
+		var saveData = PixelCrushers.DialogueSystem.PersistentDataManager.GetSaveData();
+		LogHelper.Log(saveData);
+		junraSaveData.databaseData = saveData;
+		SaveLoadManager.Save<JunraSaveData>(junraSaveData, "JunraGameSave");
+	}
+
 	public void ProcessConsoleTrigger()
 	{
 		if (Input.GetKeyDown(KeyCode.F1))
@@ -129,9 +163,6 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 			this.gameStates.RequestState(GameState.GameStateEnum.Console);
 		}
 	}
-
-
-
 	public void SetMouseVisibility(bool visibility)
 	{
 		Cursor.visible = visibility;
@@ -180,6 +211,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 		if (targetInstance != currentInstance)
 		{
 			this.RequestInstance(targetInstance);
+			SaveGame();
 		}
 
 	}
@@ -195,6 +227,19 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 			return false;
 		}
 		return true;
+	}
+	public bool IsSaveExist()
+	{
+		var junraSave = new JunraSaveData();
+		junraSave = SaveLoadManager.Load<JunraSaveData>("JunraGameSave");
+		if (junraSave != null && junraSave.IsValid())
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }
 

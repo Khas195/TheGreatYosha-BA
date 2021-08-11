@@ -13,14 +13,17 @@ public class GameScenario : ScriptableObject
 	public List<GameInstance> instanceInOrderOfTimeline = new List<GameInstance>();
 	public GameInstance GetInstanceBasedOnCurrentTimeline()
 	{
+		GameInstance resultInstance = null;
 		var luaValue = DialogueLua.GetVariable(timeLineVariableName).asInt;
 		if (luaValue >= instanceInOrderOfTimeline.Count)
 		{
-			return instanceInOrderOfTimeline[instanceInOrderOfTimeline.Count - 1];
+			resultInstance = instanceInOrderOfTimeline[instanceInOrderOfTimeline.Count - 1];
 		}
 		else
 		{
-			return instanceInOrderOfTimeline[luaValue];
+			resultInstance = instanceInOrderOfTimeline[luaValue];
 		}
+		LogHelper.Log("Current Instance based On Timeline: " + resultInstance + " with timeline value: " + luaValue, true);
+		return resultInstance;
 	}
 }

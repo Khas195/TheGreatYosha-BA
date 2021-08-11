@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateScenarioAfter: 2
-  controller: {fileID: 0}
+  controller: {fileID: 4642844652201344553}
 --- !u!1 &4642844652250969340
 GameObject:
   m_ObjectHideFlags: 0

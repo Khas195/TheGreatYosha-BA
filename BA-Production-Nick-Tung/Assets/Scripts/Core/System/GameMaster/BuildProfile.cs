@@ -12,6 +12,8 @@ public class BuildProfile : ScriptableObject
 	public string loadScene = "";
 	[Scene]
 	public string logScene = "";
+	[Scene]
+	public string system = "";
 
 }
 

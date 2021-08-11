@@ -8,17 +8,17 @@ using UnityEngine;
 [Serializable]
 public class CharacterData : ScriptableObject
 {
-    [SerializeField]
-    public MovementData moveData = null;
+	[SerializeField]
+	public MovementData moveData = null;
 
-    [Button("Save")]
-    public void SaveData()
-    {
-        SaveLoadManager.Save<CharacterData>(this, this.name);
-    }
-    [Button("Load")]
-    public void LoadData()
-    {
-        SaveLoadManager.Load<CharacterData>(this, this.name);
-    }
+	[Button("Save")]
+	public void SaveData()
+	{
+		SaveLoadManager.Save<CharacterData>(this, this.name);
+	}
+	[Button("Load")]
+	public void LoadData()
+	{
+		SaveLoadManager.Load<CharacterData>(this, this.name);
+	}
 }

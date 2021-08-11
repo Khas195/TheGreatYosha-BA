@@ -500,7 +500,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 252
-        y: 84
+        y: 85
         width: 160
         height: 30
     - id: 2
@@ -1801,7 +1801,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 120
-        y: 70
+        y: 69
         width: 160
         height: 30
     - id: 2
@@ -2903,7 +2903,9 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: Audio(Enemy_6_3)
+        value: 'Audio(Enemy_6_3);
+
+          AudioWait(Audio/TestAudio)'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 6

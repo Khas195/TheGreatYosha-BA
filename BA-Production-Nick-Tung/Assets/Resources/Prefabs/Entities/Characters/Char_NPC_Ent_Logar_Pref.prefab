@@ -9,11 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 962259174129151867, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 962259174129151867, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.89
+      value: -3.83
       objectReference: {fileID: 0}
     - target: {fileID: 1347825481885208041, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
@@ -33,11 +33,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.07
+      value: 22.24
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.66
+      value: 18.03
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781922, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.z
@@ -77,31 +77,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386519781923, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2911237386600769779, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.16
+      value: 0.029
       objectReference: {fileID: 0}
     - target: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.82
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 2911237388366763373, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3211661725109424138, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3706150152326898277, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3717344775290457658, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Controller
@@ -114,7 +114,7 @@ PrefabInstance:
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: trustText
       value: 
-      objectReference: {fileID: 2968506092131753842}
+      objectReference: {fileID: 0}
     - target: {fileID: 4075434686833909593, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: luaVariable
       value: Emotion.Logar
@@ -129,7 +129,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571775851107180045, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571775851107180045, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.29
       objectReference: {fileID: 0}
     - target: {fileID: 5847025022927005436, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
@@ -207,6 +215,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6966684368579344797, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120939144679786235, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7496373959757518901, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: basePoint
       value: 
@@ -222,6 +238,14 @@ PrefabInstance:
     - target: {fileID: 7496373960768538913, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: conversation
       value: Story_OneYoshaTooMany/Logar_Talking
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572391994521490802, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572391994521490802, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: color.r
+      value: 0.09411765
       objectReference: {fileID: 0}
     - target: {fileID: 7942475563121041131, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
@@ -251,11 +275,16 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4333241989317631464, guid: 639b502a0feb325498385020e38abaa0, type: 3}
+    - target: {fileID: 8606954186202489794, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c0c169d8f5db79043b9a227a507ad82e, type: 2}
     - target: {fileID: 9141998294861431542, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2585607998499445006, guid: e34990221a93a184b9ad40b07657d639, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e34990221a93a184b9ad40b07657d639, type: 3}
 --- !u!212 &4665098707211396944 stripped
 SpriteRenderer:
@@ -267,14 +296,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2911237388366763372, guid: e34990221a93a184b9ad40b07657d639, type: 3}
   m_PrefabInstance: {fileID: 3803856758523376617}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2968506092131753842 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2159549694699220123, guid: e34990221a93a184b9ad40b07657d639, type: 3}
-  m_PrefabInstance: {fileID: 3803856758523376617}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

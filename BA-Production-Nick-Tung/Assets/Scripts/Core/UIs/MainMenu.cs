@@ -6,6 +6,18 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
+	public GameObject continueButton = null;
+	private void Start()
+	{
+		if (GameMaster.GetInstance().IsSaveExist())
+		{
+			continueButton.SetActive(true);
+		}
+		else
+		{
+			continueButton.SetActive(false);
+		}
+	}
 	public void Exit()
 	{
 		LogHelper.Log("Main Menu - Exit Game.", true);
@@ -15,6 +27,12 @@ public class MainMenu : MonoBehaviour
 	{
 		LogHelper.Log("Main Menu - Start Game.", true);
 		GameMaster.GetInstance().StartGame();
+	}
+	public void Continue()
+	{
+		LogHelper.Log("Main Menu - Continue.", true);
+		GameMaster.GetInstance().LoadSave();
+
 	}
 
 }

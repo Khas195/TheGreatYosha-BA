@@ -87,14 +87,13 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 		}
 		return totalProgress / this.scenesLoading.Count;
 	}
-
 	public void LoadInstance(GameInstance requestedInstance, bool loadDuplicate = true)
 	{
 		for (int i = 0; i < requestedInstance.sceneList.Count; i++)
 		{
 			if (loadDuplicate == false && currentInstance != null)
 			{
-				if (currentInstance.sceneList.Contains(requestedInstance.sceneList[i]) == false)
+				if (IsSceneLoaded(requestedInstance.sceneList[i]) == false)
 				{
 					LoadSceneAdditively(requestedInstance.sceneList[i], allowAutoActivation: loadAndWait == false);
 				}
@@ -106,6 +105,11 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 		}
 		currentInstance = requestedInstance;
 
+	}
+
+	private bool IsSceneLoaded(string sceneName)
+	{
+		return SceneManager.GetSceneByName(sceneName).IsValid();
 	}
 
 	public void UnloadInstance(GameInstance instance, bool removeDubplicate = true)

@@ -16,18 +16,18 @@ using UnityEngine;
 [Serializable]
 public class MovementData : ScriptableObject
 {
-    public float walkSpeed = 5;
-    public float runSpeed = 10;
-    public float jumpForce = 5;
-    public float rotateSpeed = 20f;
-    [Button("Save")]
-    public void SaveData()
-    {
-        SaveLoadManager.Save<MovementData>(this, this.name);
-    }
-    [Button("Load")]
-    public void LoadData()
-    {
-        SaveLoadManager.Load<MovementData>(this, this.name);
-    }
+	public float walkSpeed = 5;
+	public float runSpeed = 10;
+	public float jumpForce = 5;
+	public float rotateSpeed = 20f;
+	[Button("Save")]
+	public void SaveData()
+	{
+		SaveLoadManager.Save<MovementData>(this, this.name);
+	}
+	[Button("Load")]
+	public void LoadData()
+	{
+		SaveLoadManager.Load<MovementData>(this, this.name);
+	}
 }

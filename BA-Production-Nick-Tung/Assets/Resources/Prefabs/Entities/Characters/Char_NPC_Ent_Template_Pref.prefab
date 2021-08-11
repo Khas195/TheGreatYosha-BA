@@ -175,7 +175,9 @@ MonoBehaviour:
   interactIcon: {fileID: 2471112946268713484}
   conversationTrigger: {fileID: 7496373960768538913}
   interactingPoint: {fileID: 962259174129151867}
-  interactOffsetFocus: {fileID: 5571775851107180045}
+  converseView:
+    cameraPosition: {fileID: 0}
+    cameraZoom: 0
   OnConversationEndEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -357,7 +359,6 @@ Transform:
   - {fileID: 2911237388366763372}
   - {fileID: 962259174129151867}
   - {fileID: 6472325067380607218}
-  - {fileID: 5571775851107180045}
   m_Father: {fileID: 2911237386519781922}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -697,34 +698,4 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2911237386600769778}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7120939144679786235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5571775851107180045}
-  m_Layer: 6
-  m_Name: TalkingOffsetFocus
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5571775851107180045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7120939144679786235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2911237386600769778}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

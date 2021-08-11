@@ -30,12 +30,6 @@ public class Food : IInteractable
 		base.Focus();
 	}
 
-
-	public override Transform GetInteractOffSetPoint()
-	{
-		return this.transform;
-	}
-
 	public override Vector3 GetInteractPoint()
 	{
 		return this.interactPoint.position;

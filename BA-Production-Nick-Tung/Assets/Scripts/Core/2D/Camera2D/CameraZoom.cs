@@ -10,8 +10,6 @@ public class CameraZoom : MonoBehaviour
 	[SerializeField]
 	private Transform character = null;
 	[SerializeField]
-	float conversationZoomValue = 12;
-	[SerializeField]
 	float normalZoomValue = 12;
 
 	[SerializeField]
@@ -28,9 +26,9 @@ public class CameraZoom : MonoBehaviour
 	{
 		host.orthographicSize = Mathf.Lerp(host.orthographicSize, targetSize, followPercentage);
 	}
-	public void ZoomToConversation()
+	public void ZoomToConversation(float zoomValue)
 	{
-		targetSize = conversationZoomValue;
+		targetSize = zoomValue;
 	}
 	public void ZoomToNormalSize()
 	{

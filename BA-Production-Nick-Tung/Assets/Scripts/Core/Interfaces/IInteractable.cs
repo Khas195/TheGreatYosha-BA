@@ -44,8 +44,4 @@ public abstract class IInteractable : MonoBehaviour
 		return Vector3.zero;
 	}
 
-	public virtual Transform GetInteractOffSetPoint()
-	{
-		return this.transform;
-	}
 }

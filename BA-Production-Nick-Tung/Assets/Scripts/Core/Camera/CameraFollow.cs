@@ -37,6 +37,8 @@ public class CameraFollow : MonoBehaviour
 	[ReadOnly]
 	List<Transform> encapsolatedTarget = new List<Transform>();
 
+
+
 	[BoxGroup("Current Status")]
 	[SerializeField]
 	[ReadOnly]
@@ -49,13 +51,16 @@ public class CameraFollow : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
+		AddPlayer();
+		this.SetPosition(characterBody.transform.position);
+	}
+	public void AddPlayer()
+	{
 		if (characterFollowPoint != null)
 		{
 			encapsolatedTarget.Add(characterFollowPoint);
 		}
-		this.SetPosition(characterBody.transform.position);
 	}
-
 	public bool IsHoningX()
 	{
 		return honeInX;

@@ -32,10 +32,10 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	bool controlLocked = false;
 	[SerializeField]
 	[BoxGroup("Interactable")]
-	UnityEvent<Transform> OnConversationStartEvent = new UnityEvent<Transform>();
+	UnityEvent<NPC> OnConversationStartEvent = new UnityEvent<NPC>();
 	[SerializeField]
 	[BoxGroup("Interactable")]
-	UnityEvent<Transform> OnConversationEndEvent = new UnityEvent<Transform>();
+	UnityEvent<NPC> OnConversationEndEvent = new UnityEvent<NPC>();
 	[SerializeField]
 	[BoxGroup("Interactable")]
 	LayerMask interactMask;
@@ -229,29 +229,16 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		LogHelper.Log("Player - Conversation Start - Control Locked with " + actor);
 		controlLocked = true;
 		LogHelper.Log("Player - " + actor);
-		var interactingOffSetPoint = actor.GetComponent<NPC>().GetInteractOffSetPoint();
-		if (interactingOffSetPoint != null)
-		{
-			this.OnConversationStartEvent.Invoke(interactingOffSetPoint);
-		}
-		else
-		{
-			this.OnConversationStartEvent.Invoke(this.transform);
-		}
+		this.OnConversationStartEvent.Invoke(actor.GetComponent<NPC>());
+
 	}
 	public void OnConversationEnd(Transform actor)
 	{
 		LogHelper.Log("Player - Conversation End - Control Released with " + actor);
 		controlLocked = false;
-		var interactingOffSetPoint = this.targetInteract.GetInteractOffSetPoint();
-		if (interactingOffSetPoint != null)
-		{
-			this.OnConversationEndEvent.Invoke(interactingOffSetPoint);
-		}
-		else
-		{
-			this.OnConversationEndEvent.Invoke(this.transform);
-		}
+
+		this.OnConversationEndEvent.Invoke(actor.GetComponent<NPC>());
+
 		this.targetInteract.Defocus();
 		this.targetInteract = null;
 	}

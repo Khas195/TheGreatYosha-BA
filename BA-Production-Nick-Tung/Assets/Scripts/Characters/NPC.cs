@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using NaughtyAttributes;
@@ -6,7 +5,6 @@ using PixelCrushers.DialogueSystem;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-
 [ExecuteInEditMode]
 public class NPC : IInteractable
 {
@@ -21,7 +19,7 @@ public class NPC : IInteractable
 	Transform interactingPoint = null;
 	[SerializeField]
 	[BoxGroup("Conversation")]
-	Transform interactOffsetFocus = null;
+	ConversationCameraData converseView = null;
 
 
 	[SerializeField]
@@ -62,25 +60,14 @@ public class NPC : IInteractable
 			Gizmos.DrawWireCube(gridPos.worldPosition, Vector3.one);
 		}
 	}
-	// Start is called before the first frame update
-	void Start()
-	{
-
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
-	}
 
 	public override Vector3 GetInteractPoint()
 	{
 		return TileGrid.GetInstance().GetNodeFromWorldPoint(this.interactingPoint.position).worldPosition;
 	}
 
-	public override Transform GetInteractOffSetPoint()
+	public ConversationCameraData GetCameraStateForConversation()
 	{
-		return interactOffsetFocus;
+		return this.converseView;
 	}
 }

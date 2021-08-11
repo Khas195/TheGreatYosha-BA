@@ -30,8 +30,18 @@ public class CameraUpdator : MonoBehaviour
 			zoom.Zoom();
 		}
 	}
-	void LateUpdate()
+	public void UseCameraDataSet(NPC npc)
 	{
-
+		var cameraSetting = npc.GetCameraStateForConversation();
+		follow.Clear(true);
+		follow.AddEncapsolateObject(cameraSetting.cameraPosition);
+		zoom.ZoomToConversation(cameraSetting.cameraZoom);
 	}
+	public void ResetCameraState(NPC npc)
+	{
+		follow.Clear(true);
+		follow.AddPlayer();
+		zoom.ZoomToNormalSize();
+	}
+
 }

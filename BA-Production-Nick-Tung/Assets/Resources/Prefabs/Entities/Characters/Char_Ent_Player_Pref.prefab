@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 602165149}
   - component: {fileID: 164938288}
   - component: {fileID: 2106554175}
-  - component: {fileID: 601392237730810060}
+  - component: {fileID: 623493392}
   m_Layer: 0
   m_Name: Char_Ent_Player_Pref
   m_TagString: Player
@@ -325,7 +325,7 @@ MonoBehaviour:
   color: {r: 0.44705883, g: 1, b: 0.972549, a: 1}
   applyTo: 1
   prependActorNameSeparator: ': '
---- !u!114 &601392237730810060
+--- !u!114 &623493392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -334,11 +334,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4642844652201344556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29562ab0c55566546a021db2f5b1ad81, type: 3}
+  m_Script: {fileID: 11500000, guid: 803b3926e27da3740b54d9d54cc5fd42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   updateScenarioAfter: 2
   controller: {fileID: 4642844652201344553}
+  deathVarName: WorldVariables.Story_JunraDeath
 --- !u!1 &4642844652250969340
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8778052043368894422, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_SortingOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8778052043368894422, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_SortingLayerID

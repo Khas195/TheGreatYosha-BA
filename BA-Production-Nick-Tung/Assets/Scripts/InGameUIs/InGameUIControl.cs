@@ -45,4 +45,8 @@ public class InGameUIControl : SingletonMonobehavior<InGameUIControl>
 			gameMaster.ExitGame();
 		}
 	}
+	public void Restart()
+	{
+		GameMaster.GetInstance().RestartFromLastSave();
+	}
 }

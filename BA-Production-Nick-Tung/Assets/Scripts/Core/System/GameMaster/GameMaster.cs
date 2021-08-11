@@ -135,6 +135,10 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 		{
 			LoadSave();
 		}
+		if (Input.GetKeyDown(KeyCode.F6))
+		{
+			this.RestartFromLastSave();
+		}
 	}
 
 	public void LoadSave()
@@ -241,5 +245,20 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 			return false;
 		}
 	}
+	public void RestartFromLastSave()
+	{
+		LoadSave();
+		if (this.currentScenario == null)
+		{
+			LogHelper.LogError("Trying to load a null scenario");
+			return;
+		}
+		var targetInstance = this.currentScenario.GetInstanceBasedOnCurrentTimeline();
+		PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE);
+		loadingManager.ReloadInstance(targetInstance, true);
+		currentInstance = targetInstance;
+		SaveGame();
+	}
+
 }
 

@@ -8,7 +8,8 @@ public abstract class InGameUIState : State
 	public enum InGameUIEnum
 	{
 		InGameOverlay,
-		Menu
+		Menu,
+		DeathMenu
 	}
 	[SerializeField]
 	[ReadOnly]

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using NaughtyAttributes;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
-
 public class HighlightingWords : MonoBehaviour
 {
 	[SerializeField]

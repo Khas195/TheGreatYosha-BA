@@ -13,11 +13,15 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 	[Required]
 	BuildProfile profile = null;
 	List<AsyncOperation> scenesLoading = new List<AsyncOperation>();
+	List<AsyncOperation> scenesUnloading = new List<AsyncOperation>();
 	GameInstance currentInstance = null;
 	GameInstance instanceToLoad = null;
 	[SerializeField]
 	[ReadOnly]
 	bool loadAndWait = true;
+	bool reload = false;
+	bool waitForUnload;
+
 	void Start()
 	{
 		PostOffice.Subscribes(this, GameMasterEvent.INSTANCE_LOADED_EVENT);
@@ -29,13 +33,25 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 		{
 			if (currentInstance != null)
 			{
-				UnloadInstance(currentInstance, removeDubplicate: false);
+				UnloadInstance(currentInstance, removeDubplicate: reload);
+				reload = false;
 			}
-			LoadInstance(instanceToLoad, loadDuplicate: false);
+			waitForUnload = true;
+
 		}
 
 	}
-
+	private void Update()
+	{
+		if (waitForUnload)
+		{
+			if (this.GetUnloadingProcess() >= 1.0f)
+			{
+				LoadInstance(instanceToLoad, loadDuplicate: false);
+				waitForUnload = false;
+			}
+		}
+	}
 	public void FinishedLoading()
 	{
 		if (loadAndWait)
@@ -87,11 +103,31 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 		}
 		return totalProgress / this.scenesLoading.Count;
 	}
+	public float GetUnloadingProcess()
+	{
+		var totalProgress = 0.0f;
+		if (this.scenesUnloading.Count <= 0)
+		{
+			return 1.0f;
+		}
+		for (int i = 0; i < this.scenesUnloading.Count; i++)
+		{
+			if (scenesUnloading[i].allowSceneActivation == false)
+			{
+				totalProgress += scenesUnloading[i].progress + 0.1f;
+			}
+			else
+			{
+				totalProgress += scenesUnloading[i].progress;
+			}
+		}
+		return totalProgress / this.scenesUnloading.Count;
+	}
 	public void LoadInstance(GameInstance requestedInstance, bool loadDuplicate = true)
 	{
 		for (int i = 0; i < requestedInstance.sceneList.Count; i++)
 		{
-			if (loadDuplicate == false && currentInstance != null)
+			if (loadDuplicate == false)
 			{
 				if (IsSceneLoaded(requestedInstance.sceneList[i]) == false)
 				{
@@ -120,12 +156,12 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 			{
 				if (instanceToLoad.sceneList.Contains(instance.sceneList[i]) == false)
 				{
-					SceneManager.UnloadSceneAsync(instance.sceneList[i]);
+					this.scenesUnloading.Add(SceneManager.UnloadSceneAsync(instance.sceneList[i]));
 				}
 			}
 			else
 			{
-				SceneManager.UnloadSceneAsync(instance.sceneList[i]);
+				this.scenesUnloading.Add(SceneManager.UnloadSceneAsync(instance.sceneList[i]));
 			}
 		}
 	}
@@ -155,5 +191,11 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 
 	public void ReceiveData(DataPack pack, string eventName)
 	{
+	}
+
+	public void ReloadInstance(GameInstance targetInstance, bool loadAndWait)
+	{
+		InitiateLoadingSequenceFor(targetInstance, loadAndWait);
+		this.reload = true;
 	}
 }

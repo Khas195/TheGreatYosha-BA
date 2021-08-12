@@ -628,7 +628,7 @@ MonoBehaviour:
   gridSize: {x: 100, y: 100}
   unwalkable:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
 --- !u!114 &270303509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2121,7 +2121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87564e64a2617054c8e83b94f7719c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingList: []
+  sortingList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &915540648
 Transform:
   m_ObjectHideFlags: 0

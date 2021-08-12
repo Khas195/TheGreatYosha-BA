@@ -85,10 +85,6 @@ MonoBehaviour:
     color: {r: 0, g: 1, b: 0.95906425, a: 1}
     bold: 1
     italic: 0
-  - word: Narrator
-    color: {r: 1, g: 1, b: 1, a: 1}
-    bold: 0
-    italic: 1
   - word: Player
     color: {r: 0, g: 0.4384992, b: 1, a: 1}
     bold: 1
@@ -106,6 +102,10 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: Yoshas
+    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    bold: 1
+    italic: 0
+  - word: Gome
     color: {r: 0, g: 1, b: 0.9607843, a: 1}
     bold: 1
     italic: 0

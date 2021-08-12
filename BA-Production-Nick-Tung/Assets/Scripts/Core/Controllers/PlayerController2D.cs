@@ -94,6 +94,7 @@ public class PlayerController2D : MonoBehaviour, IObserver
 			if (this.targetInteract != null)
 			{
 				this.targetInteract.Defocus();
+				this.targetInteract = null;
 			}
 		}
 		MoveToPosition(movePos);

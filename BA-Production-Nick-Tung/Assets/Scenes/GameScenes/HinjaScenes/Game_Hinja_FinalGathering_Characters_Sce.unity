@@ -512,7 +512,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894981667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.2, y: -7.41, z: -170.4}
+  m_LocalPosition: {x: 22.14, y: -1.33, z: -170.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -900,11 +900,11 @@ PrefabInstance:
       objectReference: {fileID: 894981668}
     - target: {fileID: 4147993444995112082, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.2
+      value: -5.53
       objectReference: {fileID: 0}
     - target: {fileID: 4147993444995112082, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.83
+      value: -11.75
       objectReference: {fileID: 0}
     - target: {fileID: 6684041098552801992, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: conversationActor
@@ -935,6 +935,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 93554777074074327, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
+      propertyPath: trigger
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 93554777074074327, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
+      propertyPath: conversation
+      value: Story_OneYoshaTooMany/DinnerTogether_Final
+      objectReference: {fileID: 0}
     - target: {fileID: 93554777074074327, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: conversationActor
       value: 
@@ -993,11 +1001,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7214351444835984525, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.89
+      value: 3.64
       objectReference: {fileID: 0}
     - target: {fileID: 7214351444835984525, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.96
+      value: -9.14
       objectReference: {fileID: 0}
     - target: {fileID: 8331901877613510728, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: converseView.cameraZoom
@@ -1034,11 +1042,11 @@ PrefabInstance:
       objectReference: {fileID: 894981668}
     - target: {fileID: 6682879473298703873, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.91
+      value: -8.59
       objectReference: {fileID: 0}
     - target: {fileID: 6682879473298703873, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8
+      value: -3.65
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_RootOrder

@@ -9,6 +9,8 @@ public class Food : IInteractable
 	[SerializeField]
 	string dishOwnserVarName = "";
 	[SerializeField]
+	string poisonMarkVarName = "";
+	[SerializeField]
 	bool valueToSet = false;
 	[SerializeField]
 	Image hoverImage = null;
@@ -26,8 +28,12 @@ public class Food : IInteractable
 
 	public override void Focus()
 	{
-		hoverImage.gameObject.SetActive(true);
-		base.Focus();
+		var poisonItem = DialogueLua.GetVariable(this.poisonMarkVarName).asBool;
+		if (poisonItem == true)
+		{
+			hoverImage.gameObject.SetActive(true);
+			base.Focus();
+		}
 	}
 
 	public override Vector3 GetInteractPoint()
@@ -42,6 +48,10 @@ public class Food : IInteractable
 
 	public override bool Interact()
 	{
+
+		var poisonItem = DialogueLua.GetVariable(this.poisonMarkVarName).asBool;
+		if (poisonItem == false) return false;
+
 		DialogueLua.SetVariable(this.dishOwnserVarName, valueToSet);
 		var timelineVar = DialogueLua.GetVariable(this.timeLineVarName).asInt;
 		timelineVar += 1;

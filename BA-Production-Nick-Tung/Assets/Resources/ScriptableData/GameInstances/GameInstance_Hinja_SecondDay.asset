@@ -16,5 +16,5 @@ MonoBehaviour:
   - System_Game_Sce
   - UI_InGameOverlay_Sce
   - Game_Hinja_SecondDay_Characters_Sce
-  - Game_Hinja_SecondDay_Environment_Sce
+  - Game_Hinja_Environment_Sce
   desiredGameState: 1

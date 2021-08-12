@@ -91,6 +91,8 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	{
 		if (this.gameStates.RequestState(newInstance.desiredGameState))
 		{
+			PixelCrushers.DialogueSystem.DialogueManager.StopConversation();
+			PixelCrushers.DialogueSystem.ConversationPositionStack.ClearConversationPositionStack();
 			PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE);
 			loadingManager.InitiateLoadingSequenceFor(newInstance, loadAndWait);
 			currentInstance = newInstance;
@@ -216,6 +218,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 		{
 			this.RequestInstance(targetInstance);
 			SaveGame();
+
 		}
 
 	}

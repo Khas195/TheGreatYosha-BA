@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 3342e661cef75454a9b1c4f7b6366647
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3165045255397248190
+    second: Env_Fireplace_LogarStone_Sprite
+  - first:
+      213: 5760680523477948806
+    second: Env_Fireplace_Spritesheet_1
+  - first:
+      213: -4859961177228970547
+    second: Env_Fireplace_Spritesheet_2
+  - first:
+      213: 9089458491215800735
+    second: Env_Fireplace__SerbanPlants_Sprite
+  - first:
+      213: -1424551930119270649
+    second: Env_Fireplace_MiddleFire_Sprite
+  - first:
+      213: 8866279233655723832
+    second: Env_Fireplace_Roast_Sprite
+  - first:
+      213: 1338206821091888165
+    second: Env_Fireplace_Spritesheet_6
+  - first:
+      213: 6559589796688918090
+    second: Env_Fireplace_Spritesheet_7
+  - first:
+      213: 9079011609590120022
+    second: Env_Fireplace_Spritesheet_8
+  - first:
+      213: 6999118431068197051
+    second: Env_Fireplace_KhanStone_Sprite
+  - first:
+      213: 5162430826428588151
+    second: Env_Fireplace_Plant_Sprite
+  - first:
+      213: -7262290180836173198
+    second: Env_Fireplace_SerbanStone_Sprite
+  - first:
+      213: -7546922804927631672
+    second: Env_Fireplace_Spritesheet_12
+  - first:
+      213: -7324952987609671835
+    second: Env_Fireplace_Plate1_Sprite
+  - first:
+      213: 938134548283053205
+    second: Env_Fireplace_Plate2_Sprite
+  - first:
+      213: -4284206393860123792
+    second: Env_Fireplace_Plate3_Sprite
+  - first:
+      213: 2673190917490594619
+    second: Env_Fireplace_Plate5_Sprite
+  - first:
+      213: -4112074486925304753
+    second: Env_Fireplace_Plate4_Sprite
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Env_Fireplace_LogarStone_Sprite
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1447
+        width: 1100
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc0df104ef7ceb20800000000000000
+      internalID: 3165045255397248190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1400
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6891a6a2a6c02ff40800000000000000
+      internalID: 5760680523477948806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1385
+        width: 111
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5f319fe03fd8cb0800000000000000
+      internalID: -4859961177228970547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace__SerbanPlants_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1316
+        width: 799
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f996399f65e342e70800000000000000
+      internalID: 9089458491215800735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_MiddleFire_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1460
+        width: 621
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fc4213199fa3ce0800000000000000
+      internalID: -1424551930119270649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Roast_Sprite
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 1449
+        width: 488
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837d879ccf95b0b70800000000000000
+      internalID: 8866279233655723832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1367
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ccf2f7304429210800000000000000
+      internalID: 1338206821091888165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1311
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a467be77a28580b50800000000000000
+      internalID: 6559589796688918090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1341
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e344dc4f02ffd70800000000000000
+      internalID: 9079011609590120022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_KhanStone_Sprite
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 472
+        width: 1033
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb095b0512dd12160800000000000000
+      internalID: 6999118431068197051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Plant_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 510
+        width: 572
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7706dc22c73a4a740800000000000000
+      internalID: 5162430826428588151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_SerbanStone_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 701
+        width: 224
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ad37bce89273b90800000000000000
+      internalID: -7262290180836173198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 503
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce6ef8b1b1f34790800000000000000
+      internalID: -7546922804927631672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Plate1_Sprite
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 218
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567d619211a885a90800000000000000
+      internalID: -7324952987609671835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Plate2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 218
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594dee5b66ce40d00800000000000000
+      internalID: 938134548283053205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Plate3_Sprite
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 213
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0739285cbf07b84c0800000000000000
+      internalID: -4284206393860123792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Plate5_Sprite
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 214
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33d3dde9f4191520800000000000000
+      internalID: 2673190917490594619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Env_Fireplace_Plate4_Sprite
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 202
+        width: 112
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cded47a0afee6c0800000000000000
+      internalID: -4112074486925304753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

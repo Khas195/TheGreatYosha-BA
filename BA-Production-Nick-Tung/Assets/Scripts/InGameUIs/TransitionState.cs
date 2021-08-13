@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
-public class InGameDeathMenu : InGameUIState
+
+public class TransitionState : InGameUIState
 {
 	[SerializeField]
 	GameObject menuRoot = null;
@@ -8,7 +9,7 @@ public class InGameDeathMenu : InGameUIState
 	FadeManyTransition transition = null;
 	public override Enum GetEnum()
 	{
-		return InGameUIEnum.DeathMenu;
+		return InGameUIEnum.TransitionState;
 	}
 
 	public override void OnStateEnter()
@@ -26,7 +27,6 @@ public class InGameDeathMenu : InGameUIState
 	protected override void Init()
 	{
 		menuRoot.SetActive(false);
-		transition.FadeOut();
-
+		transition.FadeIn();
 	}
 }

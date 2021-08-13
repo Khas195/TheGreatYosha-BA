@@ -21,6 +21,7 @@ public class PlayerConversationEndChecks : MonoBehaviour
 		else if (GameMaster.GetInstance().IsScenarioUpdateToDate() == false)
 		{
 			controller.LockControl();
+			InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.TransitionState);
 			Invoke("TriggerScenarioUpdate", updateScenarioAfter);
 		}
 

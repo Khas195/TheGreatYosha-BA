@@ -93,7 +93,7 @@ public class TileGrid : Grid
 			{
 				Gizmos.color = Color.white;
 			}
-			Gizmos.DrawWireSphere(nodes[i].worldPosition, 1.0f);
+			Gizmos.DrawWireSphere(nodes[i].worldPosition, 0.1f);
 		}
 	}
 }

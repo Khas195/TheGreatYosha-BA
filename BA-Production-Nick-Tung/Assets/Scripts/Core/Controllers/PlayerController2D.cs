@@ -64,6 +64,7 @@ public class PlayerController2D : MonoBehaviour, IObserver
 	void Update()
 	{
 		HandlePathfinding();
+		UpdateAnimator(body.velocity);
 
 		if (controlLocked == true) return;
 		var mousPos = Input.mousePosition;
@@ -73,7 +74,6 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		{
 			HandleMouseClick(mousPos);
 		}
-
 	}
 
 	private void HandleMouseClick(Vector3 mousPos)
@@ -163,7 +163,6 @@ public class PlayerController2D : MonoBehaviour, IObserver
 				else
 				{
 					this.character.Move(travelDir.x, travelDir.y);
-					UpdateAnimator(travelDir, isMoving: true);
 				}
 			}
 			else
@@ -177,12 +176,15 @@ public class PlayerController2D : MonoBehaviour, IObserver
 				OnDestinationReached();
 			}
 		}
+		else
+		{
+			this.character.Move(0, 0);
+		}
 	}
 
 	private void OnDestinationReached()
 	{
 		this.character.Move(0, 0);
-		UpdateAnimator(Vector3.zero, isMoving: false);
 		if (targetInteract != null)
 		{
 			targetInteract.Interact();
@@ -191,11 +193,53 @@ public class PlayerController2D : MonoBehaviour, IObserver
 		LogHelper.Log("AI - Reached Destination.");
 	}
 
-	private void UpdateAnimator(Vector3 travelDir, bool isMoving)
+	private void UpdateAnimator(Vector3 travelDir)
 	{
-		animator.SetFloat("moveHorizontal", travelDir.x);
-		animator.SetFloat("moveVertical", travelDir.y);
-		animator.SetBool("IsMoving", isMoving);
+		if (travelDir.y > 0)
+		{
+			if (travelDir.x > 0)
+			{
+				animator.SetTrigger("moveUpRight");
+			}
+			else if (travelDir.x < 0)
+			{
+				animator.SetTrigger("moveUpLeft");
+			}
+			else
+			{
+				animator.SetTrigger("moveUp");
+			}
+		}
+		else if (travelDir.y < 0)
+		{
+			if (travelDir.x > 0)
+			{
+				animator.SetTrigger("moveDownRight");
+			}
+			else if (travelDir.x < 0)
+			{
+				animator.SetTrigger("moveDownLeft");
+			}
+			else
+			{
+				animator.SetTrigger("moveDown");
+			}
+		}
+		else
+		{
+			if (travelDir.x > 0)
+			{
+				animator.SetTrigger("moveRight");
+			}
+			else if (travelDir.x < 0)
+			{
+				animator.SetTrigger("moveLeft");
+			}
+			else
+			{
+				animator.SetTrigger("IdleAnimation");
+			}
+		}
 	}
 
 	private void OnPathFound(Vector3[] path, bool pathFoundSuccessful)

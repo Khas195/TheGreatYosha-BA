@@ -65,7 +65,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	{
 		base.Awake();
 		PostOffice.Subscribes(this, GameMasterEvent.ON_GAMESTATE_CHANGED);
-		PostOffice.Subscribes(this, GameMasterEvent.INSTANCE_LOADED_EVENT);
+		PostOffice.Subscribes(this, GameMasterEvent.ON_INSTANCE_LOADED);
 	}
 
 	public bool RequestGameState(GameState.GameStateEnum requestState)
@@ -83,7 +83,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	void OnDestroy()
 	{
 		PostOffice.Unsubscribes(this, GameMasterEvent.ON_GAMESTATE_CHANGED);
-		PostOffice.Unsubscribes(this, GameMasterEvent.INSTANCE_LOADED_EVENT);
+		PostOffice.Unsubscribes(this, GameMasterEvent.ON_INSTANCE_LOADED);
 	}
 
 
@@ -93,7 +93,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 		{
 			PixelCrushers.DialogueSystem.DialogueManager.StopConversation();
 			PixelCrushers.DialogueSystem.ConversationPositionStack.ClearConversationPositionStack();
-			PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE);
+			PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
 			loadingManager.InitiateLoadingSequenceFor(newInstance, loadAndWait);
 			currentInstance = newInstance;
 		}
@@ -257,7 +257,7 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 			return;
 		}
 		var targetInstance = this.currentScenario.GetInstanceBasedOnCurrentTimeline();
-		PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE);
+		PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
 		loadingManager.ReloadInstance(targetInstance, true);
 		currentInstance = targetInstance;
 		SaveGame();

@@ -14,8 +14,9 @@ public class FrontBackSortingManager : SingletonMonobehavior<FrontBackSortingMan
 	protected override void Awake()
 	{
 		base.Awake();
-		PostOffice.Subscribes(this, GameMasterEvent.ON_LOAD_NEW_STANCE);
-		this.sortingList.Clear();
+		PostOffice.Subscribes(this, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
+		PostOffice.Subscribes(this, GameMasterEvent.ON_INSTANCE_LOADED);
+		this.Clean();
 	}
 
 	public void RegisterSorting(IFrontBackSorting sortingTarget)
@@ -47,21 +48,22 @@ public class FrontBackSortingManager : SingletonMonobehavior<FrontBackSortingMan
 		}
 	}
 	[Button]
-	public void Clear()
+	public void Clean()
 	{
-		this.sortingList.Clear();
+		this.sortingList.RemoveAll(item => item == null);
 	}
 	private void OnDestroy()
 	{
 		this.sortingList.Clear();
-		PostOffice.Unsubscribes(this, GameMasterEvent.ON_LOAD_NEW_STANCE);
+		PostOffice.Unsubscribes(this, GameMasterEvent.ON_INSTANCE_LOADED);
+		PostOffice.Unsubscribes(this, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
 	}
 
 	public void ReceiveData(DataPack pack, string eventName)
 	{
-		if (eventName.Equals(GameMasterEvent.ON_LOAD_NEW_STANCE))
+		if (eventName.Equals(GameMasterEvent.ON_LOAD_NEW_STANCE_START) || eventName.Equals(GameMasterEvent.ON_INSTANCE_LOADED))
 		{
-			this.Clear();
+			this.Clean();
 		}
 	}
 }

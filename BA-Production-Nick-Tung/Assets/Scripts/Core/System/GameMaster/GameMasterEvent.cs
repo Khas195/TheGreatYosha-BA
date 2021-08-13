@@ -1,8 +1,8 @@
 public static class GameMasterEvent
 {
-	public static string ON_LOAD_NEW_STANCE = "ON_LOAD_NEW_INSTANCE";
+	public static string ON_LOAD_NEW_STANCE_START = "ON_LOAD_NEW_INSTANCE";
 	public static string ON_GAMESTATE_CHANGED = "ON_GAMESTATE_CHANGED";
-	public static string INSTANCE_LOADED_EVENT = "GAME_LOAD_EVENT";
+	public static string ON_INSTANCE_LOADED = "GAME_LOAD_EVENT";
 	public struct GameStateChangeEvent
 	{
 		public static string New_Game_State = "GameState";

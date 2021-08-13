@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-12T14:55:01Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-13T09:06:11Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -3474,7 +3474,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="41700" Y="225"/>
+      <Position X="41375" Y="225"/>
       <Size Width="225" Height="100"/>
       <ZIndex>537</ZIndex>
     </Condition>
@@ -3498,7 +3498,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="42000" Y="425"/>
+      <Position X="41675" Y="425"/>
       <Size Width="225" Height="100"/>
       <ZIndex>537</ZIndex>
     </Condition>
@@ -4002,7 +4002,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="59450" Y="1125"/>
+      <Position X="60075" Y="1550"/>
       <Size Width="225" Height="100"/>
       <ZIndex>986</ZIndex>
     </Condition>
@@ -4103,14 +4103,14 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <ZIndex>725</ZIndex>
     </Condition>
     <Condition Id="0x0100000000008D48">
-      <DisplayName>QuestVariables.OneYoshasTooMany_Loga ...</DisplayName>
+      <DisplayName>QuestVariables.OneYoshasTooMany_Serb ...</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Cnd_118BD0A0</TechnicalName>
       <ExternalId/>
       <ShortId>0x118BD0A0</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037964104</Url>
       <Features Count="0"/>
-      <Expression>QuestVariables.OneYoshasTooMany_LogarAgreedToFavor == true || QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true</Expression>
+      <Expression>QuestVariables.OneYoshasTooMany_SerbanAgreedToFavor == true || QuestVariables.OneYoshasTooMany_SerbanAgreedToGoBack == true</Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000008D49" Index="0" Semantic="Input">
           <Expression/>
@@ -4125,30 +4125,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Position X="58975" Y="5425"/>
       <Size Width="225" Height="100"/>
       <ZIndex>902</ZIndex>
-    </Condition>
-    <Condition Id="0x0100000000008E63">
-      <DisplayName>ConversationSupport.OneYoshaTooMany_ ...</DisplayName>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Cnd_93ABF4F5</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x93ABF4F5</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037964387</Url>
-      <Features Count="0"/>
-      <Expression>ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Khan == false</Expression>
-      <Pins Count="3">
-        <Pin Id="0x0100000000008E64" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000008E65" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000008E66" Index="1" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="59725" Y="5425"/>
-      <Size Width="225" Height="100"/>
-      <ZIndex>986</ZIndex>
     </Condition>
     <Condition Id="0x0100000000008F23">
       <DisplayName>QuestVariables.OneYoshasTooMany_Serb ...</DisplayName>
@@ -4293,6 +4269,54 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Position X="8550" Y="1900"/>
       <Size Width="225" Height="100"/>
       <ZIndex>93</ZIndex>
+    </Condition>
+    <Condition Id="0x010000000000958D">
+      <DisplayName>ConversationSupport.OneYoshaTooMany_ ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Cnd_22679610</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x22679610</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966221</Url>
+      <Features Count="0"/>
+      <Expression>ConversationSupport.OneYoshaTooMany_Logar_ConfessItem_Logar == true</Expression>
+      <Pins Count="3">
+        <Pin Id="0x010000000000958E" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000958F" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000009590" Index="1" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="59675" Y="5525"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>986</ZIndex>
+    </Condition>
+    <Condition Id="0x01000000000095A7">
+      <DisplayName>QuestVariables.OneYoshasTooMany_Serb ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Cnd_73BECD90</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x73BECD90</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966247</Url>
+      <Features Count="0"/>
+      <Expression>QuestVariables.OneYoshasTooMany_SerbanAgreedToFavor == true || QuestVariables.OneYoshasTooMany_SerbanAgreedToGoBack == true</Expression>
+      <Pins Count="3">
+        <Pin Id="0x01000000000095A8" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000095A9" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000095AA" Index="1" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="59600.3606762893" Y="1361.61693574924"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>902</ZIndex>
     </Condition>
     <Connection Id="0x010000000000528A">
       <Color>#C8E2E7</Color>
@@ -19693,15 +19717,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x010000000000833E" PinRef="0x010000000000833F"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x010000000000837B">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_0E58493D</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961595</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008336" PinRef="0x0100000000008338"/>
-      <Target IdRef="0x0100000000008375" PinRef="0x0100000000008376"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000008396">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_EA03A1C4</TechnicalName>
@@ -19738,15 +19753,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x0100000000007F72" PinRef="0x0100000000007F73"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x01000000000083A3">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_F04605CC</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961635</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008375" PinRef="0x0100000000008377"/>
-      <Target IdRef="0x010000000000839E" PinRef="0x01000000000083A0"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x01000000000083A9">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_E6794AA5</TechnicalName>
@@ -19754,15 +19760,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x010000000000839E" PinRef="0x01000000000083A2"/>
       <Target IdRef="0x01000000000083A4" PinRef="0x01000000000083A5"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x01000000000083AA">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_A09B3A67</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961642</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000839E" PinRef="0x01000000000083A1"/>
-      <Target IdRef="0x0100000000008388" PinRef="0x0100000000008389"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x01000000000083B1">
@@ -19783,15 +19780,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x0100000000008413" PinRef="0x0100000000008414"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000008436">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_F8BD0EDA</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961782</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000083A4" PinRef="0x01000000000083A6"/>
-      <Target IdRef="0x010000000000840D" PinRef="0x010000000000840E"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000008443">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_AD32F467</TechnicalName>
@@ -19799,15 +19787,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x01000000000082F3" PinRef="0x01000000000082F5"/>
       <Target IdRef="0x0100000000008308" PinRef="0x0100000000008309"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000008444">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_6DE7A18D</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961796</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000083A4" PinRef="0x01000000000083A7"/>
-      <Target IdRef="0x0100000000008437" PinRef="0x0100000000008438"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x010000000000844B">
@@ -19945,24 +19924,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x01000000000084B0" PinRef="0x01000000000084B1"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x01000000000084BD">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_21FEA788</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961917</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000084B0" PinRef="0x01000000000084B2"/>
-      <Target IdRef="0x01000000000084B7" PinRef="0x01000000000084B8"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x01000000000084CC">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_6E929401</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961932</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x01000000000084B7" PinRef="0x01000000000084B9"/>
-      <Target IdRef="0x01000000000084C5" PinRef="0x01000000000084C6"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x01000000000084CD">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_F3BC6F8D</TechnicalName>
@@ -20051,24 +20012,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x010000000000850B" PinRef="0x010000000000850D"/>
       <Target IdRef="0x0100000000008512" PinRef="0x0100000000008513"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x010000000000851F">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_F8027ED5</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037962015</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008512" PinRef="0x0100000000008514"/>
-      <Target IdRef="0x0100000000008519" PinRef="0x010000000000851A"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000008526">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_4D4D487C</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037962022</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008519" PinRef="0x010000000000851B"/>
-      <Target IdRef="0x0100000000008520" PinRef="0x0100000000008521"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x010000000000852D">
@@ -21772,15 +21715,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x0100000000008C2B" PinRef="0x0100000000008C2D"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000008C3C">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_E2766F73</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037963836</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008A98" PinRef="0x0100000000008A9B"/>
-      <Target IdRef="0x0100000000008C37" PinRef="0x0100000000008C39"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000008C3D">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_EEEE2206</TechnicalName>
@@ -22456,24 +22390,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x0100000000008F92" PinRef="0x0100000000008F93"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000008E68">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_3C8C03E6</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037964392</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008D48" PinRef="0x0100000000008D4A"/>
-      <Target IdRef="0x0100000000008E63" PinRef="0x0100000000008E64"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000008E8A">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_A0D31599</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037964426</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008E63" PinRef="0x0100000000008E66"/>
-      <Target IdRef="0x0100000000008E7E" PinRef="0x0100000000008E7F"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000008E8B">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_1289E8BC</TechnicalName>
@@ -22535,15 +22451,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x0100000000008EA3" PinRef="0x0100000000008EA5"/>
       <Target IdRef="0x0100000000008DF0" PinRef="0x0100000000008DF3"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000008EB1">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_C2CFFC5E</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037964465</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000008E63" PinRef="0x0100000000008E65"/>
-      <Target IdRef="0x0100000000008EAB" PinRef="0x0100000000008EAC"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000008ED3">
@@ -23705,6 +23612,159 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x0100000000008822" PinRef="0x0100000000008824"/>
       <Target IdRef="0x0100000000009588" PinRef="0x0100000000009589"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000009593">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_056DE32E</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966227</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000958D" PinRef="0x010000000000958F"/>
+      <Target IdRef="0x0100000000008EAB" PinRef="0x0100000000008EAC"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000009594">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_67D13AA5</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966228</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000958D" PinRef="0x0100000000009590"/>
+      <Target IdRef="0x0100000000008E7E" PinRef="0x0100000000008E7F"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095A5">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_F9E6444D</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966245</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000008D48" PinRef="0x0100000000008D4A"/>
+      <Target IdRef="0x010000000000958D" PinRef="0x010000000000958E"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095AC">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_AD56119B</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966252</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000008A98" PinRef="0x0100000000008A9B"/>
+      <Target IdRef="0x01000000000095A7" PinRef="0x01000000000095A8"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095AD">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_27FB0464</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966253</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000095A7" PinRef="0x01000000000095A9"/>
+      <Target IdRef="0x0100000000008C73" PinRef="0x0100000000008C74"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095AE">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_B0F0B2A6</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966254</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000095A7" PinRef="0x01000000000095AA"/>
+      <Target IdRef="0x0100000000008C37" PinRef="0x0100000000008C39"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095B2">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_13A986F3</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966258</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000008336" PinRef="0x0100000000008338"/>
+      <Target IdRef="0x010000000000839E" PinRef="0x01000000000083A0"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095B3">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_559B58BF</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966259</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000839E" PinRef="0x01000000000083A1"/>
+      <Target IdRef="0x0100000000008375" PinRef="0x0100000000008376"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095B4">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_ED1DBADF</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966260</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000008375" PinRef="0x0100000000008377"/>
+      <Target IdRef="0x0100000000008388" PinRef="0x0100000000008389"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095BB">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_686AECA1</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966267</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000083A4" PinRef="0x01000000000083A6"/>
+      <Target IdRef="0x01000000000095B5" PinRef="0x01000000000095B6"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095BC">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_C00DBE71</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966268</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000095B5" PinRef="0x01000000000095B7"/>
+      <Target IdRef="0x010000000000840D" PinRef="0x010000000000840E"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095C3">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_EFDBE110</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966275</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000083A4" PinRef="0x01000000000083A7"/>
+      <Target IdRef="0x01000000000095BD" PinRef="0x01000000000095BE"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095C4">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_D6E1B337</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966276</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000095BD" PinRef="0x01000000000095BF"/>
+      <Target IdRef="0x0100000000008437" PinRef="0x0100000000008438"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095CB">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_49FE6B36</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966283</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000008512" PinRef="0x0100000000008514"/>
+      <Target IdRef="0x01000000000095C6" PinRef="0x01000000000095C9"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095CC">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_546E4C66</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966284</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000095C6" PinRef="0x01000000000095CA"/>
+      <Target IdRef="0x0100000000008520" PinRef="0x0100000000008521"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095D4">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_5B3037F3</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966292</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000095CE" PinRef="0x01000000000095D0"/>
+      <Target IdRef="0x01000000000084C5" PinRef="0x01000000000084C6"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x01000000000095D5">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_9A9E0299</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966293</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x01000000000084B0" PinRef="0x01000000000084B2"/>
+      <Target IdRef="0x01000000000095CE" PinRef="0x01000000000095CF"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x010000000000676B">
@@ -26235,7 +26295,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x01000000000067AF">
       <DisplayName><![CDATA[Khan: "You're back already ? Did you talk..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You&#39;re back already ? Did you talk to Logar or Serban Yet ? </span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You&#39;re back already ? Did you talk to Logar or Serban Yet? </span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_15746466</TechnicalName>
@@ -26503,7 +26563,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x010000000000762C">
       <DisplayName><![CDATA[Player: "You knew this would trigger them, d..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You knew this would trigger them, didn&#39;t you ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You knew this would trigger them, didn&#39;t you?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_0DE63034</TechnicalName>
@@ -26525,7 +26585,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA[You knew this would trigger them, didn't you ?]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[You knew this would trigger them, didn't you?]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007634">
@@ -27117,9 +27177,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000076FE">
-      <DisplayName><![CDATA[Khan: "What am I ?"]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "What am I?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What am I ?</span></p><p id="s0"></p><p id="s0"></p><p id="s0"></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What am I?</span></p><p id="s0"></p><p id="s0"></p><p id="s0"></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_BD56E235</TechnicalName>
@@ -28285,9 +28345,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007875">
-      <DisplayName><![CDATA[Player: "Did I say something wrong ?"]]></DisplayName>
+      <DisplayName><![CDATA[Player: "Did I say something wrong?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Did I say something wrong ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Did I say something wrong?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_57AAF330</TechnicalName>
@@ -28445,9 +28505,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000078A3">
-      <DisplayName><![CDATA[Player: "You *were* going to kill me ?"]]></DisplayName>
+      <DisplayName><![CDATA[Player: "You *were* going to kill me?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You *were* going to kill me ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You *were* going to kill me?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_3470B925</TechnicalName>
@@ -28469,7 +28529,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">You *were* going to kill me ?</LocalizedString>
+        <LocalizedString Lang="">You *were* going to kill me?</LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000078B6">
@@ -28979,9 +29039,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007958">
-      <DisplayName><![CDATA[Khan: "Quite fearless, aren't you ?"]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "Quite fearless, aren't you?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Quite fearless, aren&#39;t you ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Quite fearless, aren&#39;t you?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E6015CC8</TechnicalName>
@@ -29083,9 +29143,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007975">
-      <DisplayName><![CDATA[Khan: "Well, did they poison the mark yet..."]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "Well, did they poison the mark yet?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Well, did they poison the mark yet ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Well, did they poison the mark yet?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_29F2DECA</TechnicalName>
@@ -30709,7 +30769,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x0100000000005028">
       <DisplayName><![CDATA[Player: "Do you mind if I ask some questions..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Do you mind if I ask some questions ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Do you mind if I ask some questions?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_C476C352</TechnicalName>
@@ -30731,7 +30791,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">Do you mind if I ask some questions ?</LocalizedString>
+        <LocalizedString Lang="">Do you mind if I ask some questions?</LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005040">
@@ -31155,9 +31215,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000005102">
-      <DisplayName><![CDATA[Player: "The people called you "H'inja" ?"]]></DisplayName>
+      <DisplayName><![CDATA[Player: "The people called you "H'inja"?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">The people called you &quot;H&#39;inja&quot; ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">The people called you &quot;H&#39;inja&quot;?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_FEF53A94</TechnicalName>
@@ -34795,9 +34855,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000667E">
-      <DisplayName><![CDATA[Player: "But what is an "Asain" ?"]]></DisplayName>
+      <DisplayName><![CDATA[Player: "But what is an "Asain"?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">But what is an &quot;Asain&quot; ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">But what is an &quot;Asain&quot;?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_DC30B114</TechnicalName>
@@ -37237,7 +37297,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">Why the prejudice ?</LocalizedString>
+        <LocalizedString Lang="">Why the prejudice?</LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000728E">
@@ -41999,9 +42059,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000910A">
-      <DisplayName><![CDATA[Serban: "How about farming ?"]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "How about farming?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about farming ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about farming?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_678547B1</TechnicalName>
@@ -45073,7 +45133,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x01000000000058EC">
       <DisplayName><![CDATA[Narrator: "You tried to move your limbs but to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your limbs but to no  avail. </span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You tried to move your limbs but to no avail. </span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_04AC74C8</TechnicalName>
@@ -45463,9 +45523,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000059CF">
-      <DisplayName><![CDATA[Player: "What! Why ?"]]></DisplayName>
+      <DisplayName><![CDATA[Player: "What! Why?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What! Why ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What! Why?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_A3C5B475</TechnicalName>
@@ -49297,9 +49357,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006C98">
-      <DisplayName><![CDATA[Logar: "And you expect me to believe that ?"]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "And you expect me to believe that?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">And you expect me to believe that ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">And you expect me to believe that?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_B32AE84B</TechnicalName>
@@ -49325,7 +49385,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x0100000000006CA6">
       <DisplayName><![CDATA[Logar: "My Kasi, is this one of your ploy t..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">My Kasi, is this one of your ploy to seperate us ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">My Kasi, is this one of your ploy to seperate us?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_8122E9E0</TechnicalName>
@@ -49453,9 +49513,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006CDA">
-      <DisplayName><![CDATA[Logar: "He sent you, didn't he ?"]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "He sent you, didn't he?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He sent you, didn&#39;t he ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He sent you, didn&#39;t he?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_C1C5275C</TechnicalName>
@@ -50451,9 +50511,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006E95">
-      <DisplayName><![CDATA[Logar: "You back again ? Just do the thing..."]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "You back again? Just do the thing a..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You back again ? Just do the thing already.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You back again? Just do the thing already.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_ABFA4390</TechnicalName>
@@ -51479,9 +51539,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007C0D">
-      <DisplayName><![CDATA[Narrator: "Except for Khan"]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Except for Khan."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Except for Khan</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Except for Khan.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E3CDE9A4</TechnicalName>
@@ -52025,9 +52085,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007CE5">
-      <DisplayName><![CDATA[Serban: "You two seemed to be close already."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "You two seemed to be closed."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You two seemed to be close already.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You two seemed to be closed.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_07E6DCD8</TechnicalName>
@@ -52949,9 +53009,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007E55">
-      <DisplayName><![CDATA[Logar: "Why don't you try a piece first ?"]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "Why don't you try a piece first?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Why don&#39;t you try a piece first ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Why don&#39;t you try a piece first?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_AF3339B7</TechnicalName>
@@ -53523,7 +53583,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x0100000000007F38">
       <DisplayName><![CDATA[Serban: "How about you take a bite first Jun..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about you take a bite first Junra ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about you take a bite first Junra?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_15AF31D3</TechnicalName>
@@ -54231,7 +54291,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x0100000000008072">
       <DisplayName><![CDATA[Serban: "How about just taking a bite so Log..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about just taking a bite so Logar doesn&#39;t feel so bad for starting first ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about just taking a bite so Logar doesn&#39;t feel so bad for starting first?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_A35BF91E</TechnicalName>
@@ -54257,7 +54317,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
     <DialogueFragment Id="0x0100000000008078">
       <DisplayName><![CDATA[Logar: "How about just taking a bite so Ser..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about just taking a bite so Serban doesn&#39;t feel so bad for starting first ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">How about just taking a bite so Serban doesn&#39;t feel so bad for starting first?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_9AE2365B</TechnicalName>
@@ -55903,9 +55963,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000082F3">
-      <DisplayName><![CDATA[Khan: "What's wrong with you two ?"]]></DisplayName>
+      <DisplayName><![CDATA[Khan: "What's wrong with you two?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What&#39;s wrong with you two ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What&#39;s wrong with you two?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_414BA6CD</TechnicalName>
@@ -56169,9 +56229,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008375">
-      <DisplayName><![CDATA[Narrator: "You took his dish and gave him your..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Before you could swap your dish wit..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You took his dish and gave him yours.</span></p><p id="s0"></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could swap your dish with Khan, Logar raised a stopping hand gesture and spoke up.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4ED6D591</TechnicalName>
@@ -56187,7 +56247,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="41375" Y="175"/>
+      <Position X="41825" Y="25"/>
       <Size Width="225" Height="200"/>
       <ZIndex>192</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
@@ -56714,32 +56774,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
-    <DialogueFragment Id="0x01000000000084B7">
-      <DisplayName><![CDATA[Logar: "Let's us be friend tonight."]]></DisplayName>
-      <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Let&#39;s us be friend tonight.</span></p></body></html>]]></LocalizedString>
-      </Text>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>DFr_FB1A9770</TechnicalName>
-      <ExternalId/>
-      <ShortId>0xFB1A9770</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037961911</Url>
-      <Features Count="0"/>
-      <Pins Count="2">
-        <Pin Id="0x01000000000084B8" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x01000000000084B9" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="45225" Y="-75"/>
-      <Size Width="225" Height="200"/>
-      <ZIndex>192</ZIndex>
-      <Speaker IdRef="0x010000000000011E"/>
-      <StageDirections Count="0"/>
-      <MenuText Count="0"/>
-    </DialogueFragment>
     <DialogueFragment Id="0x01000000000084BE">
       <DisplayName><![CDATA[Logar: "They will no doubt help you as they..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
@@ -56845,9 +56879,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000084DC">
-      <DisplayName><![CDATA[Serban: "What does it has to do with tonight..."]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "What does your whole speech have to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What does it has to do with tonight?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What does your whole speech have to do with anything?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_01E3089A</TechnicalName>
@@ -57026,32 +57060,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
-    <DialogueFragment Id="0x0100000000008519">
-      <DisplayName><![CDATA[Serban: "Let's us be friend tonight."]]></DisplayName>
-      <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Let&#39;s us be friend tonight.</span></p></body></html>]]></LocalizedString>
-      </Text>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>DFr_10D75FC6</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x10D75FC6</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037962009</Url>
-      <Features Count="0"/>
-      <Pins Count="2">
-        <Pin Id="0x010000000000851A" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x010000000000851B" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="45225" Y="250"/>
-      <Size Width="225" Height="200"/>
-      <ZIndex>192</ZIndex>
-      <Speaker IdRef="0x01000000000006A6"/>
-      <StageDirections Count="0"/>
-      <MenuText Count="0"/>
-    </DialogueFragment>
     <DialogueFragment Id="0x0100000000008520">
       <DisplayName><![CDATA[Serban: "And if you ever go to Gome."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
@@ -57157,9 +57165,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000853B">
-      <DisplayName><![CDATA[Logar: "What does it has to do with tonight..."]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "What does your whole speech have to..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What does it has to do with tonight?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What does your whole speech have to do with anything?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_21AC481B</TechnicalName>
@@ -57473,9 +57481,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000085A1">
-      <DisplayName><![CDATA[Player: "Khan, let's swap our dishes."]]></DisplayName>
+      <DisplayName><![CDATA[Player: "I want to stick with Khan."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Khan, let&#39;s swap our dishes.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">I want to stick with Khan.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_EF32BC8D</TechnicalName>
@@ -57497,7 +57505,7 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA[Khan, let's swap our dishes.]]></LocalizedString>
+        <LocalizedString Lang="">I want to stick with Khan.</LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000085A9">
@@ -59700,9 +59708,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008AA1">
-      <DisplayName><![CDATA[Logar: "What's wrong Serban ?"]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "What's wrong Serban?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What&#39;s wrong Serban ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What&#39;s wrong Serban?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_DA337030</TechnicalName>
@@ -59726,9 +59734,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008AA8">
-      <DisplayName><![CDATA[Logar: "What is happening to you ?"]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "What is happening to you?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What is happening to you ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">What is happening to you?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_33CA8D2F</TechnicalName>
@@ -59934,9 +59942,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008AE9">
-      <DisplayName><![CDATA[Logar: "You did this, didn't you ?"]]></DisplayName>
+      <DisplayName><![CDATA[Logar: "You did this, didn't you?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You did this, didn&#39;t you ?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You did this, didn&#39;t you?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_FC36B670</TechnicalName>
@@ -62046,9 +62054,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008E00">
-      <DisplayName><![CDATA[Narrator: "As he fell, a knife can be seen on..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "As he fell, a knife can be seen in..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As he fell, a knife can be seen on his back.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">As he fell, a knife can be seen in his back.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_A8DA6838</TechnicalName>
@@ -62286,9 +62294,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008E48">
-      <DisplayName><![CDATA[Narrator: "Serban turned toward Khan, swinging..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Serban sprung from the ground, hopi..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Serban turned toward Khan, swinging the knife in his hand.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Serban sprung from the ground, hoping to to surprise Khan with a knife thrust.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_150FA6E6</TechnicalName>
@@ -62704,9 +62712,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008EF0">
-      <DisplayName><![CDATA[Serban: "Wait, what is going?"]]></DisplayName>
+      <DisplayName><![CDATA[Serban: "Wait, what is going on?"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Wait, what is going?</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Wait, what is going on?</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_E6803F27</TechnicalName>
@@ -64255,6 +64263,110 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Position X="82500" Y="1925"/>
       <Size Width="225" Height="200"/>
       <ZIndex>1291</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000095B5">
+      <DisplayName><![CDATA[Narrator: "Before you could swap your dish wit..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could swap your dish with Khan, Serban raised a stopping hand gesture and spoke up.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_186820FA</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x186820FA</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966261</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000095B6" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000095B7" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="42075" Y="275"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>192</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000095BD">
+      <DisplayName><![CDATA[Narrator: "Before you could swap your dish wit..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could swap your dish with Khan, Serban raised a stopping hand gesture and spoke up.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_FA8AC0E9</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xFA8AC0E9</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966269</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000095BE" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000095BF" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="42025" Y="600"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>192</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000095C6">
+      <DisplayName><![CDATA[Narrator: "He turned to you before continuing."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He turned to you before continuing.</span></p><p id="s0"></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_F5883CE7</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xF5883CE7</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966278</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000095C9" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000095CA" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="45225" Y="250"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>1294</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x01000000000095CE">
+      <DisplayName><![CDATA[Narrator: "He turned to you before continuing."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">He turned to you before continuing.</span></p><p id="s0"></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_F540756F</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xF540756F</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037966286</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x01000000000095CF" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x01000000000095D0" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="45225" Y="-75"/>
+      <Size Width="225" Height="200"/>
+      <ZIndex>1294</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
@@ -72129,7 +72241,6 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x010000000000833E" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008345" Type="Connection"/>
             <Node IdRef="0x0100000000008375" Type="DialogueFragment"/>
-            <Node IdRef="0x010000000000837B" Type="Connection"/>
             <Node IdRef="0x0100000000008388" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008392" Type="Instruction"/>
             <Node IdRef="0x0100000000008396" Type="Connection"/>
@@ -72138,19 +72249,15 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x010000000000839C" Type="Connection"/>
             <Node IdRef="0x010000000000839D" Type="Connection"/>
             <Node IdRef="0x010000000000839E" Type="Condition"/>
-            <Node IdRef="0x01000000000083A3" Type="Connection"/>
             <Node IdRef="0x01000000000083A4" Type="Condition"/>
             <Node IdRef="0x01000000000083A9" Type="Connection"/>
-            <Node IdRef="0x01000000000083AA" Type="Connection"/>
             <Node IdRef="0x01000000000083AB" Type="DialogueFragment"/>
             <Node IdRef="0x01000000000083B1" Type="Connection"/>
             <Node IdRef="0x010000000000840D" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008413" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008435" Type="Connection"/>
-            <Node IdRef="0x0100000000008436" Type="Connection"/>
             <Node IdRef="0x0100000000008437" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008443" Type="Connection"/>
-            <Node IdRef="0x0100000000008444" Type="Connection"/>
             <Node IdRef="0x0100000000008445" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000844B" Type="Connection"/>
             <Node IdRef="0x010000000000844C" Type="DialogueFragment"/>
@@ -72181,11 +72288,8 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x01000000000084AF" Type="Connection"/>
             <Node IdRef="0x01000000000084B0" Type="DialogueFragment"/>
             <Node IdRef="0x01000000000084B6" Type="Connection"/>
-            <Node IdRef="0x01000000000084B7" Type="DialogueFragment"/>
-            <Node IdRef="0x01000000000084BD" Type="Connection"/>
             <Node IdRef="0x01000000000084BE" Type="DialogueFragment"/>
             <Node IdRef="0x01000000000084C5" Type="DialogueFragment"/>
-            <Node IdRef="0x01000000000084CC" Type="Connection"/>
             <Node IdRef="0x01000000000084CD" Type="Connection"/>
             <Node IdRef="0x01000000000084CE" Type="DialogueFragment"/>
             <Node IdRef="0x01000000000084D4" Type="Connection"/>
@@ -72205,10 +72309,7 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x0100000000008511" Type="Connection"/>
             <Node IdRef="0x0100000000008512" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008518" Type="Connection"/>
-            <Node IdRef="0x0100000000008519" Type="DialogueFragment"/>
-            <Node IdRef="0x010000000000851F" Type="Connection"/>
             <Node IdRef="0x0100000000008520" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000008526" Type="Connection"/>
             <Node IdRef="0x0100000000008527" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000852D" Type="Connection"/>
             <Node IdRef="0x010000000000852E" Type="DialogueFragment"/>
@@ -72574,7 +72675,6 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x0100000000008C30" Type="Connection"/>
             <Node IdRef="0x0100000000008C31" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008C37" Type="Condition"/>
-            <Node IdRef="0x0100000000008C3C" Type="Connection"/>
             <Node IdRef="0x0100000000008C3D" Type="Connection"/>
             <Node IdRef="0x0100000000008C3E" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008C44" Type="Connection"/>
@@ -72714,11 +72814,8 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x0100000000008E5C" Type="Connection"/>
             <Node IdRef="0x0100000000008E5D" Type="Connection"/>
             <Node IdRef="0x0100000000008E62" Type="Connection"/>
-            <Node IdRef="0x0100000000008E63" Type="Condition"/>
-            <Node IdRef="0x0100000000008E68" Type="Connection"/>
             <Node IdRef="0x0100000000008E7E" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008E84" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000008E8A" Type="Connection"/>
             <Node IdRef="0x0100000000008E8B" Type="Connection"/>
             <Node IdRef="0x0100000000008E8C" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008E92" Type="Connection"/>
@@ -72731,7 +72828,6 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x0100000000008EA9" Type="Connection"/>
             <Node IdRef="0x0100000000008EAA" Type="Connection"/>
             <Node IdRef="0x0100000000008EAB" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000008EB1" Type="Connection"/>
             <Node IdRef="0x0100000000008EC1" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008EC7" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000008ECD" Type="DialogueFragment"/>
@@ -72942,6 +73038,29 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x0100000000009587" Type="Connection"/>
             <Node IdRef="0x0100000000009588" Type="Jump"/>
             <Node IdRef="0x010000000000958C" Type="Connection"/>
+            <Node IdRef="0x010000000000958D" Type="Condition"/>
+            <Node IdRef="0x0100000000009593" Type="Connection"/>
+            <Node IdRef="0x0100000000009594" Type="Connection"/>
+            <Node IdRef="0x01000000000095A5" Type="Connection"/>
+            <Node IdRef="0x01000000000095A7" Type="Condition"/>
+            <Node IdRef="0x01000000000095AC" Type="Connection"/>
+            <Node IdRef="0x01000000000095AD" Type="Connection"/>
+            <Node IdRef="0x01000000000095AE" Type="Connection"/>
+            <Node IdRef="0x01000000000095B2" Type="Connection"/>
+            <Node IdRef="0x01000000000095B3" Type="Connection"/>
+            <Node IdRef="0x01000000000095B4" Type="Connection"/>
+            <Node IdRef="0x01000000000095B5" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000095BB" Type="Connection"/>
+            <Node IdRef="0x01000000000095BC" Type="Connection"/>
+            <Node IdRef="0x01000000000095BD" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000095C3" Type="Connection"/>
+            <Node IdRef="0x01000000000095C4" Type="Connection"/>
+            <Node IdRef="0x01000000000095C6" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000095CB" Type="Connection"/>
+            <Node IdRef="0x01000000000095CC" Type="Connection"/>
+            <Node IdRef="0x01000000000095CE" Type="DialogueFragment"/>
+            <Node IdRef="0x01000000000095D4" Type="Connection"/>
+            <Node IdRef="0x01000000000095D5" Type="Connection"/>
           </Node>
         </Node>
       </Node>

@@ -100,7 +100,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,11 +161,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 71
-        y: 1447
+        y: 1300
         width: 1100
-        height: 815
+        height: 962
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,48 +173,6 @@ TextureImporter:
       bones: []
       spriteID: ebc0df104ef7ceb20800000000000000
       internalID: 3165045255397248190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Env_Fireplace_Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 1400
-        width: 67
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6891a6a2a6c02ff40800000000000000
-      internalID: 5760680523477948806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Env_Fireplace_Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 1385
-        width: 111
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc5f319fe03fd8cb0800000000000000
-      internalID: -4859961177228970547
       vertices: []
       indices: 
       edges: []
@@ -228,7 +186,7 @@ TextureImporter:
         width: 799
         height: 970
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,7 +207,7 @@ TextureImporter:
         width: 621
         height: 403
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,7 +228,7 @@ TextureImporter:
         width: 488
         height: 532
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,69 +236,6 @@ TextureImporter:
       bones: []
       spriteID: 837d879ccf95b0b70800000000000000
       internalID: 8866279233655723832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Env_Fireplace_Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 1367
-        width: 45
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52ccf2f7304429210800000000000000
-      internalID: 1338206821091888165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Env_Fireplace_Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 1311
-        width: 37
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a467be77a28580b50800000000000000
-      internalID: 6559589796688918090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Env_Fireplace_Spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 1341
-        width: 28
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65e344dc4f02ffd70800000000000000
-      internalID: 9079011609590120022
       vertices: []
       indices: 
       edges: []
@@ -354,7 +249,7 @@ TextureImporter:
         width: 1033
         height: 686
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -371,11 +266,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1635
-        y: 510
+        y: 498
         width: 572
-        height: 614
+        height: 626
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,7 +291,7 @@ TextureImporter:
         width: 224
         height: 340
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,27 +299,6 @@ TextureImporter:
       bones: []
       spriteID: 27ad37bce89273b90800000000000000
       internalID: -7262290180836173198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Env_Fireplace_Spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 1709
-        y: 503
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ce6ef8b1b1f34790800000000000000
-      internalID: -7546922804927631672
       vertices: []
       indices: 
       edges: []
@@ -438,7 +312,7 @@ TextureImporter:
         width: 112
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,7 +333,7 @@ TextureImporter:
         width: 112
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,7 +354,7 @@ TextureImporter:
         width: 112
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,7 +375,7 @@ TextureImporter:
         width: 112
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,7 +396,7 @@ TextureImporter:
         width: 112
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

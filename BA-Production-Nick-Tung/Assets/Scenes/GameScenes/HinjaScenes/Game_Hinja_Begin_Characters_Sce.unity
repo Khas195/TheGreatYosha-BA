@@ -249,11 +249,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.32
+      value: -41.34
       objectReference: {fileID: 0}
     - target: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -35.59
+      value: -37.83
       objectReference: {fileID: 0}
     - target: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_LocalPosition.z
@@ -701,7 +701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.67
+      value: -44.82
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.y
@@ -757,7 +757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4665098707211396944, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6684041098552801992, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: conversationActor
@@ -798,11 +798,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.78
+      value: -22.92
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.86
+      value: -30.54
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -859,7 +859,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2707573737927294403, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4173854448423329883, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: conversationActor
@@ -879,11 +879,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.7
+      value: -23.86
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.56
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.z

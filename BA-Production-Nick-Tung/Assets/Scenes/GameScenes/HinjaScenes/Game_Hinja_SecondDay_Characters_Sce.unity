@@ -617,6 +617,51 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &969950895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 969950897}
+  - component: {fileID: 969950896}
+  m_Layer: 0
+  m_Name: LogarFishing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &969950896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969950895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58261845a27502743971b2aef656210e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7519129436566539242}
+  triggerName: Fishing
+--- !u!4 &969950897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969950895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977639528
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,11 +855,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5900002
+      value: 14.82
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2999997
+      value: 15.12
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.z
@@ -858,15 +903,23 @@ PrefabInstance:
       objectReference: {fileID: 227288909}
     - target: {fileID: 4147993444995112082, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.81
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 4147993444995112082, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.8
+      value: -6.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665098707211396944, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4665098707211396944, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665098707211396944, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092585583
       objectReference: {fileID: 0}
     - target: {fileID: 6684041098552801992, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: conversationActor
@@ -874,6 +927,11 @@ PrefabInstance:
       objectReference: {fileID: 2108323901}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+--- !u!95 &7519129436566539242 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 530486811451375059, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+  m_PrefabInstance: {fileID: 7519129436566539241}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7585231604024750584
 PrefabInstance:
   m_ObjectHideFlags: 0

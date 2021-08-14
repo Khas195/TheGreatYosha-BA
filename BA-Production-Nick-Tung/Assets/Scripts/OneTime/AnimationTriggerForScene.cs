@@ -9,18 +9,9 @@ public class AnimationTriggerForScene : MonoBehaviour
 	[SerializeField]
 	string triggerName;
 
-	[SerializeField]
-	string deathName;
 	void Start()
 	{
 		animator.SetTrigger(triggerName);
 	}
-	private void Update()
-	{
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
 
-			animator.SetTrigger(deathName);
-		}
-	}
 }

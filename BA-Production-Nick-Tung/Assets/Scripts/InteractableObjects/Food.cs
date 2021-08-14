@@ -18,6 +18,7 @@ public class Food : IInteractable
 	string timeLineVarName = "";
 	[SerializeField]
 	Transform interactPoint = null;
+	bool interacted = false;
 
 
 	public override void Defocus()
@@ -48,6 +49,7 @@ public class Food : IInteractable
 
 	public override bool Interact()
 	{
+		if (interacted == true) return false;
 
 		var poisonItem = DialogueLua.GetVariable(this.poisonMarkVarName).asBool;
 		if (poisonItem == false) return false;
@@ -56,6 +58,7 @@ public class Food : IInteractable
 		var timelineVar = DialogueLua.GetVariable(this.timeLineVarName).asInt;
 		timelineVar += 1;
 		DialogueLua.SetVariable(this.timeLineVarName, timelineVar);
+		interacted = true;
 		Invoke("TriggerScenarioUpdate", 2.0f);
 		return base.Interact();
 	}

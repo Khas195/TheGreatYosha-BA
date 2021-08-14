@@ -158,7 +158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227288908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 7.32, z: -170}
+  m_LocalPosition: {x: 21.73, y: 13.21, z: -170}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -909,6 +909,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -6.94
       objectReference: {fileID: 0}
+    - target: {fileID: 4511527121546392718, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4665098707211396944, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_SortingLayer
       value: 3
@@ -925,6 +929,10 @@ PrefabInstance:
       propertyPath: conversationActor
       value: 
       objectReference: {fileID: 2108323901}
+    - target: {fileID: 7861124177453054747, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
 --- !u!95 &7519129436566539242 stripped

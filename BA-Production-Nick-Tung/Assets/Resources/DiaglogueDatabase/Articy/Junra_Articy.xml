@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-14T11:09:28Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-14T14:28:26Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -59744,7 +59744,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(PoisonedDeath,Serban_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008AA1">
@@ -61670,7 +61672,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(PoisonedDeath,Logar_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008D51">
@@ -67858,7 +67862,7 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
       <Target IdRef="0x0100000000006E22" PinRef="0x0100000000006E24"/>
     </Jump>
     <Jump Id="0x010000000000897B">
-      <DisplayName>Jump to: [DinnerTogether_END]</DisplayName>
+      <DisplayName>Jump to: [DinnerTogether_DeadEnd]</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Jmp_57BC6958</TechnicalName>
       <ExternalId/>
@@ -67873,7 +67877,7 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
       <Position X="69100" Y="-3700"/>
       <Size Width="175" Height="150"/>
       <ZIndex>876</ZIndex>
-      <Target IdRef="0x0100000000008975" PinRef="0x0100000000008977"/>
+      <Target IdRef="0x0100000000009582" PinRef="0x0100000000009584"/>
     </Jump>
     <Jump Id="0x0100000000008CFB">
       <DisplayName>Jump to: [DinnerTogether_END]</DisplayName>
@@ -67912,7 +67916,7 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
       <Target IdRef="0x0100000000008975" PinRef="0x0100000000008977"/>
     </Jump>
     <Jump Id="0x0100000000009588">
-      <DisplayName>Jump to: [DinnerTogether_END]</DisplayName>
+      <DisplayName>Jump to: [DinnerTogether_DeadEnd]</DisplayName>
       <Color>#C8E2E7</Color>
       <TechnicalName>Jmp_960BDC21</TechnicalName>
       <ExternalId/>
@@ -67927,7 +67931,7 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
       <Position X="68775" Y="-2750"/>
       <Size Width="175" Height="150"/>
       <ZIndex>876</ZIndex>
-      <Target IdRef="0x0100000000008975" PinRef="0x0100000000008977"/>
+      <Target IdRef="0x0100000000009582" PinRef="0x0100000000009584"/>
     </Jump>
     <ObjectTemplateDefinition Id="0x010000000000006B">
       <DisplayName Count="1">

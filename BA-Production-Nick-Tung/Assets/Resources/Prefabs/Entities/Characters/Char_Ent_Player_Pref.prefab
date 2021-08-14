@@ -218,7 +218,7 @@ MonoBehaviour:
         m_CallState: 2
   interactMask:
     serializedVersion: 2
-    m_Bits: 384
+    m_Bits: 768
   hoverInteractable: {fileID: 0}
   targetInteract: {fileID: 0}
   playerCamera: {fileID: 0}

@@ -224,7 +224,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 815631562}
   triggerName: Sit
-  deathName: PoisonedDeath
 --- !u!4 &41323279
 Transform:
   m_ObjectHideFlags: 0
@@ -281,7 +280,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1066032586}
   triggerName: Sit
-  deathName: PoisonedDeath
 --- !u!4 &122613503
 Transform:
   m_ObjectHideFlags: 0
@@ -786,7 +784,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &790184181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,7 +799,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2017601546}
   triggerName: Sit
-  deathName: 
 --- !u!4 &790184182
 Transform:
   m_ObjectHideFlags: 0
@@ -845,7 +842,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894981667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.15, y: -18.27, z: -170.4}
+  m_LocalPosition: {x: -23.11, y: -24.68, z: -170.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1094,7 +1091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3327870922454677591, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: converseView.cameraZoom
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3327870922454677591, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: converseView.cameraPosition
@@ -1215,7 +1212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331901877613510728, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: converseView.cameraZoom
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8331901877613510728, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: converseView.cameraPosition
@@ -1240,7 +1237,7 @@ PrefabInstance:
       objectReference: {fileID: 2108323901}
     - target: {fileID: 5404321263557419716, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: converseView.cameraZoom
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5404321263557419716, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: converseView.cameraPosition

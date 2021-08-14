@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-14T10:46:08Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-14T11:09:28Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -58132,11 +58132,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="64050" Y="-3750"/>
-      <Size Width="225" Height="200"/>
+      <Position X="64000" Y="-3850"/>
+      <Size Width="325" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(PoisonedDeath,Serban_CharacterSprite); AnimatorTrigger(PoisonedDeath,Logar_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000086B0">
@@ -58446,11 +58448,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="64725" Y="-3475"/>
-      <Size Width="225" Height="200"/>
+      <Position X="64175" Y="-3475"/>
+      <Size Width="675" Height="175"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(PoisonedDeath,Serban_CharacterSprite); AnimatorTrigger(PoisonedDeath,Logar_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008719">
@@ -58553,10 +58557,12 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
         </Pin>
       </Pins>
       <Position X="64150" Y="-3225"/>
-      <Size Width="225" Height="200"/>
+      <Size Width="675" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(PoisonedDeath,Serban_CharacterSprite); AnimatorTrigger(PoisonedDeath,Logar_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000873D">
@@ -58632,11 +58638,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="65075" Y="-3000"/>
-      <Size Width="225" Height="200"/>
+      <Position X="64625" Y="-3000"/>
+      <Size Width="675" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(PoisonedDeath,Serban_CharacterSprite); AnimatorTrigger(PoisonedDeath,Logar_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000880B">
@@ -60440,11 +60448,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="72364.3116972412" Y="1977.71557330367"/>
-      <Size Width="225" Height="200"/>
+      <Position X="71925" Y="1977.71557330367"/>
+      <Size Width="664.311697241195" Height="175"/>
       <ZIndex>912</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(StabbedDeath,Logar_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008B88">
@@ -62240,11 +62250,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="71175" Y="6375"/>
-      <Size Width="225" Height="200"/>
+      <Position X="70925" Y="6375"/>
+      <Size Width="475" Height="175"/>
       <ZIndex>907</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorTrigger(StabbedDeath,Serban_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008E2C">

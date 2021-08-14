@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &690503223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690503224}
+  m_Layer: 6
+  m_Name: RightPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &690503224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690503223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.47, y: -4.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7105212307770282224}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1590625667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590625668}
+  m_Layer: 6
+  m_Name: LeftPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1590625668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590625667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.72, y: 0.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7105212307770282224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7105212307770282126
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +71,8 @@ GameObject:
   - component: {fileID: 7105212307770282224}
   - component: {fileID: 7105212307770282127}
   - component: {fileID: 2467809638820744311}
-  m_Layer: 0
+  - component: {fileID: 234548366}
+  m_Layer: 6
   m_Name: Env_Fireplace_Roast_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +89,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -35.300003, y: -22.400002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1590625668}
+  - {fileID: 690503224}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -69,8 +132,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -496808291
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 8866279233655723832, guid: 3342e661cef75454a9b1c4f7b6366647, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,7 +171,25 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.030803, y: -5.07215}
-      - {x: -4.8461914, y: 0.98592234}
-      - {x: -2.9525452, y: 2.2114258}
-      - {x: 4.4618955, y: -4.176996}
+    - - {x: 1.8329728, y: -5.4678106}
+      - {x: -5.864876, y: 0.8309045}
+      - {x: -4.987629, y: 2.4863663}
+      - {x: -3.2068977, y: 2.6353474}
+      - {x: 4.716248, y: -3.979166}
+--- !u!114 &234548366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105212307770282126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3ab793ed21bad4f9b897f1de7cf6b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePoint: {fileID: 1590625668}
+  baseRenderer: {fileID: 7105212307770282127}
+  renderers: []
+  leftPoint: {fileID: 1590625668}
+  rightPoint: {fileID: 690503224}

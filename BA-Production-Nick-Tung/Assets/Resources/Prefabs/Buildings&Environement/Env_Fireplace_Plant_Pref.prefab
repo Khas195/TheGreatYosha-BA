@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &535361631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535361632}
+  m_Layer: 6
+  m_Name: Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &535361632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535361631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -4.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1431644250591458885}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1431644250591458887
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +41,8 @@ GameObject:
   - component: {fileID: 1431644250591458885}
   - component: {fileID: 1431644250591458886}
   - component: {fileID: 6457559904206874409}
-  m_Layer: 0
+  - component: {fileID: 1441365263}
+  m_Layer: 6
   m_Name: Env_Fireplace_Plant_Pref
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +59,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -50, y: -32.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 535361632}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -69,9 +101,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -496808291
+  m_SortingLayer: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 5162430826428588151, guid: 3342e661cef75454a9b1c4f7b6366647, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -110,8 +142,24 @@ PolygonCollider2D:
     m_Paths:
     - - {x: 0.8326683, y: -5.925293}
       - {x: 5.72451, y: -5.45068}
-      - {x: 2.7906523, y: -4.47829}
-      - {x: -2.2435527, y: -5.211339}
-      - {x: -4.228641, y: -6.0627694}
-      - {x: -4.1482253, y: -6.143185}
-    - []
+      - {x: 2.557537, y: -4.3359146}
+      - {x: 1.3562689, y: -2.99752}
+      - {x: -1.1997638, y: -3.487733}
+      - {x: -1.7165604, y: -5.079403}
+      - {x: -3.4856715, y: -5.7507234}
+      - {x: -2.3353744, y: -5.9202924}
+--- !u!114 &1441365263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431644250591458887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aafb3afc898f924fbcd9f8fb7f95da4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePoint: {fileID: 535361632}
+  baseRenderer: {fileID: 1431644250591458886}
+  renderers: []

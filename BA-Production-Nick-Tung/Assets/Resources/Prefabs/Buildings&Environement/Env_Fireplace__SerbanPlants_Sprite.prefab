@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1147285441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1147285442}
+  m_Layer: 6
+  m_Name: LeftPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1147285442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147285441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8, y: -1.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7725470374887236261}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2089577134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2089577135}
+  m_Layer: 6
+  m_Name: RightPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2089577135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089577134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.54, y: -5.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7725470374887236261}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7725470374887236263
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +71,8 @@ GameObject:
   - component: {fileID: 7725470374887236261}
   - component: {fileID: 7725470374887236262}
   - component: {fileID: 563650026067166878}
-  m_Layer: 0
+  - component: {fileID: 456216399}
+  m_Layer: 6
   m_Name: Env_Fireplace__SerbanPlants_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +89,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -22.9, y: -12.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 9025620368413400764}
+  - {fileID: 1147285442}
+  - {fileID: 2089577135}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -69,8 +133,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -496808291
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 9089458491215800735, guid: 3342e661cef75454a9b1c4f7b6366647, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -109,14 +173,113 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 4.895546, y: -5.3771267}
+      - {x: 7.0277724, y: -5.9960613}
       - {x: 7.33716, y: -4.7038107}
-      - {x: 7.6056757, y: 0.028692245}
-      - {x: 0.07518387, y: 3.5647202}
-      - {x: -3.9096298, y: 3.4388962}
-      - {x: -4.9372396, y: 1.623107}
-      - {x: -7.006852, y: -1.0354757}
+      - {x: 6.276168, y: -2.521346}
+      - {x: -1.3632994, y: 2.5403452}
+      - {x: -4.083992, y: 3.177353}
+      - {x: -6.0045366, y: 1.7520189}
+      - {x: -7.4654837, y: 0.9692507}
+      - {x: -7.9004564, y: -1.3624039}
       - {x: -4.327594, y: -3.4924488}
       - {x: 1.4584863, y: -9.645789}
       - {x: 1.5187979, y: -9.645789}
-      - {x: 3.8588262, y: -9.408223}
+      - {x: 5.2101283, y: -8.994113}
       - {x: 3.8265462, y: -6.8544083}
+--- !u!114 &456216399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725470374887236263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3ab793ed21bad4f9b897f1de7cf6b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePoint: {fileID: 7725470374887236261}
+  baseRenderer: {fileID: 7725470374887236262}
+  renderers:
+  - {fileID: 9025620368413400765}
+  leftPoint: {fileID: 1147285442}
+  rightPoint: {fileID: 2089577135}
+--- !u!1001 &136275141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7725470374887236261}
+    m_Modifications:
+    - target: {fileID: 9025620368547707512, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707512, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -496808291
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1087656
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.2800007
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707519, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_Name
+      value: Env_Fireplace_SerbanStone_Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368547707519, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+--- !u!4 &9025620368413400764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9025620368547707513, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+  m_PrefabInstance: {fileID: 136275141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &9025620368413400765 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 9025620368547707512, guid: 07f137c8840443a4aab8f9095dacc6ad, type: 3}
+  m_PrefabInstance: {fileID: 136275141}
+  m_PrefabAsset: {fileID: 0}

@@ -158,7 +158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227288908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 13, z: -170}
+  m_LocalPosition: {x: 4, y: 7.32, z: -170}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -206,11 +206,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.49
+      value: -41.89
       objectReference: {fileID: 0}
     - target: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.03
+      value: -28.17
       objectReference: {fileID: 0}
     - target: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_LocalPosition.z
@@ -641,7 +641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977639528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 5.3, z: -170}
+  m_LocalPosition: {x: -19.91, y: 2.95, z: -170}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -671,7 +671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054021814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31, y: -10.5, z: -170}
+  m_LocalPosition: {x: 28.53, y: -22.99, z: -170}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -810,11 +810,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.61
+      value: -3.5900002
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.82
+      value: 6.2999997
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.z
@@ -850,7 +850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3327870922454677591, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: converseView.cameraZoom
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3327870922454677591, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: converseView.cameraPosition
@@ -858,11 +858,15 @@ PrefabInstance:
       objectReference: {fileID: 227288909}
     - target: {fileID: 4147993444995112082, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.04
+      value: -3.81
       objectReference: {fileID: 0}
     - target: {fileID: 4147993444995112082, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.58
+      value: -4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665098707211396944, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6684041098552801992, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: conversationActor
@@ -891,11 +895,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.97
+      value: -27.18
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.6
+      value: 4.41
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -943,7 +947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8331901877613510728, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: converseView.cameraZoom
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8331901877613510728, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: converseView.cameraPosition
@@ -968,7 +972,7 @@ PrefabInstance:
       objectReference: {fileID: 2108323901}
     - target: {fileID: 5404321263557419716, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: converseView.cameraZoom
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5404321263557419716, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: converseView.cameraPosition
@@ -988,11 +992,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.57
+      value: 20.56
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.61
+      value: -22.86
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_LocalPosition.z

@@ -59,6 +59,8 @@ public class Food : IInteractable
 		timelineVar += 1;
 		DialogueLua.SetVariable(this.timeLineVarName, timelineVar);
 		interacted = true;
+
+		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.TransitionState);
 		Invoke("TriggerScenarioUpdate", 2.0f);
 		return base.Interact();
 	}

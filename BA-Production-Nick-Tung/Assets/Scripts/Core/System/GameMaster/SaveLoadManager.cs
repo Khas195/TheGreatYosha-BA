@@ -39,18 +39,18 @@ public static class SaveLoadManager
 	public static void Save<T>(T savedObject, string fileName)
 	{
 		string jsonSaved = JsonUtility.ToJson(savedObject);
-		File.WriteAllText(Application.dataPath + "/SavedData/" + fileName + ".json", jsonSaved);
+		File.WriteAllText(Application.streamingAssetsPath + "/SavedData/" + fileName + ".json", jsonSaved);
 	}
 	public static void Load<T>(T objectToLoad, string fileName)
 	{
-		string jsonLoad = File.ReadAllText(Application.dataPath + "/SavedData/" + fileName + ".json");
+		string jsonLoad = File.ReadAllText(Application.streamingAssetsPath + "/SavedData/" + fileName + ".json");
 		JsonUtility.FromJsonOverwrite(jsonLoad, objectToLoad);
 	}
 	public static T Load<T>(string fileName)
 	{
 		try
 		{
-			string jsonLoad = File.ReadAllText(Application.dataPath + "/SavedData/" + fileName + ".json");
+			string jsonLoad = File.ReadAllText(Application.streamingAssetsPath + "/SavedData/" + fileName + ".json");
 			T result = JsonUtility.FromJson<T>(jsonLoad);
 			return result;
 		}

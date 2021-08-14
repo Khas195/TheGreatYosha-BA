@@ -95,6 +95,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3717344775290457658, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b919b02f58ec6d44aa594e8eac1d4b95, type: 2}
     - target: {fileID: 3913516114749938162, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: luaVariable
       value: Emotion.Serban
@@ -118,6 +122,10 @@ PrefabInstance:
     - target: {fileID: 4955895476236721866, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Name
+      value: Serban_CharacterSprite
       objectReference: {fileID: 0}
     - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
@@ -297,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 1292148443689337580, guid: a5a761ad4aa81ef43a37167fde99a9e8, type: 3}
     - target: {fileID: 8392388772758099129, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9141998294861431542, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer

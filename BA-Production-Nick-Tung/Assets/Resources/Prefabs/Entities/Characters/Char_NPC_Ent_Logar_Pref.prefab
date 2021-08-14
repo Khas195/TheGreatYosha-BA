@@ -128,6 +128,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
+      propertyPath: m_Name
+      value: Logar_CharacterSprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172909010231648260, guid: e34990221a93a184b9ad40b07657d639, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}

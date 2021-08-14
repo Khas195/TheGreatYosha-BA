@@ -451,7 +451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8373410932026360838, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_Name
-      value: Char_Env_VerChar_Env_VerticalSlice_Player_Prefab
+      value: Junra_CharacterSprite
       objectReference: {fileID: 0}
     - target: {fileID: 8778052043368894422, guid: afdc8d51b6b101342b8141ab51cec39d, type: 3}
       propertyPath: m_SortingLayer

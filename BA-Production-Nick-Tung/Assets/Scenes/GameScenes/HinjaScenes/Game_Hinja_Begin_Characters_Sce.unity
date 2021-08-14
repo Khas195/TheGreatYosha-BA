@@ -162,7 +162,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &232637528
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -697,7 +697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334538, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2066247794684334539, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
       propertyPath: m_RootOrder
@@ -846,7 +846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891093, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7214351444835984525, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -897,6 +897,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -10.05
       objectReference: {fileID: 0}
+    - target: {fileID: 7093824203752449856, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b919b02f58ec6d44aa594e8eac1d4b95, type: 2}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -947,7 +951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8755613528506043225, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d30e69177ca1cb148ad158172cda694c, type: 3}

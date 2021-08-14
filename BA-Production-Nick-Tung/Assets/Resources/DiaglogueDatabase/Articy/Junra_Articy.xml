@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-13T09:06:11Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-08-14T10:46:08Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -32779,11 +32779,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="2750" Y="1125"/>
-      <Size Width="225" Height="200"/>
+      <Position X="2700" Y="1125"/>
+      <Size Width="325" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(StabbedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000642B">
@@ -32939,11 +32941,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="2800" Y="0"/>
-      <Size Width="225" Height="200"/>
+      <Position X="2725" Y="-50"/>
+      <Size Width="325" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(StabbedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006465">
@@ -34153,11 +34157,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="13325" Y="-250"/>
-      <Size Width="225" Height="200"/>
+      <Position X="13250" Y="-350"/>
+      <Size Width="325" Height="225"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(StabbedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006639">
@@ -38145,11 +38151,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="8550" Y="4525"/>
-      <Size Width="225" Height="200"/>
+      <Position X="8450" Y="4325"/>
+      <Size Width="350" Height="175"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(StabbedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000007591">
@@ -45253,11 +45261,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="13150" Y="2675"/>
-      <Size Width="225" Height="200"/>
+      <Position X="13150" Y="2700"/>
+      <Size Width="325" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(StabbedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000592A">
@@ -45306,10 +45316,12 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
         </Pin>
       </Pins>
       <Position X="13150" Y="2175"/>
-      <Size Width="225" Height="200"/>
+      <Size Width="325" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000593F">
@@ -47064,10 +47076,12 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
         </Pin>
       </Pins>
       <Position X="13900" Y="2375"/>
-      <Size Width="250" Height="225"/>
+      <Size Width="325" Height="225"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang=""/>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000091CE">
@@ -50321,11 +50335,13 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="16225" Y="1650"/>
-      <Size Width="225" Height="200"/>
+      <Position X="16150" Y="1375"/>
+      <Size Width="375" Height="200"/>
       <ZIndex>0</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000006E57">
@@ -58092,7 +58108,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000086A9">
@@ -58404,7 +58422,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008712">
@@ -58508,7 +58528,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008736">
@@ -58586,7 +58608,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000874C">
@@ -58638,7 +58662,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008811">
@@ -58872,7 +58898,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008878">
@@ -58924,7 +58952,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000888A">
@@ -58950,7 +58980,9 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Size Width="225" Height="200"/>
       <ZIndex>699</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="0"/>
+      <StageDirections Count="1">
+        <LocalizedString Lang="">AnimatorBool(PoisonedDeath,true,Junra_CharacterSprite);</LocalizedString>
+      </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000008890">

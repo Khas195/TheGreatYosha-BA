@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: ee3ac56d8fba0f94e95e624e4c417b1d
+guid: 61e6fd295cff91b488eb7d802457ac84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 588981025367799681
-    second: Char_Fireplace_LogarRotating_Frame1_Sprite
+      213: 5823591261849888345
+    second: Char_FireplaceWork_LogarGrilling_Frame1_Sprite
   - first:
-      213: -4701355059046639962
-    second: Char_Fireplace_LogarRotating_Frame2_Sprite
+      213: -3075841730090024221
+    second: Char_FireplaceWork_LogarGrilling_Frame2_Sprite
   - first:
-      213: 7514718650753088973
-    second: Char_Fireplace_LogarRotating_Frame3_Sprite
+      213: 6750465766056146959
+    second: Char_FireplaceWork_LogarGrilling_Frame3_Sprite
   - first:
-      213: 5171973052891607489
-    second: Char_Fireplace_LogarRotating_Frame4_Sprite
+      213: -3127426974110570406
+    second: Char_FireplaceWork_LogarGrilling_Frame4_Sprite
   - first:
-      213: 3746062987071282507
-    second: Char_Fireplace_SerbanCutting_Frame1_Sprite
+      213: -3579036951190646456
+    second: Char_FireplaceWork_SerbanCutting_Frame1_Sprite
   - first:
-      213: 8637960352113440152
-    second: Char_Fireplace_SerbanCutting_Frame2_Sprite
+      213: 6102894774962714698
+    second: Char_FireplaceWork_SerbanCutting_Frame2_Sprite
   - first:
-      213: -5157503582134427268
-    second: Char_Fireplace_SerbanCutting_Frame3_Sprite
+      213: -854613841688543142
+    second: Char_FireplaceWork_SerbanCutting_Frame3_Sprite
   - first:
-      213: 7338260754618140490
-    second: Char_Fireplace_SerbanCutting_Frame4_Sprite
+      213: 6524928119236556696
+    second: Char_FireplaceWork_SerbanCutting_Frame4_Sprite
   - first:
-      213: 3984139929313564156
-    second: Char_Fireplace_Khanwashing_Frame1_Sprite
+      213: -4821962409468865757
+    second: Char_FireplaceWork_KhanWashing_Frame1_Sprite
   - first:
-      213: -8672573499098674504
-    second: Char_Fireplace_Khanwashing_Frame2_Sprite
+      213: -3592726890853221584
+    second: Char_FireplaceWork_KhanWashing_Frame2_Sprite
   - first:
-      213: -695246880743332087
-    second: Char_Fireplace_Khanwashing_Frame3_Sprite
+      213: -5405029928664207590
+    second: Char_FireplaceWork_KhanWashing_Frame3_Sprite
   - first:
-      213: -8543409077727527014
-    second: Char_Fireplace_Khanwashing_Frame4_Sprite
+      213: -2738691844566235089
+    second: Char_FireplaceWork_KhanWashing_Frame4_Sprite
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,253 +139,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Char_Fireplace_LogarRotating_Frame1_Sprite
+      name: Char_FireplaceWork_LogarGrilling_Frame1_Sprite
       rect:
         serializedVersion: 2
         x: 0
-        y: 1000
+        y: 1097
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1873e7c3f1b7c2800800000000000000
-      internalID: 588981025367799681
+      spriteID: 956a1afd56d81d050800000000000000
+      internalID: 5823591261849888345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_LogarRotating_Frame2_Sprite
+      name: Char_FireplaceWork_LogarGrilling_Frame2_Sprite
       rect:
         serializedVersion: 2
-        x: 500
-        y: 1000
+        x: 498
+        y: 1097
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a61a8e8b7e61ceb0800000000000000
-      internalID: -4701355059046639962
+      spriteID: 3e249a43e3a6055d0800000000000000
+      internalID: -3075841730090024221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_LogarRotating_Frame3_Sprite
+      name: Char_FireplaceWork_LogarGrilling_Frame3_Sprite
       rect:
         serializedVersion: 2
         x: 1000
-        y: 1000
+        y: 1097
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcdf3255cc4a94860800000000000000
-      internalID: 7514718650753088973
+      spriteID: f08363649d87ead50800000000000000
+      internalID: 6750465766056146959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_LogarRotating_Frame4_Sprite
+      name: Char_FireplaceWork_LogarGrilling_Frame4_Sprite
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1000
+        x: 1498
+        y: 1097
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c13f7dd61a86c740800000000000000
-      internalID: 5171973052891607489
+      spriteID: a582a23acb52994d0800000000000000
+      internalID: -3127426974110570406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_SerbanCutting_Frame1_Sprite
+      name: Char_FireplaceWork_SerbanCutting_Frame1_Sprite
       rect:
         serializedVersion: 2
         x: 0
-        y: 500
+        y: 597
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d5f927070bcf330800000000000000
-      internalID: 3746062987071282507
+      spriteID: 841d84efad4b45ec0800000000000000
+      internalID: -3579036951190646456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_SerbanCutting_Frame2_Sprite
+      name: Char_FireplaceWork_SerbanCutting_Frame2_Sprite
       rect:
         serializedVersion: 2
         x: 500
-        y: 500
+        y: 597
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89531a3ac2330e770800000000000000
-      internalID: 8637960352113440152
+      spriteID: a487d3b9676d1b450800000000000000
+      internalID: 6102894774962714698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_SerbanCutting_Frame3_Sprite
+      name: Char_FireplaceWork_SerbanCutting_Frame3_Sprite
       rect:
         serializedVersion: 2
         x: 1000
-        y: 500
+        y: 597
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c71a21351dddc68b0800000000000000
-      internalID: -5157503582134427268
+      spriteID: a50c50a2d3dc324f0800000000000000
+      internalID: -854613841688543142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_SerbanCutting_Frame4_Sprite
+      name: Char_FireplaceWork_SerbanCutting_Frame4_Sprite
       rect:
         serializedVersion: 2
         x: 1500
-        y: 500
+        y: 597
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47443cc64db6d560800000000000000
-      internalID: 7338260754618140490
+      spriteID: 8977d0ccd833d8a50800000000000000
+      internalID: 6524928119236556696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_Khanwashing_Frame1_Sprite
+      name: Char_FireplaceWork_KhanWashing_Frame1_Sprite
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 97
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf55f2628228a4730800000000000000
-      internalID: 3984139929313564156
+      spriteID: 32352578cb2f41db0800000000000000
+      internalID: -4821962409468865757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_Khanwashing_Frame2_Sprite
+      name: Char_FireplaceWork_KhanWashing_Frame2_Sprite
       rect:
         serializedVersion: 2
         x: 500
-        y: 0
+        y: 97
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bac1c11a54d4a780800000000000000
-      internalID: -8672573499098674504
+      spriteID: 03b33b78de1142ec0800000000000000
+      internalID: -3592726890853221584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_Khanwashing_Frame3_Sprite
+      name: Char_FireplaceWork_KhanWashing_Frame3_Sprite
       rect:
         serializedVersion: 2
         x: 1000
-        y: 0
+        y: 97
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 907681245acf956f0800000000000000
-      internalID: -695246880743332087
+      spriteID: a1f6d9dbae97df4b0800000000000000
+      internalID: -5405029928664207590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Fireplace_Khanwashing_Frame4_Sprite
+      name: Char_FireplaceWork_KhanWashing_Frame4_Sprite
       rect:
         serializedVersion: 2
         x: 1500
-        y: 0
+        y: 97
         width: 500
         height: 500
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9ff33f65b6bf6980800000000000000
-      internalID: -8543409077727527014
+      spriteID: f28ce5f07463ef9d0800000000000000
+      internalID: -2738691844566235089
       vertices: []
       indices: 
       edges: []

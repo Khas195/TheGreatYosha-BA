@@ -134,6 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e05276778ed1034bb59b2bcfae6b4b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &292687134 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6544449975286613452, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
+  m_PrefabInstance: {fileID: 7585231604024750584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &311377545
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +174,51 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 4230930181383314522, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
   m_PrefabInstance: {fileID: 1821664593}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &576148565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576148567}
+  - component: {fileID: 576148566}
+  m_Layer: 0
+  m_Name: KhanWashingDishTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &576148566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576148565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58261845a27502743971b2aef656210e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 292687134}
+  triggerName: DishWashing
+--- !u!4 &576148567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576148565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &623493390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -250,7 +300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6058658679049917371, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7522303042163447110, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_Text
@@ -1061,8 +1111,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2108323901}
     - target: {fileID: 2104279349727027023, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104279349727027023, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104279349727027023, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092585583
       objectReference: {fileID: 0}
     - target: {fileID: 4693574406692891092, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
       propertyPath: m_RootOrder
@@ -1138,8 +1196,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2707573737927294403, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707573737927294403, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2707573737927294403, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092585583
       objectReference: {fileID: 0}
     - target: {fileID: 4173854448423329883, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: conversationActor
@@ -1161,6 +1227,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -5.52
       objectReference: {fileID: 0}
+    - target: {fileID: 7093824203752449856, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b919b02f58ec6d44aa594e8eac1d4b95, type: 2}
     - target: {fileID: 8755613528506043224, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
       propertyPath: m_RootOrder
       value: 3

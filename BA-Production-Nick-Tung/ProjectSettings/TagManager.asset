@@ -50,6 +50,9 @@ TagManager:
   - name: SortWithCode
     uniqueID: 3798159005
     locked: 0
+  - name: AlwaysOnTop
+    uniqueID: 2092585583
+    locked: 0
   - name: UI
     uniqueID: 3491818217
     locked: 0

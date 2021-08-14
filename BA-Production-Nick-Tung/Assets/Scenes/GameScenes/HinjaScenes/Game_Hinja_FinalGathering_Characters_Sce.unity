@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7333803081891287836, guid: 4901311219119f349a4ccdfb1ea83f42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -32.14
+      value: -33.18
       objectReference: {fileID: 0}
     - target: {fileID: 7333803081891287836, guid: 4901311219119f349a4ccdfb1ea83f42, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.79
+      value: -18.23
       objectReference: {fileID: 0}
     - target: {fileID: 7333803081891287836, guid: 4901311219119f349a4ccdfb1ea83f42, type: 3}
       propertyPath: m_LocalPosition.z
@@ -193,6 +193,52 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7333803081891287834, guid: 4901311219119f349a4ccdfb1ea83f42, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4901311219119f349a4ccdfb1ea83f42, type: 3}
+--- !u!1 &41323277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41323279}
+  - component: {fileID: 41323278}
+  m_Layer: 0
+  m_Name: LogarSittingTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &41323278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41323277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58261845a27502743971b2aef656210e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 815631562}
+  triggerName: Sit
+  deathName: PoisonedDeath
+--- !u!4 &41323279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41323277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &69130193 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4230930181120819498, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
@@ -204,6 +250,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e05276778ed1034bb59b2bcfae6b4b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &122613501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122613503}
+  - component: {fileID: 122613502}
+  m_Layer: 0
+  m_Name: SerbanSittingTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &122613502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122613501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58261845a27502743971b2aef656210e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1066032586}
+  triggerName: Sit
+  deathName: PoisonedDeath
+--- !u!4 &122613503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122613501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &336509276 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 4230930181383314522, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
@@ -678,6 +770,57 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4238228431336221344, guid: b255cf384b7a0da4c8a7e3d011ebb4c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b255cf384b7a0da4c8a7e3d011ebb4c8, type: 3}
+--- !u!1 &790184180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790184182}
+  - component: {fileID: 790184181}
+  m_Layer: 0
+  m_Name: KhanSittingTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &790184181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790184180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58261845a27502743971b2aef656210e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2017601546}
+  triggerName: Sit
+  deathName: 
+--- !u!4 &790184182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790184180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &815631562 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 530486811451375059, guid: fae53581046fe6340bbb20864bcb5611, type: 3}
+  m_PrefabInstance: {fileID: 7519129436566539241}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &894981667
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,12 +845,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894981667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.11, y: -14.09, z: -170.4}
+  m_LocalPosition: {x: -5.15, y: -18.27, z: -170.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1066032586 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7093824203752449856, guid: d30e69177ca1cb148ad158172cda694c, type: 3}
+  m_PrefabInstance: {fileID: 8978442086430209554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1218824393 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4642844652171331939, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
@@ -871,6 +1019,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f284eacd4021b9f4898442da1b2e4af2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2017601546 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6544449975286613452, guid: dbaab7d7ea5c08f44b90afec853223a1, type: 3}
+  m_PrefabInstance: {fileID: 7585231604024750584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2108323901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}

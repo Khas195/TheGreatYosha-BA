@@ -207,7 +207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1431644250591458886, guid: 5d674a0a1ea6b8443a69d003f4ada4dc, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1431644250591458887, guid: 5d674a0a1ea6b8443a69d003f4ada4dc, type: 3}
       propertyPath: m_Name
@@ -341,6 +341,22 @@ PrefabInstance:
     - target: {fileID: 7725470374887236263, guid: b00450aa1fd1aaa49b30a373457b7fde, type: 3}
       propertyPath: m_Name
       value: Env_Fireplace__SerbanPlants_Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368413400764, guid: b00450aa1fd1aaa49b30a373457b7fde, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368413400764, guid: b00450aa1fd1aaa49b30a373457b7fde, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368413400765, guid: b00450aa1fd1aaa49b30a373457b7fde, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025620368413400765, guid: b00450aa1fd1aaa49b30a373457b7fde, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2092585583
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b00450aa1fd1aaa49b30a373457b7fde, type: 3}

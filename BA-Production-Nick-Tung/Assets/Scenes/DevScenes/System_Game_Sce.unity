@@ -2126,7 +2126,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &915540648
 Transform:
   m_ObjectHideFlags: 0

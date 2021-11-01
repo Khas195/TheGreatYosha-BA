@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &69130193 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4230930181120819498, guid: ff8d0136a78774947881b5c494b901ed, type: 3}
-  m_PrefabInstance: {fileID: 1821664593}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e05276778ed1034bb59b2bcfae6b4b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &162786214 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
@@ -228,17 +217,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1821664594}
     - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
-      propertyPath: OnConversationEndEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 69130193}
-    - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: OnConversationStartEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1821664594}
-    - target: {fileID: 4642844652201344553, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
-      propertyPath: OnConversationStartEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 69130193}
     - target: {fileID: 4642844652201344556, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_Name
       value: Char_Ent_Player_Pref
@@ -286,14 +267,6 @@ PrefabInstance:
     - target: {fileID: 4642844652201344557, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6058658679049917371, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480995167086270571, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7522303042163447110, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
       propertyPath: m_Text
@@ -535,7 +508,8 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 164938288, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 91e551af9a42e4644a450ec3cdcd0082, type: 3}
 --- !u!1 &702391551
 GameObject:
@@ -568,7 +542,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8978442086430209555}
   triggerName: Sit
-  deathName: PoisonedDeath
 --- !u!4 &702391553
 Transform:
   m_ObjectHideFlags: 0
@@ -614,7 +587,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 7585231604024750585}
   triggerName: Sit
-  deathName: 
 --- !u!4 &809001105
 Transform:
   m_ObjectHideFlags: 0
@@ -676,7 +648,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 7519129436566539242}
   triggerName: Sit
-  deathName: PoisonedDeath
 --- !u!4 &1519568817
 Transform:
   m_ObjectHideFlags: 0

@@ -2024,6 +2024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 878921540}
   - component: {fileID: 878921541}
+  - component: {fileID: 878921542}
   m_Layer: 5
   m_Name: CustomScrollingUI
   m_TagString: Untagged
@@ -2092,6 +2093,20 @@ MonoBehaviour:
     - {fileID: 1080312992}
     - {fileID: 834640853}
   addEventSystemIfNeeded: 1
+--- !u!114 &878921542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878921539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1eedc90cc11e104fbc2cc56d3e03934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dictionary: {fileID: 11400000, guid: fddc7639c617a0f4ea4af592e1a7a1af, type: 2}
+  narratorColor: {r: 0.42635277, g: 0.60521907, b: 0.6320754, a: 1}
 --- !u!1 &915540646
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,12 +2136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87564e64a2617054c8e83b94f7719c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sortingList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  sortingList: []
 --- !u!4 &915540648
 Transform:
   m_ObjectHideFlags: 0

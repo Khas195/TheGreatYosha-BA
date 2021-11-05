@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-11-05T14:36:21Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.32" CreatedOn="2021-11-05T14:51:28Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -27688,15 +27688,6 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Target IdRef="0x010000000000A98F" PinRef="0x010000000000A990"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x010000000000A99D">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_200B2DE0</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037971357</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000A98F" PinRef="0x010000000000A991"/>
-      <Target IdRef="0x010000000000A955" PinRef="0x010000000000A957"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x010000000000A9AA">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_63914CA5</TechnicalName>
@@ -27731,6 +27722,24 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <Label Count="0"/>
       <Source IdRef="0x010000000000A9AC" PinRef="0x010000000000A9AE"/>
       <Target IdRef="0x010000000000A125" PinRef="0x010000000000A624"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000A9BA">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_BB0FC831</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037971386</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000A98F" PinRef="0x010000000000A991"/>
+      <Target IdRef="0x010000000000A9B4" PinRef="0x010000000000A9B5"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x010000000000A9BB">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_3901001F</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037971387</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000A9B4" PinRef="0x010000000000A9B6"/>
+      <Target IdRef="0x010000000000A99E" PinRef="0x010000000000A99F"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x010000000000676B">
@@ -77003,6 +77012,32 @@ QuestVariables.OneYoshasTooMany_LogarAgreedToConvince == true]]></Expression>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
     </DialogueFragment>
+    <DialogueFragment Id="0x010000000000A9B4">
+      <DisplayName><![CDATA[Albi: ""I will hurry and bring him before..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;I will hurry and bring him before he performs the sacrifice.&quot;</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_2329927D</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x2329927D</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037971380</Url>
+      <Features Count="0"/>
+      <Pins Count="2">
+        <Pin Id="0x010000000000A9B5" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x010000000000A9B6" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="25225" Y="925"/>
+      <Size Width="325" Height="200"/>
+      <ZIndex>0</ZIndex>
+      <Speaker IdRef="0x01000000000006A6"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
     <Entity Id="0x01000000000006A6" ObjectTemplateReference="0x0100000000000303" ObjectTemplateReferenceName="JunraTemplate">
       <DisplayName Count="1">
         <LocalizedString Lang="">Albi</LocalizedString>
@@ -86702,7 +86737,6 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x010000000000A98E" Type="Connection"/>
             <Node IdRef="0x010000000000A98F" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000A995" Type="Connection"/>
-            <Node IdRef="0x010000000000A99D" Type="Connection"/>
             <Node IdRef="0x010000000000A99E" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000A9A4" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000A9AA" Type="Connection"/>
@@ -86710,6 +86744,9 @@ ConversationSupport.OneYoshaTooMany_FinalDinner_SerbanTouchedHisDish = true;]]><
             <Node IdRef="0x010000000000A9AC" Type="DialogueFragment"/>
             <Node IdRef="0x010000000000A9B2" Type="Connection"/>
             <Node IdRef="0x010000000000A9B3" Type="Connection"/>
+            <Node IdRef="0x010000000000A9B4" Type="DialogueFragment"/>
+            <Node IdRef="0x010000000000A9BA" Type="Connection"/>
+            <Node IdRef="0x010000000000A9BB" Type="Connection"/>
           </Node>
         </Node>
       </Node>

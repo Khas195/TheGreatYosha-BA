@@ -502,6 +502,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1166094671, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574811920, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320886, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_Name
       value: Actors

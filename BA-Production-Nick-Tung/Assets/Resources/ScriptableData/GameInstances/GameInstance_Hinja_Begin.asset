@@ -15,6 +15,6 @@ MonoBehaviour:
   sceneList:
   - System_Game_Sce
   - UI_InGameOverlay_Sce
-  - Game_Hinja_Environment_Sce
-  - Game_Hinja_Begin_Characters_Sce
+  - MasterScene
+  - MasterScene
   desiredGameState: 1

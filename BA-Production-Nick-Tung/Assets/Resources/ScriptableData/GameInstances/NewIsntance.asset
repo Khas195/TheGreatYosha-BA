@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: NewIsntance
   m_EditorClassIdentifier: 
   sceneList:
-  - MainMenu
-  - NewGame2D
+  - MasterScene
+  - MasterScene
   desiredGameState: 1

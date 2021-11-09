@@ -220,6 +220,13 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 			SaveGame();
 
 		}
+		else
+		{
+			PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
+			loadingManager.ReloadInstance(targetInstance, true);
+			currentInstance = targetInstance;
+			SaveGame();
+		}
 
 	}
 	public GameScenario GetCurrentScenario()

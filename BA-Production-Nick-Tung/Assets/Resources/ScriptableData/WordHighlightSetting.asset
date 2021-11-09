@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsSetting:
   - word: Junra
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Logar
@@ -22,7 +22,7 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: The Four Eyes One
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Tagar
@@ -42,15 +42,15 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: The Kasi
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: H'inja
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Yosha
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.33641866, g: 0.6792453, b: 0.66580117, a: 1}
     bold: 1
     italic: 0
   - word: Serban
@@ -62,27 +62,27 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: The Unifier
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Yosha an Tagar
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Yoshas
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Seer Of Tagar
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Kasi
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Asain
-    color: {r: 0, g: 1, b: 0.95906425, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Player
@@ -90,22 +90,22 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: My Kasi
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Yoshas
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: nemon
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Yoshas
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
   - word: Gome
-    color: {r: 0, g: 1, b: 0.9607843, a: 1}
+    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0

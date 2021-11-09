@@ -42,7 +42,7 @@ MonoBehaviour:
     bold: 1
     italic: 0
   - word: The Kasi
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
+    color: {r: 0.7407392, g: 0.2696244, b: 0.7830189, a: 1}
     bold: 1
     italic: 0
   - word: H'inja
@@ -77,10 +77,6 @@ MonoBehaviour:
     color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0
-  - word: Kasi
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
   - word: Asain
     color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
@@ -89,19 +85,7 @@ MonoBehaviour:
     color: {r: 0, g: 0.4384992, b: 1, a: 1}
     bold: 1
     italic: 0
-  - word: My Kasi
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
-  - word: Yoshas
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
   - word: nemon
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
-  - word: Yoshas
     color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
     bold: 1
     italic: 0

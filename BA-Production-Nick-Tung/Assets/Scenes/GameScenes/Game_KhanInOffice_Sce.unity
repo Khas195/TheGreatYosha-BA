@@ -196,6 +196,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1809592386178093450, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809592387526320872, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+      propertyPath: conversation
+      value: Base_Loop/Conversation_Khan_InOffice
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809592387526320872, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+      propertyPath: conversationConversant
+      value: 
+      objectReference: {fileID: 1809592387515842649}
     - target: {fileID: 1809592387526320886, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_Name
       value: Actors
@@ -206,15 +218,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320887, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1098.1454
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320887, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 406.53915
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320887, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -48.024193
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320887, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -246,6 +258,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+--- !u!4 &1809592387515842649 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1809592387133009616, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+  m_PrefabInstance: {fileID: 1809592387515842648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8541301085329938933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -253,10 +270,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8541301084971274399, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -956.8
-      objectReference: {fileID: 0}
     - target: {fileID: 8541301085086768828, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
       propertyPath: m_Name
       value: WorldSetup

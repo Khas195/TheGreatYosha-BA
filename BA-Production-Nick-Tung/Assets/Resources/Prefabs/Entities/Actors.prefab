@@ -173,7 +173,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -862025841
   m_SortingLayer: 5
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: -2174316807766931841, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -275,7 +275,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -862025841
   m_SortingLayer: 5
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: 9110867725547232190, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -369,7 +369,7 @@ MonoBehaviour:
     setSubtitleColor: 1
     applyColorToPrependedName: 1
     prependActorNameSeparator: ': '
-    subtitleColor: {r: 0.80405116, g: 0.8207547, b: 0.40650585, a: 1}
+    subtitleColor: {r: 0.90588236, g: 0.7647059, b: 0.28627452, a: 1}
 --- !u!1 &1809592387133009627
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +433,7 @@ MonoBehaviour:
     setSubtitleColor: 1
     applyColorToPrependedName: 1
     prependActorNameSeparator: ': '
-    subtitleColor: {r: 0.49411765, g: 0.98039216, b: 0.5039317, a: 1}
+    subtitleColor: {r: 0, g: 0.003921569, b: 0.12156863, a: 1}
 --- !u!1 &1809592387526320886
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
     setSubtitleColor: 1
     applyColorToPrependedName: 1
     prependActorNameSeparator: ': '
-    subtitleColor: {r: 0.22241013, g: 0.9622642, b: 0.84889936, a: 1}
+    subtitleColor: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
 --- !u!1 &1809592387691772988
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,4 +663,4 @@ MonoBehaviour:
     setSubtitleColor: 1
     applyColorToPrependedName: 0
     prependActorNameSeparator: ': '
-    subtitleColor: {r: 0.41865435, g: 0.6037736, b: 0.5431311, a: 1}
+    subtitleColor: {r: 0.1882353, g: 0.09803922, b: 0.09411765, a: 1}

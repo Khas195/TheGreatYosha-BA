@@ -10,7 +10,9 @@ public abstract class InGameUIState : State
 		InGameOverlay,
 		Menu,
 		DeathMenu,
-		TransitionState
+		TransitionState,
+		InConversation,
+		ItemView
 	}
 	[SerializeField]
 	[ReadOnly]

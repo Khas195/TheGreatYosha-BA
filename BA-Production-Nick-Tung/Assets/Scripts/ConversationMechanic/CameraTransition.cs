@@ -1,28 +1,13 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using NaughtyAttributes;
-using PixelCrushers.DialogueSystem;
 using UnityEngine;
 
-public class InGameUIControl : SingletonMonobehavior<InGameUIControl>
+public class CameraTransition : MonoBehaviour, IObserver
 {
-	[BoxGroup("Setup")]
-	[SerializeField]
-	[Required]
-	StateManager uiStates = null;
-	[BoxGroup("Setup")]
-	[SerializeField]
-	[Required]
-	InGameUIState startState = null;
-	[BoxGroup("Setup")]
-	[SerializeField]
-	GameInstance mainMenuInstance = null;
-
-
 	[BoxGroup("UI Transitions")]
 	[SerializeField]
-	Transform dialoguePanel;
+	Transform cameraTrans;
 	[BoxGroup("UI Transitions")]
 	[SerializeField]
 	Transform overlayTrans;
@@ -52,55 +37,29 @@ public class InGameUIControl : SingletonMonobehavior<InGameUIControl>
 	[ReadOnly]
 	bool isInTransit = false;
 
-	private void Start()
-	{
-		uiStates.RequestState(startState.GetEnum());
-	}
-	public void RequestState(InGameUIState.InGameUIEnum newState)
-	{
-		uiStates.RequestState(newState);
-	}
-	public InGameUIState.InGameUIEnum GetCurrentState()
-	{
-		return (InGameUIState.InGameUIEnum)uiStates.GetCurrentState().GetEnum();
-	}
-	public void GoToMainMenu()
-	{
-		var gameMaster = GameMaster.GetInstance(forceCreate: false);
-		if (gameMaster)
-		{
-			gameMaster.RequestInstance(mainMenuInstance);
-		}
-	}
-	public void Quit()
-	{
-		var gameMaster = GameMaster.GetInstance(forceCreate: false);
-		if (gameMaster)
-		{
-			gameMaster.ExitGame();
-		}
-	}
-	public void Restart()
-	{
-		GameMaster.GetInstance().RestartFromLastSave();
-	}
+	[Button]
 	public void MoveToOverlay()
 	{
-		transitOrigin = dialoguePanel.position;
+		if (isInTransit) return;
+		transitOrigin = cameraTrans.position;
 		transitDestination = overlayTrans.position;
 		curTransitTime = 0;
 		isInTransit = true;
 	}
+	[Button]
 	public void MoveToConversation()
 	{
-		transitOrigin = dialoguePanel.position;
+		if (isInTransit) return;
+		transitOrigin = cameraTrans.position;
 		transitDestination = conversationTrans.position;
 		curTransitTime = 0;
 		isInTransit = true;
 	}
+	[Button]
 	public void MoveToItemView()
 	{
-		transitOrigin = dialoguePanel.position;
+		if (isInTransit) return;
+		transitOrigin = cameraTrans.position;
 		transitDestination = itemViewTrans.position;
 		curTransitTime = 0;
 		isInTransit = true;
@@ -110,22 +69,40 @@ public class InGameUIControl : SingletonMonobehavior<InGameUIControl>
 		if (isInTransit)
 		{
 			Vector3 curPos = Vector3.LerpUnclamped(transitOrigin, transitDestination, transitionCurve.Evaluate(curTransitTime));
-			this.dialoguePanel.position = curPos;
+			this.cameraTrans.position = curPos;
 			curTransitTime += Time.deltaTime;
 			if (curTransitTime >= transitionCurve[transitionCurve.length - 1].time)
 			{
 				isInTransit = false;
-				this.dialoguePanel.position = transitDestination;
+				this.cameraTrans.position = transitDestination;
 			}
 		}
 	}
-	[BoxGroup("Test")]
-	[SerializeField]
-	InGameUIState.InGameUIEnum targetState;
-
-	[Button]
-	private void SwitchToConversationState()
+	private void Start()
 	{
-		this.RequestState(targetState);
+		PostOffice.Subscribes(this, "UIStateChanged");
+	}
+	private void OnDestroy()
+	{
+		PostOffice.Unsubscribes(this, "UIStateChanged");
+	}
+	public void ReceiveData(DataPack pack, string eventName)
+	{
+		if (eventName.Equals("UIStateChanged"))
+		{
+			var uiStateEnum = pack.GetValue<InGameUIState.InGameUIEnum>("NewUiState");
+			if (uiStateEnum == InGameUIState.InGameUIEnum.ItemView)
+			{
+				MoveToItemView();
+			}
+			else if (uiStateEnum == InGameUIState.InGameUIEnum.InConversation)
+			{
+				MoveToConversation();
+			}
+			else
+			{
+				MoveToOverlay();
+			}
+		}
 	}
 }

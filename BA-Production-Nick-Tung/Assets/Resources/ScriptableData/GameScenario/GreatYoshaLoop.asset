@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeLineVariableName: WorldVariables.OneYoshasTooMany_Timeline
   instanceInOrderOfTimeline:
+  - {fileID: 11400000, guid: 0245979af8d1ca541936b45f47b3d565, type: 2}
   - {fileID: 11400000, guid: c794143f618c3734e8ccdfd640a1082b, type: 2}
   - {fileID: 11400000, guid: 011b1db2fbea27c4d830cf651c66a60a, type: 2}
   - {fileID: 11400000, guid: 42fe15db82acfc5408218a0e2cd45a5a, type: 2}
-  - {fileID: 11400000, guid: 0245979af8d1ca541936b45f47b3d565, type: 2}

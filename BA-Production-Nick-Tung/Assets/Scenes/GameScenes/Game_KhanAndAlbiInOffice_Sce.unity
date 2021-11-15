@@ -502,14 +502,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1166094671, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1574811920, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320886, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_Name
       value: Actors
@@ -567,6 +559,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[0].inSlope
+      value: -2.362295
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[1].inSlope
+      value: -1.8037666
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[0].outSlope
+      value: -2.362295
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[1].inWeight
+      value: 0.032674313
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[1].outSlope
+      value: -1.8037666
+      objectReference: {fileID: 0}
+    - target: {fileID: 212431933, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: transitionCurve.m_Curve.Array.data[0].outWeight
+      value: 0.030954422
+      objectReference: {fileID: 0}
     - target: {fileID: 8541301085086768828, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
       propertyPath: m_Name
       value: WorldSetup

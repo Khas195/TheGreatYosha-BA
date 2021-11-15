@@ -14,82 +14,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsSetting:
   - word: Junra
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
-  - word: Logar
-    color: {r: 0.09444451, g: 1, b: 0, a: 1}
-    bold: 1
-    italic: 0
-  - word: The Four Eyes One
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
-  - word: Tagar
-    color: {r: 1, g: 0.048780486, b: 0, a: 1}
-    bold: 1
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
     italic: 0
   - word: Albi
-    color: {r: 0.9607843, g: 0.98039216, b: 0.49411765, a: 1}
-    bold: 1
+    color: {r: 0.90588236, g: 0.7647059, b: 0.28627452, a: 1}
+    bold: 0
     italic: 0
   - word: Khan
-    color: {r: 0.49411765, g: 0.98039216, b: 0.5058824, a: 1}
-    bold: 1
-    italic: 0
-  - word: The Tall One
-    color: {r: 0.91764706, g: 0, b: 1, a: 1}
-    bold: 1
+    color: {r: 0, g: 0.003921569, b: 0.12156863, a: 1}
+    bold: 0
     italic: 0
   - word: The Kasi
-    color: {r: 0.7407392, g: 0.2696244, b: 0.7830189, a: 1}
-    bold: 1
-    italic: 0
-  - word: H'inja
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
+    color: {r: 0.33988965, g: 0.13697046, b: 0.3584906, a: 1}
+    bold: 0
     italic: 0
   - word: Yosha
-    color: {r: 0.33641866, g: 0.6792453, b: 0.66580117, a: 1}
-    bold: 1
-    italic: 0
-  - word: Serban
-    color: {r: 1, g: 0.50555557, b: 0, a: 1}
-    bold: 1
-    italic: 0
-  - word: Two Eyes One
-    color: {r: 1, g: 0.5058824, b: 0, a: 1}
-    bold: 1
-    italic: 0
-  - word: The Unifier
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
-  - word: Yosha an Tagar
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
     italic: 0
   - word: Yoshas
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
-  - word: Seer Of Tagar
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
-    italic: 0
-  - word: Asain
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
     italic: 0
   - word: Player
-    color: {r: 0, g: 0.4384992, b: 1, a: 1}
-    bold: 1
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
     italic: 0
-  - word: nemon
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
+  - word: Great Yosha
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
     italic: 0
-  - word: Gome
-    color: {r: 0.3372549, g: 0.6784314, b: 0.6666667, a: 1}
-    bold: 1
+  - word: Albi's
+    color: {r: 0.90588236, g: 0.7647059, b: 0.28627452, a: 1}
+    bold: 0
+    italic: 0
+  - word: Khan's
+    color: {r: 0, g: 0.003921569, b: 0.12156863, a: 1}
+    bold: 0
+    italic: 0
+  - word: The Kasi's
+    color: {r: 0.34117648, g: 0.13725491, b: 0.35686275, a: 1}
+    bold: 0
+    italic: 0
+  - word: Great Yosha's
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
     italic: 0

@@ -9,15 +9,9 @@ public class HighlightingWords : MonoBehaviour
 	[Required]
 	[Expandable]
 	WordHighlightingDict dictionary = null;
-	[SerializeField]
-	Color narratorColor;
 	public void OnConversationLine(Subtitle subtitle)
 	{
 		var text = subtitle.formattedText.text;
-		if (subtitle.speakerInfo.Name == "Narrator")
-		{
-			text = text.Colorize(narratorColor);
-		}
 		text = dictionary.HighlightIn(text);
 		text += "\n";
 		subtitle.formattedText.text = text;

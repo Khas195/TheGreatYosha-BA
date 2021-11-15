@@ -18,6 +18,7 @@ public class ItemViewState : InGameUIState
 
 	public override void OnStateExit()
 	{
+		ItemViewController.GetInstance().Clear();
 	}
 
 	protected override void Init()

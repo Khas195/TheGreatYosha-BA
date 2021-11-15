@@ -183,6 +183,7 @@ GameObject:
   - component: {fileID: 5370264849440071130}
   - component: {fileID: 4911076019833659628}
   - component: {fileID: 8541301085329938935}
+  - component: {fileID: 1957187856}
   m_Layer: 9
   m_Name: Env_LetterSmall_Sprite
   m_TagString: Untagged
@@ -271,6 +272,32 @@ MonoBehaviour:
   itemSprite: {fileID: 7063731688958615692, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
   comment: '"Why are you looking at an empty letter bro?"'
   commentorSprite: {fileID: -3808745741652791254, guid: 4aab57da1f9cc494ca3f52f3a73d7012, type: 3}
+--- !u!61 &1957187856
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7015249347567713004}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.07, y: 0.71}
+    newSize: {x: 1.07, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.07, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!1 &7041854747783746126
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +309,7 @@ GameObject:
   - component: {fileID: 7804320580193267649}
   - component: {fileID: 6604983758366227106}
   - component: {fileID: 8541301085329938937}
+  - component: {fileID: 653962738}
   m_Layer: 9
   m_Name: Env_MapSmall_Sprite
   m_TagString: Untagged
@@ -370,6 +398,32 @@ MonoBehaviour:
   itemSprite: {fileID: -8817057870371116831, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
   comment: '"The Kasi''s kingdom, we must protect it."'
   commentorSprite: {fileID: -3808745741652791254, guid: 4aab57da1f9cc494ca3f52f3a73d7012, type: 3}
+--- !u!61 &653962738
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041854747783746126}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &8541301083875097149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1330,7 @@ MonoBehaviour:
   interactMask:
     serializedVersion: 2
     m_Bits: 512
+  hoverInteractable: {fileID: 0}
 --- !u!1 &8541301085086768828
 GameObject:
   m_ObjectHideFlags: 0

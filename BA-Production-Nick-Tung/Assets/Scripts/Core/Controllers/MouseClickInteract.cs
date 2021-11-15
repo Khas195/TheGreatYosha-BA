@@ -9,6 +9,7 @@ public class MouseClickInteract : MonoBehaviour
 	Camera playerCamera;
 	[SerializeField]
 	LayerMask interactMask;
+	[SerializeField]
 	private IInteractable hoverInteractable;
 
 	// Update is called once per frame

@@ -7,17 +7,20 @@ using UnityEngine.SceneManagement;
 
 public class ConversationEndSwitch : MonoBehaviour
 {
+	[SerializeField]
+	GameObject continueButton = null;
 	public void OnConversationStart(Transform actor)
 	{
-
-		Debug.Log("CONVERSATION Start");
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.InConversation);
 	}
 	public void OnConversationEnd(Transform actor)
 	{
-		Debug.Log("CONVERSATION ENDED");
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.InGameOverlay);
-		return;
+		continueButton.SetActive(true);
+	}
+
+	public void AdvanceNextScene()
+	{
 		bool playerDied = DialogueLua.GetVariable("WorldVariables.PlayerDeath").asBool;
 		bool reset = DialogueLua.GetVariable("WorldVariables.Reset").asBool;
 		if (reset == true)

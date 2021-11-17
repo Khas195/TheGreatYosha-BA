@@ -16,29 +16,11 @@ public class ConversationEndSwitch : MonoBehaviour
 	public void OnConversationEnd(Transform actor)
 	{
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.InGameOverlay);
-		continueButton.SetActive(true);
-	}
-
-	public void AdvanceNextScene()
-	{
-		bool playerDied = DialogueLua.GetVariable("WorldVariables.PlayerDeath").asBool;
-		bool reset = DialogueLua.GetVariable("WorldVariables.Reset").asBool;
-		if (reset == true)
-		{
-			DialogueLua.SetVariable("WorldVariables.OneYoshasTooMany_Timeline", 0);
-			GameMaster.GetInstance().UpdateScenario();
-			DialogueLua.SetVariable("WorldVariables.Reset", false);
-			return;
-		}
+		bool playerDied = DialogueLua.GetVariable("WorldVariables.Story_PlayerDeath").asBool;
 		if (playerDied)
 		{
-			DialogueLua.SetVariable("WorldVariables.OneYoshasTooMany_Timeline", 0);
-			DialogueLua.SetVariable("WorldVariables.PlayerDeath", false);
-			GameMaster.GetInstance().UpdateScenario();
-		}
-		else
-		{
 			GameMaster.GetInstance().UpdateScenario();
 		}
 	}
+
 }

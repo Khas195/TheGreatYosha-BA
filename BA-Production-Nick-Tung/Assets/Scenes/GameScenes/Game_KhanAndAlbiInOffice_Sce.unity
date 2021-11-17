@@ -516,7 +516,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320872, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: conversation
-      value: Base_Loop/Conversation_Albi_Khan_InOffice
+      value: Base_Loop_Take2/Conversation_Albi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809592387526320872, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
+      propertyPath: conversationConversant
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1809592387526320886, guid: 02131a2c2d3a5b64da29219cb47f9b1a, type: 3}
       propertyPath: m_Name

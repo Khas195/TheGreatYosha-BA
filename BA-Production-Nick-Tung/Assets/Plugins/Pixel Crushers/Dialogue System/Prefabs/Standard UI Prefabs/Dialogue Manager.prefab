@@ -1295,7 +1295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Next Conversation
 --- !u!114 &5770004122865586350
 MonoBehaviour:
   m_ObjectHideFlags: 0

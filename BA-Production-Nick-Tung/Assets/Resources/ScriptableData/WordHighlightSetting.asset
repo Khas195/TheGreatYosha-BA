@@ -29,19 +29,7 @@ MonoBehaviour:
     color: {r: 0.33988965, g: 0.13697046, b: 0.3584906, a: 1}
     bold: 0
     italic: 0
-  - word: Yosha
-    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
-    bold: 0
-    italic: 0
-  - word: Yoshas
-    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
-    bold: 0
-    italic: 0
   - word: Player
-    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
-    bold: 0
-    italic: 0
-  - word: Great Yosha
     color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
     bold: 0
     italic: 0
@@ -57,7 +45,19 @@ MonoBehaviour:
     color: {r: 0.34117648, g: 0.13725491, b: 0.35686275, a: 1}
     bold: 0
     italic: 0
+  - word: Great Yosha
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
+    italic: 0
   - word: Great Yosha's
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
+    italic: 0
+  - word: Yoshas
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
+    italic: 0
+  - word: Yosha
     color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
     bold: 0
     italic: 0

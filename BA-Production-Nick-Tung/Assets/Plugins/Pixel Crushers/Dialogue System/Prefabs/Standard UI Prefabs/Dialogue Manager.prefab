@@ -202,11 +202,11 @@ MonoBehaviour:
       disableInternalSequencerCommands: 0
     inputSettings:
       alwaysForceResponseMenu: 1
-      includeInvalidEntries: 0
+      includeInvalidEntries: 1
       responseTimeout: 0
       responseTimeoutAction: 0
       emTagForOldResponses: 0
-      emTagForInvalidResponses: 0
+      emTagForInvalidResponses: 2
       qteButtons:
       - Fire1
       - Fire2
@@ -1778,7 +1778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.14150941, b: 0.104593925, a: 1}
+  m_Color: {r: 0.0014684916, g: 0.103773594, b: 0.078197315, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1787,7 +1787,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0

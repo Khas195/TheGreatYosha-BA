@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 2353739540553045020}
   - component: {fileID: 7659382898748495378}
   - component: {fileID: 4579581842864555765}
-  - component: {fileID: 1460907033}
+  - component: {fileID: 2614440255795320731}
   m_Layer: 5
   m_Name: ItemUI
   m_TagString: Untagged
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1460907033
+--- !u!114 &2614440255795320731
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2071,7 +2071,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8536828214414345428}
+      - m_Target: {fileID: 8536828214414345428, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnContinueAlert
         m_Mode: 1
@@ -3900,7 +3900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73ee3d99442035942b6dd1ede25ff7cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueUI: {fileID: 8536828214414345428}
+  dialogueUI: {fileID: 1460907033}
   typewriterEffect: {fileID: 0}
   hideContinueButtonOnContinue: 0
   continueSubtitlePanel: 1
@@ -4371,9 +4371,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8536828214414345429}
-  - component: {fileID: 8536828214414345428}
   - component: {fileID: 8536828214414345431}
   - component: {fileID: 5366069193106327100}
+  - component: {fileID: 1460907033}
   m_Layer: 5
   m_Name: CustomScrollingUI
   m_TagString: Untagged
@@ -4406,45 +4406,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8536828214414345428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8536828214414345426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9888f0d13032ad4bb14acdba3472d3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alertUIElements:
-    panel: {fileID: 8536828213303368791}
-    alertText:
-      m_uiText: {fileID: 8536828214672111807}
-      m_textMeshProUGUI: {fileID: 0}
-    queueAlerts: 1
-    dontQueueDuplicates: 0
-    waitForHideAnimation: 1
-    allowForceImmediate: 0
-  conversationUIElements:
-    mainPanel: {fileID: 8536828212955658176}
-    dontDeactivateMainPanel: 1
-    subtitlePanels:
-    - {fileID: 8536828214558005337}
-    defaultNPCSubtitlePanel: {fileID: 8536828214558005337}
-    defaultPCSubtitlePanel: {fileID: 8536828214558005337}
-    allowOpenSubtitlePanelsOnStartConversation: 1
-    menuPanels:
-    - {fileID: 8536828214395801507}
-    defaultMenuPanel: {fileID: 8536828214395801507}
-    useFirstResponseForMenuPortrait: 0
-    waitForClose: 1
-  QTEIndicatorElements:
-    QTEIndicators:
-    - {fileID: 8536828213005125425}
-    - {fileID: 8536828214359611460}
-  addEventSystemIfNeeded: 1
 --- !u!114 &8536828214414345431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4471,6 +4432,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   continueButton: {fileID: 1270580694110892048}
+--- !u!114 &1460907033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536828214414345426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e437de8fde273489f2b3d2ef97e446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alertUIElements:
+    panel: {fileID: 0}
+    alertText:
+      m_uiText: {fileID: 0}
+      m_textMeshProUGUI: {fileID: 0}
+    queueAlerts: 0
+    dontQueueDuplicates: 0
+    waitForHideAnimation: 0
+    allowForceImmediate: 0
+  conversationUIElements:
+    mainPanel: {fileID: 8536828212955658176}
+    dontDeactivateMainPanel: 1
+    subtitlePanels:
+    - {fileID: 8536828214558005337}
+    defaultNPCSubtitlePanel: {fileID: 8536828214558005337}
+    defaultPCSubtitlePanel: {fileID: 8536828214558005337}
+    allowOpenSubtitlePanelsOnStartConversation: 1
+    menuPanels:
+    - {fileID: 8536828214395801507}
+    defaultMenuPanel: {fileID: 8536828214395801507}
+    useFirstResponseForMenuPortrait: 0
+    waitForClose: 1
+  QTEIndicatorElements:
+    QTEIndicators: []
+  addEventSystemIfNeeded: 1
+  includeSimStatusInSavedGames: 1
+  showInvalidFieldName: Show Invalid
 --- !u!1 &8536828214522781196
 GameObject:
   m_ObjectHideFlags: 0

@@ -670,7 +670,8 @@ PrefabInstance:
     - target: {fileID: 8541301085329938935, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
       propertyPath: comment
       value: '"Ah, Junra Khan sent you this letter a couple of cycles ago. I almost
-        wanted to turn him down but he insisted."'
+        wanted to turn him down, but he insisted that it is *imperative* that he
+        meet you."'
       objectReference: {fileID: 0}
     - target: {fileID: 8541301085329938935, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
       propertyPath: hasOverlayText

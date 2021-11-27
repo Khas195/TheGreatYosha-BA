@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem;
 using UnityEngine;
 public class InteractableItem : IInteractable
 {
@@ -9,6 +10,10 @@ public class InteractableItem : IInteractable
 	private string comment;
 	[SerializeField]
 	private Sprite commentorSprite;
+	[SerializeField]
+	bool hasOverlayText = false;
+	[SerializeField]
+	string activateVariableOnOpen = "";
 
 	public override void Defocus()
 	{
@@ -43,8 +48,11 @@ public class InteractableItem : IInteractable
 	public override bool Interact()
 	{
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.ItemView);
-		ItemViewController.GetInstance().SetContent(this.commentorSprite, this.itemSprite, this.comment);
-
+		ItemViewController.GetInstance().SetContent(this.commentorSprite, this.itemSprite, this.comment, hasOverlayText);
+		if (activateVariableOnOpen != "")
+		{
+			DialogueLua.SetVariable(activateVariableOnOpen, true);
+		}
 		return base.Interact();
 	}
 

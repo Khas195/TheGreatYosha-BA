@@ -10,20 +10,23 @@ public class ItemViewController : SingletonMonobehavior<ItemViewController>
 	Image itemPortrait;
 	[SerializeField]
 	Text commentorText;
+	[SerializeField]
+	GameObject overlayText;
 	protected override void Awake()
 	{
 		base.Awake();
 		this.Clear();
 	}
-	public void SetContent(Sprite commentorSprite, Sprite itemSprite, string comment)
+	public void SetContent(Sprite commentorSprite, Sprite itemSprite, string comment, bool hasOverlayText = false)
 	{
 		this.commentorPortrait.sprite = commentorSprite;
 		this.itemPortrait.sprite = itemSprite;
 		this.commentorText.text = comment;
 
 		this.commentorPortrait.enabled = true;
-		this.itemPortrait.enabled = true;
+		this.itemPortrait.gameObject.SetActive(true);
 		this.commentorText.enabled = true;
+		this.overlayText.gameObject.SetActive(hasOverlayText);
 	}
 	public void Clear()
 	{
@@ -32,7 +35,7 @@ public class ItemViewController : SingletonMonobehavior<ItemViewController>
 		this.commentorText.text = "";
 
 		this.commentorPortrait.enabled = false;
-		this.itemPortrait.enabled = false;
+		this.itemPortrait.gameObject.SetActive(false);
 		this.commentorText.enabled = false;
 	}
 

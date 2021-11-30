@@ -40,7 +40,6 @@ public class CameraTransition : MonoBehaviour, IObserver
 	[Button]
 	public void MoveToOverlay()
 	{
-		if (isInTransit) return;
 		transitOrigin = cameraTrans.position;
 		transitDestination = overlayTrans.position;
 		curTransitTime = 0;
@@ -49,7 +48,6 @@ public class CameraTransition : MonoBehaviour, IObserver
 	[Button]
 	public void MoveToConversation()
 	{
-		if (isInTransit) return;
 		transitOrigin = cameraTrans.position;
 		transitDestination = conversationTrans.position;
 		curTransitTime = 0;
@@ -58,7 +56,6 @@ public class CameraTransition : MonoBehaviour, IObserver
 	[Button]
 	public void MoveToItemView()
 	{
-		if (isInTransit) return;
 		transitOrigin = cameraTrans.position;
 		transitDestination = itemViewTrans.position;
 		curTransitTime = 0;

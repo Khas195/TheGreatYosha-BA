@@ -48,7 +48,7 @@ public class InteractableItem : IInteractable
 	public override bool Interact()
 	{
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.ItemView);
-		ItemViewController.GetInstance().SetContent(this.commentorSprite, this.itemSprite, this.comment, hasOverlayText);
+		ItemViewController.GetInstance().SetContent(this.itemSprite, this.comment, hasOverlayText);
 		if (activateVariableOnOpen != "")
 		{
 			DialogueLua.SetVariable(activateVariableOnOpen, true);

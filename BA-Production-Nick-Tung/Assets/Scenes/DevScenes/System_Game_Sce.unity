@@ -384,6 +384,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 916
       objectReference: {fileID: 0}
+    - target: {fileID: 7983343263454285529, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_Text
+      value: 'I present myself as Junra Khan. I have returned from my mission in
+        the nearby region of Antera. I need to deliver to you a message of great
+        importance.
+
+        Thus, I have requested an audience with you, and it
+        has been accepted by your assistance, Yosha Albi.
+
+        I will arrive
+        at your chamber on your scheduled awaken cycle.'
+      objectReference: {fileID: 0}
     - target: {fileID: 8536828212880363256, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

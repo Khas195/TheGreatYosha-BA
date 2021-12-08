@@ -2,16 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
+using NaughtyAttributes;
 public class InteractableItem : IInteractable
 {
 	[SerializeField]
 	private Sprite itemSprite;
 	[SerializeField]
+	[TextArea]
 	private string comment;
 	[SerializeField]
-	private Sprite commentorSprite;
-	[SerializeField]
 	bool hasOverlayText = false;
+	[SerializeField]
+	Vector2 desiredScale = Vector2.one;
 	[SerializeField]
 	string activateVariableOnOpen = "";
 
@@ -48,7 +50,7 @@ public class InteractableItem : IInteractable
 	public override bool Interact()
 	{
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.ItemView);
-		ItemViewController.GetInstance().SetContent(this.itemSprite, this.comment, hasOverlayText);
+		ItemViewController.GetInstance().SetContent(this.itemSprite, this.comment, hasOverlayText, desiredScale);
 		if (activateVariableOnOpen != "")
 		{
 			DialogueLua.SetVariable(activateVariableOnOpen, true);

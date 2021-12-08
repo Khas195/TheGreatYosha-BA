@@ -15,9 +15,10 @@ public class ItemViewController : SingletonMonobehavior<ItemViewController>
 		base.Awake();
 		this.Clear();
 	}
-	public void SetContent(Sprite itemSprite, string comment, bool hasOverlayText = false)
+	public void SetContent(Sprite itemSprite, string comment, bool hasOverlayText = false, Vector2 desiredScale = default(Vector2))
 	{
 		this.itemPortrait.sprite = itemSprite;
+		this.itemPortrait.rectTransform.localScale = new Vector3(desiredScale.x, desiredScale.y, 1);
 		this.commentorText.text = comment;
 
 		this.itemPortrait.gameObject.SetActive(true);

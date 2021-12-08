@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1005486811
 Transform:
   m_ObjectHideFlags: 0
@@ -387,7 +387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1574811919
 Transform:
   m_ObjectHideFlags: 0
@@ -488,7 +488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1809592386178093454
 Transform:
   m_ObjectHideFlags: 0
@@ -681,8 +681,8 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Base_Loop/Conversation_Khan
-  conversationConversant: {fileID: 1809592387133009616}
+  conversation: Base_Loop_Take2/Conversation_Albi
+  conversationConversant: {fileID: 1809592386178093454}
   conversationActor: {fileID: 1809592387591891805}
   startConversationEntryID: -1
   exclusive: 0
@@ -830,4 +830,4 @@ MonoBehaviour:
     setSubtitleColor: 1
     applyColorToPrependedName: 0
     prependActorNameSeparator: ': '
-    subtitleColor: {r: 0.18867922, g: 0.096405074, b: 0.09522961, a: 1}
+    subtitleColor: {r: 0.048059814, g: 0.2264151, b: 0.18564817, a: 0.9019608}

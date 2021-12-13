@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2021-12-13T13:17:58Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2021-12-13T13:48:25Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -9380,7 +9380,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="16525" Y="11350"/>
+      <Position X="16950" Y="11375"/>
       <Size Width="225" Height="100"/>
       <ZIndex>1339</ZIndex>
     </Condition>
@@ -19194,15 +19194,6 @@
       <Target IdRef="0x0100000000010D81" PinRef="0x0100000000010D82"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000010D8F">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_DC4901B3</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996943</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000010D81" PinRef="0x0100000000010D83"/>
-      <Target IdRef="0x0100000000010D89" PinRef="0x0100000000010D8A"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000010D90">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_411FA5CA</TechnicalName>
@@ -19347,15 +19338,6 @@
       <Target IdRef="0x0100000000010DDF" PinRef="0x0100000000010DE1"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000010DEB">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_A300E25B</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997035</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000010DDF" PinRef="0x0100000000010DE3"/>
-      <Target IdRef="0x0100000000010DE5" PinRef="0x0100000000010DE6"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000010DF2">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_49C2928A</TechnicalName>
@@ -19372,15 +19354,6 @@
       <Label Count="0"/>
       <Source IdRef="0x0100000000010DEC" PinRef="0x0100000000010DEE"/>
       <Target IdRef="0x0100000000010DF3" PinRef="0x0100000000010DF4"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000010DFE">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_A4ACE50A</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997054</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000010DDF" PinRef="0x0100000000010DE2"/>
-      <Target IdRef="0x0100000000010DF8" PinRef="0x0100000000010DF9"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000010E05">
@@ -19426,6 +19399,42 @@
       <Label Count="0"/>
       <Source IdRef="0x0100000000010E06" PinRef="0x0100000000010E08"/>
       <Target IdRef="0x0100000000010E21" PinRef="0x0100000000010E22"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E3C">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_D9B22915</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997116</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010DDF" PinRef="0x0100000000010DE3"/>
+      <Target IdRef="0x0100000000010DE5" PinRef="0x0100000000010DE6"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E3D">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_301C944F</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997117</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010DDF" PinRef="0x0100000000010DE2"/>
+      <Target IdRef="0x0100000000010DF8" PinRef="0x0100000000010DF9"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E3E">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_1BE24C40</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997118</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010D81" PinRef="0x0100000000010D83"/>
+      <Target IdRef="0x0100000000010E31" PinRef="0x0100000000010E32"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E3F">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_75C439E1</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997119</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E31" PinRef="0x0100000000010E33"/>
+      <Target IdRef="0x0100000000010D89" PinRef="0x0100000000010D8A"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x010000000000B1FF">
@@ -40001,7 +40010,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="14100" Y="10975"/>
+      <Position X="14525" Y="11000"/>
       <Size Width="325" Height="225"/>
       <ZIndex>39</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
@@ -40067,7 +40076,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="13725" Y="11275"/>
+      <Position X="14150" Y="11300"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40099,7 +40108,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="14100" Y="11275"/>
+      <Position X="14525" Y="11300"/>
       <Size Width="325" Height="225"/>
       <ZIndex>39</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
@@ -40133,7 +40142,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="14100" Y="11575"/>
+      <Position X="14525" Y="11600"/>
       <Size Width="325" Height="225"/>
       <ZIndex>39</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
@@ -40167,7 +40176,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="14622.542810669" Y="11275.6401083943"/>
+      <Position X="15047.542810669" Y="11300.6401083943"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40199,7 +40208,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="15075" Y="11275"/>
+      <Position X="15500" Y="11300"/>
       <Size Width="325" Height="225"/>
       <ZIndex>39</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
@@ -40233,7 +40242,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="15075" Y="10975"/>
+      <Position X="15500" Y="11000"/>
       <Size Width="325" Height="225"/>
       <ZIndex>39</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
@@ -40267,7 +40276,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="15075" Y="11575"/>
+      <Position X="15500" Y="11600"/>
       <Size Width="325" Height="225"/>
       <ZIndex>39</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
@@ -40301,7 +40310,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="15625" Y="11275"/>
+      <Position X="16050" Y="11300"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40333,7 +40342,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="16025" Y="11275"/>
+      <Position X="16450" Y="11300"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40365,7 +40374,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="16875" Y="11550"/>
+      <Position X="17475" Y="11575"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40397,7 +40406,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="17325" Y="11550"/>
+      <Position X="17925" Y="11575"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40429,7 +40438,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="16850" Y="10925"/>
+      <Position X="17275" Y="10950"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40461,7 +40470,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="17250" Y="10925"/>
+      <Position X="17675" Y="10950"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40493,7 +40502,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="18150" Y="10925"/>
+      <Position X="18575" Y="10950"/>
       <Size Width="300" Height="225"/>
       <ZIndex>44</ZIndex>
       <Speaker IdRef="0x0100000000000126"/>
@@ -40525,7 +40534,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="17700" Y="10925"/>
+      <Position X="18125" Y="10950"/>
       <Size Width="275" Height="200"/>
       <ZIndex>48</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
@@ -40557,7 +40566,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="18641.6554303554" Y="10937.2809668256"/>
+      <Position X="19066.6554303554" Y="10962.2809668256"/>
       <Size Width="275" Height="200"/>
       <ZIndex>47</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
@@ -43194,7 +43203,7 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="14500" Y="10975"/>
+      <Position X="14925" Y="11000"/>
       <Size Width="225" Height="100"/>
       <ZIndex>1335</ZIndex>
     </Instruction>
@@ -43215,7 +43224,28 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="15525" Y="11025"/>
+      <Position X="15950" Y="11050"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>1335</ZIndex>
+    </Instruction>
+    <Instruction Id="0x0100000000010E31">
+      <DisplayName>Conversations_New.ReciteOath = 0;</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Ins_5ADDAD8A</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x5ADDAD8A</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997105</Url>
+      <Features Count="0"/>
+      <Expression>Conversations_New.ReciteOath = 0;</Expression>
+      <Pins Count="2">
+        <Pin Id="0x0100000000010E32" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000010E33" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="13775" Y="11350"/>
       <Size Width="225" Height="100"/>
       <ZIndex>1335</ZIndex>
     </Instruction>
@@ -44798,7 +44828,7 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="17775" Y="11575"/>
+      <Position X="18375" Y="11600"/>
       <Size Width="175" Height="150"/>
       <ZIndex>433</ZIndex>
       <Target IdRef="0x010000000000CDE4" PinRef="0x010000000000CDE5"/>
@@ -44816,7 +44846,7 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="19116.6554303554" Y="10912.2809668256"/>
+      <Position X="19541.6554303554" Y="10937.2809668256"/>
       <Size Width="175" Height="150"/>
       <ZIndex>486</ZIndex>
       <Target IdRef="0x010000000000D971" PinRef="0x010000000000D973"/>
@@ -47598,7 +47628,6 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
             <Node IdRef="0x0100000000010D87" Type="Connection"/>
             <Node IdRef="0x0100000000010D88" Type="Connection"/>
             <Node IdRef="0x0100000000010D89" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000010D8F" Type="Connection"/>
             <Node IdRef="0x0100000000010D90" Type="Connection"/>
             <Node IdRef="0x0100000000010D91" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010D98" Type="Connection"/>
@@ -47627,13 +47656,11 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
             <Node IdRef="0x0100000000010DDF" Type="Condition"/>
             <Node IdRef="0x0100000000010DE4" Type="Connection"/>
             <Node IdRef="0x0100000000010DE5" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000010DEB" Type="Connection"/>
             <Node IdRef="0x0100000000010DEC" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010DF2" Type="Connection"/>
             <Node IdRef="0x0100000000010DF3" Type="Jump"/>
             <Node IdRef="0x0100000000010DF7" Type="Connection"/>
             <Node IdRef="0x0100000000010DF8" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000010DFE" Type="Connection"/>
             <Node IdRef="0x0100000000010DFF" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010E05" Type="Connection"/>
             <Node IdRef="0x0100000000010E06" Type="DialogueFragment"/>
@@ -47644,6 +47671,11 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
             <Node IdRef="0x0100000000010E2E" Type="Connection"/>
             <Node IdRef="0x0100000000010E2F" Type="Connection"/>
             <Node IdRef="0x0100000000010E30" Type="Connection"/>
+            <Node IdRef="0x0100000000010E3C" Type="Connection"/>
+            <Node IdRef="0x0100000000010E3D" Type="Connection"/>
+            <Node IdRef="0x0100000000010E31" Type="Instruction"/>
+            <Node IdRef="0x0100000000010E3E" Type="Connection"/>
+            <Node IdRef="0x0100000000010E3F" Type="Connection"/>
           </Node>
         </Node>
       </Node>

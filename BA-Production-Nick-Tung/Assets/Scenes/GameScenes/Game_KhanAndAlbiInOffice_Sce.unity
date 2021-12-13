@@ -522,6 +522,32 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 658993334, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: comment
+      value: Through the Junras sacrifices, our every thought and dream are linked.
+        We are not only connected through emotions, but we can all see what they
+        saw, learn what they learnt.
+      objectReference: {fileID: 0}
+    - target: {fileID: 658993334, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: itemName
+      value: The Kasi's Embrace
+      objectReference: {fileID: 0}
+    - target: {fileID: 768890727, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: itemName
+      value: The Scared Oath
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558839308, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: itemName
+      value: The Yosha's Ritual
+      objectReference: {fileID: 0}
+    - target: {fileID: 1626232517, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: itemName
+      value: Life with Albi
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713635422057800303, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: itemName
+      value: The Kasi's Spike
+      objectReference: {fileID: 0}
     - target: {fileID: 8541301085086768828, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
       propertyPath: m_Name
       value: WorldSetup
@@ -569,6 +595,10 @@ PrefabInstance:
     - target: {fileID: 8541301085086768831, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541301085329938937, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: itemName
+      value: The Kasi's Realm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}

@@ -220,7 +220,9 @@ GameObject:
   m_Component:
   - component: {fileID: 581541510}
   - component: {fileID: 581541509}
-  m_Layer: 0
+  - component: {fileID: 658993335}
+  - component: {fileID: 658993334}
+  m_Layer: 9
   m_Name: World_SmallBottomShelfRight_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,6 +294,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &658993335
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581541508}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.83, y: 0.73}
+    newSize: {x: 0.83, y: 0.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.83, y: 0.73}
+  m_EdgeRadius: 0
+--- !u!114 &658993334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581541508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f844b76c0568314aa4022a8c1c90d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFocus: 0
+  itemSprite: {fileID: -1089949410881392349, guid: 6d089cd77b89a984a8d795134e0a6a6b, type: 3}
+  comment: Through the Junras sacrifices, our every thought and dream are linked.
+    We are connected through emotions, but we can all see what they saw.
+  hasOverlayText: 0
+  desiredScale: {x: 1, y: 1}
+  activateVariableOnOpen: 
 --- !u!1 &706768532
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,7 +591,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1175337778}
   - component: {fileID: 1175337777}
-  m_Layer: 0
+  - component: {fileID: 1558839307}
+  - component: {fileID: 1558839308}
+  m_Layer: 9
   m_Name: World_SmallTopShelfLeft_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,6 +665,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1558839307
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175337776}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.93, y: 0.62}
+    newSize: {x: 0.93, y: 0.62}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.93, y: 0.62}
+  m_EdgeRadius: 0
+--- !u!114 &1558839308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175337776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f844b76c0568314aa4022a8c1c90d31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFocus: 0
+  itemSprite: {fileID: -4866055872450650381, guid: 6d089cd77b89a984a8d795134e0a6a6b, type: 3}
+  comment: Through the oath, I grant my blood to the Kasi. Like the great Yoshas
+    before me, I shall become one with The Kasi.
+  hasOverlayText: 0
+  desiredScale: {x: 1, y: 1}
+  activateVariableOnOpen: 
 --- !u!1 &1260538637
 GameObject:
   m_ObjectHideFlags: 0

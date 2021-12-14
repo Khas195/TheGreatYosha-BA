@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2021-12-13T13:48:25Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2021-12-14T12:41:35Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -7952,7 +7952,7 @@
       <ShortId>0x72956CAF</ShortId>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037995623</Url>
       <Features Count="0"/>
-      <Expression><![CDATA[WorldVariables.Story_RushedAlbiDeath >= 2 ]]></Expression>
+      <Expression><![CDATA[WorldVariables.Story_RushedAlbiDeath >= 1]]></Expression>
       <Pins Count="3">
         <Pin Id="0x0100000000010869" Index="0" Semantic="Input">
           <Expression/>
@@ -7964,7 +7964,31 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="3125" Y="8525"/>
+      <Position X="3100" Y="8450"/>
+      <Size Width="225" Height="100"/>
+      <ZIndex>666</ZIndex>
+    </Condition>
+    <Condition Id="0x0100000000010E51">
+      <DisplayName>WorldVariables.Story_RushedAlbiDeath ...</DisplayName>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Cnd_B679326C</TechnicalName>
+      <ExternalId/>
+      <ShortId>0xB679326C</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997137</Url>
+      <Features Count="0"/>
+      <Expression><![CDATA[WorldVariables.Story_RushedAlbiDeath >= 1]]></Expression>
+      <Pins Count="3">
+        <Pin Id="0x0100000000010E52" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000010E53" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000010E54" Index="1" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1875" Y="8725"/>
       <Size Width="225" Height="100"/>
       <ZIndex>666</ZIndex>
     </Condition>
@@ -9308,7 +9332,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="51625" Y="7650"/>
+      <Position X="51650" Y="7650"/>
       <Size Width="225" Height="100"/>
       <ZIndex>1254</ZIndex>
     </Condition>
@@ -12408,15 +12432,6 @@
       <Target IdRef="0x010000000000DE90" PinRef="0x010000000000DE93"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x010000000000D9C1">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_80D14EA5</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037983681</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000D9AC" PinRef="0x010000000000D9AE"/>
-      <Target IdRef="0x010000000000D9B8" PinRef="0x010000000000D9B9"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x010000000000DEE6">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_EFB300FE</TechnicalName>
@@ -13378,15 +13393,6 @@
       <Label Count="0"/>
       <Source IdRef="0x010000000000DCFC" PinRef="0x010000000000DCFE"/>
       <Target IdRef="0x010000000000FB2C" PinRef="0x010000000000FB2E"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x010000000000FB31">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_FD0676E4</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037992241</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000FB2C" PinRef="0x010000000000FB2F"/>
-      <Target IdRef="0x010000000000D925" PinRef="0x010000000000D926"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x010000000000FB32">
@@ -15736,6 +15742,69 @@
       <Label Count="0"/>
       <Source IdRef="0x010000000001087F" PinRef="0x0100000000010881"/>
       <Target IdRef="0x0100000000010900" PinRef="0x0100000000010901"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E48">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_99AD715A</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997128</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000D9AC" PinRef="0x010000000000D9AE"/>
+      <Target IdRef="0x0100000000010E41" PinRef="0x0100000000010E42"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E49">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_48DABEB9</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997129</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E41" PinRef="0x0100000000010E43"/>
+      <Target IdRef="0x010000000000D9B8" PinRef="0x010000000000D9B9"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E56">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0B773648</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997142</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000FB2C" PinRef="0x010000000000FB2F"/>
+      <Target IdRef="0x0100000000010E51" PinRef="0x0100000000010E52"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E57">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_5DC55B93</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997143</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E51" PinRef="0x0100000000010E53"/>
+      <Target IdRef="0x010000000000D925" PinRef="0x010000000000D926"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E60">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_3CE37A46</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997152</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E51" PinRef="0x0100000000010E54"/>
+      <Target IdRef="0x0100000000010E58" PinRef="0x0100000000010E59"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E6A">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_C3EA077A</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997162</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E58" PinRef="0x0100000000010E5A"/>
+      <Target IdRef="0x0100000000010E63" PinRef="0x0100000000010E64"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E6B">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_285C4CD2</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997163</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E63" PinRef="0x0100000000010E65"/>
+      <Target IdRef="0x010000000000D94A" PinRef="0x010000000000D94B"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x010000000000F8F0">
@@ -18528,31 +18597,13 @@
       <Target IdRef="0x0100000000010B8C" PinRef="0x0100000000010B8D"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000010B9B">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_B95B7B36</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996443</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000010B8C" PinRef="0x0100000000010B8E"/>
-      <Target IdRef="0x0100000000010B94" PinRef="0x0100000000010B95"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000010BA3">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_1BC321D8</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996451</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000010B94" PinRef="0x0100000000010B96"/>
-      <Target IdRef="0x0100000000010B9C" PinRef="0x0100000000010B9D"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000010BA4">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_803CF56C</TechnicalName>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996452</Url>
       <Label Count="0"/>
       <Source IdRef="0x0100000000010B9C" PinRef="0x0100000000010B9E"/>
-      <Target IdRef="0x010000000000CE55" PinRef="0x010000000000CE56"/>
+      <Target IdRef="0x010000000000F884" PinRef="0x010000000000F885"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000010BAC">
@@ -18751,15 +18802,6 @@
       <Label Count="0"/>
       <Source IdRef="0x0100000000010C43" PinRef="0x0100000000010C45"/>
       <Target IdRef="0x0100000000010C4B" PinRef="0x0100000000010C4C"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000010C53">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_6550F5ED</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996627</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000010C4B" PinRef="0x0100000000010C4D"/>
-      <Target IdRef="0x0100000000010C37" PinRef="0x0100000000010C38"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000010C5F">
@@ -19435,6 +19477,33 @@
       <Label Count="0"/>
       <Source IdRef="0x0100000000010E31" PinRef="0x0100000000010E33"/>
       <Target IdRef="0x0100000000010D89" PinRef="0x0100000000010D8A"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E40">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_DC251001</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997120</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010B8C" PinRef="0x0100000000010B8E"/>
+      <Target IdRef="0x0100000000010B9C" PinRef="0x0100000000010B9D"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E73">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_0FABA73B</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997171</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010C4B" PinRef="0x0100000000010C4D"/>
+      <Target IdRef="0x0100000000010E6C" PinRef="0x0100000000010E6D"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010E74">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_1B558457</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997172</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E6C" PinRef="0x0100000000010E6E"/>
+      <Target IdRef="0x0100000000010C37" PinRef="0x0100000000010C38"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x010000000000B1FF">
@@ -20918,7 +20987,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Let us form the connection as per tradition."[Form Connection.]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Let us form the connection as per tradition."[em1][Form Connection.][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000C6A3" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -22436,9 +22505,9 @@
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000DD7F" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Player: "[Dissolve The Connection With Albi...."]]></DisplayName>
+      <DisplayName><![CDATA[Player: ""Get out!""]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">[Dissolve The Connection With Albi.]</span></p><p id="s0"></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Get out!&quot;</span></p><p id="s0"></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_43C5CE3B</TechnicalName>
@@ -22466,7 +22535,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang="">[Dissolve The Connection With Albi.]</LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Get out!"[em1][Dissolve The Connection With Albi][em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000DD86" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -22662,9 +22731,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000DDCE" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Player: ""Khan, I know Albi has [em1]your pr..."]]></DisplayName>
+      <DisplayName><![CDATA[Player: ""Khan, I know Albi has your preciou..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Khan, I know Albi has [em1]your precious[/em1], we can work against her!&quot;</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Khan, I know Albi has your precious, we can work against her!&quot;</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_7DDA10EC</TechnicalName>
@@ -24174,7 +24243,7 @@
     <DialogueFragment Id="0x010000000000E4C3" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Khan: ""N..No no, s..she has my someone......"]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;N..No no, s..she has my someone... [em1]precious[/em1] to me.&quot;</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;N..No no, s..she has my someone... precious to me.&quot;</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_8B20909F</TechnicalName>
@@ -26032,7 +26101,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="2775" Y="8500"/>
+      <Position X="2750" Y="8425"/>
       <Size Width="275" Height="200"/>
       <ZIndex>445</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
@@ -26064,8 +26133,8 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="2400" Y="8500"/>
-      <Size Width="225" Height="200"/>
+      <Position X="2325" Y="8425"/>
+      <Size Width="275" Height="200"/>
       <ZIndex>447</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
       <StageDirections Count="0"/>
@@ -26128,13 +26197,13 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="1900" Y="8500"/>
+      <Position X="1875" Y="8425"/>
       <Size Width="300" Height="200"/>
       <ZIndex>240</ZIndex>
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Fuck you!" [Charge At Albi]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Fuck you!" [em1][Charge At Albi][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000D933" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -26814,7 +26883,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Fine! Let see what you are hiding behind that facade of yours."[Form Connection]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Fine! Let see what you are hiding behind that facade of yours."[em1][Form Connection][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x010000000000DBC4" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -30012,7 +30081,7 @@
     <DialogueFragment Id="0x010000000001050B" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Player: ""Khan's going to be mad and kill me..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Khan&#39;s going to be mad and kill me but I doubt he&#39;d let you go.&quot;[Grab Albi&#39;s Hand.]</span></p><p id="s0"></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Khan&#39;s going to be mad and kill me but I doubt he&#39;d let you go.&quot;</span></p><p id="s0"></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_94E67C2F</TechnicalName>
@@ -30040,7 +30109,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Khan's going to be mad and kill me but I doubt he'd let you go."[Grab Albi's Hand.]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Khan's going to be mad and kill me but I doubt he'd let you go."[em1][Grab Albi's Hand][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010517" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -30498,7 +30567,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Here's my leverage."[Grab Albi's Hand.]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Here's my leverage."[em1][Grab Albi's Hand.][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010592" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -33060,7 +33129,7 @@
     <DialogueFragment Id="0x0100000000010898" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "Your body smashed against the wall..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Your body smashed against the wall and the felt some bones inside your body broke.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Your body smashed against the wall and felt some bones inside your body break.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_95649DA5</TechnicalName>
@@ -33414,7 +33483,7 @@
     <DialogueFragment Id="0x0100000000010916" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "Her leg twisted causing her to fall..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Her leg twisted causing her to fall on her back. Ceased the momentum you jumped on her with the spike ready to strike.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Her leg twisted causing her to fall on her back. Ceasing the momentum you jumped on her with the spike ready to strike.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_EF1F4890</TechnicalName>
@@ -33989,6 +34058,104 @@
       <Position X="12050" Y="8675"/>
       <Size Width="275" Height="200"/>
       <ZIndex>446</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000010E41" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
+      <DisplayName><![CDATA[Narrator: "Darkness sealed your vision as sile..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Darkness sealed your vision as silence covered you.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_06D77F38</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x06D77F38</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997121</Url>
+      <Features Count="1">
+        <Feature Name="VoiceOver" IdRef="0x010000000000EFA5">
+          <Properties Count="1">
+            <NamedReference Name="VoiceOverFile" IdRef="0x0000000000000000"/>
+          </Properties>
+        </Feature>
+      </Features>
+      <Pins Count="2">
+        <Pin Id="0x0100000000010E42" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000010E43" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="1750" Y="5325"/>
+      <Size Width="275" Height="200"/>
+      <ZIndex>39</ZIndex>
+      <Speaker IdRef="0x01000000000049CE"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000010E58" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
+      <DisplayName><![CDATA[Player: ""Fuck you!""]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Fuck you!&quot;</span></p><p id="s0"></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_7CB8362F</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x7CB8362F</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997144</Url>
+      <Features Count="1">
+        <Feature Name="VoiceOver" IdRef="0x010000000000EFA5">
+          <Properties Count="1">
+            <NamedReference Name="VoiceOverFile" IdRef="0x0000000000000000"/>
+          </Properties>
+        </Feature>
+      </Features>
+      <Pins Count="2">
+        <Pin Id="0x0100000000010E59" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000010E5A" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="2265.61645126111" Y="8715.43204081565"/>
+      <Size Width="300" Height="200"/>
+      <ZIndex>240</ZIndex>
+      <Speaker IdRef="0x0100000000000116"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="1">
+        <LocalizedString Lang=""><![CDATA["Fuck you!" [em1][Jump At Albi][/em1]]]></LocalizedString>
+      </MenuText>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000010E63" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
+      <DisplayName><![CDATA[Narrator: "You jumped toward Albi, causing her..."]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You jumped toward Albi, causing her to flint out of surprise.</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_48B015E8</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x48B015E8</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997155</Url>
+      <Features Count="1">
+        <Feature Name="VoiceOver" IdRef="0x010000000000EFA5">
+          <Properties Count="1">
+            <NamedReference Name="VoiceOverFile" IdRef="0x0000000000000000"/>
+          </Properties>
+        </Feature>
+      </Features>
+      <Pins Count="2">
+        <Pin Id="0x0100000000010E64" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000010E65" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="2652.687858555" Y="8696.21920812274"/>
+      <Size Width="275" Height="200"/>
+      <ZIndex>447</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
@@ -36261,9 +36428,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000100A8" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Khan: ""It's truly is. I... I made a mista..."]]></DisplayName>
+      <DisplayName><![CDATA[Khan: ""It truly was. I... I made a mistak..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;It&#39;s truly is. I... I made a mistake, that&#39;s it.&quot;</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;It truly was. I... I made a mistake, that&#39;s it.&quot;</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_68D540A2</TechnicalName>
@@ -36940,7 +37107,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["No!" [Dodge Left]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["No!" [em1][Dodge Left][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000107F5" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -36974,7 +37141,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Fuck you." [Dodge Right]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Fuck you." [em1][Dodge Right][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x01000000000107FD" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -37828,7 +37995,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["I got this!" [Dodge backward]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["I got this!"[em1] [Dodge backward][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B39" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -37862,7 +38029,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Fuck you." [Dodge Left]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Fuck you." [em1][Dodge Left]/[em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B40" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -37970,7 +38137,7 @@
     <DialogueFragment Id="0x0100000000010B59" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "Before you could readjust, Khan cha..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could readjust, Khan charged at you and pushed you backward, your head almost hitting the missed knife that impaled itself into the wall.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could readjust, Khan charged at you and pushed you backward, your head almost hitting the knife that impaled itself into the wall.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#DBEEF3</Color>
       <TechnicalName>DFr_A21BDC4B</TechnicalName>
@@ -37993,7 +38160,7 @@
         </Pin>
       </Pins>
       <Position X="45199.0540169056" Y="7163.56947987103"/>
-      <Size Width="275" Height="200"/>
+      <Size Width="300.94598309436" Height="211.43052012897"/>
       <ZIndex>294</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
       <StageDirections Count="1">
@@ -38066,7 +38233,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Die!" [Grab a book]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Die!"[em1][Grab a book][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B73" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -38100,7 +38267,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Get off me!"[Grab the Spike]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Get off me!"[em1][Grab the Spike][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B7C" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -38134,7 +38301,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Take this!"[Punch him]]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["Take this!"[em1][Punch him][/em1]]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B84" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -38205,40 +38372,6 @@
       </StageDirections>
       <MenuText Count="0"/>
     </DialogueFragment>
-    <DialogueFragment Id="0x0100000000010B94" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Narrator: "Years of hardships on the road, as..."]]></DisplayName>
-      <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Years of hardships on the road, as is the life of a Junra, have molded him into a veteran combatant.</span></p></body></html>]]></LocalizedString>
-      </Text>
-      <Color>#DBEEF3</Color>
-      <TechnicalName>DFr_6FC34552</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x6FC34552</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996436</Url>
-      <Features Count="1">
-        <Feature Name="VoiceOver" IdRef="0x010000000000EFA5">
-          <Properties Count="1">
-            <NamedReference Name="VoiceOverFile" IdRef="0x0000000000000000"/>
-          </Properties>
-        </Feature>
-      </Features>
-      <Pins Count="2">
-        <Pin Id="0x0100000000010B95" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000010B96" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="47300" Y="7600"/>
-      <Size Width="275" Height="200"/>
-      <ZIndex>294</ZIndex>
-      <Speaker IdRef="0x01000000000049CE"/>
-      <StageDirections Count="1">
-        <LocalizedString Lang=""/>
-      </StageDirections>
-      <MenuText Count="0"/>
-    </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B9C" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "At that moment, Khan plucked the kn..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
@@ -38276,7 +38409,7 @@
     <DialogueFragment Id="0x0100000000010BA5" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "You swinged the thick leather book..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You swinged the thick leather book in his face  with all your strength.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">You swinged the thick leather book in his face with all your strength.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#DBEEF3</Color>
       <TechnicalName>DFr_E677FEFD</TechnicalName>
@@ -38835,40 +38968,6 @@
         <LocalizedString Lang=""><![CDATA["We can be together forever."]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
-    <DialogueFragment Id="0x0100000000010C2F" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Player: ""Please, please just let her go.""]]></DisplayName>
-      <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Please, please just let her go.&quot;</span></p></body></html>]]></LocalizedString>
-      </Text>
-      <Color>#C8E2E7</Color>
-      <TechnicalName>DFr_99208A34</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x99208A34</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996591</Url>
-      <Features Count="1">
-        <Feature Name="VoiceOver" IdRef="0x010000000000EFA5">
-          <Properties Count="1">
-            <NamedReference Name="VoiceOverFile" IdRef="0x0000000000000000"/>
-          </Properties>
-        </Feature>
-      </Features>
-      <Pins Count="2">
-        <Pin Id="0x0100000000010C30" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000010C31" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="52125" Y="8000"/>
-      <Size Width="300" Height="200"/>
-      <ZIndex>246</ZIndex>
-      <Speaker IdRef="0x0100000000000116"/>
-      <StageDirections Count="0"/>
-      <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["Please, please just let her go."]]></LocalizedString>
-      </MenuText>
-    </DialogueFragment>
     <DialogueFragment Id="0x0100000000010C37" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "The other Junra smiled. Her one eye..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
@@ -38894,7 +38993,7 @@
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="51275" Y="7575"/>
+      <Position X="51300" Y="7575"/>
       <Size Width="275" Height="200"/>
       <ZIndex>446</ZIndex>
       <Speaker IdRef="0x01000000000049CE"/>
@@ -38938,7 +39037,7 @@
     <DialogueFragment Id="0x0100000000010C4B" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Player: ""The only thing that await you in t..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;The only thing that await you in the hive is the Kasi&#39;s embrace, it&#39;s death.&quot;</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;The only thing that await you in the hive is the Kasi&#39;s embrace, that means death.&quot;</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_071FE9DD</TechnicalName>
@@ -38966,7 +39065,7 @@
       <Speaker IdRef="0x0100000000000116"/>
       <StageDirections Count="0"/>
       <MenuText Count="1">
-        <LocalizedString Lang=""><![CDATA["The only thing that await you in the hive is the Kasi's embrace, it's death."]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA["The only thing that await you in the hive is the Kasi's embrace, that means death."]]></LocalizedString>
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010C54" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
@@ -39004,7 +39103,7 @@
     <DialogueFragment Id="0x0100000000010C68" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "She looked back at him, whispering..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">She looked back at him, whispering the vow of the Kasi.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">She looked back at him, whispering the oath of the Kasi.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_D684E927</TechnicalName>
@@ -39326,9 +39425,9 @@
       </MenuText>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010CC4" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Narrator: "Upon the last line, Khan's love onl..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Upon the last line, Khan's precious..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Upon the last line, Khan&#39;s love only looks at him, waiting for him to finish the oath.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Upon the last line, Khan&#39;s precious only looked at him, waiting for him to finish the oath.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_4FF39833</TechnicalName>
@@ -39428,7 +39527,7 @@
     <DialogueFragment Id="0x0100000000010CDB" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "Zapped back to reality, you found y..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Zapped back to reality, you found yourself on top of Khan&#39;s death body.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Zapped back to reality, you found yourself on top of Khan&#39;s dead body.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_515B8298</TechnicalName>
@@ -40572,6 +40671,40 @@
       <Speaker IdRef="0x01000000000049CE"/>
       <StageDirections Count="0"/>
       <MenuText Count="0"/>
+    </DialogueFragment>
+    <DialogueFragment Id="0x0100000000010E6C" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
+      <DisplayName><![CDATA[Player: ""Do you not care about us at all!""]]></DisplayName>
+      <Text Count="1" HasMarkup="1">
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;Do you not care about us at all!&quot;</span></p></body></html>]]></LocalizedString>
+      </Text>
+      <Color>#C8E2E7</Color>
+      <TechnicalName>DFr_44A4F84F</TechnicalName>
+      <ExternalId/>
+      <ShortId>0x44A4F84F</ShortId>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997164</Url>
+      <Features Count="1">
+        <Feature Name="VoiceOver" IdRef="0x010000000000EFA5">
+          <Properties Count="1">
+            <NamedReference Name="VoiceOverFile" IdRef="0x0000000000000000"/>
+          </Properties>
+        </Feature>
+      </Features>
+      <Pins Count="2">
+        <Pin Id="0x0100000000010E6D" Index="0" Semantic="Input">
+          <Expression/>
+        </Pin>
+        <Pin Id="0x0100000000010E6E" Index="0" Semantic="Output">
+          <Expression/>
+        </Pin>
+      </Pins>
+      <Position X="51205.4316238607" Y="7875.98655795143"/>
+      <Size Width="300" Height="200"/>
+      <ZIndex>246</ZIndex>
+      <Speaker IdRef="0x0100000000000116"/>
+      <StageDirections Count="0"/>
+      <MenuText Count="1">
+        <LocalizedString Lang=""><![CDATA["Do you not care about us at all!"]]></LocalizedString>
+      </MenuText>
     </DialogueFragment>
     <Entity Id="0x01000000000006A6" ObjectTemplateReference="0x0100000000000303" ObjectTemplateReferenceName="JunraTemplate">
       <DisplayName Count="1">
@@ -42097,7 +42230,7 @@ WorldVariables.Story_RushedAlbiDeath += 1;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="2375" Y="5400"/>
+      <Position X="2600" Y="5375"/>
       <Size Width="500" Height="100"/>
       <ZIndex>354</ZIndex>
     </Instruction>
@@ -42120,7 +42253,7 @@ WorldVariables.Story_AlbiTalksAboutHive  = true;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="1881.27100106597" Y="5407.00877120852"/>
+      <Position X="2106.27100106597" Y="5382.00877120852"/>
       <Size Width="300" Height="100"/>
       <ZIndex>325</ZIndex>
     </Instruction>
@@ -43143,28 +43276,6 @@ WorldVariables.Story_AlbiRevealed = true]]></Expression>
       <Size Width="300" Height="100"/>
       <ZIndex>325</ZIndex>
     </Instruction>
-    <Instruction Id="0x0100000000010C3E">
-      <DisplayName>WorldVariables.Story_AlbiRevealed =  ...</DisplayName>
-      <Color>#DBEEF3</Color>
-      <TechnicalName>Ins_375205E7</TechnicalName>
-      <ExternalId/>
-      <ShortId>0x375205E7</ShortId>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037996606</Url>
-      <Features Count="0"/>
-      <Expression><![CDATA[WorldVariables.Story_AlbiRevealed = true;
-WorldVariables.Story_KhanHint_Her = true;]]></Expression>
-      <Pins Count="2">
-        <Pin Id="0x0100000000010C3F" Index="0" Semantic="Input">
-          <Expression/>
-        </Pin>
-        <Pin Id="0x0100000000010C40" Index="0" Semantic="Output">
-          <Expression/>
-        </Pin>
-      </Pins>
-      <Position X="52500" Y="7200"/>
-      <Size Width="275" Height="100"/>
-      <ZIndex>303</ZIndex>
-    </Instruction>
     <Instruction Id="0x0100000000010D09">
       <DisplayName>WorldVariables.Story_KhanOath = true;</DisplayName>
       <Color>#DBEEF3</Color>
@@ -43712,7 +43823,7 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="3000" Y="5350"/>
+      <Position X="3225" Y="5325"/>
       <Size Width="175" Height="150"/>
       <ZIndex>464</ZIndex>
       <Target IdRef="0x010000000000D971" PinRef="0x010000000000D973"/>
@@ -46292,7 +46403,6 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
               <Node IdRef="0x010000000000F7ED" Type="Connection"/>
               <Node IdRef="0x010000000000DC80" Type="Connection"/>
               <Node IdRef="0x010000000000DE94" Type="Connection"/>
-              <Node IdRef="0x010000000000D9C1" Type="Connection"/>
               <Node IdRef="0x010000000000DEE6" Type="Connection"/>
               <Node IdRef="0x010000000000DEF5" Type="Connection"/>
               <Node IdRef="0x010000000000DEE4" Type="Connection"/>
@@ -46457,7 +46567,6 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
               <Node IdRef="0x010000000000FB2B" Type="Connection"/>
               <Node IdRef="0x010000000000FB2C" Type="Instruction"/>
               <Node IdRef="0x010000000000FB30" Type="Connection"/>
-              <Node IdRef="0x010000000000FB31" Type="Connection"/>
               <Node IdRef="0x010000000000FB32" Type="Connection"/>
               <Node IdRef="0x010000000000FB51" Type="Condition"/>
               <Node IdRef="0x010000000000FB56" Type="Condition"/>
@@ -46935,6 +47044,17 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
               <Node IdRef="0x010000000001099E" Type="Connection"/>
               <Node IdRef="0x010000000001099F" Type="Connection"/>
               <Node IdRef="0x01000000000109A0" Type="Connection"/>
+              <Node IdRef="0x0100000000010E41" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000010E48" Type="Connection"/>
+              <Node IdRef="0x0100000000010E49" Type="Connection"/>
+              <Node IdRef="0x0100000000010E51" Type="Condition"/>
+              <Node IdRef="0x0100000000010E56" Type="Connection"/>
+              <Node IdRef="0x0100000000010E57" Type="Connection"/>
+              <Node IdRef="0x0100000000010E58" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000010E60" Type="Connection"/>
+              <Node IdRef="0x0100000000010E63" Type="DialogueFragment"/>
+              <Node IdRef="0x0100000000010E6A" Type="Connection"/>
+              <Node IdRef="0x0100000000010E6B" Type="Connection"/>
             </Node>
             <Node IdRef="0x010000000000F8F0" Type="Connection"/>
             <Node IdRef="0x010000000000F94D" Type="Hub"/>
@@ -47491,10 +47611,7 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
             <Node IdRef="0x0100000000010B8B" Type="Connection"/>
             <Node IdRef="0x0100000000010B8C" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010B93" Type="Connection"/>
-            <Node IdRef="0x0100000000010B94" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000010B9B" Type="Connection"/>
             <Node IdRef="0x0100000000010B9C" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000010BA3" Type="Connection"/>
             <Node IdRef="0x0100000000010BA4" Type="Connection"/>
             <Node IdRef="0x0100000000010BA5" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010BAC" Type="Connection"/>
@@ -47533,14 +47650,11 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
             <Node IdRef="0x0100000000010C26" Type="Connection"/>
             <Node IdRef="0x0100000000010C27" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010C2E" Type="Connection"/>
-            <Node IdRef="0x0100000000010C2F" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010C37" Type="DialogueFragment"/>
-            <Node IdRef="0x0100000000010C3E" Type="Instruction"/>
             <Node IdRef="0x0100000000010C43" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010C4A" Type="Connection"/>
             <Node IdRef="0x0100000000010C4B" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010C52" Type="Connection"/>
-            <Node IdRef="0x0100000000010C53" Type="Connection"/>
             <Node IdRef="0x0100000000010C54" Type="DialogueFragment"/>
             <Node IdRef="0x0100000000010C5A" Type="Condition"/>
             <Node IdRef="0x0100000000010C5F" Type="Connection"/>
@@ -47676,6 +47790,10 @@ WorldVariables.Story_KhanHint_Her = true;]]></Expression>
             <Node IdRef="0x0100000000010E31" Type="Instruction"/>
             <Node IdRef="0x0100000000010E3E" Type="Connection"/>
             <Node IdRef="0x0100000000010E3F" Type="Connection"/>
+            <Node IdRef="0x0100000000010E40" Type="Connection"/>
+            <Node IdRef="0x0100000000010E6C" Type="DialogueFragment"/>
+            <Node IdRef="0x0100000000010E73" Type="Connection"/>
+            <Node IdRef="0x0100000000010E74" Type="Connection"/>
           </Node>
         </Node>
       </Node>

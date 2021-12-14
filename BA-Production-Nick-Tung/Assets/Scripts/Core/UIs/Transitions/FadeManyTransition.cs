@@ -33,11 +33,16 @@ public class FadeManyTransition : MonoBehaviour
 	Action callback = null;
 	[SerializeField]
 	bool startFadeOut = true;
+	[SerializeField]
+	bool findAllUiAtStart = true;
 
 
 	private void Start()
 	{
-		FindAllCurrentUis();
+		if (findAllUiAtStart)
+		{
+			FindAllCurrentUis();
+		}
 		if (startFadeOut)
 		{
 			SetAllUisAlpha(0);
@@ -90,6 +95,12 @@ public class FadeManyTransition : MonoBehaviour
 			currentTime += Time.deltaTime;
 		}
 	}
+
+	public bool IsInTransition()
+	{
+		return this.isTransitioning;
+	}
+
 	public void SetFadeTime(float newFadeTime)
 	{
 		this.fadeTime = newFadeTime;
@@ -112,7 +123,10 @@ public class FadeManyTransition : MonoBehaviour
 	[Button]
 	public void FadeIn(Action callback = null)
 	{
-		FindAllCurrentUis();
+		if (findAllUiAtStart)
+		{
+			FindAllCurrentUis();
+		}
 		startAlpha = 0.0f;
 		SetAllUisAlpha(startAlpha);
 		targetAlpha = 1.0f;
@@ -124,7 +138,10 @@ public class FadeManyTransition : MonoBehaviour
 	[Button]
 	public void FadeOut(Action callback = null)
 	{
-		FindAllCurrentUis();
+		if (findAllUiAtStart)
+		{
+			FindAllCurrentUis();
+		}
 		startAlpha = 1.0f;
 		SetAllUisAlpha(startAlpha);
 		targetAlpha = 0.0f;

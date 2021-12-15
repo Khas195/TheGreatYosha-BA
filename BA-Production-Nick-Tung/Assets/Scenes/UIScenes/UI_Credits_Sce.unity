@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1416,7 +1416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2056,6 +2056,9 @@ MonoBehaviour:
   - title: Concept Art -  Chacter #1
     description: The original main character was supposed to be an alchemist.
     productionSprite: {fileID: 21300000, guid: a6893454729513349a7344db7d2792dc, type: 3}
+  - title: Concept Art -  Chacter #1.5
+    description: And the one where he stopped eating for a year.
+    productionSprite: {fileID: 21300000, guid: 734569bf20a322141a5c19bcac4a8239, type: 3}
   - title: Coding
     description: The project was kickstarted past the setup phase since Tung had
       already established the game system in his previous project.
@@ -2080,6 +2083,9 @@ MonoBehaviour:
     description: It was a bit too boring to do Human all the time, so we tried to
       do something more alien.
     productionSprite: {fileID: 21300000, guid: 91d67fd76f2275b4aab3d27cf3e087de, type: 3}
+  - title: Walking Animation
+    description: Then Nic proceeded to test out a walking cycle for the character.
+    productionSprite: {fileID: 21300000, guid: abccbce3c69a03745ab0ee1cc1013d52, type: 3}
   - title: More Design for Conversation
     description: Read the title :)
     productionSprite: {fileID: 21300000, guid: aaf885f9b96fb5848b50ea3ff6657150, type: 3}
@@ -2112,6 +2118,10 @@ MonoBehaviour:
     description: Somewhere along the development period, we sat down and envisioned
       our world history.
     productionSprite: {fileID: 21300000, guid: 8dd74cb1a6c10ae489314db731769a24, type: 3}
+  - title: Cursed Image
+    description: Nic's next environment concept was not a big hit. Tung actually
+      hated it so much that he hit his head against his monitor.
+    productionSprite: {fileID: 21300000, guid: 734569bf20a322141a5c19bcac4a8239, type: 3}
   - title: Eliminating the emotion UI
     description: We decided that the emotion Ui was unnecessary since it can be done
       via the characters' reactions and dialogues.
@@ -2156,6 +2166,9 @@ MonoBehaviour:
     description: Our initial Prototype for the game. It was at this moment that we
       knew, we had a scale problem.
     productionSprite: {fileID: 21300000, guid: c0004c31633034a40accd3b971ca9576, type: 3}
+  - title: Prototype Ending
+    description: 'Fun facts: in the ending of the prototype, everyone dies.'
+    productionSprite: {fileID: 21300000, guid: ccd9f8f45a93f2a4eb77e31d04df9745, type: 3}
   - title: One Room Idea
     description: Due to the scale problem, we decided the game should be a contained
       experience inside a single room.

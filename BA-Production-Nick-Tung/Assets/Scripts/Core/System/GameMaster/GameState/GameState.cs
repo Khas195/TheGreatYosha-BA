@@ -12,7 +12,8 @@ public abstract class GameState : State
 		GamePaused,
 		Init,
 		Console,
-		LoadState
+		LoadState,
+		Credits
 	}
 
 	[SerializeField]

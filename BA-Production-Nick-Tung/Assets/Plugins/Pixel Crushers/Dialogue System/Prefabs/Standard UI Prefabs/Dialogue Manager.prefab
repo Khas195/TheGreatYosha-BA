@@ -196,7 +196,7 @@ MonoBehaviour:
       sequencerCamera: {fileID: 0}
       alternateCameraObject: {fileID: 0}
       cameraAngles: {fileID: 0}
-      defaultSequence: AudioWait(entrytag)
+      defaultSequence: 
       defaultPlayerSequence: 
       defaultResponseMenuSequence: 
       entrytagFormat: 5

@@ -31,13 +31,13 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 	{
 		if (scene.name.Equals(profile.loadScene))
 		{
+			GameMaster.GetInstance().GetGameMasterFade().FadeOut();
 			if (currentInstance != null)
 			{
 				UnloadInstance(currentInstance, removeDubplicate: reload);
 				reload = false;
 			}
 			waitForUnload = true;
-
 		}
 
 	}
@@ -67,12 +67,16 @@ public class SceneLoadingManager : SingletonMonobehavior<SceneLoadingManager>, I
 	public void FinishedLoadingProtocol()
 	{
 		LogHelper.Log("Finished Loading Protocol");
-		SceneManager.UnloadSceneAsync(profile.loadScene);
-		var data = DataPool.GetInstance().RequestInstance();
-		data.SetValue("Instance", currentInstance);
-		PostOffice.SendData(data, GameMasterEvent.ON_INSTANCE_LOADED);
-		DataPool.GetInstance().ReturnInstance(data);
-		this.scenesLoading.Clear();
+		GameMaster.GetInstance().GetGameMasterFade().FadeIn(() =>
+		{
+			SceneManager.UnloadSceneAsync(profile.loadScene);
+			var data = DataPool.GetInstance().RequestInstance();
+			data.SetValue("Instance", currentInstance);
+			PostOffice.SendData(data, GameMasterEvent.ON_INSTANCE_LOADED);
+			DataPool.GetInstance().ReturnInstance(data);
+			this.scenesLoading.Clear();
+			GameMaster.GetInstance().GetGameMasterFade().FadeOut();
+		});
 	}
 
 	public void InitiateLoadingSequenceFor(GameInstance newInstance, bool loadAndWait)

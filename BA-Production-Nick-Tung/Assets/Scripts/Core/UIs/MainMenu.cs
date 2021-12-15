@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using NaughtyAttributes;
 using UnityEngine;
-
 public class MainMenu : MonoBehaviour
 {
 	public GameObject continueButton = null;
@@ -32,7 +31,10 @@ public class MainMenu : MonoBehaviour
 	{
 		LogHelper.Log("Main Menu - Continue.", true);
 		GameMaster.GetInstance().LoadSave();
-
+	}
+	public void LoadCredits()
+	{
+		GameMaster.GetInstance().LoadCredits();
 	}
 
 }

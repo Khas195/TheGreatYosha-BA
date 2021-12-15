@@ -20,6 +20,10 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	[BoxGroup("Settings")]
 	GameScenario startScenario = null;
 
+	[SerializeField]
+	[Required]
+	[BoxGroup("Settings")]
+	FadeManyTransition fadeTransitions = null;
 
 
 	[SerializeField]
@@ -27,6 +31,12 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	[Expandable]
 	[BoxGroup("Settings")]
 	GameInstance mainMenuInstance = null;
+
+	[SerializeField]
+	[Required]
+	[Expandable]
+	[BoxGroup("Settings")]
+	GameInstance creditsInstance = null;
 	[SerializeField]
 	[ReadOnly]
 	[Expandable]
@@ -43,6 +53,8 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	[Required]
 	[BoxGroup("Required Components")]
 	SceneLoadingManager loadingManager = null;
+
+
 
 	[SerializeField]
 	[Required]
@@ -91,11 +103,15 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	{
 		if (this.gameStates.RequestState(newInstance.desiredGameState))
 		{
-			PixelCrushers.DialogueSystem.DialogueManager.StopConversation();
-			PixelCrushers.DialogueSystem.ConversationPositionStack.ClearConversationPositionStack();
-			PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
-			loadingManager.InitiateLoadingSequenceFor(newInstance, loadAndWait);
-			currentInstance = newInstance;
+			fadeTransitions.FadeIn(() =>
+			{
+				PixelCrushers.DialogueSystem.DialogueManager.StopConversation();
+				PixelCrushers.DialogueSystem.ConversationPositionStack.ClearConversationPositionStack();
+				PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
+				loadingManager.InitiateLoadingSequenceFor(newInstance, loadAndWait);
+				currentInstance = newInstance;
+			});
+
 		}
 		else
 		{
@@ -115,6 +131,10 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 	public GameInstance GetCurrentGameInstance()
 	{
 		return currentInstance;
+	}
+	public FadeManyTransition GetGameMasterFade()
+	{
+		return fadeTransitions;
 	}
 
 	void Update()
@@ -263,9 +283,12 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 		}
 		else
 		{
-			PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
-			loadingManager.ReloadInstance(targetInstance, true);
-			currentInstance = targetInstance;
+			fadeTransitions.FadeIn(() =>
+			{
+				PostOffice.SendData(null, GameMasterEvent.ON_LOAD_NEW_STANCE_START);
+				loadingManager.ReloadInstance(targetInstance, true);
+				currentInstance = targetInstance;
+			});
 			SaveGame();
 		}
 
@@ -310,6 +333,14 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 		currentInstance = targetInstance;
 		SaveGame();
 	}
+	public void LoadCredits()
+	{
+		this.RequestInstance(creditsInstance);
+	}
 
+	public void LoadMainMenu()
+	{
+		this.RequestInstance(mainMenuInstance);
+	}
 }
 

@@ -7,11 +7,27 @@ public class EmotionControl : MonoBehaviour
 {
 	[SerializeField]
 	string emotionDescriptionName;
+	[SerializeField]
+	string khanConnection;
+	[SerializeField]
+	string albiConnection;
+	[SerializeField]
+	AudioSource heartBeatSource;
+	[SerializeField]
+	AudioSource breathingSource;
+	[SerializeField]
+	AudioClip fastHeart;
+	[SerializeField]
+	AudioClip mediumHeart;
+	[SerializeField]
+	AudioClip slowHeart;
 	private void OnEnable()
 	{
 		Lua.RegisterFunction("EmotionRises", this, SymbolExtensions.GetMethodInfo(() => EmotionRises(string.Empty, 0)));
 		Lua.RegisterFunction("EmotionFalls", this, SymbolExtensions.GetMethodInfo(() => EmotionFalls(string.Empty, 0)));
 		Lua.RegisterFunction("SetEmotion", this, SymbolExtensions.GetMethodInfo(() => SetEmotion(string.Empty, 0)));
+		DialogueManager.AddLuaObserver("Variable['" + khanConnection + "']", LuaWatchFrequency.EveryDialogueEntry, OnConnectionStatusChanged);
+		DialogueManager.AddLuaObserver("Variable['" + albiConnection + "']", LuaWatchFrequency.EveryDialogueEntry, OnConnectionStatusChanged);
 	}
 
 	public void SetEmotion(string emotionVariableName, double value)
@@ -56,7 +72,21 @@ public class EmotionControl : MonoBehaviour
 		var narratorLine = narratorHeader + narratorBody + "[em1][Stress: " + curEmotion + "][/em1]";
 		DialogueLua.SetVariable(emotionVariableName, curEmotion);
 		DialogueLua.SetVariable(emotionDescriptionName, narratorLine);
+
+		var connectedToKhan = DialogueLua.GetVariable(khanConnection).asBool;
+		var connectedToAlbi = DialogueLua.GetVariable(albiConnection).asBool;
+		if (connectedToKhan || connectedToAlbi)
+		{
+			PlaySoundsToEmotion(curEmotion);
+		}
 	}
+
+	private void StopAllSounds()
+	{
+		this.breathingSource.Stop();
+		this.heartBeatSource.Stop();
+	}
+
 	public void EmotionFalls(string emotionVariableName, double amount)
 	{
 		var curEmotion = DialogueLua.GetVariable(emotionVariableName).asInt;
@@ -87,5 +117,47 @@ public class EmotionControl : MonoBehaviour
 		var narratorLine = narratorHeader + narratorBody + "[em1][Stress: " + curEmotion + "][/em1]";
 		DialogueLua.SetVariable(emotionVariableName, curEmotion);
 		DialogueLua.SetVariable(emotionDescriptionName, narratorLine);
+		var connectedToKhan = DialogueLua.GetVariable(khanConnection).asBool;
+		var connectedToAlbi = DialogueLua.GetVariable(albiConnection).asBool;
+		if (connectedToKhan || connectedToAlbi)
+		{
+			PlaySoundsToEmotion(curEmotion);
+		}
+	}
+	public void PlaySoundsToEmotion(int emotionValue)
+	{
+		if (emotionValue >= 3)
+		{
+			this.heartBeatSource.clip = this.fastHeart;
+			this.heartBeatSource.Play();
+			this.breathingSource.Play();
+		}
+		else if (emotionValue >= 1)
+		{
+			this.heartBeatSource.clip = this.mediumHeart;
+			this.heartBeatSource.Play();
+			this.breathingSource.Stop();
+		}
+		else
+		{
+			this.heartBeatSource.clip = this.slowHeart;
+			this.heartBeatSource.Play();
+			this.breathingSource.Stop();
+		}
+	}
+	public void OnConnectionStatusChanged(LuaWatchItem luaWatchItem, Lua.Result newValue)
+	{
+		if (newValue.asBool)
+		{
+			heartBeatSource.gameObject.SetActive(true);
+			breathingSource.gameObject.SetActive(true);
+		}
+		else
+		{
+			heartBeatSource.gameObject.SetActive(true);
+			breathingSource.gameObject.SetActive(true);
+			heartBeatSource.Stop();
+			breathingSource.Stop();
+		}
 	}
 }

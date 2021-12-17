@@ -97,11 +97,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  itemName: The Kasi's Spike
   itemSprite: {fileID: -5652914901108796121, guid: 82db07f0742269343aa1d5ae9aa9f37f, type: 3}
   comment: '"Plunge into the eye and absorb the knowledge from within.""'
   hasOverlayText: 0
   desiredScale: {x: 1, y: 1}
   activateVariableOnOpen: ItemInteraction.JunraSpike
+  interactSound: {fileID: 377081545}
 --- !u!61 &4283440685669020802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -128,6 +130,133 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 1.05}
   m_EdgeRadius: 0
+--- !u!1 &377081543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 377081544}
+  - component: {fileID: 377081545}
+  m_Layer: 0
+  m_Name: ItemInteractSounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &377081544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377081543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 492277328834095750}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &377081545
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377081543}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 4070228608676383800, guid: 726070085ec486d49a624a1ddba5945c, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6e8772b49f34d402a90016ed445d8a2f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &379498015
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,12 +462,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  itemName: The Kasi's Embrace
   itemSprite: {fileID: -1089949410881392349, guid: 6d089cd77b89a984a8d795134e0a6a6b, type: 3}
   comment: Through the Junras sacrifices, our every thought and dream are linked.
-    We are connected through emotions, but we can all see what they saw.
+    We are not only connected through emotions, but we can all see what they saw,
+    learn what they learnt.
   hasOverlayText: 0
   desiredScale: {x: 1, y: 1}
   activateVariableOnOpen: 
+  interactSound: {fileID: 377081545}
 --- !u!1 &706768532
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  itemName: The Scared Oath
   itemSprite: {fileID: -2519047938629852102, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
   comment: '"Under The Kasi''s bosom, I was born. Under her Hive, I grew. And after
     I am done, may I unite with her and find peace. Let The Kasi be my witness and
@@ -499,6 +632,7 @@ MonoBehaviour:
   hasOverlayText: 0
   desiredScale: {x: 1.5, y: 1.5}
   activateVariableOnOpen: 
+  interactSound: {fileID: 377081545}
 --- !u!1 &820993901
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,12 +838,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  itemName: The Yosha's Ritual
   itemSprite: {fileID: -4866055872450650381, guid: 6d089cd77b89a984a8d795134e0a6a6b, type: 3}
   comment: Through the oath, I grant my blood to the Kasi. Like the great Yoshas
     before me, I shall become one with The Kasi.
   hasOverlayText: 0
   desiredScale: {x: 1, y: 1}
   activateVariableOnOpen: 
+  interactSound: {fileID: 0}
 --- !u!1 &1260538637
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,12 +1133,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  itemName: Life with Albi
   itemSprite: {fileID: -285439945194768167, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
   comment: '"So many cycles ago that Albi and I became friends. We both wanted to
     become The Great Yosha and change the Hive for the better. A childish dream."'
   hasOverlayText: 0
   desiredScale: {x: 1.5, y: 1.5}
   activateVariableOnOpen: 
+  interactSound: {fileID: 377081545}
 --- !u!1 &1683629506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,6 +1320,7 @@ Transform:
   - {fileID: 581541510}
   - {fileID: 768890725}
   - {fileID: 1626232515}
+  - {fileID: 377081544}
   m_Father: {fileID: 8541301085238600504}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1282,11 +1421,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  itemName: 
   itemSprite: {fileID: 7063731688958615692, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
   comment: '"A letter from Junra Khan."'
   hasOverlayText: 1
   desiredScale: {x: 1, y: 1}
   activateVariableOnOpen: ItemInteraction.OpenLetter
+  interactSound: {fileID: 377081545}
 --- !u!61 &1957187856
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1410,11 +1551,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  itemName: The Kasi's Realm
   itemSprite: {fileID: 550695938511496091, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
   comment: '"The Kasi''s kingdom, we must protect it."'
   hasOverlayText: 0
   desiredScale: {x: 1.4, y: 1.4}
   activateVariableOnOpen: 
+  interactSound: {fileID: 377081545}
 --- !u!61 &653962738
 BoxCollider2D:
   m_ObjectHideFlags: 0

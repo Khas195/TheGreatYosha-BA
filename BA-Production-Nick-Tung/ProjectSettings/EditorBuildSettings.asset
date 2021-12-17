@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DevScenes/System_LogScene_Sce.unity
     guid: e489254b765f6cb479c2b1f745145314
   - enabled: 1
-    path: Assets/Scenes/GameScenes/Game_Player_Sce.unity
+    path: Assets/Scenes/GameScenes/Oudated/Game_Player_Sce.unity
     guid: 1356dea27b1f3754f8723967fa103f48
   - enabled: 1
     path: Assets/Scenes/UIScenes/UI_LoadScene_Sce.unity
@@ -27,21 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/UIScenes/UI_InGameOverlay_Sce.unity
     guid: 0b5c909be9175ed429aa248a3b73c40d
   - enabled: 1
-    path: Assets/Scenes/GameScenes/Game_KhanInOffice_Sce.unity
-    guid: 74fc98ec8413ab9468d5667674b5923e
+    path: Assets/Scenes/UIScenes/UI_Credits_Sce.unity
+    guid: 3fe1f28b5565f364eaeaf30aa8f86a0a
   - enabled: 1
     path: Assets/Scenes/GameScenes/Game_KhanAndAlbiInOffice_Sce.unity
     guid: 077edd4f2d6c5c749a272f9a25c08d96
-  - enabled: 1
-    path: Assets/Scenes/GameScenes/Game_KhanBeforeOffice_Sce.unity
-    guid: b7925b2ab90afe1429645b2c219136bc
-  - enabled: 1
-    path: Assets/Scenes/GameScenes/Game_AlbiInOffice_Sce.unity
-    guid: 15c30a6b7befef14a9a744f521983761
-  - enabled: 1
-    path: Assets/Scenes/GameScenes/Game_AlbiInOffice_Take2_Sce.unity
-    guid: 8c9ac0e726cc7ac4abd3f2bb10721965
-  - enabled: 1
-    path: Assets/Scenes/UIScenes/UI_Credits_Sce.unity
-    guid: 3fe1f28b5565f364eaeaf30aa8f86a0a
   m_configObjects: {}

@@ -18,6 +18,8 @@ public class InteractableItem : IInteractable
 	Vector2 desiredScale = Vector2.one;
 	[SerializeField]
 	string activateVariableOnOpen = "";
+	[SerializeField]
+	AudioSource interactSound;
 
 	public override void Defocus()
 	{
@@ -57,6 +59,7 @@ public class InteractableItem : IInteractable
 		{
 			DialogueLua.SetVariable(activateVariableOnOpen, true);
 		}
+		interactSound.Play();
 		return base.Interact();
 	}
 

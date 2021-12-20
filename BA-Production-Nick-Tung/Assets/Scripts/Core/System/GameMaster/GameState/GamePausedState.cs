@@ -10,11 +10,15 @@ public class GamePausedState : GameState
 
 	public override void OnStateEnter()
 	{
-		master.FreezeGame();
 		var inGameUIControl = InGameUIControl.GetInstance();
 		if (inGameUIControl)
 		{
 			inGameUIControl.RequestState(InGameUIState.InGameUIEnum.Menu);
+			inGameUIControl.MoveToOverlay();
+			var data = DataPool.GetInstance().RequestInstance();
+			data.SetValue("NewUiState", InGameUIState.InGameUIEnum.Menu);
+			PostOffice.SendData(data, "UIStateChanged");
+			DataPool.GetInstance().ReturnInstance(data);
 		}
 	}
 

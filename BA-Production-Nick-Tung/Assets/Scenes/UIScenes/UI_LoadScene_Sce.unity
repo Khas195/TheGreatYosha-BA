@@ -419,6 +419,8 @@ MonoBehaviour:
   fadeTime: 3
   uis:
   - {fileID: 128460120}
+  fadeInAlpha: 1
+  fadeOutAlpha: 0
   currentTime: 0
   targetAlpha: 0
   startAlpha: 1
@@ -1241,6 +1243,8 @@ MonoBehaviour:
   uis:
   - {fileID: 1731976550}
   - {fileID: 85599933}
+  fadeInAlpha: 1
+  fadeOutAlpha: 0
   currentTime: 3.4498363
   targetAlpha: 0
   startAlpha: 1

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
@@ -21,6 +22,21 @@ public class EmotionControl : MonoBehaviour
 	AudioClip mediumHeart;
 	[SerializeField]
 	AudioClip slowHeart;
+	[SerializeField]
+	AudioSource gameMusic;
+	[SerializeField]
+	float curMusicTime = 0;
+	[SerializeField]
+	float musicTransTime = 1;
+	[SerializeField]
+	float startVolumn = 0;
+	[SerializeField]
+	float targetVolumn = 0;
+
+	[SerializeField]
+	bool isTransiting = false;
+	[SerializeField]
+	Action musicCallback = null;
 	private void OnEnable()
 	{
 		Lua.RegisterFunction("EmotionRises", this, SymbolExtensions.GetMethodInfo(() => EmotionRises(string.Empty, 0)));
@@ -28,6 +44,8 @@ public class EmotionControl : MonoBehaviour
 		Lua.RegisterFunction("SetEmotion", this, SymbolExtensions.GetMethodInfo(() => SetEmotion(string.Empty, 0)));
 		DialogueManager.AddLuaObserver("Variable['" + khanConnection + "']", LuaWatchFrequency.EveryDialogueEntry, OnConnectionStatusChanged);
 		DialogueManager.AddLuaObserver("Variable['" + albiConnection + "']", LuaWatchFrequency.EveryDialogueEntry, OnConnectionStatusChanged);
+		Lua.RegisterFunction("SwitchMusic", this, SymbolExtensions.GetMethodInfo(() => SwitchMusic(string.Empty)));
+
 	}
 
 	public void SetEmotion(string emotionVariableName, double value)
@@ -147,17 +165,60 @@ public class EmotionControl : MonoBehaviour
 	}
 	public void OnConnectionStatusChanged(LuaWatchItem luaWatchItem, Lua.Result newValue)
 	{
-		if (newValue.asBool)
+		if (newValue.asBool == false)
 		{
-			heartBeatSource.gameObject.SetActive(true);
-			breathingSource.gameObject.SetActive(true);
-		}
-		else
-		{
-			heartBeatSource.gameObject.SetActive(true);
-			breathingSource.gameObject.SetActive(true);
 			heartBeatSource.Stop();
 			breathingSource.Stop();
 		}
+	}
+	private void Update()
+	{
+		if ((GameState.GameStateEnum)GameMaster.GetInstance().GetCurrentState().GetEnum() == GameState.GameStateEnum.MainMenu)
+		{
+			StopAllSounds();
+			gameMusic.Stop();
+		}
+		if (isTransiting)
+		{
+			var curVolumn = Mathf.Lerp(startVolumn, targetVolumn, curMusicTime / musicTransTime);
+			gameMusic.volume = curVolumn;
+			if (curMusicTime >= musicTransTime)
+			{
+				curVolumn = targetVolumn;
+				isTransiting = false;
+				if (musicCallback != null)
+				{
+					musicCallback();
+					musicCallback = null;
+				}
+			}
+			curMusicTime += Time.deltaTime;
+		}
+	}
+	public void SwitchMusic(string musicName)
+	{
+		MusicOut(() =>
+		{
+			var clip = Resources.Load<AudioClip>("Audio/Music/" + musicName);
+			gameMusic.clip = clip;
+			gameMusic.Play();
+			MusicIn();
+		});
+	}
+	public void MusicOut(Action callback = null)
+	{
+		targetVolumn = 0;
+		startVolumn = 1;
+		curMusicTime = 0;
+		isTransiting = true;
+		this.musicCallback = callback;
+	}
+	public void MusicIn(Action callback = null)
+	{
+		targetVolumn = 1;
+		startVolumn = 0;
+		curMusicTime = 0;
+		isTransiting = true;
+		this.musicCallback = callback;
 	}
 }

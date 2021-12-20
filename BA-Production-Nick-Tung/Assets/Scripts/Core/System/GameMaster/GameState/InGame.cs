@@ -13,7 +13,7 @@ public class InGame : GameState
 		var inGameUIControl = InGameUIControl.GetInstance(forceCreate: false);
 		if (inGameUIControl)
 		{
-			inGameUIControl.RequestState(InGameUIState.InGameUIEnum.InGameOverlay);
+			inGameUIControl.RequestState(InGameUIState.InGameUIEnum.InConversation);
 		}
 	}
 

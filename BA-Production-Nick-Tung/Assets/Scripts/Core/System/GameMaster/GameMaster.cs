@@ -149,19 +149,6 @@ public class GameMaster : SingletonMonobehavior<GameMaster>, IObserver
 				ProcessConsoleTrigger();
 			}
 		}
-		// test save
-		if (Input.GetKeyDown(KeyCode.F4))
-		{
-			SaveGame();
-		}
-		if (Input.GetKeyDown(KeyCode.F5))
-		{
-			LoadSave();
-		}
-		if (Input.GetKeyDown(KeyCode.F6))
-		{
-			this.RestartFromLastSave();
-		}
 	}
 
 	private void ForceAspectRatio(int width, int height)

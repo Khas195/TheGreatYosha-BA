@@ -128,4 +128,9 @@ public class InGameUIControl : SingletonMonobehavior<InGameUIControl>
 	{
 		this.RequestState(targetState);
 	}
+	public void Continue()
+	{
+		GameMaster.GetInstance().RequestGameState(GameState.GameStateEnum.InGame);
+	}
+
 }

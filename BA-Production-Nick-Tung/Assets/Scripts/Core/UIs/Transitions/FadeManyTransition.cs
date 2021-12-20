@@ -12,6 +12,10 @@ public class FadeManyTransition : MonoBehaviour
 	float fadeTime = 3.0f;
 	[SerializeField]
 	List<Graphic> uis = new List<Graphic>();
+	[SerializeField]
+	float fadeInAlpha = 1;
+	[SerializeField]
+	float fadeOutAlpha = 0;
 
 	[SerializeField]
 	[ReadOnly]
@@ -127,9 +131,9 @@ public class FadeManyTransition : MonoBehaviour
 		{
 			FindAllCurrentUis();
 		}
-		startAlpha = 0.0f;
+		startAlpha = fadeOutAlpha;
 		SetAllUisAlpha(startAlpha);
-		targetAlpha = 1.0f;
+		targetAlpha = fadeInAlpha;
 		currentTime = 0;
 		isTransitioning = true;
 		this.callback = callback;
@@ -142,9 +146,9 @@ public class FadeManyTransition : MonoBehaviour
 		{
 			FindAllCurrentUis();
 		}
-		startAlpha = 1.0f;
+		startAlpha = fadeInAlpha;
 		SetAllUisAlpha(startAlpha);
-		targetAlpha = 0.0f;
+		targetAlpha = fadeOutAlpha;
 		currentTime = 0;
 		isTransitioning = true;
 		this.callback = callback;

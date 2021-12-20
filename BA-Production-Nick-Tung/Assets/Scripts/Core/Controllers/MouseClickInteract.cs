@@ -15,6 +15,10 @@ public class MouseClickInteract : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		if ((GameState.GameStateEnum)GameMaster.GetInstance().GetCurrentState().GetEnum() == GameState.GameStateEnum.GamePaused)
+		{
+			return;
+		}
 		var mousPos = Input.mousePosition;
 		mousPos = playerCamera.ScreenToWorldPoint(mousPos);
 		DetectMouseOverInteratable(mousPos);

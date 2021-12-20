@@ -2320,10 +2320,10 @@ MonoBehaviour:
     productionSprite: {fileID: 21300000, guid: a6893454729513349a7344db7d2792dc, type: 3}
   - title: Concept Art -  Chacter #1.5
     description: And the one where he stopped eating for a year.
-    productionSprite: {fileID: 21300000, guid: 734569bf20a322141a5c19bcac4a8239, type: 3}
+    productionSprite: {fileID: 21300000, guid: 04f2829f2dbd64f4babc923c9b31ca78, type: 3}
   - title: Coding
-    description: The project was kickstarted past the setup phase since Tung had
-      already established the game system in his previous project.
+    description: 'The project was kickstarted past the setup phase since Tung had
+      already established the game systems in his previous projects. '
     productionSprite: {fileID: 21300000, guid: 0ac2eb461ca0a4e48916550d6d27f516, type: 3}
   - title: Emotion Design - Original Idea
     description: The original stats design of the characters was based on the different
@@ -2341,10 +2341,17 @@ MonoBehaviour:
     description: We had a long discussion on our conversation system's narrative
       capability and visuals.
     productionSprite: {fileID: 21300000, guid: 6cca4397da548124c89ca352727ec1c9, type: 3}
+  - title: Multi Scenes Setup
+    description: 'Fun fact: We use a multi-scenes setup.'
+    productionSprite: {fileID: 21300000, guid: 80f6bd93478ac1446ac86d104d28502e, type: 3}
   - title: Concept Art - Character #2
     description: It was a bit too boring to do Human all the time, so we tried to
       do something more alien.
     productionSprite: {fileID: 21300000, guid: 91d67fd76f2275b4aab3d27cf3e087de, type: 3}
+  - title: Custom Editor Scene Control
+    description: Tung wrote a custom editor window to help with multi-scenes, and
+      he really wants to brag about it.
+    productionSprite: {fileID: 21300000, guid: 97c23679d9e326a4cb5613ff9b043c92, type: 3}
   - title: Walking Animation
     description: Then Nic proceeded to test out a walking cycle for the character.
     productionSprite: {fileID: 21300000, guid: abccbce3c69a03745ab0ee1cc1013d52, type: 3}
@@ -2377,8 +2384,8 @@ MonoBehaviour:
     description: Nic's 2nd attempt at creating an interesting and vibrant alien world.
     productionSprite: {fileID: 21300000, guid: 123a796efcd2cf941b6017f8c7d8f665, type: 3}
   - title: World Building - History
-    description: Somewhere along the development period, we sat down and envisioned
-      our world history.
+    description: We sat down and talked about our world history somewhere along the
+      development period.
     productionSprite: {fileID: 21300000, guid: 8dd74cb1a6c10ae489314db731769a24, type: 3}
   - title: Cursed Image
     description: Nic's next environment concept was not a big hit. Tung actually
@@ -2416,6 +2423,12 @@ MonoBehaviour:
   - title: Even More Worldbuilding!
     description: More and more worldbuilding.
     productionSprite: {fileID: 21300000, guid: 18f9699dd5c39684b8664f2bf518c00f, type: 3}
+  - title: Snapshot Of Articy
+    description: This is how the project look in Articy.
+    productionSprite: {fileID: 21300000, guid: f4c3a62f8d37e0649bd90ea0c6534c46, type: 3}
+  - title: Snapshot of Unity
+    description: And this is how it looks after being imported into Unity
+    productionSprite: {fileID: 21300000, guid: 0732756043a6c344a9d868c8401fa6bc, type: 3}
   - title: Design Documents Attempt#2
     description: Tung's 2nd attempts to write design documents, but at last, he couldn't
       do it consistently.
@@ -2431,6 +2444,9 @@ MonoBehaviour:
   - title: Prototype Ending
     description: 'Fun facts: in the ending of the prototype, everyone dies.'
     productionSprite: {fileID: 21300000, guid: ccd9f8f45a93f2a4eb77e31d04df9745, type: 3}
+  - title: Articy Varribles
+    description: Most variables in the game are in articy.
+    productionSprite: {fileID: 21300000, guid: 351099bdb4c3df646b71fad55468645d, type: 3}
   - title: One Room Idea
     description: Due to the scale problem, we decided the game should be a contained
       experience inside a single room.
@@ -2438,6 +2454,10 @@ MonoBehaviour:
   - title: Time Loop Begin
     description: Tung pitched the time loop idea with multiple story possibilities.
     productionSprite: {fileID: 21300000, guid: 185ec329c2e385f4d8f231bb093c212a, type: 3}
+  - title: Breathing Sound
+    description: When your character is stressed, you can hear breathing sounds.
+      That is the sound of a cow breathing.
+    productionSprite: {fileID: 21300000, guid: e923fdcb32102c641b2d57f2dc2ff04f, type: 3}
   - title: Loop Design #1
     description: Tung's established the base loop with a maximum of 4 loops for the
       player to finish the game.
@@ -2459,9 +2479,21 @@ MonoBehaviour:
     description: We asked everyone from the BA patch to playtest with us and got
       a lot of cool feedbacks.
     productionSprite: {fileID: 21300000, guid: a8460b7c9bedf84478adfa0d87482be8, type: 3}
+  - title: Original Emotion Setup
+    description: Initially, the emotion setup was kind of clanky and bad. Tung had
+      to copy and paste this around every time the stress level changed.
+    productionSprite: {fileID: 21300000, guid: 721c386e405e2e64cb8bb4acfd1988b0, type: 3}
+  - title: Improved Emotion Setup
+    description: When Tung decided that copy and pasting that around was stupid.
+      He decided to improve it with some coding, making it less stupid.
+    productionSprite: {fileID: 21300000, guid: 74d335f12a5e9a74ba1b33956ad5c88c, type: 3}
   - title: Design of Credits and Loading Scene
     description: Nic's initial design of the credits and Loading Scene
     productionSprite: {fileID: 21300000, guid: 54cce00ca0d7e724bbf3a708a4a3ac04, type: 3}
+  - title: Locked Option
+    description: It took Tung 2 WEEKS to figure out how to do the lock option during
+      dev time.
+    productionSprite: {fileID: 21300000, guid: d20ba05512ce24e4f9ea7121fb312264, type: 3}
   - title: ' Item System'
     description: We decided to add an item system to enrich and enable possible dialogue
       pathing.
@@ -2469,6 +2501,10 @@ MonoBehaviour:
   - title: Production Timeline
     description: Our production timeline
     productionSprite: {fileID: 21300000, guid: a09bb1fb07cb72e4c99bc213a5f5ef70, type: 3}
+  - title: 54 Screenshots
+    description: We took 54 screenshots to gloat about our work, and you made it
+      till the end. Thanks a lot!.
+    productionSprite: {fileID: 21300000, guid: b849601cc6b6ff84ba3222536c352f37, type: 3}
   titleUI: {fileID: 1475300741}
   descriptionUI: {fileID: 1666519941}
   currentContent: {fileID: 1614046433}

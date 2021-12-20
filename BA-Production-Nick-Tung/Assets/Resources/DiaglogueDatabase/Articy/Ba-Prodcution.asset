@@ -982,7 +982,7 @@ MonoBehaviour:
     - title: Initial Value
       value: '#57100F'
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
@@ -996,7 +996,7 @@ MonoBehaviour:
     - title: Initial Value
       value: '#2E2323'
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
@@ -74917,7 +74917,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasZoom: 0.10000044
   - id: 2
     fields:
     - title: Title

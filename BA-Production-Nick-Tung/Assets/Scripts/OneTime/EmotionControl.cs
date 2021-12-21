@@ -45,7 +45,12 @@ public class EmotionControl : MonoBehaviour
 		DialogueManager.AddLuaObserver("Variable['" + khanConnection + "']", LuaWatchFrequency.EveryDialogueEntry, OnConnectionStatusChanged);
 		DialogueManager.AddLuaObserver("Variable['" + albiConnection + "']", LuaWatchFrequency.EveryDialogueEntry, OnConnectionStatusChanged);
 		Lua.RegisterFunction("SwitchMusic", this, SymbolExtensions.GetMethodInfo(() => SwitchMusic(string.Empty)));
-
+		Lua.RegisterFunction("ChangePlayerName", this, SymbolExtensions.GetMethodInfo(() => ChangePlayerName(string.Empty)));
+	}
+	public void ChangePlayerName(string newName)
+	{
+		DialogueLua.SetActorField("Player", "Use Display Name", true);
+		DialogueLua.SetActorField("Player", "Display Name", newName);
 	}
 
 	public void SetEmotion(string emotionVariableName, double value)
@@ -65,6 +70,7 @@ public class EmotionControl : MonoBehaviour
 	{
 		var curEmotion = DialogueLua.GetVariable(emotionVariableName).asInt;
 		curEmotion += (int)amount;
+		curEmotion = Mathf.Clamp(curEmotion, 0, 4);
 		var narratorHeader = "[em1]Your heart raced[/em1]";
 		var narratorBody = "";
 		if (curEmotion >= 4)
@@ -109,7 +115,7 @@ public class EmotionControl : MonoBehaviour
 	{
 		var curEmotion = DialogueLua.GetVariable(emotionVariableName).asInt;
 		curEmotion -= (int)amount;
-		if (curEmotion < 0) curEmotion = 0;
+		curEmotion = Mathf.Clamp(curEmotion, 0, 4);
 		var narratorHeader = "[em1]Your heart beats slowed down[/em1]";
 		var narratorBody = "";
 		if (curEmotion >= 4)

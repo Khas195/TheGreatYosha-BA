@@ -7,8 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class ConversationEndSwitch : MonoBehaviour
 {
-	[SerializeField]
-	GameObject continueButton = null;
 	public void OnConversationStart(Transform actor)
 	{
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.InConversation);

@@ -336,6 +336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 125852, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -379,6 +383,10 @@ PrefabInstance:
     - target: {fileID: 425660, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: displaySettings.subtitleSettings.showNPCSubtitlesDuringLine
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1460907030, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: musicTransTime
@@ -496,9 +504,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8536828214558005337, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: addSpeakerName
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536828214558005337, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
+      propertyPath: useAnimatedPortraits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8536828214703684607, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5097306923952730176, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordsSetting:
   - word: Junra
-    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    color: {r: 0, g: 0.003921569, b: 0.12156863, a: 1}
     bold: 0
     italic: 0
   - word: Albi
@@ -58,6 +58,18 @@ MonoBehaviour:
     bold: 0
     italic: 0
   - word: Yosha
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
+    italic: 0
+  - word: ALBI
+    color: {r: 0.90588236, g: 0.7647059, b: 0.28627452, a: 1}
+    bold: 0
+    italic: 0
+  - word: Serban
+    color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
+    bold: 0
+    italic: 0
+  - word: Serby
     color: {r: 0.32941177, g: 0.019607844, b: 0.015686275, a: 1}
     bold: 0
     italic: 0

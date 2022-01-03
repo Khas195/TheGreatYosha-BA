@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 45b657657dfe915448d119fd6e75697b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3695933864964053794
+    second: World_HoverMap_Sprite
+  - first:
+      213: 3724445979014153196
+    second: World_HoverSpike_Sprite
+  - first:
+      213: -8525260843767842562
+    second: World_HoverScrollsbottomRight_Sprite
+  - first:
+      213: -4680924682251846160
+    second: World_HoverScrollTopLeft_Sprite
+  - first:
+      213: 8081154045603605276
+    second: World_HoverScrollTopRight_Sprite
+  - first:
+      213: 6197783749704306447
+    second: World_HoverLetter_Sprite
+  - first:
+      213: 169834055360418396
+    second: World_HoverPicture1_Sprite
+  - first:
+      213: -5300076600198623897
+    second: World_HoverPicture2_Sprite
+  - first:
+      213: 4768087789170461065
+    second: World_MCIdlePose_Sprite
+  - first:
+      213: 1765790379660592670
+    second: World_AlbiIdlePose_Sprite
+  - first:
+      213: -2566081081438399162
+    second: World_KhanIdlePose_Sprite
+  - first:
+      213: -3732261459860001872
+    second: World_KhanConnectingPose_Sprite
+  - first:
+      213: -3181388563061138819
+    second: World_AlbiConnectingPose_Sprite
+  - first:
+      213: -1955463650477118796
+    second: World_MCconenctingPose_Sprite
+  - first:
+      213: 6026839927149360271
+    second: World_KhantalkingPose_Sprite
+  - first:
+      213: 3668247951905224872
+    second: World_AlbitalkingPose_Sprite
+  - first:
+      213: 4962809806224265553
+    second: World_MCtalkingPose_Sprite
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: World_HoverMap_Sprite
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 891
+        width: 92
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd48ea4489a4330800000000000000
+      internalID: 3695933864964053794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HoverSpike_Sprite
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 906
+        width: 82
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3454c82e3efa330800000000000000
+      internalID: 3724445979014153196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HoverScrollsbottomRight_Sprite
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 920
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8bbad6e6030b980800000000000000
+      internalID: -8525260843767842562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HoverScrollTopLeft_Sprite
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 924
+        width: 112
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd35065dc30a0fb0800000000000000
+      internalID: -4680924682251846160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HoverScrollTopRight_Sprite
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 910
+        width: 129
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1be967e9c6062070800000000000000
+      internalID: 8081154045603605276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HoverLetter_Sprite
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 931
+        width: 92
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f40dbab73f20650800000000000000
+      internalID: 6197783749704306447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HoverPicture1_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 923
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52958c6c2f5b5200800000000000000
+      internalID: 169834055360418396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HoverPicture2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 930
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d0dc2c9685276b0800000000000000
+      internalID: -5300076600198623897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCIdlePose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 613
+        width: 135
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9890263f496ab2240800000000000000
+      internalID: 4768087789170461065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiIdlePose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 521
+        width: 164
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16c877aef8518810800000000000000
+      internalID: 1765790379660592670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanIdlePose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 553
+        width: 159
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64593042ad2736cd0800000000000000
+      internalID: -2566081081438399162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanConnectingPose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 550
+        width: 190
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbe9240af7543cc0800000000000000
+      internalID: -3732261459860001872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiConnectingPose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 560
+        width: 138
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a104625ff69d3d0800000000000000
+      internalID: -3181388563061138819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCconenctingPose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 572
+        width: 172
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba6f1e9b2cccd4e0800000000000000
+      internalID: -1955463650477118796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhantalkingPose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 519
+        width: 156
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84f0ef6bf2a3a350800000000000000
+      internalID: 6026839927149360271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbitalkingPose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 555
+        width: 131
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87d59b31c38e230800000000000000
+      internalID: 3668247951905224872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCtalkingPose_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 577
+        width: 171
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15192d389317fd440800000000000000
+      internalID: 4962809806224265553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

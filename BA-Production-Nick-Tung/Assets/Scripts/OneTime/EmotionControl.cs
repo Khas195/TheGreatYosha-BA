@@ -70,7 +70,6 @@ public class EmotionControl : MonoBehaviour
 	{
 		var curEmotion = DialogueLua.GetVariable(emotionVariableName).asInt;
 		curEmotion += (int)amount;
-		curEmotion = Mathf.Clamp(curEmotion, 0, 4);
 		var narratorHeader = "[em1]Your heart raced[/em1]";
 		var narratorBody = "";
 		if (curEmotion >= 4)
@@ -115,7 +114,6 @@ public class EmotionControl : MonoBehaviour
 	{
 		var curEmotion = DialogueLua.GetVariable(emotionVariableName).asInt;
 		curEmotion -= (int)amount;
-		curEmotion = Mathf.Clamp(curEmotion, 0, 4);
 		var narratorHeader = "[em1]Your heart beats slowed down[/em1]";
 		var narratorBody = "";
 		if (curEmotion >= 4)

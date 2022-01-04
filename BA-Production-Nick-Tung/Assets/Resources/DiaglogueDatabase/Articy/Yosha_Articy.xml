@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2021-12-21T13:56:22Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2021-12-21T16:08:27Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -19404,15 +19404,6 @@
       <Target IdRef="0x0100000000010C37" PinRef="0x0100000000010C38"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
-    <Connection Id="0x0100000000010E86">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_82479B4C</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997190</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000C4FF" PinRef="0x010000000000C501"/>
-      <Target IdRef="0x0100000000010E82" PinRef="0x0100000000010E83"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
     <Connection Id="0x0100000000010E87">
       <Color>#C8E2E7</Color>
       <TechnicalName>Con_DC773B35</TechnicalName>
@@ -19429,24 +19420,6 @@
       <Label Count="0"/>
       <Source IdRef="0x010000000000C55D" PinRef="0x010000000000C55F"/>
       <Target IdRef="0x0100000000010E9F" PinRef="0x0100000000010EA0"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000010EA5">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_853F8769</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997221</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x010000000000C50D" PinRef="0x010000000000C50F"/>
-      <Target IdRef="0x0100000000010E88" PinRef="0x0100000000010E89"/>
-      <ShowLabel>0</ShowLabel>
-    </Connection>
-    <Connection Id="0x0100000000010EA6">
-      <Color>#C8E2E7</Color>
-      <TechnicalName>Con_5953CF79</TechnicalName>
-      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997222</Url>
-      <Label Count="0"/>
-      <Source IdRef="0x0100000000010E88" PinRef="0x0100000000010E8A"/>
-      <Target IdRef="0x010000000000C51B" PinRef="0x010000000000C51C"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Connection Id="0x0100000000010EA7">
@@ -19897,6 +19870,33 @@
       <Label Count="0"/>
       <Source IdRef="0x0100000000010F98" PinRef="0x0100000000010F9A"/>
       <Target IdRef="0x010000000000D46E" PinRef="0x010000000000D46F"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010FA7">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_16033D0A</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997479</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000C4FF" PinRef="0x010000000000C501"/>
+      <Target IdRef="0x0100000000010E82" PinRef="0x0100000000010E83"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010FA9">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_96BB6384</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997481</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x010000000000C50D" PinRef="0x010000000000C50F"/>
+      <Target IdRef="0x0100000000010E88" PinRef="0x0100000000010E89"/>
+      <ShowLabel>0</ShowLabel>
+    </Connection>
+    <Connection Id="0x0100000000010FAF">
+      <Color>#C8E2E7</Color>
+      <TechnicalName>Con_FC660174</TechnicalName>
+      <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594037997487</Url>
+      <Label Count="0"/>
+      <Source IdRef="0x0100000000010E88" PinRef="0x0100000000010E8A"/>
+      <Target IdRef="0x010000000000C51B" PinRef="0x010000000000C51C"/>
       <ShowLabel>0</ShowLabel>
     </Connection>
     <Dialogue Id="0x010000000000B1FF">
@@ -20544,7 +20544,7 @@
     <DialogueFragment Id="0x010000000000C522" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
       <DisplayName><![CDATA[Narrator: "Before you knew it, panic coursed t..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you knew it, panic coursed through your body. Your breathing became harder as you gasped for air.[em1][Stress: 3][/em4]</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you knew it, panic coursed through your body. Your breathing became harder as you gasped for air.[em1][Stress: 4][/em1]</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_948AAA62</TechnicalName>
@@ -37632,9 +37632,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010823" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Narrator: "Khan turned around and threw the kn..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Khan turned and threw the knife tow..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Khan turned around and threw the knife toward you.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Khan turned and threw the knife toward you.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#DBEEF3</Color>
       <TechnicalName>DFr_DC640CC2</TechnicalName>
@@ -38486,9 +38486,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B52" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Narrator: "In the heat of the moment, you coul..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "In the heat of the moment, you bare..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">In the heat of the moment, you could barely feel the pain from the wound nor recognized that it was there.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">In the heat of the moment, you barely felt the pain from the wound.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#DBEEF3</Color>
       <TechnicalName>DFr_226274B9</TechnicalName>
@@ -38520,9 +38520,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010B59" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Narrator: "Before you could readjust, Khan cha..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "Khan charged at you and pushed you..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Before you could readjust, Khan charged at you and pushed you backward, your head almost hitting the knife that impaled itself into the wall.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">Khan charged at you and pushed you backward, your head almost hitting the knife that impaled itself into the wall earlier.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#DBEEF3</Color>
       <TechnicalName>DFr_A21BDC4B</TechnicalName>
@@ -44189,8 +44189,8 @@ WorldVariables.Story_AlbiRevealed = true]]></Expression>
           <Expression/>
         </Pin>
       </Pins>
-      <Position X="200" Y="2700"/>
-      <Size Width="225" Height="100"/>
+      <Position X="125" Y="2750"/>
+      <Size Width="275" Height="100"/>
       <ZIndex>311</ZIndex>
     </Instruction>
     <Instruction Id="0x0100000000010E8E">
@@ -48950,15 +48950,12 @@ ChangeCharacterPosition("Player", "NearBookShelf", true);]]></Expression>
             <Node IdRef="0x0100000000010E73" Type="Connection"/>
             <Node IdRef="0x0100000000010E74" Type="Connection"/>
             <Node IdRef="0x0100000000010E82" Type="Instruction"/>
-            <Node IdRef="0x0100000000010E86" Type="Connection"/>
             <Node IdRef="0x0100000000010E87" Type="Connection"/>
             <Node IdRef="0x0100000000010E88" Type="Instruction"/>
             <Node IdRef="0x0100000000010E8E" Type="Instruction"/>
             <Node IdRef="0x0100000000010E94" Type="Instruction"/>
             <Node IdRef="0x0100000000010E9F" Type="Instruction"/>
             <Node IdRef="0x0100000000010EA3" Type="Connection"/>
-            <Node IdRef="0x0100000000010EA5" Type="Connection"/>
-            <Node IdRef="0x0100000000010EA6" Type="Connection"/>
             <Node IdRef="0x0100000000010EA7" Type="Connection"/>
             <Node IdRef="0x0100000000010EA8" Type="Connection"/>
             <Node IdRef="0x0100000000010EAB" Type="Connection"/>
@@ -49040,6 +49037,9 @@ ChangeCharacterPosition("Player", "NearBookShelf", true);]]></Expression>
             <Node IdRef="0x0100000000010FA3" Type="Connection"/>
             <Node IdRef="0x0100000000010FA4" Type="Connection"/>
             <Node IdRef="0x0100000000010FA5" Type="Connection"/>
+            <Node IdRef="0x0100000000010FA7" Type="Connection"/>
+            <Node IdRef="0x0100000000010FA9" Type="Connection"/>
+            <Node IdRef="0x0100000000010FAF" Type="Connection"/>
           </Node>
         </Node>
       </Node>

@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  idleSprite: {fileID: 2040237031211117077, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
+  hoverSprite: {fileID: 3724445979014153196, guid: 45b657657dfe915448d119fd6e75697b, type: 3}
   itemName: The Kasi's Spike
   itemSprite: {fileID: -5652914901108796121, guid: 82db07f0742269343aa1d5ae9aa9f37f, type: 3}
   comment: '"Plunge into the eye and absorb the knowledge from within.""'
@@ -462,6 +464,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  idleSprite: {fileID: -8598031045449035052, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
+  hoverSprite: {fileID: -8525260843767842562, guid: 45b657657dfe915448d119fd6e75697b, type: 3}
   itemName: The Kasi's Embrace
   itemSprite: {fileID: -1089949410881392349, guid: 6d089cd77b89a984a8d795134e0a6a6b, type: 3}
   comment: Through the Junras sacrifices, our every thought and dream are linked.
@@ -624,6 +628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  idleSprite: {fileID: -1318024812160632614, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
+  hoverSprite: {fileID: 169834055360418396, guid: 45b657657dfe915448d119fd6e75697b, type: 3}
   itemName: The Scared Oath
   itemSprite: {fileID: -2519047938629852102, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
   comment: '"Under The Kasi''s bosom, I was born. Under her Hive, I grew. And after
@@ -838,6 +844,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  idleSprite: {fileID: 8343335894717259086, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
+  hoverSprite: {fileID: -4680924682251846160, guid: 45b657657dfe915448d119fd6e75697b, type: 3}
   itemName: The Yosha's Ritual
   itemSprite: {fileID: -4866055872450650381, guid: 6d089cd77b89a984a8d795134e0a6a6b, type: 3}
   comment: Through the oath, I grant my blood to the Kasi. Like the great Yoshas
@@ -1133,6 +1141,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  idleSprite: {fileID: -6098307577088843627, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
+  hoverSprite: {fileID: -5300076600198623897, guid: 45b657657dfe915448d119fd6e75697b, type: 3}
   itemName: Life with Albi
   itemSprite: {fileID: -285439945194768167, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
   comment: '"So many cycles ago that Albi and I became friends. We both wanted to
@@ -1421,7 +1431,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
-  itemName: 
+  idleSprite: {fileID: 7533309996710743784, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
+  hoverSprite: {fileID: 6197783749704306447, guid: 45b657657dfe915448d119fd6e75697b, type: 3}
+  itemName: Khan's Letter
   itemSprite: {fileID: 7063731688958615692, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
   comment: '"A letter from Junra Khan."'
   hasOverlayText: 1
@@ -1551,6 +1563,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFocus: 0
+  idleSprite: {fileID: -6647879151405046322, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
+  hoverSprite: {fileID: 3695933864964053794, guid: 45b657657dfe915448d119fd6e75697b, type: 3}
   itemName: The Kasi's Realm
   itemSprite: {fileID: 550695938511496091, guid: 5d319f4889b30de41a00d33659f25886, type: 3}
   comment: '"The Kasi''s kingdom, we must protect it."'

@@ -6,6 +6,10 @@ using NaughtyAttributes;
 public class InteractableItem : IInteractable
 {
 	[SerializeField]
+	Sprite idleSprite = null;
+	[SerializeField]
+	Sprite hoverSprite = null;
+	[SerializeField]
 	private string itemName;
 	[SerializeField]
 	private Sprite itemSprite;
@@ -24,6 +28,7 @@ public class InteractableItem : IInteractable
 	public override void Defocus()
 	{
 		base.Defocus();
+		this.GetComponent<SpriteRenderer>().sprite = idleSprite;
 	}
 
 	public override bool Equals(object other)
@@ -34,6 +39,7 @@ public class InteractableItem : IInteractable
 	public override void Focus()
 	{
 		base.Focus();
+		this.GetComponent<SpriteRenderer>().sprite = hoverSprite;
 	}
 
 	public override int GetHashCode()

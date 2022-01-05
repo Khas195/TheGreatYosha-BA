@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: a509365cb82e1a940b2ca4e8f8735dc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5872120883264058091
+    second: World_KhanPoseEmotion0_Sprite
+  - first:
+      213: 6624280912398584886
+    second: World_KhanPoseEmotion2_Sprite
+  - first:
+      213: 6167956355974814278
+    second: World_KhanPoseEmotion3_Sprite
+  - first:
+      213: 9103002870092888513
+    second: World_MCPoseEmotion0_Sprite
+  - first:
+      213: -1334301310430265528
+    second: World_MCPoseEmotion2_Sprite
+  - first:
+      213: 2884557190337887622
+    second: World_MCPoseEmotion3_Sprite
+  - first:
+      213: -1222013448889662809
+    second: World_KhanPoseConnectedEmotion0_Sprite
+  - first:
+      213: -2836956350260871596
+    second: World_KhanPoseConnectedEmotion2_Sprite
+  - first:
+      213: -7644289570912015954
+    second: World_KhanPoseConnectedEmotion3_Sprite
+  - first:
+      213: -5715415667101763777
+    second: World_MCPoseConnectedEmotion0_Sprite
+  - first:
+      213: 3563282146088785107
+    second: World_MCPoseConnectedEmotion2_Sprite
+  - first:
+      213: 7103005138327461607
+    second: World_MCPoseConnectedEmotion3_Sprite
+  - first:
+      213: 1957271081998626370
+    second: World_MCPoseHeartattack_Sprite
+  - first:
+      213: 8408755864812749354
+    second: World_MCPoseStabAttack_Sprite
+  - first:
+      213: 8699877694132109625
+    second: World_AlbiPoseEmotion0_Sprite
+  - first:
+      213: 1319503785253759276
+    second: World_AlbiPoseEmotion2_Sprite
+  - first:
+      213: 9188544643720702822
+    second: World_AlbiPoseEmotion3_Sprite
+  - first:
+      213: -2536580590210673983
+    second: World_AlbiPoseConnectedEmotion0_Sprite
+  - first:
+      213: -7512862905926071967
+    second: World_AlbiPoseConnectedEmotion2_Sprite
+  - first:
+      213: 8204543985982282455
+    second: World_AlbiPoseConnectedEmotion3_Sprite
+  - first:
+      213: 325673437150261074
+    second: World_KhanPoseHeartattack_Sprite
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: World_KhanPoseEmotion0_Sprite
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 755
+        width: 151
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be27b1dd4d6fd7150800000000000000
+      internalID: 5872120883264058091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanPoseEmotion2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 744
+        width: 162
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c0be3946c2eeb50800000000000000
+      internalID: 6624280912398584886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanPoseEmotion3_Sprite
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 762
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64addf360abf89550800000000000000
+      internalID: 6167956355974814278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseEmotion0_Sprite
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 810
+        width: 139
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c97f3d61ec545e70800000000000000
+      internalID: 9103002870092888513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseEmotion2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 824
+        width: 129
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f3770170c9b7de0800000000000000
+      internalID: -1334301310430265528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseEmotion3_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 835
+        width: 130
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d73684b71080820800000000000000
+      internalID: 2884557190337887622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanPoseConnectedEmotion0_Sprite
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 413
+        width: 151
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a28e242e398a0fe0800000000000000
+      internalID: -1222013448889662809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanPoseConnectedEmotion2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 413
+        width: 162
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e7963fa3b11a8d0800000000000000
+      internalID: -2836956350260871596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanPoseConnectedEmotion3_Sprite
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 413
+        width: 165
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e09de2270ae590800000000000000
+      internalID: -7644289570912015954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseConnectedEmotion0_Sprite
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 603
+        width: 139
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3772ba7bb3cea0b0800000000000000
+      internalID: -5715415667101763777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseConnectedEmotion2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 619
+        width: 129
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d41d189b32537130800000000000000
+      internalID: 3563282146088785107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseConnectedEmotion3_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 629
+        width: 130
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee58cb3a81f29260800000000000000
+      internalID: 7103005138327461607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseHeartattack_Sprite
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 419
+        width: 133
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2ca3ddaf992b10800000000000000
+      internalID: 1957271081998626370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_MCPoseStabAttack_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 382
+        width: 141
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22852558e6e1b470800000000000000
+      internalID: 8408755864812749354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiPoseEmotion0_Sprite
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 87
+        width: 166
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931c61c3bac2cb870800000000000000
+      internalID: 8699877694132109625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiPoseEmotion2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 90
+        width: 151
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2965df93b1df4210800000000000000
+      internalID: 1319503785253759276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiPoseEmotion3_Sprite
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 99
+        width: 133
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b6ac3aba4448f70800000000000000
+      internalID: 9188544643720702822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiPoseConnectedEmotion0_Sprite
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 87
+        width: 166
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2975084614cccd0800000000000000
+      internalID: -2536580590210673983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiPoseConnectedEmotion2_Sprite
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 93
+        width: 151
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169411eedf2fcb790800000000000000
+      internalID: -7512862905926071967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_AlbiPoseConnectedEmotion3_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 99
+        width: 133
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da9a8429456cd170800000000000000
+      internalID: 8204543985982282455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_KhanPoseHeartattack_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 92
+        width: 241
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f2f1ef346058400800000000000000
+      internalID: 325673437150261074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -62,7 +62,7 @@ public class EmotionControl : MonoBehaviour
 		}
 		else
 		{
-			EmotionFalls(emotionDescriptionName, 0);
+			EmotionFalls(emotionVariableName, 0);
 		}
 
 	}
@@ -75,6 +75,7 @@ public class EmotionControl : MonoBehaviour
 		if (curEmotion >= 4)
 		{
 			narratorBody = ", pressure built up in your chest.";
+			curEmotion = 4;
 		}
 		else if (curEmotion == 3)
 		{
@@ -101,6 +102,49 @@ public class EmotionControl : MonoBehaviour
 		if (connectedToKhan || connectedToAlbi)
 		{
 			PlaySoundsToEmotion(curEmotion);
+			HandleEmotionPose("Player", curEmotion, true);
+		}
+		if (emotionVariableName == "Conversations_New.AlbiEmotion")
+		{
+			HandleEmotionPose("Albi", curEmotion, connectedToAlbi);
+		}
+		else
+		{
+			HandleEmotionPose("Khan", curEmotion, connectedToKhan);
+		}
+	}
+
+	private void HandleEmotionPose(string charName, int curEmotion, bool isConnected)
+	{
+		if (isConnected)
+		{
+			if (curEmotion < 2)
+			{
+				CharacterPositionControl.GetInstance().ChangeCharacterPosition(charName, "ConnectionEmotion0", true);
+			}
+			else if (curEmotion >= 2 && curEmotion < 3)
+			{
+				CharacterPositionControl.GetInstance().ChangeCharacterPosition(charName, "ConnectionEmotion2", true);
+			}
+			else
+			{
+				CharacterPositionControl.GetInstance().ChangeCharacterPosition(charName, "ConnectionEmotion3", true);
+			}
+		}
+		else
+		{
+			if (curEmotion < 2)
+			{
+				CharacterPositionControl.GetInstance().ChangeCharacterPosition(charName, "Emotion0", true);
+			}
+			else if (curEmotion >= 2 && curEmotion < 3)
+			{
+				CharacterPositionControl.GetInstance().ChangeCharacterPosition(charName, "Emotion2", true);
+			}
+			else
+			{
+				CharacterPositionControl.GetInstance().ChangeCharacterPosition(charName, "Emotion3", true);
+			}
 		}
 	}
 
@@ -135,6 +179,7 @@ public class EmotionControl : MonoBehaviour
 		else
 		{
 			narratorBody = ", you felt resolved.";
+			curEmotion = 0;
 		}
 		var narratorLine = narratorHeader + narratorBody + "[em1][Stress: " + curEmotion + "][/em1]";
 		DialogueLua.SetVariable(emotionVariableName, curEmotion);
@@ -144,6 +189,15 @@ public class EmotionControl : MonoBehaviour
 		if (connectedToKhan || connectedToAlbi)
 		{
 			PlaySoundsToEmotion(curEmotion);
+			HandleEmotionPose("Player", curEmotion, true);
+		}
+		if (emotionVariableName == "Conversations_New.AlbiEmotion")
+		{
+			HandleEmotionPose("Albi", curEmotion, connectedToAlbi);
+		}
+		else
+		{
+			HandleEmotionPose("Khan", curEmotion, connectedToKhan);
 		}
 	}
 	public void PlaySoundsToEmotion(int emotionValue)
@@ -199,6 +253,41 @@ public class EmotionControl : MonoBehaviour
 			curMusicTime += Time.deltaTime;
 		}
 	}
+	public void OnConversationLine(Subtitle sub)
+	{
+		LogHelper.Log("Current Speaker: " + sub.speakerInfo.Name);
+		if (sub.speakerInfo.Name == "Narrator")
+		{
+			return;
+		}
+		var curPosName = CharacterPositionControl.GetInstance().GetCurrentPositionName(sub.speakerInfo.Name);
+		if (curPosName == "Idle")
+		{
+			CharacterPositionControl.GetInstance().ChangeCharacterPosition(sub.speakerInfo.Name, "Talking", true);
+		}
+		if (sub.speakerInfo.Name != "Player")
+		{
+			SwitchToIdleIfTalking("Player");
+		}
+		if (sub.speakerInfo.Name != "Khan")
+		{
+			SwitchToIdleIfTalking("Khan");
+		}
+		if (sub.speakerInfo.Name != "Albi")
+		{
+			SwitchToIdleIfTalking("Albi");
+		}
+	}
+
+	private static void SwitchToIdleIfTalking(string charName)
+	{
+		var curPosName = CharacterPositionControl.GetInstance().GetCurrentPositionName(charName);
+		if (curPosName == "Talking")
+		{
+			CharacterPositionControl.GetInstance().ChangeCharacterPosition(charName, "Idle", true);
+		}
+	}
+
 	public void SwitchMusic(string musicName)
 	{
 		MusicOut(() =>

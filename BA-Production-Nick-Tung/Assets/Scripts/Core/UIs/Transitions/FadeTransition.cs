@@ -96,5 +96,6 @@ public class FadeTransition : MonoBehaviour
 		var color = sprite.color;
 		color.a = 0;
 		sprite.color = color;
+		isTransitioning = false;
 	}
 }

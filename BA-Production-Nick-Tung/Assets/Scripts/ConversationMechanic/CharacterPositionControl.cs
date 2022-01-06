@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using NaughtyAttributes;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
-public class CharacterPositionControl : MonoBehaviour
+public class CharacterPositionControl : SingletonMonobehavior<CharacterPositionControl>
 {
 
 	[SerializeField]
@@ -23,8 +24,20 @@ public class CharacterPositionControl : MonoBehaviour
 	{
 
 	}
+	[Button]
+	public void FindAllCharacterPositions()
+	{
+		charPositions.Clear();
+		charPositions.AddRange(this.GetComponentsInChildren<CharacterPosition>(true));
+		foreach (var pos in charPositions)
+		{
+			pos.transition.StartFadeOut();
+			pos.gameObject.SetActive(true);
+		}
+	}
 	public void ChangeCharacterPosition(string charName, string posName, bool fadeOutCharOtherPos = true)
 	{
+		LogHelper.Log("Change Character position: " + charName + " Pos: " + posName);
 		var targetCharPositions = this.charPositions.FindAll(delegate (CharacterPosition charPos)
 	    {
 		    if (charPos.characterName == charName)
@@ -61,5 +74,31 @@ public class CharacterPositionControl : MonoBehaviour
 			}
 		}
 		targetPos.transition.FadeIn();
+		LogHelper.Log("Fade In character : " + charName + " Pos: " + posName);
+	}
+
+	protected override void Awake()
+	{
+		base.Awake();
+	}
+
+	public string GetCurrentPositionName(string name)
+	{
+		var targetCharPositions = this.charPositions.FindAll(delegate (CharacterPosition charPos)
+			    {
+				    if (charPos.characterName == name)
+				    {
+					    return true;
+				    }
+				    return false;
+			    });
+		foreach (var pos in targetCharPositions)
+		{
+			if (pos.transition.IsFadeOut() == false)
+			{
+				return pos.positionName;
+			}
+		}
+		return "None";
 	}
 }

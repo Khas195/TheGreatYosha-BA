@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SceneManagementData
   m_EditorClassIdentifier: 
   scene: UI_MainMenu_Sce
-  instance: {fileID: 11400000, guid: 0245979af8d1ca541936b45f47b3d565, type: 2}
-  chosenInstance: {fileID: 11400000, guid: 0245979af8d1ca541936b45f47b3d565, type: 2}
+  instance: {fileID: 11400000, guid: 0fb578c8ae6b0894992644058465bc8a, type: 2}
+  chosenInstance: {fileID: 11400000, guid: 0fb578c8ae6b0894992644058465bc8a, type: 2}

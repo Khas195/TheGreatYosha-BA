@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using NaughtyAttributes;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
 
@@ -11,6 +12,13 @@ public class MouseClickInteract : MonoBehaviour
 	LayerMask interactMask;
 	[SerializeField]
 	private IInteractable hoverInteractable;
+	[SerializeField]
+	int interactAmountBeforeTriggerScene = 2;
+	[SerializeField]
+	[ReadOnly]
+	int currentInteract = 0;
+	[SerializeField]
+	DialogueSystemTrigger sceneTrigger;
 
 	// Update is called once per frame
 	void Update()
@@ -64,6 +72,15 @@ public class MouseClickInteract : MonoBehaviour
 			hoverInteractable.Interact();
 			hoverInteractable.Defocus();
 			hoverInteractable = null;
+			if (DialogueLua.GetVariable("Conversations_New.ConversationWithAlbi_Ended").asBool == true
+			&& DialogueLua.GetVariable("Conversations_New.IsBreaking").asBool == true)
+			{
+				currentInteract += 1;
+				if (currentInteract >= interactAmountBeforeTriggerScene)
+				{
+					sceneTrigger.OnUse();
+				}
+			}
 		}
 		else
 		{

@@ -4656,6 +4656,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 792034737, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: conversationActor
+      value: 
+      objectReference: {fileID: 210266885}
+    - target: {fileID: 792034737, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
+      propertyPath: conversationConversant
+      value: 
+      objectReference: {fileID: 1769107080}
     - target: {fileID: 8541301085086768828, guid: 05215dda78e108948bb2ef0f7be13831, type: 3}
       propertyPath: m_Name
       value: WorldSetup

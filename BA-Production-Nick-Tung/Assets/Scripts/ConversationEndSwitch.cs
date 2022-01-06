@@ -19,6 +19,7 @@ public class ConversationEndSwitch : MonoBehaviour
 		{
 			GameMaster.GetInstance().UpdateScenario();
 		}
+		GameMaster.GetInstance().SaveGame();
 	}
 
 }

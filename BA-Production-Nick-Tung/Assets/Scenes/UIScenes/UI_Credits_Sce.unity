@@ -401,7 +401,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.05
+  m_fontSize: 28.85
   m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2039,6 +2039,8 @@ MonoBehaviour:
   - {fileID: 13438874}
   - {fileID: 1475300741}
   - {fileID: 1666519941}
+  fadeInAlpha: 1
+  fadeOutAlpha: 0
   currentTime: 0.87716556
   targetAlpha: 1
   startAlpha: 0

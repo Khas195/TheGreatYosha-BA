@@ -4136,7 +4136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.9726501}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4170,10 +4170,10 @@ MonoBehaviour:
   - {fileID: 2296480608776322743}
   fadeInAlpha: 1
   fadeOutAlpha: 0
-  currentTime: 2.9822416
+  currentTime: 3.3355749
   targetAlpha: 1
   startAlpha: 0
-  isTransitioning: 1
+  isTransitioning: 0
   isFadedOut: 0
   startFadeOut: 0
   findAllUiAtStart: 1
@@ -6888,8 +6888,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 52.573, y: -340.005}
-  m_SizeDelta: {x: -588.283, y: -785.991}
+  m_AnchoredPosition: {x: 55.797638, y: -350.96948}
+  m_SizeDelta: {x: -581.8336, y: -764.0621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8536828213992571392
 CanvasRenderer:
@@ -7706,7 +7706,6 @@ GameObject:
   - component: {fileID: 8536828214414345431}
   - component: {fileID: 5366069193106327100}
   - component: {fileID: 1460907033}
-  - component: {fileID: 5097306923952730176}
   m_Layer: 5
   m_Name: CustomScrollingUI
   m_TagString: Untagged
@@ -7765,45 +7764,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1460907033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8536828214414345426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03e437de8fde273489f2b3d2ef97e446, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alertUIElements:
-    panel: {fileID: 0}
-    alertText:
-      m_uiText: {fileID: 0}
-      m_textMeshProUGUI: {fileID: 0}
-    queueAlerts: 0
-    dontQueueDuplicates: 0
-    waitForHideAnimation: 0
-    allowForceImmediate: 0
-  conversationUIElements:
-    mainPanel: {fileID: 8536828212955658176}
-    dontDeactivateMainPanel: 1
-    subtitlePanels:
-    - {fileID: 8536828214558005337}
-    defaultNPCSubtitlePanel: {fileID: 8536828214558005337}
-    defaultPCSubtitlePanel: {fileID: 8536828214558005337}
-    allowOpenSubtitlePanelsOnStartConversation: 1
-    menuPanels:
-    - {fileID: 8536828214395801507}
-    defaultMenuPanel: {fileID: 8536828214395801507}
-    useFirstResponseForMenuPortrait: 0
-    waitForClose: 1
-  QTEIndicatorElements:
-    QTEIndicators: []
-  addEventSystemIfNeeded: 1
-  includeSimStatusInSavedGames: 1
-  showInvalidFieldName: Show Invalid
---- !u!114 &5097306923952730176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8041,7 +8001,7 @@ MonoBehaviour:
   visibility: 3
   focusAnimationTrigger: 
   unfocusAnimationTrigger: 
-  useAnimatedPortraits: 1
+  useAnimatedPortraits: 0
   onlyShowNPCPortraits: 0
   waitForClose: 0
   clearTextOnClose: 1

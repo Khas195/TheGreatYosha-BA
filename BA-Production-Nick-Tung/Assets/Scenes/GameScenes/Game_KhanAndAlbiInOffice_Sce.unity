@@ -448,6 +448,7 @@ Transform:
   - {fileID: 577701737}
   - {fileID: 871301849}
   - {fileID: 1607566079}
+  - {fileID: 2008486152}
   m_Father: {fileID: 14934703}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1636,7 +1637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Player
-  positionName: emotion0
+  positionName: Emotion0
   sprite: {fileID: 949647799}
   transition: {fileID: 949647796}
 --- !u!212 &949647799
@@ -2025,7 +2026,7 @@ SpriteRenderer:
   m_SortingLayerID: -862025841
   m_SortingLayer: 5
   m_SortingOrder: 20
-  m_Sprite: {fileID: 5872120883264058091, guid: a509365cb82e1a940b2ca4e8f8735dc0, type: 3}
+  m_Sprite: {fileID: 6167956355974814278, guid: a509365cb82e1a940b2ca4e8f8735dc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -2226,7 +2227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Player
-  positionName: emotion2
+  positionName: Emotion2
   sprite: {fileID: 1134697843}
   transition: {fileID: 1134697840}
 --- !u!212 &1134697843
@@ -3440,7 +3441,7 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 20
   m_Sprite: {fileID: 8408755864812749354, guid: a509365cb82e1a940b2ca4e8f8735dc0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3835,7 +3836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Player
-  positionName: emotion3
+  positionName: Emotion3
   sprite: {fileID: 1777749620}
   transition: {fileID: 1777749617}
 --- !u!212 &1777749620
@@ -4122,12 +4123,134 @@ SpriteRenderer:
   m_SortingLayerID: -862025841
   m_SortingLayer: 5
   m_SortingOrder: 20
-  m_Sprite: {fileID: 5872120883264058091, guid: a509365cb82e1a940b2ca4e8f8735dc0, type: 3}
+  m_Sprite: {fileID: 6624280912398584886, guid: a509365cb82e1a940b2ca4e8f8735dc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.81, y: 2.27}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2008486151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2008486152}
+  - component: {fileID: 2008486155}
+  - component: {fileID: 2008486154}
+  - component: {fileID: 2008486153}
+  m_Layer: 0
+  m_Name: Char_MC_Sleep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2008486152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008486151}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.05, y: 0.307, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 210266885}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2008486153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008486151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b4f2f6963f074eb14125608397218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 0.5
+  sprite: {fileID: 2008486155}
+  currentTime: 0
+  targetAlpha: 0
+  startAlpha: 1
+  fadeInAlpha: 1
+  fadeOutAlpha: 0
+  isTransitioning: 0
+  isFadeOut: 1
+  startFadeOut: 1
+--- !u!114 &2008486154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008486151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Player
+  positionName: Sleep
+  sprite: {fileID: 2008486155}
+  transition: {fileID: 2008486153}
+--- !u!212 &2008486155
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008486151}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -862025841
+  m_SortingLayer: 5
+  m_SortingOrder: 20
+  m_Sprite: {fileID: -1363905323005063578, guid: d37f9a06ad2adda48a6cee185c354c34, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.72, y: 2.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

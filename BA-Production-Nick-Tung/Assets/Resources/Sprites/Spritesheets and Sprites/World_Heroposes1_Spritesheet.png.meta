@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 58359bbfd8df7dc4ca09b591a549cb5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2734906457676002699
+    second: World_HeroposesGhost_Sprite
+  - first:
+      213: 2018881898245869626
+    second: World_HeroposesAlbiStabbedSpyke_Sprite
+  - first:
+      213: 7157646358205754149
+    second: World_HeroposesKhanStabbedSpyke_Sprite
+  - first:
+      213: -1815528348107648920
+    second: World_HeroposesMCAbouttoSpyke_Sprite
+  - first:
+      213: 3155002294283826153
+    second: World_HeroposesAlbiAbouttospyke_Sprite
+  - first:
+      213: -2974086262659307822
+    second: World_HeroposesKhanAbouttoSpyke_Sprite
+  - first:
+      213: -1182539309262162918
+    second: World_HeroposesMCBeingRushed_Sprite
+  - first:
+      213: -7183321831671870899
+    second: World_HeroposesRushKhan_Sprite
+  - first:
+      213: 3257882646720259826
+    second: World_HeroposesDream DeathMC_Sprite
+  - first:
+      213: -3118627573623999019
+    second: World_HeroposesDreamDeathAlbi_Sprite
+  - first:
+      213: 3406410209826246181
+    second: World_HeroposesDreamDeathKhan_Sprite
+  - first:
+      213: 5640906090665662434
+    second: World_HeroposesStabbedMCWall_Sprite
+  - first:
+      213: -55614255828237810
+    second: World_HeroposesStabbedKhanWall_Sprite
+  - first:
+      213: -5586254603606762023
+    second: World_HeroposesSlamWallMC_Sprite
+  - first:
+      213: -1181083404112153318
+    second: World_HeroposesKhanStabbedMC_Sprite
+  - first:
+      213: -469047912718260737
+    second: World_HeroposesLog_Sprite
+  - first:
+      213: 7243270057976680413
+    second: World_HeroposesSlamWallAlbi_Sprite
+  - first:
+      213: -4040949929418613810
+    second: World_HeroposesSlamWallKhan_Sprite
+  - first:
+      213: -1868899510822229468
+    second: World_HeroposesMCDodge_Sprite
+  - first:
+      213: -2300285690889903868
+    second: World_HeroposesKhanMisses_Sprite
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: World_HeroposesGhost_Sprite
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 741
+        width: 268
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8533bfdee654f520800000000000000
+      internalID: 2734906457676002699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesAlbiStabbedSpyke_Sprite
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 710
+        width: 250
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a305964d362840c10800000000000000
+      internalID: 2018881898245869626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesKhanStabbedSpyke_Sprite
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 747
+        width: 205
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52be8b0a071155360800000000000000
+      internalID: 7157646358205754149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesMCAbouttoSpyke_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 779
+        width: 123
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86054632692fdc6e0800000000000000
+      internalID: -1815528348107648920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesAlbiAbouttospyke_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 730
+        width: 214
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e37458eed1d8cb20800000000000000
+      internalID: 3155002294283826153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesKhanAbouttoSpyke_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 724
+        width: 146
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6a2de2d4ce9b6d0800000000000000
+      internalID: -2974086262659307822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesMCBeingRushed_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 806
+        width: 224
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a143e7a73c6c69fe0800000000000000
+      internalID: -1182539309262162918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesRushKhan_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 586
+        width: 266
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ac3eb5ad6bf4c90800000000000000
+      internalID: -7183321831671870899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesDream DeathMC_Sprite
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 466
+        width: 166
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6aba59103563d20800000000000000
+      internalID: 3257882646720259826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesDreamDeathAlbi_Sprite
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 466
+        width: 195
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d53767beb868b4d0800000000000000
+      internalID: -3118627573623999019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesDreamDeathKhan_Sprite
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 471
+        width: 154
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e05f3b900064f20800000000000000
+      internalID: 3406410209826246181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesStabbedMCWall_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 398
+        width: 157
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7d671e336884e40800000000000000
+      internalID: 5640906090665662434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesStabbedKhanWall_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 412
+        width: 140
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0209e4012b6a3ff0800000000000000
+      internalID: -55614255828237810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesSlamWallMC_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 282
+        width: 158
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddd0270903a972b0800000000000000
+      internalID: -5586254603606762023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesKhanStabbedMC_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 92
+        width: 121
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1539cfc6e2fb9fe0800000000000000
+      internalID: -1181083404112153318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesLog_Sprite
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 105
+        width: 81
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff52ac3986b9d79f0800000000000000
+      internalID: -469047912718260737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesSlamWallAlbi_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 274
+        width: 200
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf4ce1cdb3458460800000000000000
+      internalID: 7243270057976680413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesSlamWallKhan_Sprite
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 265
+        width: 165
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb1dd5f279abe7c0800000000000000
+      internalID: -4040949929418613810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesMCDodge_Sprite
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 91
+        width: 126
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a2a88fbc55016e0800000000000000
+      internalID: -1868899510822229468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World_HeroposesKhanMisses_Sprite
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 92
+        width: 173
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401e7900a5eb310e0800000000000000
+      internalID: -2300285690889903868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

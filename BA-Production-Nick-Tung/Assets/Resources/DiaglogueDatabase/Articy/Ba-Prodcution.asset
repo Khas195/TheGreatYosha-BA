@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Ba-Prodcution
   m_EditorClassIdentifier: 
-  version: 1/8/2022 10:10:55 AM
+  version: 1/8/2022 10:28:12 AM
   author: articy:draft 3.1.33
   description: 
   globalUserScript: 
@@ -7265,6 +7265,8 @@ MonoBehaviour:
           ChangeCharacterPosition("Player",
           "Idle", true);
 
+          ChangeCharacterPosition("Spike", "OnShelf", true);
+
 '
         type: 0
         typeString: CustomFieldType_Text
@@ -7358,6 +7360,8 @@ MonoBehaviour:
 
         ChangeCharacterPosition("Player","Idle",
         true);
+
+        ChangeCharacterPosition("Spike","OnShelf", true);
 
         ; '
       onExecute:
@@ -39578,7 +39582,10 @@ MonoBehaviour:
         value: 'ChangeCharacterPosition("Khan", "AbouttobeSpyked", true);
 
           ChangeCharacterPosition("Player",
-          "AbouttobeSpyked", true);'
+          "AbouttobeSpyked", true);
+
+          ChangeCharacterPosition("Spike", "None",
+          true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -39667,7 +39674,9 @@ MonoBehaviour:
       userScript: 'ChangeCharacterPosition("Khan","AbouttobeSpyked", true);
 
         ChangeCharacterPosition("Player","AbouttobeSpyked",
-        true); '
+        true);
+
+        ChangeCharacterPosition("Spike","None", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -39683,7 +39692,10 @@ MonoBehaviour:
         value: 'ChangeCharacterPosition("Khan", "WallSlam", true);
 
           ChangeCharacterPosition("Player",
-          "WallSlam", true);'
+          "WallSlam", true);
+
+          ChangeCharacterPosition("Spike", "OnGround",
+          true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -39760,7 +39772,9 @@ MonoBehaviour:
       userScript: 'ChangeCharacterPosition("Khan","WallSlam", true);
 
         ChangeCharacterPosition("Player","WallSlam",
-        true); '
+        true);
+
+        ChangeCharacterPosition("Spike","OnGround", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -118881,7 +118895,10 @@ MonoBehaviour:
         value: 'ChangeCharacterPosition("Player", "WallSlam", true);
 
           ChangeCharacterPosition("Albi",
-          "WallSlam", true);'
+          "WallSlam", true);
+
+          ChangeCharacterPosition("Spike", "OnGround",
+          true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -118958,7 +118975,9 @@ MonoBehaviour:
       userScript: 'ChangeCharacterPosition("Player","WallSlam", true);
 
         ChangeCharacterPosition("Albi","WallSlam",
-        true); '
+        true);
+
+        ChangeCharacterPosition("Spike","OnGround", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -118974,7 +118993,10 @@ MonoBehaviour:
         value: 'ChangeCharacterPosition("Player", "AbouttoSpyke", true);
 
           ChangeCharacterPosition("Albi",
-          "AbouttoSpyke", true);'
+          "AbouttoSpyke", true);
+
+          ChangeCharacterPosition("Spike", "None",
+          true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -119051,7 +119073,9 @@ MonoBehaviour:
       userScript: 'ChangeCharacterPosition("Player","AbouttoSpyke", true);
 
         ChangeCharacterPosition("Albi","AbouttoSpyke",
-        true); '
+        true);
+
+        ChangeCharacterPosition("Spike","None", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []

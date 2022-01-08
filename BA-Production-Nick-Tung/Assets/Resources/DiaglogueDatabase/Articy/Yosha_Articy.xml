@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2022-01-08T10:10:55Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2022-01-08T10:28:12Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -43531,6 +43531,7 @@ Conversations_New.IsBreaking = false;
 ChangeCharacterPosition("Khan", "None", true);
 ChangeCharacterPosition("Albi", "Idle", true);
 ChangeCharacterPosition("Player", "Idle", true);
+ChangeCharacterPosition("Spike", "OnShelf", true);
 ]]></Expression>
       <Pins Count="2">
         <Pin Id="0x010000000000D19A" Index="0" Semantic="Input">
@@ -44383,7 +44384,8 @@ ChangeCharacterPosition("Presious", "None", true);]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594038000009</Url>
       <Features Count="0"/>
       <Expression><![CDATA[ChangeCharacterPosition("Khan", "AbouttobeSpyked", true);
-ChangeCharacterPosition("Player", "AbouttobeSpyked", true);]]></Expression>
+ChangeCharacterPosition("Player", "AbouttobeSpyked", true);
+ChangeCharacterPosition("Spike", "None", true);]]></Expression>
       <Pins Count="2">
         <Pin Id="0x010000000001198A" Index="0" Semantic="Input">
           <Expression/>
@@ -44405,7 +44407,8 @@ ChangeCharacterPosition("Player", "AbouttobeSpyked", true);]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594038000017</Url>
       <Features Count="0"/>
       <Expression><![CDATA[ChangeCharacterPosition("Khan", "WallSlam", true);
-ChangeCharacterPosition("Player", "WallSlam", true);]]></Expression>
+ChangeCharacterPosition("Player", "WallSlam", true);
+ChangeCharacterPosition("Spike", "OnGround", true);]]></Expression>
       <Pins Count="2">
         <Pin Id="0x0100000000011992" Index="0" Semantic="Input">
           <Expression/>
@@ -46487,7 +46490,8 @@ Conversations_New.ConversationWithAlbi_Ended = true;]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594038000049</Url>
       <Features Count="0"/>
       <Expression><![CDATA[ChangeCharacterPosition("Player", "WallSlam", true);
-ChangeCharacterPosition("Albi", "WallSlam", true);]]></Expression>
+ChangeCharacterPosition("Albi", "WallSlam", true);
+ChangeCharacterPosition("Spike", "OnGround", true);]]></Expression>
       <Pins Count="2">
         <Pin Id="0x01000000000119B2" Index="0" Semantic="Input">
           <Expression/>
@@ -46509,7 +46513,8 @@ ChangeCharacterPosition("Albi", "WallSlam", true);]]></Expression>
       <Url>articy://localhost/view/fb7dc6ee-cebf-46ab-bb3e-19109c141158/72057594038000055</Url>
       <Features Count="0"/>
       <Expression><![CDATA[ChangeCharacterPosition("Player", "AbouttoSpyke", true);
-ChangeCharacterPosition("Albi", "AbouttoSpyke", true);]]></Expression>
+ChangeCharacterPosition("Albi", "AbouttoSpyke", true);
+ChangeCharacterPosition("Spike", "None", true);]]></Expression>
       <Pins Count="2">
         <Pin Id="0x01000000000119B8" Index="0" Semantic="Input">
           <Expression/>

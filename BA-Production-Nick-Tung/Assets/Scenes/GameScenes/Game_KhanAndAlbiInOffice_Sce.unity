@@ -168,18 +168,18 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 128297667}
-  - {fileID: 1119295596}
-  - {fileID: 1547599478}
-  - {fileID: 1087906042}
+  - {fileID: 342260847}
   - {fileID: 869461899}
-  - {fileID: 653222422}
-  - {fileID: 243246661}
   - {fileID: 237891566}
   - {fileID: 908168173}
+  - {fileID: 1119295596}
+  - {fileID: 128297667}
+  - {fileID: 1547599478}
+  - {fileID: 1087906042}
+  - {fileID: 653222422}
+  - {fileID: 243246661}
   - {fileID: 361153780}
   - {fileID: 583534148}
-  - {fileID: 342260847}
   - {fileID: 1346867670}
   - {fileID: 210266885}
   - {fileID: 1769107080}
@@ -269,6 +269,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charPositions:
+  - {fileID: 522291910}
+  - {fileID: 587223701}
+  - {fileID: 2037990439}
+  - {fileID: 1295456348}
+  - {fileID: 822063798}
+  - {fileID: 1686344831}
+  - {fileID: 751617836}
+  - {fileID: 1607566081}
+  - {fileID: 1937481883}
+  - {fileID: 1708281339}
+  - {fileID: 880742004}
+  - {fileID: 1959709545}
+  - {fileID: 2144399279}
+  - {fileID: 2041566650}
+  - {fileID: 1906129472}
+  - {fileID: 1681905602}
+  - {fileID: 270288942}
+  - {fileID: 69623593}
+  - {fileID: 285639424}
+  - {fileID: 859975378}
+  - {fileID: 2140070078}
+  - {fileID: 1528960604}
+  - {fileID: 1036298456}
   - {fileID: 1251515827}
   - {fileID: 1074931002}
   - {fileID: 826235615}
@@ -288,7 +311,6 @@ MonoBehaviour:
   - {fileID: 1300167568}
   - {fileID: 577701739}
   - {fileID: 871301851}
-  - {fileID: 1607566081}
   - {fileID: 2008486154}
   - {fileID: 60}
   - {fileID: 779647180}
@@ -574,7 +596,7 @@ Transform:
   - {fileID: 1607566079}
   - {fileID: 1937481881}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &210266884
 GameObject:
@@ -680,7 +702,7 @@ Transform:
   - {fileID: 2037990437}
   - {fileID: 1295456346}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243246660
 GameObject:
@@ -712,7 +734,7 @@ Transform:
   - {fileID: 1681905600}
   - {fileID: 270288940}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &270288939
 GameObject:
@@ -781,8 +803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
-  positionName: AbouttoSpyke
+  characterName: Player
+  positionName: AbouttobeSpyked
   sprite: {fileID: 270288943}
   transition: {fileID: 270288941}
 --- !u!212 &270288943
@@ -988,7 +1010,7 @@ Transform:
   - {fileID: 1528960602}
   - {fileID: 1036298454}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &355872855
 GameObject:
@@ -1142,7 +1164,7 @@ Transform:
   - {fileID: 69623591}
   - {fileID: 285639422}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &466971181
 GameObject:
@@ -1277,7 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: WallSlam
   sprite: {fileID: 522291911}
   transition: {fileID: 522291909}
@@ -1606,7 +1628,7 @@ Transform:
   - {fileID: 859975376}
   - {fileID: 2140070076}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &587223698
 GameObject:
@@ -1760,7 +1782,7 @@ Transform:
   - {fileID: 2041566648}
   - {fileID: 1906129470}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &751617833
 GameObject:
@@ -2118,7 +2140,7 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 20
   m_Sprite: {fileID: 2018881898245869626, guid: 58359bbfd8df7dc4ca09b591a549cb5e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2524,7 +2546,7 @@ Transform:
   - {fileID: 522291908}
   - {fileID: 587223699}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871301848
 GameObject:
@@ -2901,7 +2923,7 @@ Transform:
   m_Children:
   - {fileID: 822063796}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &918322276
 GameObject:
@@ -3501,7 +3523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: DreamDeath
   sprite: {fileID: 1036298457}
   transition: {fileID: 1036298455}
@@ -3546,7 +3568,7 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 20
   m_Sprite: {fileID: 3257882646720259826, guid: 58359bbfd8df7dc4ca09b591a549cb5e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3708,7 +3730,7 @@ Transform:
   - {fileID: 1959709543}
   - {fileID: 2144399277}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1119295595
 GameObject:
@@ -3740,7 +3762,7 @@ Transform:
   - {fileID: 1686344829}
   - {fileID: 751617834}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1134697838
 GameObject:
@@ -4175,7 +4197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: AbouttoSpyke
   sprite: {fileID: 1295456349}
   transition: {fileID: 1295456347}
@@ -5064,7 +5086,7 @@ Transform:
   - {fileID: 1708281337}
   - {fileID: 880742002}
   m_Father: {fileID: 14934703}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1603930555
 GameObject:
@@ -5621,7 +5643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: Dodging
   sprite: {fileID: 1686344832}
   transition: {fileID: 1686344830}
@@ -5743,7 +5765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: BeingRushed
   sprite: {fileID: 1708281340}
   transition: {fileID: 1708281338}
@@ -6427,7 +6449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Khan
-  positionName: TabelStab
+  positionName: TableStab
   sprite: {fileID: 1937481884}
   transition: {fileID: 1937481882}
 --- !u!212 &1937481884
@@ -6548,7 +6570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: WallStab
   sprite: {fileID: 1959709546}
   transition: {fileID: 1959709544}
@@ -7037,7 +7059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: Albi
-  positionName: AbouttobeSpyked
+  positionName: AbouttoSpyke
   sprite: {fileID: 2037990440}
   transition: {fileID: 2037990438}
 --- !u!212 &2037990440
@@ -7158,7 +7180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: WallSlam
   sprite: {fileID: 2041566651}
   transition: {fileID: 2041566649}
@@ -7280,7 +7302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bd3f0d80c9efb44b86555e78add298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterName: MC
+  characterName: Player
   positionName: DreamDeath
   sprite: {fileID: 2140070079}
   transition: {fileID: 2140070077}

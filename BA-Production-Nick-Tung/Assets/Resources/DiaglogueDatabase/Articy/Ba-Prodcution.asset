@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Ba-Prodcution
   m_EditorClassIdentifier: 
-  version: 1/10/2022 10:52:32 AM
+  version: 1/10/2022 1:16:44 PM
   author: articy:draft 3.1.33
   description: 
   globalUserScript: 
@@ -1569,7 +1569,7 @@ MonoBehaviour:
     - id: 4
       fields:
       - title: Title
-        value: 'Albi: ""Then you exiled him and got everyo..."'
+        value: 'Albi: ""Then you exiled her and got everyo..."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -1593,7 +1593,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"Then you exiled him and got everyone quite shaken."'
+        value: '"Then you exiled her and got everyone quite shaken up about it."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2698,7 +2698,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You felt a mental force reaching into your conscious.
+        value: You felt a mental force reaching into your consciousness.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -3341,7 +3341,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: A wave of adrenaline blasted through your body, and you felt more
-          alive than ever.
+          alive than ever before.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -4683,7 +4683,7 @@ MonoBehaviour:
     - id: 38
       fields:
       - title: Title
-        value: 'Albi: ""The... One on the table.""'
+        value: 'Albi: ""The... one on your table.""'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -4707,7 +4707,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"The... One on the table."'
+        value: '"The... one on your table."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -14329,7 +14329,7 @@ MonoBehaviour:
     - id: 145
       fields:
       - title: Title
-        value: 'Khan: ""S...She was all I have.""'
+        value: 'Khan: ""S...She was all I had.""'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -14353,7 +14353,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"S...She was all I have."'
+        value: '"S...She was all I had."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -14980,7 +14980,7 @@ MonoBehaviour:
     - id: 152
       fields:
       - title: Title
-        value: 'Khan: ""S...She was all I have. It is beca..."'
+        value: 'Khan: ""It is because of your stupid game..."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -15004,8 +15004,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"S...She was all I have. It is because of your stupid game that we
-          suffered."'
+        value: '"It is because of your stupid game that we suffered."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -30114,13 +30113,13 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: '"The only thing that await you in the hive is the Kasi''s embrace,
-          that means death."'
+        value: '"The only thing that await you in the hive is the Kasi''s embrace
+          and that means death."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"The only thing that await you in the hive is the Kasi''s embrace,
-          that means death."'
+        value: '"The only thing that await you in the hive is the Kasi''s embrace
+          and that means death."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -30650,8 +30649,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Her whispers barely managed to reach Khan's ears as non of the word
-          was audible to both you and Khan.
+        value: Her whispers barely managed to reach Khan's ears as none of the words
+          were audible to both you and Khan.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -31634,7 +31633,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Actor
       - title: Menu Text
         value: '"Let The Kasi be  my witness and judge, for I pledge my life for
-          her and The Hive.", Khan finished the next line.'
+          her and The Hive."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
@@ -37027,7 +37026,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"One of the many blessings that The Kasi bestowed on us."'
+        value: '"One of the many blessings that The Kasi bestowed onto us."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -37118,7 +37117,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"Now, I will leave to handle some businesses."'
+        value: '"Now, I will leave to handle some business."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -60090,7 +60089,7 @@ MonoBehaviour:
       - originConversationID: 2
         originDialogueID: 230
         destinationConversationID: 2
-        destinationDialogueID: 159
+        destinationDialogueID: 443
         isConnector: 0
         priority: 2
       conditionsString: (Variable["Conversations_New.KhanEmotion"] >= 4) == false
@@ -66493,7 +66492,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Yet, your temper ran short as Khan's fingers wriggling against his
-          cloth nervously.
+          fold.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -78522,6 +78521,97 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
+    - id: 443
+      fields:
+      - title: Title
+        value: 'Khan: ""It...It''s blurry.""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"It...It''s blurry."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011A01
+        type: 0
+        typeString: 
+      - title: VoiceOverFile
+        value: 
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011A02
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011A03
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 443
+        destinationConversationID: 2
+        destinationDialogueID: 195
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 1
@@ -78825,15 +78915,9 @@ MonoBehaviour:
     - id: 4
       fields:
       - title: Title
-        value: 'WorldVariables.Story_PlayerDeathCount = WorldVariables.Story_HeartAttack
+        value: WorldVariables.Story_PlayerDeathCount = WorldVariables.Story_HeartAttack
           + WorldVariables.Story_KilledByKhan + WorldVariables.Story_KilledByAlbi
           + WorldVariables.Story_RushedAlbiDeath;
-
-          ChangeCharacterPosition("Player",
-          "WallDeath", true);
-
-          ChangeCharacterPosition("Albi", "WallSlam",
-          true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -78909,12 +78993,7 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'Variable["WorldVariables.Story_PlayerDeathCount"] = Variable["WorldVariables.Story_HeartAttack"]
         + Variable["WorldVariables.Story_KilledByKhan"] + Variable["WorldVariables.Story_KilledByAlbi"]
-        + Variable["WorldVariables.Story_RushedAlbiDeath"];
-
-        ChangeCharacterPosition("Player","WallDeath",
-        true);
-
-        ChangeCharacterPosition("Albi","WallSlam", true); '
+        + Variable["WorldVariables.Story_RushedAlbiDeath"]; '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -79739,7 +79818,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You charged toward Albi, causing her to flint out of surprise.
+        value: You charged toward Albi, causing her to flinch out of surprise.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -81150,7 +81229,7 @@ MonoBehaviour:
     - id: 30
       fields:
       - title: Title
-        value: 'Player: ""Albi, enough is enough!""'
+        value: 'Player: ""Albi, enough is ENOUGH!""'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -81170,11 +81249,11 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: '"Albi, enough is enough!"'
+        value: '"Albi, enough is ENOUGH!"'
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"Albi, enough is enough!"'
+        value: '"Albi, enough is ENOUGH!"'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -87636,7 +87715,7 @@ MonoBehaviour:
     - id: 104
       fields:
       - title: Title
-        value: 'Player: ""Albi, please, tell me the truth.""'
+        value: 'Player: ""Albi, please, we''re friend, tell m..."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -87656,11 +87735,11 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: '"Albi, please, tell me the truth."'
+        value: '"Albi, please, we''re friend, tell me the truth."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"Albi, please, tell me the truth."'
+        value: '"Albi, please, we''re friend, tell me the truth."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -100432,7 +100511,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"Don''t let all that Great Yosha business get into your head."'
+        value: '"Don''t let all that Great Yosha business get to your head."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -100705,7 +100784,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"You see, in a couple of minutes, you will hear knocking on the door."'
+        value: '"You see, in a couple of minutes, you will hear a knocking on the
+          door."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -113406,7 +113486,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 391
         destinationConversationID: 3
-        destinationDialogueID: 10
+        destinationDialogueID: 457
         isConnector: 0
         priority: 2
       conditionsString: (Variable["WorldVariables.Story_RushedAlbiDeath"] >= 1) ==
@@ -117408,7 +117488,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You jumped toward Albi, causing her to flint out of surprise.
+        value: You jumped toward Albi, causing her to flinch out of surprise.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -119384,6 +119464,99 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
+    - id: 457
+      fields:
+      - title: Title
+        value: 'ChangeCharacterPosition("Player", "WallDeath", true);
+
+          ChangeCharacterPosition("Albi",
+          "WallSlam", true);'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011A08
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011A09
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011A0A
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 457
+        destinationConversationID: 3
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'ChangeCharacterPosition("Player","WallDeath", true);
+
+        ChangeCharacterPosition("Albi","WallSlam",
+        true); '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 1
@@ -119514,8 +119687,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 20
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 1
@@ -119597,8 +119770,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 70
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 2
@@ -119680,8 +119853,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1420
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 3
@@ -119767,8 +119940,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 320
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 4
@@ -119854,8 +120027,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 5
@@ -119941,8 +120114,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 520
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 6
@@ -120029,8 +120202,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 370
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 7
@@ -120116,8 +120289,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 420
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 8
@@ -120203,8 +120376,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 520
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 9
@@ -120290,8 +120463,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 520
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 10
@@ -120377,8 +120550,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 570
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 11
@@ -120464,8 +120637,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 620
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 12
@@ -120551,8 +120724,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 570
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 13
@@ -120638,8 +120811,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 570
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 14
@@ -120725,8 +120898,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 620
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 15
@@ -120812,8 +120985,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 720
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 16
@@ -120900,8 +121073,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 820
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 17
@@ -120991,8 +121164,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 18
@@ -121078,8 +121251,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 770
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 19
@@ -121177,8 +121350,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 470
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 20
@@ -121264,8 +121437,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 670
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 21
@@ -121352,8 +121525,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 870
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 22
@@ -121440,8 +121613,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 920
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 23
@@ -121527,8 +121700,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1020
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 24
@@ -121614,8 +121787,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 1020
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 25
@@ -121701,8 +121874,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 1020
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 26
@@ -121800,8 +121973,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 970
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 27
@@ -121831,7 +122004,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"Yes, my child, you are the greatest as I have decided."'
+        value: '"Yes, my child, you are the greatest as I have decided so."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -121887,8 +122060,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 1120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 28
@@ -121974,8 +122147,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 1170
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 29
@@ -122062,8 +122235,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1070
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 30
@@ -122149,8 +122322,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 31
@@ -122236,8 +122409,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 1070
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 32
@@ -122323,8 +122496,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 1120
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 33
@@ -122410,14 +122583,14 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 1220
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 34
       fields:
       - title: Title
-        value: 'Kasi: ""You will know what to do when the..."'
+        value: 'Kasi: ""You will know what to do, when the..."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -122441,7 +122614,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: '"You will know what to do when the time comes."'
+        value: '"You will know what to do, when the time comes."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -122497,8 +122670,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 1220
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 35
@@ -122584,8 +122757,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 36
@@ -122671,8 +122844,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1320
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 37
@@ -122760,8 +122933,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 170
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 38
@@ -122843,8 +123016,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 75
-        y: 220
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 39
@@ -122927,8 +123100,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 220
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 40
@@ -123014,8 +123187,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 345
-        y: 270
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 41
@@ -123101,8 +123274,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 390
-        y: 1070
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 42
@@ -123188,8 +123361,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 210
-        y: 1370
+        x: 0
+        y: 0
         width: 160
         height: 30
     entryGroups: []

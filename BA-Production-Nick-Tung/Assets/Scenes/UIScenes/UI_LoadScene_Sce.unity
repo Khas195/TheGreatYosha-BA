@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgrounds:
-  - background: {fileID: 21300000, guid: 3fbdd65bdfde8314f8581bc924c7441d, type: 3}
+  - background: {fileID: 6344448971359167924, guid: c236e306827683548ace530fa52c14c8, type: 3}
     description: Nic spent a lot of time on this image, you all should appreciate
       it.
   - background: {fileID: 21300000, guid: 565f1d52577e52c4cb52cca9c8231cd9, type: 3}

@@ -62,6 +62,9 @@ public class FadeTransition : MonoBehaviour
 			currentTime += Time.deltaTime;
 		}
 	}
+
+
+
 	[Button]
 	public void FadeIn(Action newCallback = null)
 	{
@@ -89,13 +92,25 @@ public class FadeTransition : MonoBehaviour
 	}
 
 	[Button]
-	public void StartFadeOut()
+	public void SetInvisible()
 	{
-		startFadeOut = true;
 		isFadeOut = true;
 		var color = sprite.color;
 		color.a = 0;
 		sprite.color = color;
 		isTransitioning = false;
+	}
+	[Button]
+	public void SetVisible()
+	{
+		isFadeOut = false;
+		var color = sprite.color;
+		color.a = 1;
+		sprite.color = color;
+		isTransitioning = false;
+	}
+	public bool IsStartFadeOut()
+	{
+		return startFadeOut;
 	}
 }

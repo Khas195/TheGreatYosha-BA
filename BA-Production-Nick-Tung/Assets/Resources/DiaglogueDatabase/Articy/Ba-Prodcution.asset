@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Ba-Prodcution
   m_EditorClassIdentifier: 
-  version: 1/10/2022 1:16:44 PM
+  version: 1/11/2022 9:34:42 AM
   author: articy:draft 3.1.33
   description: 
   globalUserScript: 
@@ -822,7 +822,7 @@ MonoBehaviour:
   - id: 16
     fields:
     - title: Name
-      value: Conversations_New.ConnectWithKhan
+      value: WorldVariables.Story_Ending_KhanAllied
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -836,7 +836,7 @@ MonoBehaviour:
   - id: 17
     fields:
     - title: Name
-      value: Conversations_New.CallMeSerban
+      value: WorldVariables.Story_Ending_AlbiControl
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
@@ -850,6 +850,34 @@ MonoBehaviour:
   - id: 18
     fields:
     - title: Name
+      value: Conversations_New.ConnectWithKhan
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 19
+    fields:
+    - title: Name
+      value: Conversations_New.CallMeSerban
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Initial Value
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+  - id: 20
+    fields:
+    - title: Name
       value: Conversations_New.KhanEmotion
       type: 0
       typeString: CustomFieldType_Text
@@ -861,7 +889,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 19
+  - id: 21
     fields:
     - title: Name
       value: Conversations_New.AlbiEmotion
@@ -875,7 +903,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 20
+  - id: 22
     fields:
     - title: Name
       value: Conversations_New.ConnectWithAlbi
@@ -889,7 +917,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 21
+  - id: 23
     fields:
     - title: Name
       value: Conversations_New.AlbiTalkAboutExiledYosha
@@ -903,7 +931,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 22
+  - id: 24
     fields:
     - title: Name
       value: Conversations_New.AlbiPlanned_ExiledYosha
@@ -917,7 +945,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 23
+  - id: 25
     fields:
     - title: Name
       value: Conversations_New.AlbiSchemePoint
@@ -931,7 +959,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 24
+  - id: 26
     fields:
     - title: Name
       value: Conversations_New.Albi_FriendlyPoint
@@ -945,7 +973,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 25
+  - id: 27
     fields:
     - title: Name
       value: Conversations_New.ReciteOath
@@ -959,7 +987,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 26
+  - id: 28
     fields:
     - title: Name
       value: Conversations_New.ConversationWithAlbi_Ended
@@ -973,7 +1001,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 27
+  - id: 29
     fields:
     - title: Name
       value: Conversations_New.IsBreaking
@@ -987,7 +1015,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 28
+  - id: 30
     fields:
     - title: Name
       value: Conversations_New.ConversationWithKasi
@@ -1001,7 +1029,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 29
+  - id: 31
     fields:
     - title: Name
       value: DS_Settings.EM1_Italic
@@ -1015,7 +1043,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 30
+  - id: 32
     fields:
     - title: Name
       value: DS_Settings.EM1_Color
@@ -1029,7 +1057,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 31
+  - id: 33
     fields:
     - title: Name
       value: DS_Settings.EM2_Color
@@ -1043,7 +1071,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 32
+  - id: 34
     fields:
     - title: Name
       value: DS_Settings.InvalidResponse
@@ -1057,7 +1085,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 33
+  - id: 35
     fields:
     - title: Name
       value: EmotionDecision.ConvinceKhan
@@ -1071,7 +1099,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 34
+  - id: 36
     fields:
     - title: Name
       value: EmotionDecision.ThreatenKhan
@@ -1085,7 +1113,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 35
+  - id: 37
     fields:
     - title: Name
       value: EmotionDecision.BelieveTheExiledYosha
@@ -1099,7 +1127,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 36
+  - id: 38
     fields:
     - title: Name
       value: EmotionDecision.ThreatTortureChamber
@@ -1113,7 +1141,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 37
+  - id: 39
     fields:
     - title: Name
       value: EmotionDecision.GreatYoshaAndHive
@@ -1127,7 +1155,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 38
+  - id: 40
     fields:
     - title: Name
       value: EmotionDecision.Albi_Relationship_ExiledYosha
@@ -1141,7 +1169,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 39
+  - id: 41
     fields:
     - title: Name
       value: ItemInteraction.OpenLetter
@@ -1155,7 +1183,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 40
+  - id: 42
     fields:
     - title: Name
       value: ItemInteraction.JunraSpike
@@ -1169,7 +1197,7 @@ MonoBehaviour:
       value: 
       type: 0
       typeString: CustomFieldType_Text
-  - id: 41
+  - id: 43
     fields:
     - title: Name
       value: EmotionDescription.EmotionDescription
@@ -1552,7 +1580,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 3
         destinationConversationID: 1
-        destinationDialogueID: 391
+        destinationDialogueID: 390
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2475,7 +2503,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 13
         destinationConversationID: 1
-        destinationDialogueID: 395
+        destinationDialogueID: 394
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2748,7 +2776,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 16
         destinationConversationID: 1
-        destinationDialogueID: 401
+        destinationDialogueID: 400
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2840,7 +2868,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 17
         destinationConversationID: 1
-        destinationDialogueID: 387
+        destinationDialogueID: 386
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3115,7 +3143,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 20
         destinationConversationID: 1
-        destinationDialogueID: 388
+        destinationDialogueID: 387
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3391,7 +3419,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 23
         destinationConversationID: 1
-        destinationDialogueID: 389
+        destinationDialogueID: 388
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -3665,7 +3693,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 26
         destinationConversationID: 1
-        destinationDialogueID: 390
+        destinationDialogueID: 389
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4211,7 +4239,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 32
         destinationConversationID: 1
-        destinationDialogueID: 396
+        destinationDialogueID: 395
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4666,7 +4694,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 37
         destinationConversationID: 1
-        destinationDialogueID: 400
+        destinationDialogueID: 399
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4757,7 +4785,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 38
         destinationConversationID: 1
-        destinationDialogueID: 400
+        destinationDialogueID: 399
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -4951,7 +4979,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 40
         destinationConversationID: 1
-        destinationDialogueID: 400
+        destinationDialogueID: 399
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5133,7 +5161,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 42
         destinationConversationID: 1
-        destinationDialogueID: 394
+        destinationDialogueID: 393
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5496,7 +5524,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 46
         destinationConversationID: 1
-        destinationDialogueID: 422
+        destinationDialogueID: 419
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -6226,7 +6254,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 54
         destinationConversationID: 1
-        destinationDialogueID: 404
+        destinationDialogueID: 403
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -6481,7 +6509,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 57
         destinationConversationID: 1
-        destinationDialogueID: 392
+        destinationDialogueID: 391
         isConnector: 0
         priority: 2
       conditionsString: (Variable["WorldVariables.Story_PlayerDeathCount"] <= 0)
@@ -6592,6 +6620,12 @@ MonoBehaviour:
         originDialogueID: 58
         destinationConversationID: 1
         destinationDialogueID: 239
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 58
+        destinationConversationID: 1
+        destinationDialogueID: 426
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9838,7 +9872,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 94
         destinationConversationID: 1
-        destinationDialogueID: 403
+        destinationDialogueID: 402
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -10550,7 +10584,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 102
         destinationConversationID: 1
-        destinationDialogueID: 410
+        destinationDialogueID: 409
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -11089,7 +11123,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 108
         destinationConversationID: 1
-        destinationDialogueID: 409
+        destinationDialogueID: 408
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -12719,7 +12753,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 126
         destinationConversationID: 1
-        destinationDialogueID: 424
+        destinationDialogueID: 421
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13158,7 +13192,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 131
         destinationConversationID: 3
-        destinationDialogueID: 445
+        destinationDialogueID: 444
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -13241,7 +13275,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 132
         destinationConversationID: 3
-        destinationDialogueID: 445
+        destinationDialogueID: 444
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -15701,7 +15735,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 159
         destinationConversationID: 1
-        destinationDialogueID: 183
+        destinationDialogueID: 432
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -15966,7 +16000,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 162
         destinationConversationID: 1
-        destinationDialogueID: 402
+        destinationDialogueID: 401
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -17225,7 +17259,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 176
         destinationConversationID: 1
-        destinationDialogueID: 415
+        destinationDialogueID: 412
         isConnector: 0
         priority: 2
       - originConversationID: 1
@@ -17711,7 +17745,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 181
         destinationConversationID: 1
-        destinationDialogueID: 425
+        destinationDialogueID: 422
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -17819,7 +17853,7 @@ MonoBehaviour:
     - id: 183
       fields:
       - title: Title
-        value: 'Narrator: "You felt to your seat, exhausted by..."'
+        value: 'Narrator: "You fell to your seat, exhausted by..."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -17843,7 +17877,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You felt to your seat, exhausted by all that happened.
+        value: You fell to your seat, exhausted by all that happened.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -17893,7 +17927,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 183
         destinationConversationID: 1
-        destinationDialogueID: 411
+        destinationDialogueID: 184
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -17910,7 +17944,7 @@ MonoBehaviour:
     - id: 184
       fields:
       - title: Title
-        value: 'Jump to: [Exit]'
+        value: 'Jump to: [KasiEnding]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -17975,8 +18009,8 @@ MonoBehaviour:
       outgoingLinks:
       - originConversationID: 1
         originDialogueID: 184
-        destinationConversationID: 1
-        destinationDialogueID: 86
+        destinationConversationID: 5
+        destinationDialogueID: 33
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -18249,7 +18283,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 187
         destinationConversationID: 1
-        destinationDialogueID: 410
+        destinationDialogueID: 409
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -20298,7 +20332,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 210
         destinationConversationID: 1
-        destinationDialogueID: 407
+        destinationDialogueID: 406
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -23823,7 +23857,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 250
         destinationConversationID: 1
-        destinationDialogueID: 405
+        destinationDialogueID: 404
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -26419,7 +26453,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 279
         destinationConversationID: 1
-        destinationDialogueID: 423
+        destinationDialogueID: 420
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -26510,7 +26544,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 280
         destinationConversationID: 1
-        destinationDialogueID: 423
+        destinationDialogueID: 420
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -27691,7 +27725,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 293
         destinationConversationID: 1
-        destinationDialogueID: 420
+        destinationDialogueID: 417
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -28343,7 +28377,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 300
         destinationConversationID: 1
-        destinationDialogueID: 421
+        destinationDialogueID: 418
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -28799,7 +28833,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 305
         destinationConversationID: 1
-        destinationDialogueID: 419
+        destinationDialogueID: 416
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -29346,7 +29380,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 311
         destinationConversationID: 1
-        destinationDialogueID: 393
+        destinationDialogueID: 392
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -29620,7 +29654,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 314
         destinationConversationID: 1
-        destinationDialogueID: 310
+        destinationDialogueID: 424
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -30169,7 +30203,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 320
         destinationConversationID: 1
-        destinationDialogueID: 386
+        destinationDialogueID: 385
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -32144,7 +32178,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 342
         destinationConversationID: 1
-        destinationDialogueID: 418
+        destinationDialogueID: 415
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -34045,7 +34079,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 363
         destinationConversationID: 1
-        destinationDialogueID: 385
+        destinationDialogueID: 384
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -35684,7 +35718,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 381
         destinationConversationID: 1
-        destinationDialogueID: 426
+        destinationDialogueID: 423
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -35792,7 +35826,7 @@ MonoBehaviour:
     - id: 383
       fields:
       - title: Title
-        value: 'Narrator: "You felt to your seat, exhausted by..."'
+        value: 'Narrator: "You fell to your seat, exhausted by..."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -35816,7 +35850,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You felt to your seat, exhausted by all that happened.
+        value: You fell to your seat, exhausted by all that happened.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -35866,7 +35900,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 383
         destinationConversationID: 1
-        destinationDialogueID: 412
+        destinationDialogueID: 425
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -35881,89 +35915,6 @@ MonoBehaviour:
         width: 160
         height: 30
     - id: 384
-      fields:
-      - title: Title
-        value: 'Jump to: [Exit]'
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Continue()
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Show Invalid
-        value: True
-        type: 2
-        typeString: CustomFieldType_Boolean
-      - title: Articy Id
-        value: 0x0100000000010E28
-        type: 0
-        typeString: 
-      - title: InputId
-        value: 0x0100000000010E29
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 1
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: 
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 384
-        destinationConversationID: 1
-        destinationDialogueID: 86
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 30
-    - id: 385
       fields:
       - title: Title
         value: Conversations_New.ReciteOath = 0;
@@ -36034,7 +35985,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 385
+        originDialogueID: 384
         destinationConversationID: 1
         destinationDialogueID: 364
         isConnector: 0
@@ -36050,7 +36001,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 386
+    - id: 385
       fields:
       - title: Title
         value: 'Player: ""Do you not care about us at all!""'
@@ -36125,7 +36076,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 386
+        originDialogueID: 385
         destinationConversationID: 1
         destinationDialogueID: 318
         isConnector: 0
@@ -36141,7 +36092,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 387
+    - id: 386
       fields:
       - title: Title
         value: 'SetEmotion("Conversations_New.AlbiEmotion", 1);
@@ -36215,7 +36166,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 387
+        originDialogueID: 386
         destinationConversationID: 1
         destinationDialogueID: 18
         isConnector: 0
@@ -36233,7 +36184,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 388
+    - id: 387
       fields:
       - title: Title
         value: 'SetEmotion("Conversations_New.AlbiEmotion", 4);
@@ -36306,7 +36257,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 388
+        originDialogueID: 387
         destinationConversationID: 1
         destinationDialogueID: 21
         isConnector: 0
@@ -36324,7 +36275,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 389
+    - id: 388
       fields:
       - title: Title
         value: 'SetEmotion("Conversations_New.AlbiEmotion", 0);
@@ -36397,7 +36348,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 389
+        originDialogueID: 388
         destinationConversationID: 1
         destinationDialogueID: 22
         isConnector: 0
@@ -36415,7 +36366,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 390
+    - id: 389
       fields:
       - title: Title
         value: 'Conversations_New.ConnectWithAlbi = false;
@@ -36491,9 +36442,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 390
+        originDialogueID: 389
         destinationConversationID: 1
-        destinationDialogueID: 407
+        destinationDialogueID: 406
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -36512,7 +36463,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 391
+    - id: 390
       fields:
       - title: Title
         value: 'SwitchMusic("sb_machina");
@@ -36586,7 +36537,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 391
+        originDialogueID: 390
         destinationConversationID: 1
         destinationDialogueID: 63
         isConnector: 0
@@ -36605,7 +36556,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 392
+    - id: 391
       fields:
       - title: Title
         value: 'SwitchMusic("darren-curtis-i-am-not-what-i-thought");
@@ -36679,7 +36630,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 392
+        originDialogueID: 391
         destinationConversationID: 1
         destinationDialogueID: 58
         isConnector: 0
@@ -36698,7 +36649,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 393
+    - id: 392
       fields:
       - title: Title
         value: 'SwitchMusic("Limonadiac_-_02_-_A_Dyslexic_Dumb_Dead_Voice");
@@ -36782,7 +36733,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 393
+        originDialogueID: 392
         destinationConversationID: 1
         destinationDialogueID: 313
         isConnector: 0
@@ -36810,7 +36761,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 394
+    - id: 393
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Albi", "None", true);
@@ -36886,9 +36837,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 394
+        originDialogueID: 393
         destinationConversationID: 1
-        destinationDialogueID: 406
+        destinationDialogueID: 405
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -36907,7 +36858,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 395
+    - id: 394
       fields:
       - title: Title
         value: 'Albi: ""It must be the slumber sickness, i..."'
@@ -36983,7 +36934,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 395
+        originDialogueID: 394
         destinationConversationID: 1
         destinationDialogueID: 16
         isConnector: 0
@@ -36999,7 +36950,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 396
+    - id: 395
       fields:
       - title: Title
         value: 'Albi: ""One of the many blessings that The..."'
@@ -37074,7 +37025,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 396
+        originDialogueID: 395
         destinationConversationID: 1
         destinationDialogueID: 26
         isConnector: 0
@@ -37090,7 +37041,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 397
+    - id: 396
       fields:
       - title: Title
         value: 'Albi: ""Now, I will leave to handle some b..."'
@@ -37165,7 +37116,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 397
+        originDialogueID: 396
         destinationConversationID: 1
         destinationDialogueID: 39
         isConnector: 0
@@ -37181,7 +37132,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 398
+    - id: 397
       fields:
       - title: Title
         value: 'Albi: ""You woke up so late that I couldn''..."'
@@ -37256,9 +37207,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 398
+        originDialogueID: 397
         destinationConversationID: 1
-        destinationDialogueID: 399
+        destinationDialogueID: 398
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -37272,7 +37223,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 399
+    - id: 398
       fields:
       - title: Title
         value: 'Albi: ""He sent you a letter a couple of d..."'
@@ -37347,9 +37298,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 399
+        originDialogueID: 398
         destinationConversationID: 1
-        destinationDialogueID: 397
+        destinationDialogueID: 396
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -37363,7 +37314,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 400
+    - id: 399
       fields:
       - title: Title
         value: 'Albi: ""I heard from the other Junras that..."'
@@ -37438,7 +37389,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 400
+        originDialogueID: 399
         destinationConversationID: 1
         destinationDialogueID: 41
         isConnector: 0
@@ -37454,7 +37405,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 401
+    - id: 400
       fields:
       - title: Title
         value: 'Conversations_New.ConnectWithAlbi = true;
@@ -37531,7 +37482,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 401
+        originDialogueID: 400
         destinationConversationID: 1
         destinationDialogueID: 17
         isConnector: 0
@@ -37552,7 +37503,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 402
+    - id: 401
       fields:
       - title: Title
         value: ChangeCharacterPosition("Khan", "KhanHeartattack", true);
@@ -37623,7 +37574,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 402
+        originDialogueID: 401
         destinationConversationID: 1
         destinationDialogueID: 163
         isConnector: 0
@@ -37639,7 +37590,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 403
+    - id: 402
       fields:
       - title: Title
         value: ChangeCharacterPosition("Player", "MCHeartattack", true);
@@ -37710,7 +37661,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 403
+        originDialogueID: 402
         destinationConversationID: 1
         destinationDialogueID: 160
         isConnector: 0
@@ -37726,7 +37677,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 404
+    - id: 403
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player","MCStabDeath", true);
@@ -37802,7 +37753,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 404
+        originDialogueID: 403
         destinationConversationID: 1
         destinationDialogueID: 204
         isConnector: 0
@@ -37823,7 +37774,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 405
+    - id: 404
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Albi", "None", true);
@@ -37897,7 +37848,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 405
+        originDialogueID: 404
         destinationConversationID: 1
         destinationDialogueID: 251
         isConnector: 0
@@ -37916,7 +37867,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 406
+    - id: 405
       fields:
       - title: Title
         value: 'Jump to: [Exit]'
@@ -37983,7 +37934,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 406
+        originDialogueID: 405
         destinationConversationID: 1
         destinationDialogueID: 86
         isConnector: 0
@@ -37999,7 +37950,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 407
+    - id: 406
       fields:
       - title: Title
         value: 'Albi: ""Hmm, well if you look at the time.""'
@@ -38074,9 +38025,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 407
+        originDialogueID: 406
         destinationConversationID: 1
-        destinationDialogueID: 408
+        destinationDialogueID: 407
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -38090,7 +38041,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 408
+    - id: 407
       fields:
       - title: Title
         value: 'Albi: ""I believe that you will have a mee..."'
@@ -38166,9 +38117,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 408
+        originDialogueID: 407
         destinationConversationID: 1
-        destinationDialogueID: 398
+        destinationDialogueID: 397
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -38182,7 +38133,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 409
+    - id: 408
       fields:
       - title: Title
         value: ChangeCharacterPosition("Khan","Idle", true);
@@ -38253,7 +38204,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 409
+        originDialogueID: 408
         destinationConversationID: 1
         destinationDialogueID: 107
         isConnector: 0
@@ -38269,7 +38220,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 410
+    - id: 409
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan","Crying", true);
@@ -38285,7 +38236,26 @@ MonoBehaviour:
           ChangeCharacterPosition("Presious","Death", true);
 
           ChangeCharacterPosition("Log",
-          "SoloLog", true);'
+          "SoloLog", true);
+
+
+          ChangeCharacterPosition("BookShelf", "None",
+          true);
+
+          ChangeCharacterPosition("SmallTopShelfLeft", "None",
+          true);
+
+          ChangeCharacterPosition("SmallTopShelfRight", "None",
+          true);
+
+          ChangeCharacterPosition("SmallBottomShelfLeft", "None",
+          true);
+
+          ChangeCharacterPosition("SmallBottomShelfMiddle", "None",
+          true);
+
+          ChangeCharacterPosition("SmallBottomShelfRight", "None",
+          true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -38353,7 +38323,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 410
+        originDialogueID: 409
         destinationConversationID: 1
         destinationDialogueID: 119
         isConnector: 0
@@ -38372,98 +38342,22 @@ MonoBehaviour:
         ChangeCharacterPosition("Presious","Death", true);
 
         ChangeCharacterPosition("Log","SoloLog",
-        true); '
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 30
-    - id: 411
-      fields:
-      - title: Title
-        value: 'GoToCredits();
+        true);
 
-'
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Continue()
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Show Invalid
-        value: True
-        type: 2
-        typeString: CustomFieldType_Boolean
-      - title: Articy Id
-        value: 0x010000000001179A
-        type: 0
-        typeString: 
-      - title: InputId
-        value: 0x010000000001179C
-        type: 0
-        typeString: 
-      - title: OutputId
-        value: 0x010000000001179D
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: 
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 411
-        destinationConversationID: 1
-        destinationDialogueID: 184
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 'GoToCredits();
+        ChangeCharacterPosition("BookShelf","None", true);
 
-        ; '
+        ChangeCharacterPosition("SmallTopShelfLeft","None",
+        true);
+
+        ChangeCharacterPosition("SmallTopShelfRight","None", true);
+
+        ChangeCharacterPosition("SmallBottomShelfLeft","None",
+        true);
+
+        ChangeCharacterPosition("SmallBottomShelfMiddle","None",
+        true);
+
+        ChangeCharacterPosition("SmallBottomShelfRight","None", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -38473,94 +38367,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 412
-      fields:
-      - title: Title
-        value: GoToCredits();
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Continue()
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Show Invalid
-        value: True
-        type: 2
-        typeString: CustomFieldType_Boolean
-      - title: Articy Id
-        value: 0x01000000000117A0
-        type: 0
-        typeString: 
-      - title: InputId
-        value: 0x01000000000117A2
-        type: 0
-        typeString: 
-      - title: OutputId
-        value: 0x01000000000117A3
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: 
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 412
-        destinationConversationID: 1
-        destinationDialogueID: 384
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 'GoToCredits(); '
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 30
-    - id: 413
+    - id: 410
       fields:
       - title: Title
         value: 'Player: ""My Kasi, I''m tired. Albi can you w..."'
@@ -38635,9 +38442,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 413
+        originDialogueID: 410
         destinationConversationID: 1
-        destinationDialogueID: 414
+        destinationDialogueID: 411
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -38651,7 +38458,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 414
+    - id: 411
       fields:
       - title: Title
         value: 'Albi: ""Of course, Great Yosha.""'
@@ -38726,7 +38533,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 414
+        originDialogueID: 411
         destinationConversationID: 1
         destinationDialogueID: 224
         isConnector: 0
@@ -38742,7 +38549,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 415
+    - id: 412
       fields:
       - title: Title
         value: WorldVariables.Story_AlbiRevealed == true
@@ -38809,15 +38616,15 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 415
+        originDialogueID: 412
         destinationConversationID: 1
-        destinationDialogueID: 416
+        destinationDialogueID: 413
         isConnector: 0
         priority: 2
       - originConversationID: 1
-        originDialogueID: 415
+        originDialogueID: 412
         destinationConversationID: 1
-        destinationDialogueID: 417
+        destinationDialogueID: 414
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -38831,7 +38638,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 416
+    - id: 413
       fields:
       - title: Title
         value: WorldVariables.Story_AlbiRevealed == true
@@ -38898,9 +38705,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 416
+        originDialogueID: 413
         destinationConversationID: 1
-        destinationDialogueID: 413
+        destinationDialogueID: 410
         isConnector: 0
         priority: 2
       conditionsString: Variable["WorldVariables.Story_AlbiRevealed"] == true
@@ -38914,7 +38721,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 417
+    - id: 414
       fields:
       - title: Title
         value: '!(WorldVariables.Story_AlbiRevealed == true)'
@@ -38992,7 +38799,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 418
+    - id: 415
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "DreamDeath", true);
@@ -39071,7 +38878,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 418
+        originDialogueID: 415
         destinationConversationID: 1
         destinationDialogueID: 343
         isConnector: 0
@@ -39095,7 +38902,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 419
+    - id: 416
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan", "AbouttobeSpyked", true);
@@ -39172,19 +38979,19 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 419
+        originDialogueID: 416
         destinationConversationID: 1
         destinationDialogueID: 308
         isConnector: 0
         priority: 2
       - originConversationID: 1
-        originDialogueID: 419
+        originDialogueID: 416
         destinationConversationID: 1
         destinationDialogueID: 307
         isConnector: 0
         priority: 2
       - originConversationID: 1
-        originDialogueID: 419
+        originDialogueID: 416
         destinationConversationID: 1
         destinationDialogueID: 306
         isConnector: 0
@@ -39205,7 +39012,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 420
+    - id: 417
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan", "WallSlam", true);
@@ -39214,7 +39021,12 @@ MonoBehaviour:
           "WallSlam", true);
 
           ChangeCharacterPosition("Spike", "OnGround",
-          true);'
+          true);
+
+          ChangeCharacterPosition("SmallBottomShelfMiddle", "None",
+          true);
+
+          ChangeCharacterPosition("Books", "BooksFloor", true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -39282,7 +39094,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 420
+        originDialogueID: 417
         destinationConversationID: 1
         destinationDialogueID: 294
         isConnector: 0
@@ -39293,7 +39105,12 @@ MonoBehaviour:
         ChangeCharacterPosition("Player","WallSlam",
         true);
 
-        ChangeCharacterPosition("Spike","OnGround", true); '
+        ChangeCharacterPosition("Spike","OnGround", true);
+
+        ChangeCharacterPosition("SmallBottomShelfMiddle","None",
+        true);
+
+        ChangeCharacterPosition("Books","BooksFloor", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -39303,7 +39120,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 421
+    - id: 418
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan", "WallStab", true);
@@ -39377,7 +39194,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 421
+        originDialogueID: 418
         destinationConversationID: 1
         destinationDialogueID: 204
         isConnector: 0
@@ -39396,7 +39213,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 422
+    - id: 419
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan", "Rushing", true);
@@ -39470,7 +39287,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 422
+        originDialogueID: 419
         destinationConversationID: 1
         destinationDialogueID: 49
         isConnector: 0
@@ -39489,7 +39306,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 423
+    - id: 420
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player","Dodging", true);
@@ -39566,7 +39383,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 423
+        originDialogueID: 420
         destinationConversationID: 1
         destinationDialogueID: 282
         isConnector: 0
@@ -39587,7 +39404,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 424
+    - id: 421
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan","KhanStab", true);
@@ -39661,7 +39478,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 424
+        originDialogueID: 421
         destinationConversationID: 1
         destinationDialogueID: 137
         isConnector: 0
@@ -39680,7 +39497,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 425
+    - id: 422
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan","None", true);
@@ -39754,7 +39571,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 425
+        originDialogueID: 422
         destinationConversationID: 1
         destinationDialogueID: 182
         isConnector: 0
@@ -39773,13 +39590,15 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 426
+    - id: 423
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Khan","None", true);
 
           ChangeCharacterPosition("Player","Idle",
-          true);'
+          true);
+
+          WorldVariables.Story_Ending_KhanAllied = true;'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -39847,13 +39666,797 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
-        originDialogueID: 426
+        originDialogueID: 423
         destinationConversationID: 1
         destinationDialogueID: 383
         isConnector: 0
         priority: 2
       conditionsString: 
       userScript: 'ChangeCharacterPosition("Khan","None", true);
+
+        ChangeCharacterPosition("Player","Idle",
+        true);
+
+        Variable["WorldVariables.Story_Ending_KhanAllied"] = true; '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 424
+      fields:
+      - title: Title
+        value: 'ChangeCharacterPosition("Player", "DreamDeath", true);
+
+'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011A11
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011A12
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011A13
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 424
+        destinationConversationID: 1
+        destinationDialogueID: 310
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'ChangeCharacterPosition("Player","DreamDeath", true);
+
+        ; '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 425
+      fields:
+      - title: Title
+        value: 'Jump to: [KasiEnding]'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C30
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C31
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 425
+        destinationConversationID: 5
+        destinationDialogueID: 33
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 426
+      fields:
+      - title: Title
+        value: WorldVariables.Story_KhanLoverBookShelf == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C79
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C7A
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 426
+        destinationConversationID: 1
+        destinationDialogueID: 427
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 426
+        destinationConversationID: 1
+        destinationDialogueID: 428
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 427
+      fields:
+      - title: Title
+        value: WorldVariables.Story_KhanLoverBookShelf == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C79
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C7B
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 427
+        destinationConversationID: 1
+        destinationDialogueID: 429
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["WorldVariables.Story_KhanLoverBookShelf"] == true
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 428
+      fields:
+      - title: Title
+        value: '!(WorldVariables.Story_KhanLoverBookShelf == true)'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C79
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C7C
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 428
+        destinationConversationID: 1
+        destinationDialogueID: 430
+        isConnector: 0
+        priority: 2
+      conditionsString: (Variable["WorldVariables.Story_KhanLoverBookShelf"] == true)
+        == false
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 429
+      fields:
+      - title: Title
+        value: 'Player: ""You! How dare you commit murder an..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '"You! How dare you commit murder and hide a body in my chamber!"'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"You! How dare you commit murder and hide a body in my chamber!"'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C7F
+        type: 0
+        typeString: 
+      - title: VoiceOverFile
+        value: 
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C80
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C81
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 429
+        destinationConversationID: 1
+        destinationDialogueID: 431
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 430
+      fields:
+      - title: Title
+        value: 'Player: "..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '[Missing Knowledge]'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C87
+        type: 0
+        typeString: 
+      - title: VoiceOverFile
+        value: 
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C88
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C89
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: Variable["DS_Settings.InvalidResponse"] == true
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 431
+      fields:
+      - title: Title
+        value: 'Jump to: [ConfrontAlbiAboutTheBody]'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C8F
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C92
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 431
+        destinationConversationID: 3
+        destinationDialogueID: 46
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 432
+      fields:
+      - title: Title
+        value: 'ChangeCharacterPosition("Khan","DreamDeath", true);
+
+          ChangeCharacterPosition("Player","Idle",
+          true);'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C94
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C95
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C96
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 432
+        destinationConversationID: 1
+        destinationDialogueID: 183
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'ChangeCharacterPosition("Khan","DreamDeath", true);
 
         ChangeCharacterPosition("Player","Idle",
         true); '
@@ -80396,7 +80999,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 20
         destinationConversationID: 3
-        destinationDialogueID: 453
+        destinationDialogueID: 452
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -94096,7 +94699,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 175
         destinationConversationID: 3
-        destinationDialogueID: 447
+        destinationDialogueID: 446
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -112545,7 +113148,7 @@ MonoBehaviour:
     - id: 381
       fields:
       - title: Title
-        value: 'Narrator: "You felt to your seat, exhausted by..."'
+        value: 'Narrator: "You fell to your seat, exhausted by..."'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -112569,7 +113172,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: You felt to your seat, exhausted by all that happened.
+        value: You fell to your seat, exhausted by all that happened.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -113486,7 +114089,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 391
         destinationConversationID: 3
-        destinationDialogueID: 457
+        destinationDialogueID: 456
         isConnector: 0
         priority: 2
       conditionsString: (Variable["WorldVariables.Story_RushedAlbiDeath"] >= 1) ==
@@ -113578,7 +114181,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 392
         destinationConversationID: 3
-        destinationDialogueID: 450
+        destinationDialogueID: 449
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -114321,7 +114924,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 400
         destinationConversationID: 3
-        destinationDialogueID: 455
+        destinationDialogueID: 454
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -114958,7 +115561,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 407
         destinationConversationID: 3
-        destinationDialogueID: 455
+        destinationDialogueID: 454
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -115232,7 +115835,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 410
         destinationConversationID: 3
-        destinationDialogueID: 451
+        destinationDialogueID: 450
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -115427,7 +116030,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 412
         destinationConversationID: 3
-        destinationDialogueID: 452
+        destinationDialogueID: 451
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -115973,7 +116576,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 418
         destinationConversationID: 3
-        destinationDialogueID: 456
+        destinationDialogueID: 455
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -117447,7 +118050,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 434
         destinationConversationID: 3
-        destinationDialogueID: 454
+        destinationDialogueID: 453
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -118022,7 +118625,10 @@ MonoBehaviour:
     - id: 441
       fields:
       - title: Title
-        value: ChangeCharacterPosition("Albi", "None", true);
+        value: 'ChangeCharacterPosition("Albi", "None", true);
+
+          WorldVariables.Story_Ending_AlbiControl
+          = true;'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -118096,7 +118702,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 'ChangeCharacterPosition("Albi","None", true); '
+      userScript: 'ChangeCharacterPosition("Albi","None", true);
+
+        Variable["WorldVariables.Story_Ending_AlbiControl"]
+        = true; '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -118202,94 +118811,7 @@ MonoBehaviour:
     - id: 443
       fields:
       - title: Title
-        value: GoToCredits();
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Continue()
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Show Invalid
-        value: True
-        type: 2
-        typeString: CustomFieldType_Boolean
-      - title: Articy Id
-        value: 0x0100000000011795
-        type: 0
-        typeString: 
-      - title: InputId
-        value: 0x0100000000011797
-        type: 0
-        typeString: 
-      - title: OutputId
-        value: 0x0100000000011798
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: 
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 443
-        destinationConversationID: 3
-        destinationDialogueID: 444
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 'GoToCredits(); '
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 30
-    - id: 444
-      fields:
-      - title: Title
-        value: 'Jump to: [Exit]'
+        value: 'Jump to: [KasiEnding]'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -118353,9 +118875,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 444
-        destinationConversationID: 1
-        destinationDialogueID: 86
+        originDialogueID: 443
+        destinationConversationID: 5
+        destinationDialogueID: 33
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -118369,7 +118891,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 445
+    - id: 444
       fields:
       - title: Title
         value: ConfrontAlbi
@@ -118440,7 +118962,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 445
+        originDialogueID: 444
         destinationConversationID: 3
         destinationDialogueID: 230
         isConnector: 0
@@ -118456,7 +118978,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 446
+    - id: 445
       fields:
       - title: Title
         value: 'Player: ""Your emotion already said it all,..."'
@@ -118533,9 +119055,98 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 446
+        originDialogueID: 445
         destinationConversationID: 3
         destinationDialogueID: 105
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 446
+      fields:
+      - title: Title
+        value: Conversations_New.ConnectWithAlbi == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011974
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011975
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 446
+        destinationConversationID: 3
+        destinationDialogueID: 447
+        isConnector: 0
+        priority: 2
+      - originConversationID: 3
+        originDialogueID: 446
+        destinationConversationID: 3
+        destinationDialogueID: 448
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -118603,95 +119214,6 @@ MonoBehaviour:
         value: 0x0100000000011974
         type: 0
         typeString: 
-      - title: InputId
-        value: 0x0100000000011975
-        type: 0
-        typeString: 
-      conversationID: 3
-      isRoot: 0
-      isGroup: 1
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: 
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 447
-        destinationConversationID: 3
-        destinationDialogueID: 448
-        isConnector: 0
-        priority: 2
-      - originConversationID: 3
-        originDialogueID: 447
-        destinationConversationID: 3
-        destinationDialogueID: 449
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 30
-    - id: 448
-      fields:
-      - title: Title
-        value: Conversations_New.ConnectWithAlbi == true
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 6
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: Continue()
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Show Invalid
-        value: True
-        type: 2
-        typeString: CustomFieldType_Boolean
-      - title: Articy Id
-        value: 0x0100000000011974
-        type: 0
-        typeString: 
       - title: OutputId
         value: 0x0100000000011976
         type: 0
@@ -118705,9 +119227,9 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 448
+        originDialogueID: 447
         destinationConversationID: 3
-        destinationDialogueID: 446
+        destinationDialogueID: 445
         isConnector: 0
         priority: 2
       conditionsString: Variable["Conversations_New.ConnectWithAlbi"] == true
@@ -118721,7 +119243,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 449
+    - id: 448
       fields:
       - title: Title
         value: '!(Conversations_New.ConnectWithAlbi == true)'
@@ -118799,7 +119321,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 450
+    - id: 449
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "WallSlam", true);
@@ -118808,7 +119330,12 @@ MonoBehaviour:
           "WallSlam", true);
 
           ChangeCharacterPosition("Spike", "OnGround",
-          true);'
+          true);
+
+          ChangeCharacterPosition("SmallBottomShelfMiddle", "None",
+          true);
+
+          ChangeCharacterPosition("Books", "BooksFloor", true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -118876,7 +119403,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 450
+        originDialogueID: 449
         destinationConversationID: 3
         destinationDialogueID: 397
         isConnector: 0
@@ -118887,7 +119414,12 @@ MonoBehaviour:
         ChangeCharacterPosition("Albi","WallSlam",
         true);
 
-        ChangeCharacterPosition("Spike","OnGround", true); '
+        ChangeCharacterPosition("Spike","OnGround", true);
+
+        ChangeCharacterPosition("SmallBottomShelfMiddle","None",
+        true);
+
+        ChangeCharacterPosition("Books","BooksFloor", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -118897,7 +119429,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 451
+    - id: 450
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "AbouttoSpyke", true);
@@ -118974,7 +119506,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 451
+        originDialogueID: 450
         destinationConversationID: 3
         destinationDialogueID: 411
         isConnector: 0
@@ -118995,7 +119527,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 452
+    - id: 451
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("AlbiMC", "DreamSpyked", true);
@@ -119071,7 +119603,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 452
+        originDialogueID: 451
         destinationConversationID: 3
         destinationDialogueID: 420
         isConnector: 0
@@ -119092,7 +119624,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 453
+    - id: 452
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "Charging", true);
@@ -119166,7 +119698,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 453
+        originDialogueID: 452
         destinationConversationID: 3
         destinationDialogueID: 14
         isConnector: 0
@@ -119185,7 +119717,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 454
+    - id: 453
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "Charging", true);
@@ -119259,7 +119791,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 454
+        originDialogueID: 453
         destinationConversationID: 3
         destinationDialogueID: 435
         isConnector: 0
@@ -119278,7 +119810,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 455
+    - id: 454
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "WallDeath", true);
@@ -119352,7 +119884,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 455
+        originDialogueID: 454
         destinationConversationID: 3
         destinationDialogueID: 401
         isConnector: 0
@@ -119371,7 +119903,7 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 456
+    - id: 455
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "WallDeath", true);
@@ -119445,7 +119977,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 456
+        originDialogueID: 455
         destinationConversationID: 3
         destinationDialogueID: 419
         isConnector: 0
@@ -119464,13 +119996,19 @@ MonoBehaviour:
         y: 0
         width: 160
         height: 30
-    - id: 457
+    - id: 456
       fields:
       - title: Title
         value: 'ChangeCharacterPosition("Player", "WallDeath", true);
 
           ChangeCharacterPosition("Albi",
-          "WallSlam", true);'
+          "WallSlam", true);
+
+          ChangeCharacterPosition("SmallBottomShelfMiddle",
+          "None", true);
+
+          ChangeCharacterPosition("Books", "BooksFloor",
+          true);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Pictures
@@ -119538,7 +120076,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 3
-        originDialogueID: 457
+        originDialogueID: 456
         destinationConversationID: 3
         destinationDialogueID: 10
         isConnector: 0
@@ -119547,7 +120085,12 @@ MonoBehaviour:
       userScript: 'ChangeCharacterPosition("Player","WallDeath", true);
 
         ChangeCharacterPosition("Albi","WallSlam",
-        true); '
+        true);
+
+        ChangeCharacterPosition("SmallBottomShelfMiddle","None",
+        true);
+
+        ChangeCharacterPosition("Books","BooksFloor", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -123356,6 +123899,3900 @@ MonoBehaviour:
         priority: 2
       conditionsString: 
       userScript: 'Variable["Conversations_New.ConversationWithKasi"] = true; '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    entryGroups: []
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1
+  - id: 5
+    fields:
+    - title: Title
+      value: Base_Loop_Take2/Kasi_Ending
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Actor
+      value: 6
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: Conversant
+      value: 7
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: Articy Id
+      value: 0x0100000000011A16
+      type: 0
+      typeString: 
+    overrideSettings:
+      useOverrides: 0
+      overrideSubtitleSettings: 0
+      showNPCSubtitlesDuringLine: 1
+      showNPCSubtitlesWithResponses: 1
+      showPCSubtitlesDuringLine: 0
+      skipPCSubtitleAfterResponseMenu: 0
+      subtitleCharsPerSecond: 30
+      minSubtitleSeconds: 2
+      continueButton: 0
+      overrideSequenceSettings: 0
+      defaultSequence: 
+      defaultPlayerSequence: 
+      defaultResponseMenuSequence: 
+      overrideInputSettings: 0
+      alwaysForceResponseMenu: 1
+      includeInvalidEntries: 0
+      responseTimeout: 0
+      cancelSubtitle:
+        key: 27
+        buttonName: 
+      cancelConversation:
+        key: 27
+        buttonName: 
+    nodeColor: 
+    dialogueEntries:
+    - id: 0
+      fields:
+      - title: Title
+        value: START
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011A16
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 0
+        destinationConversationID: 5
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: input
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011A19
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011A19
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 1
+        destinationConversationID: 5
+        destinationDialogueID: 32
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: output
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011A1A
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011A1A
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 'Narrator: "As you slumped to your chair and su..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: As you slumped to your chair and surrendered yourself to its comfort,
+          you unnoticeably drifted into your sleep.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B2D
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B30
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B31
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 3
+        destinationConversationID: 5
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 'Narrator: "A familiar warmth wrapped itself ar..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: A familiar warmth wrapped itself around you as you floated in the
+          darkness that shrouded you.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B34
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B35
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B36
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 4
+        destinationConversationID: 5
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 'Narrator: "An echoing voice ringed in your min..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: An echoing voice ringed in your mind, soothing your tired consciousness.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B3B
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B3C
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B3D
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 5
+        destinationConversationID: 5
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: 'Kasi: ""My child, you have survived the ad..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"My child, you have survived the adversity thanks to my blessing."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B42
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B43
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B44
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 6
+        destinationConversationID: 5
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 6
+        destinationConversationID: 5
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 6
+        destinationConversationID: 5
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: 'Player: ""I am humbled myself before your pr..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '"I am humbled myself before your presence, oh Great Kasi."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"I am humbled myself before your presence, oh Great Kasi."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B49
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B4C
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B4D
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 7
+        destinationConversationID: 5
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 'Player: ""Thanks......... Mother.""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '"Thanks......... Mother."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"Thanks......... Mother."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B50
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B51
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B52
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 8
+        destinationConversationID: 5
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 'Player: ""What kind of parent are you that j..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '"What kind of parent are you that just watched their child get brutally
+          murdered again and again?!"'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"What kind of parent are you that just watched their child get brutally
+          murdered again and again?!"'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B57
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B58
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B59
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 9
+        destinationConversationID: 5
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 'Kasi: ""Good, good, it seems that you stil..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"Good, good, it seems that you still know your place, my child."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B5E
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B5F
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B60
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 10
+        destinationConversationID: 5
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 'Kasi: ""No needs, my child, for I loved al..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"No needs, my child, for I loved all of my creations, and I would
+          do anything to protect them from the corruption of the outside world."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B65
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B66
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B67
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 11
+        destinationConversationID: 5
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: 'Kasi: ""I did what I have to for you to be..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"I did what I have to for you to become wiser and stronger."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B6C
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B6D
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B6E
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 12
+        destinationConversationID: 5
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: 'Kasi: ""My child, you have died [var=World..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"My child, you have died [var=WorldVariables.Story_PlayerDeathCount]
+          times,  [var=WorldVariables.Story_KilledByKhan] times to that heathen Khan,
+          [var=WorldVariables.Story_KilledByAlbi] times to the traitor Albi and [var=WorldVariables.Story_HeartAttack]
+          times due to your weak body."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B81
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B82
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B83
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 13
+        destinationConversationID: 5
+        destinationDialogueID: 17
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: WorldVariables.Story_PlayerDeathCount >= 8 || WorldVariables.Story_Ending_AlbiControl
+          == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B90
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B92
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 14
+        destinationConversationID: 5
+        destinationDialogueID: 15
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 14
+        destinationConversationID: 5
+        destinationDialogueID: 16
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: WorldVariables.Story_PlayerDeathCount >= 8 || WorldVariables.Story_Ending_AlbiControl
+          == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B90
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B93
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 15
+        destinationConversationID: 5
+        destinationDialogueID: 18
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["WorldVariables.Story_PlayerDeathCount"] >= 8  or 
+        Variable["WorldVariables.Story_Ending_AlbiControl"] == true
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 16
+      fields:
+      - title: Title
+        value: '!(WorldVariables.Story_PlayerDeathCount >= 8 || WorldVariables.Story_Ending_AlbiControl
+          == true)'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B90
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B94
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 16
+        destinationConversationID: 5
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
+      conditionsString: (Variable["WorldVariables.Story_PlayerDeathCount"] >= 8 
+        or  Variable["WorldVariables.Story_Ending_AlbiControl"] == true) == false
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 17
+      fields:
+      - title: Title
+        value: 'Kasi: ""I have to say for someone who was..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"I have to say for someone who was birth by me and was given my blessing."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B97
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011B98
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011B99
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 17
+        destinationConversationID: 5
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 18
+      fields:
+      - title: Title
+        value: 'Kasi: ""You are a disappointment, child.""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"You are a disappointment, child."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011B9F
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BA0
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BA1
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 18
+        destinationConversationID: 5
+        destinationDialogueID: 34
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: 'Kasi: ""I''m afraid that you are not meant..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"I''m afraid that you are not meant for this world."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BA6
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BA7
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BA8
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 19
+        destinationConversationID: 5
+        destinationDialogueID: 20
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: 'Kasi: ""I will do you a favour, child and..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"I will do you a favour, child and prevent you from experiencing
+          any of these hardships any longer."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BAD
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BAE
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BAF
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 20
+        destinationConversationID: 5
+        destinationDialogueID: 24
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: 'Kasi: ""You have exceeded my expectations,..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"You have exceeded my expectations, child."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BB4
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BB5
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BB6
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 21
+        destinationConversationID: 5
+        destinationDialogueID: 39
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 22
+      fields:
+      - title: Title
+        value: 'Kasi: ""You are a creation that I am proud..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"You are a creation that I am proud of."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BBB
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BBC
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BBD
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 22
+        destinationConversationID: 5
+        destinationDialogueID: 23
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 23
+      fields:
+      - title: Title
+        value: 'Kasi: ""Now, sleep and wait for your time,..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"Now, sleep and wait for your time, for I have plans for you."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BC2
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BC3
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BC4
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 23
+        destinationConversationID: 5
+        destinationDialogueID: 25
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 24
+      fields:
+      - title: Title
+        value: 'Kasi: ""Now, sleep and never wake up.""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"Now, sleep and never wake up."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BC9
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BCA
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BCB
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 24
+        destinationConversationID: 5
+        destinationDialogueID: 25
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 25
+      fields:
+      - title: Title
+        value: // merge
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BD0
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BD2
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BD3
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 25
+        destinationConversationID: 5
+        destinationDialogueID: 26
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 25
+        destinationConversationID: 5
+        destinationDialogueID: 27
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 25
+        destinationConversationID: 5
+        destinationDialogueID: 28
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: '-- merge; '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 26
+      fields:
+      - title: Title
+        value: 'Player: ""Wait...""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '"Wait, I am not done with this world yet."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"Wait..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BD6
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BD7
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BD8
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 26
+        destinationConversationID: 5
+        destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 27
+      fields:
+      - title: Title
+        value: 'Player: ""No....""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '"No, no, I don''t want to go back to sleep."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"No...."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BDC
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BDD
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BDE
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 27
+        destinationConversationID: 5
+        destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 28
+      fields:
+      - title: Title
+        value: 'Player: ""Yes, mother.""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: '"Yes, mother."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"Yes, mother."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011BE2
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011BE3
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011BE4
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 28
+        destinationConversationID: 5
+        destinationDialogueID: 31
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 29
+      fields:
+      - title: Title
+        value: 'Narrator: "You tried to move your arms and leg..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: You tried to move your arms and legs but to no avail.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C03
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C04
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C05
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 29
+        destinationConversationID: 5
+        destinationDialogueID: 31
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 30
+      fields:
+      - title: Title
+        value: GoToCredits();
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C0D
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C0F
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C10
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 30
+        destinationConversationID: 5
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'GoToCredits(); '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 31
+      fields:
+      - title: Title
+        value: 'Narrator: "Darkness sealed your vision as sile..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: Darkness sealed your vision as silence covered you.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C1A
+        type: 0
+        typeString: 
+      - title: VoiceOverFile
+        value: 
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C1B
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C1C
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 31
+        destinationConversationID: 5
+        destinationDialogueID: 30
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 32
+      fields:
+      - title: Title
+        value: 'FadeInBG();
+
+          WorldVariables.Story_KilledByAlbi = WorldVariables.Story_KilledByAlbi
+          + WorldVariables.Story_RushedAlbiDeath;'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C24
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C25
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C26
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 32
+        destinationConversationID: 5
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'FadeInBG();
+
+        Variable["WorldVariables.Story_KilledByAlbi"]
+        = Variable["WorldVariables.Story_KilledByAlbi"] + Variable["WorldVariables.Story_RushedAlbiDeath"]; '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 33
+      fields:
+      - title: Title
+        value: KasiEnding
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C29
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C2B
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C2C
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 33
+        destinationConversationID: 5
+        destinationDialogueID: 32
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 34
+      fields:
+      - title: Title
+        value: WorldVariables.Story_Ending_AlbiControl == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C3D
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C3F
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 34
+        destinationConversationID: 5
+        destinationDialogueID: 35
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 34
+        destinationConversationID: 5
+        destinationDialogueID: 36
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 35
+      fields:
+      - title: Title
+        value: WorldVariables.Story_Ending_AlbiControl == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C3D
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C40
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 35
+        destinationConversationID: 5
+        destinationDialogueID: 37
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["WorldVariables.Story_Ending_AlbiControl"] == true
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 36
+      fields:
+      - title: Title
+        value: '!(WorldVariables.Story_Ending_AlbiControl == true)'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C3D
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C41
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 36
+        destinationConversationID: 5
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
+      conditionsString: (Variable["WorldVariables.Story_Ending_AlbiControl"] == true)
+        == false
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 37
+      fields:
+      - title: Title
+        value: 'Kasi: ""You gave away control of the Hive..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"You gave away control of the Hive to that traitor Albi. For that
+          alone, I would have just smitten you right then and there."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C45
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C46
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C47
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 37
+        destinationConversationID: 5
+        destinationDialogueID: 38
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 38
+      fields:
+      - title: Title
+        value: 'Kasi: ""But I am a merciful God, and I kno..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"But I am a merciful God, and I know that you are a flawed creation."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C4C
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C4D
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C4E
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 38
+        destinationConversationID: 5
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 39
+      fields:
+      - title: Title
+        value: WorldVariables.Story_Ending_KhanAllied == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C55
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C56
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 39
+        destinationConversationID: 5
+        destinationDialogueID: 40
+        isConnector: 0
+        priority: 2
+      - originConversationID: 5
+        originDialogueID: 39
+        destinationConversationID: 5
+        destinationDialogueID: 41
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 40
+      fields:
+      - title: Title
+        value: WorldVariables.Story_Ending_KhanAllied == true
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C55
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C57
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 40
+        destinationConversationID: 5
+        destinationDialogueID: 42
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["WorldVariables.Story_Ending_KhanAllied"] == true
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 41
+      fields:
+      - title: Title
+        value: '!(WorldVariables.Story_Ending_KhanAllied == true)'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C55
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C58
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 1
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 41
+        destinationConversationID: 5
+        destinationDialogueID: 22
+        isConnector: 0
+        priority: 2
+      conditionsString: (Variable["WorldVariables.Story_Ending_KhanAllied"] == true)
+        == false
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 42
+      fields:
+      - title: Title
+        value: 'Kasi: ""You even managed to return Khan to..."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"You even managed to return Khan to the fold."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C5B
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C5C
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C5D
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 42
+        destinationConversationID: 5
+        destinationDialogueID: 43
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 43
+      fields:
+      - title: Title
+        value: 'Kasi: ""I am impressed.""'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 7
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '"I am impressed."'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C61
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C62
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C63
+        type: 0
+        typeString: 
+      conversationID: 5
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 5
+        originDialogueID: 43
+        destinationConversationID: 5
+        destinationDialogueID: 22
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []

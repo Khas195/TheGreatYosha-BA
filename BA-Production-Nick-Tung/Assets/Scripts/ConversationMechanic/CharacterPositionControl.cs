@@ -19,11 +19,6 @@ public class CharacterPositionControl : SingletonMonobehavior<CharacterPositionC
 		Lua.UnregisterFunction("ChangeCharacterPosition");
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-
-	}
 	[Button]
 	public void FindAllCharacterPositions()
 	{
@@ -31,7 +26,16 @@ public class CharacterPositionControl : SingletonMonobehavior<CharacterPositionC
 		charPositions.AddRange(this.GetComponentsInChildren<CharacterPosition>(true));
 		foreach (var pos in charPositions)
 		{
-			pos.transition.StartFadeOut();
+			if (pos.transition.IsStartFadeOut())
+			{
+				Debug.Log(pos + "is not visible" + pos.transition.IsStartFadeOut());
+				pos.transition.SetInvisible();
+			}
+			else
+			{
+				Debug.Log(pos + "is visible" + pos.transition.IsStartFadeOut());
+				pos.transition.SetVisible();
+			}
 			pos.gameObject.SetActive(true);
 		}
 	}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Ba-Prodcution
   m_EditorClassIdentifier: 
-  version: 1/11/2022 9:34:42 AM
+  version: 1/11/2022 12:00:04 PM
   author: articy:draft 3.1.33
   description: 
   globalUserScript: 
@@ -29197,7 +29197,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 309
         destinationConversationID: 1
-        destinationDialogueID: 312
+        destinationDialogueID: 434
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -29837,7 +29837,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 316
         destinationConversationID: 1
-        destinationDialogueID: 312
+        destinationDialogueID: 433
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -40460,6 +40460,180 @@ MonoBehaviour:
 
         ChangeCharacterPosition("Player","Idle",
         true); '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 433
+      fields:
+      - title: Title
+        value: ChangeCharacterPosition("Khan", "DreamDeathSpykeLeg", true);
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C99
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C9A
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011C9B
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 433
+        destinationConversationID: 1
+        destinationDialogueID: 312
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'ChangeCharacterPosition("Khan","DreamDeathSpykeLeg", true); '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 434
+      fields:
+      - title: Title
+        value: ChangeCharacterPosition("Khan", "DreamDeathSpykeStomach", true);
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011C9E
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011C9F
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011CA0
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 434
+        destinationConversationID: 1
+        destinationDialogueID: 312
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'ChangeCharacterPosition("Khan","DreamDeathSpykeStomach", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -116303,7 +116477,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 415
         destinationConversationID: 3
-        destinationDialogueID: 417
+        destinationDialogueID: 458
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -116394,7 +116568,7 @@ MonoBehaviour:
       - originConversationID: 3
         originDialogueID: 416
         destinationConversationID: 3
-        destinationDialogueID: 417
+        destinationDialogueID: 457
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -120091,6 +120265,180 @@ MonoBehaviour:
         true);
 
         ChangeCharacterPosition("Books","BooksFloor", true); '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 457
+      fields:
+      - title: Title
+        value: ChangeCharacterPosition("Albi", "DreamDeathSpykeStomach", true);
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011CA3
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011CA4
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011CA5
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 457
+        destinationConversationID: 3
+        destinationDialogueID: 417
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'ChangeCharacterPosition("Albi","DreamDeathSpykeStomach", true); '
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 458
+      fields:
+      - title: Title
+        value: ChangeCharacterPosition("Albi", "DreamDeathSpykeLeg", true);
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 6
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Show Invalid
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: Articy Id
+        value: 0x0100000000011CA8
+        type: 0
+        typeString: 
+      - title: InputId
+        value: 0x0100000000011CA9
+        type: 0
+        typeString: 
+      - title: OutputId
+        value: 0x0100000000011CAA
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 458
+        destinationConversationID: 3
+        destinationDialogueID: 417
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'ChangeCharacterPosition("Albi","DreamDeathSpykeLeg", true); '
       onExecute:
         m_PersistentCalls:
           m_Calls: []

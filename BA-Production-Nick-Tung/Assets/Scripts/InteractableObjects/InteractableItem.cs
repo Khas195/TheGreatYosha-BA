@@ -24,6 +24,7 @@ public class InteractableItem : IInteractable
 	string activateVariableOnOpen = "";
 	[SerializeField]
 	AudioSource interactSound;
+	bool blockInteract = false;
 
 	public override void Defocus()
 	{
@@ -34,6 +35,17 @@ public class InteractableItem : IInteractable
 	public override bool Equals(object other)
 	{
 		return base.Equals(other);
+	}
+	public void Update()
+	{
+		if (this.GetComponent<SpriteRenderer>().color.a <= 0)
+		{
+			blockInteract = true;
+		}
+		else
+		{
+			blockInteract = false;
+		}
 	}
 
 	public override void Focus()
@@ -59,6 +71,8 @@ public class InteractableItem : IInteractable
 
 	public override bool Interact()
 	{
+		if (blockInteract) return false;
+
 		InGameUIControl.GetInstance().RequestState(InGameUIState.InGameUIEnum.ItemView);
 		ItemViewController.GetInstance().SetContent(this.itemSprite, this.itemName, this.comment, hasOverlayText, desiredScale);
 		if (activateVariableOnOpen != "")

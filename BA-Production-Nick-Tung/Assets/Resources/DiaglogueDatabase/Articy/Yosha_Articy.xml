@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2022-01-11T12:00:04Z">
+<Export xmlns="http://www.nevigo.com/schemas/articydraft/3.1/XmlContentExport_FullProject.xsd" Version="3.1" CreatorTool="articy:draft" CreatorVersion="3.1.33" CreatedOn="2022-01-11T14:41:07Z">
   <Settings>
     <ExportMarkup>1</ExportMarkup>
     <ExportQueries>1</ExportQueries>
@@ -42303,9 +42303,9 @@
       <MenuText Count="0"/>
     </DialogueFragment>
     <DialogueFragment Id="0x0100000000010969" ObjectTemplateReference="0x010000000000EFE9" ObjectTemplateReferenceName="VODialogue">
-      <DisplayName><![CDATA[Narrator: "From the eye of Albi, you saw her d..."]]></DisplayName>
+      <DisplayName><![CDATA[Narrator: "From Albi's eye, you saw her drag a..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">From the eye of Albi, you saw her drag a disfigured body across your chamber.</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">From Albi&#39;s eye, you saw her drag a disfigured body across your chamber.</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_DC4E4AD8</TechnicalName>
@@ -43745,7 +43745,7 @@
     <DialogueFragment Id="0x0100000000011B97">
       <DisplayName><![CDATA[Kasi: ""I have to say for someone who was..."]]></DisplayName>
       <Text Count="1" HasMarkup="1">
-        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;I have to say for someone who was birth by me and was given my blessing.&quot;</span></p></body></html>]]></LocalizedString>
+        <LocalizedString Lang=""><![CDATA[<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p id="s0"><span id="s1">&quot;I have to say for someone who was birthed by me and had received my blessing.&quot;</span></p></body></html>]]></LocalizedString>
       </Text>
       <Color>#C8E2E7</Color>
       <TechnicalName>DFr_39B74FF1</TechnicalName>
